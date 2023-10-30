@@ -380,10 +380,18 @@ margin-bottom: 30px;
 .main-nav nav .navbar-nav .nav-item a {
   text-transform: capitalize;
   color: #252525;
+<<<<<<< HEAD
+  font-weight: 400;
+  margin-left: 12px;
+  margin-right: 12px;
+  position: relative;
+  font-size: 19px !important ;
+=======
   font-weight: 500;
   margin-left: 12px;
   margin-right: 12px;
   position: relative;
+>>>>>>> 984bb29eca5c038bdcd0b4f845b719ca8675a93d
 }
 .main-nav nav .navbar-nav .nav-item a span {
   font-size: 10px;
@@ -457,7 +465,11 @@ margin-bottom: 30px;
   position: relative;
   z-index: 1;
   transition: 0.7s;
+<<<<<<< HEAD
+  font-weight: 400;
+=======
   font-weight: 600;
+>>>>>>> 984bb29eca5c038bdcd0b4f845b719ca8675a93d
   padding: 10px 25px;
   font-size: 15px;
 }
