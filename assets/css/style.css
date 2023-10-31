@@ -5317,17 +5317,17 @@ margin-bottom: 30px;
   font-size: 15px;
   font-weight: 600;
 } */
-.buy-now-btn img {
+/* .buy-now-btn img {
   top: 50%;
   left: 20px;
   width: 15px;
   position: absolute;
   transform: translateY(-50%);
-}
-.buy-now-btn:hover {
+} */
+/* .buy-now-btn:hover {
   color: #fff;
   background-color: #94be5d;
-}
+} */
 .preloader {
   position: fixed;
   top: 0;
