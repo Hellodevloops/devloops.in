@@ -5909,8 +5909,12 @@ fieldset:disabled .btn {
   text-align: center;
 }
 .carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon1 {
+  filter: invert(1) grayscale(200);
+}
+.carousel-dark .carousel-control-next-icon,
 .carousel-dark .carousel-control-prev-icon {
-  filter: invert(1) grayscale(100);
+  filter: invert(1) ;
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #000;
@@ -11118,6 +11122,9 @@ margin-left: 90px !important;
   }
   .vh-lg-70 {
     height: 70vh !important;
+  }
+  .vh-lg-85 {
+    height: 85.3vh !important;
   }
   .min-vh-lg-100 {
     min-height: 100vh !important;
@@ -23972,8 +23979,8 @@ label.form-control {
 .gradient-x-overlay-lg-dark::before {
   background-image: linear-gradient(
     to right,
-    rgba(122, 156, 199, 0.8) 0,
-    rgba(122, 156, 199, 0.8) 100%
+    rgba(122, 156, 199, 0.5) 0,
+    rgba(122, 156, 199, 0.5) 100%
   );
 }
 
@@ -23990,8 +23997,8 @@ label.form-control {
 .gradient-y-overlay-sm-gray-900::before {
   background-image: linear-gradient(
     to bottom,
-    rgba(30, 32, 34, 0.3),
-    rgba(33, 50, 91, 0.2)
+    rgba(30, 32, 34, 0.6),
+    rgba(33, 50, 91, 0.4)
   );
 }
 .link {
@@ -25015,14 +25022,31 @@ a:hover .text-inherit {
   margin-top: 0.5rem;
 }
 /* circle clippath */
+.custom-frame {
+
+  min-width: 466px; /* Minimum width */
+  max-width: 466px; 
+  min-height: 450px; /* Minimum height */
+  max-height: 450px; /* Maximum height */
+
+  /* Additional styling if needed */
+  border: 1px solid #ddd;
+  overflow: hidden; 
+}
+
 
 /* new hero */
 .hero-section {
-  background: url('/assets/img/abtcompgif.png') center/cover no-repeat;
-  background-color: rgba(169, 169, 169, 0.5); /* Gray color with opacity */
+  background: url('/assets/img/pwawebnew.jpg') center/cover no-repeat;
+  /* background-color: rgba(169, 169, 169, 0.2); */
   color: #fff;
   padding: 100px 0;
   height: 70vh;
+  
+}
+.hero-section img {
+  opacity: 0.6; 
+  
 }
 
 .text-column {
@@ -25030,9 +25054,7 @@ a:hover .text-inherit {
 }
 
 .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color:#000; /* Black color for arrows */
-}
+
 .image-slider img {
   max-width: 100%;
   height: 50vh;
@@ -25040,7 +25062,3 @@ a:hover .text-inherit {
 
 /* /new hero end */
 
-/* /another hero */
-
-
-/* another hero end */
