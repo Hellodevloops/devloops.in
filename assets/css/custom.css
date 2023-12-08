@@ -2,6 +2,12 @@
   .services-block-three{
     margin-bottom: 30px;
   }
+  .xs-font-size13{
+    font-size: 20px;
+  }
+  .xs-font-size10{
+    font-size: 18px;
+  }
   .services-block-three i {
       font-size: 32px;
   }
