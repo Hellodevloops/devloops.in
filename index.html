@@ -44,6 +44,19 @@
 
 
   <style>
+    /* our mission vision animation */
+
+    .gradient-animation {
+   
+    background-size: 100% 200%;
+    transition: background-position 0.5s;
+}
+
+.gradient-animation:hover {
+    background-position: 0 100%;
+    background: linear-gradient(to top, #82a5c9, #f46a9f);
+}
+
        /* Add your existing styles here */
     .container-animation {
       opacity: 0;
@@ -101,13 +114,7 @@
   clip-path: ellipse(70% 50% at 50% 50%);
 }
 
-    /* dashboard */
-
-  
-   
-
-    /* dashboard end */
-</style>
+   </style>
 
 </head>
 
@@ -240,7 +247,7 @@
   <div class="position-relative overflow-hidden" style="background-image: url(assets/svg/components/card-11.svg);">
     <div class="container position-relative zi-2 content-space-t-3 content-space-t-lg-4 content-space-b-2 content-space-b-md-3">
       <div class="row align-items-lg-center">
-        <div class="col-lg-6 mb-7 mb-lg-0">
+        <div class="col-lg-5 mb-7 mb-lg-0">
        
           <div class="mb-6">
             <h1 class="display-6 text-dark">
@@ -255,34 +262,40 @@
                       }"></span><span class="typed-cursor" aria-hidden="true">..</span>
               </span>
               <br>
-              with Smart Software Solutions.
+              with Smart Software <br>Solutions.
             </h1>
 
-            <p class="lead text-dark">Discover the potential of intelligent software solutions designed to propel your business to new heights. Our expertise in crafting cutting-edge applications and platforms ensures that you stay ahead in a dynamic digital landscape.</p>
+            <p class="lead text-dark">Elevate Your Business with Intelligent Software Solutions</p>
+            <a href="./product.html" id="#job">
+              <button class=" btn   btn-outline-primary  btn-transition">Explore Solutions</button>
+            </a>
+            <a href="./about.html" id="#job">
+              <button class=" btn   btn-outline-primary  btn-transition">Get Started</button>
+            </a>
           </div>
          
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <div class="position-relative">
            
             <figure class="device-browser ">
           
               <div class="device-browser-frame  ">
-                <img class="device-browser-img img-float " src="assets/img/herogif.gif" alt="Image Description">
+                <img class="device-browser-img img-float " src="assets/img/homeloopnew.gif" alt="Image Description">
               </div>
             </figure>
           
 
             <div class="d-none d-sm-block position-absolute bottom-0 end-0 zi-1 mb-n5 me-n5 aos-init aos-animate" style="max-width: 20rem;" data-aos="fade-up" data-aos-delay="100">
               
-              <div class="card bg-dark" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
+              <div class="card bg-dark img-float" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
                 <div class="card-body">
                   <h4 class="card-title text-white">Integrate quickly</h4>
                   <p class="card-text text-white-70">Devloops lets you spend your development time on product improvements.</p>
                   <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
-                      <img class="avatar avatar-sm avatar-circle" src="assets/img/160x160/img3.jpg" alt="Image Description">
+                      <img class="avatar avatar-sm avatar-circle " src="assets/img/160x160/img3.jpg" alt="Image Description">
                     </div>
                     <div class="flex-grow-1 ms-2">
                       <h5 class="card-title text-white mb-0">Raphael Olston</h5>
@@ -318,7 +331,7 @@
    <div class="container">
       <div class="row">
         <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3 feature" src="./assets/svg/brands/hollister-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3 feature" src="./assets/logo/vriaumlogo.png" alt="Logo">
         </div>
         <!-- End Col -->
 
@@ -343,7 +356,7 @@
         <!-- End Col -->
 
         <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/brands/tnf-dark.svg" alt="Logo">
+          <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
         </div>
         <!-- End Col -->
         
@@ -365,7 +378,7 @@
           <div class="mb-5">
             <p class="text-secondary p1">About Company</p>
             <h2 class="bg-navy ">Harnessing the power of international insights with tailoring solutions to meet your unique needs.</h2>
-            <p class="lead text-dark">DevLoops International is a dynamic and forward-thinking company at the intersection of technology and creativity. Established with a passion for innovation, we are dedicated to delivering bespoke solutions that empower businesses and individuals to thrive in the ever-evolving digital landscape. With our Expertise like</p>
+            <p class="lead text-dark">    <span class="text-primary">DevLoops International</span> is a dynamic and forward-thinking company at the intersection of technology and creativity. Established with a passion for innovation, we are dedicated to delivering bespoke solutions that empower businesses and individuals to thrive in the ever-evolving digital landscape. With our Expertise like</p>
           </div>
           <!-- End Heading -->
 
@@ -378,7 +391,7 @@
               <div class="col-sm-12">
                   <!-- Article -->
                   <a class="aos-init aos-animate" href="#" data-aos="fade-left" data-aos-delay="100">
-                      <img class="img-fluid rounded-2" src="./assets/img/homeabt2.png" alt="Image Description">
+                      <img class="img-fluid rounded-2 img-float " src="./assets/img/homeabtloop.gif" alt="Image Description">
                       <!-- <div class="py-4">
                           <h4 class="text-inherit">390+</h4>
                           <p class="text-body">Access to the Adobe Illustrator techniques</p>
@@ -403,39 +416,50 @@
 
      <!-- Browser Device -->
 
-     <div class="position-relative bg-img-start  bg-pink2n ">
-      <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 position-relative zi-2">
-        <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9 ">
+     <div class="position-relative bg-img-start  bgcolour ">
+      <div class="container  position-relative zi-2">
+        <!-- <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9 ">
           <p class="text-dark p1 mt-n12">Main Steps..!!</p>
           <h1 class="text-dark">What to expect? Easy setup.</h1>
-        </div>
+        </div> -->
   
         <div class="row">
-          <div class="col-md-4 mb-3 mb-md-0">
+          <div class="col-sm-6 mb-3 mb-sm-0">
             <!-- Card -->
-            <a class="card card-transition text-center h-100" href="#">
-              <div class="card-body">
-                <div class="svg-icon text-primary mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-                    <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"></path>
-                  </svg>
-  
+            <div class="card-body card card-transition text-center gradient-animation">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                        <span class="svg-icon svg-icon-lg text-primary feature">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#035A4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.175 14.75C10.9354 14.75 10.6958 14.6542 10.5042 14.4625L8.58749 12.5458C8.20415 12.1625 8.20415 11.5875 8.58749 11.2042C8.97082 10.8208 9.59374 10.8208 9.92915 11.2042L11.175 12.45L14.3375 9.2875C14.7208 8.90417 15.2958 8.90417 15.6792 9.2875C16.0625 9.67083 16.0625 10.2458 15.6792 10.6292L11.8458 14.4625C11.6542 14.6542 11.4146 14.75 11.175 14.75Z" fill="#035A4B"></path>
+                            </svg>
+
+                        </span>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy  lead mb-3">
+                                Mission</span></h6>
+                        <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
+                        <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                    </div>
                 </div>
-  
-                <h4 class="card-title">Create a Free Account</h4>
-                <p class=" lead text-dark">Spaces of each debt in the digital world can help you with overall simplest authentic.</p>
-              </div>
-  
-              <!-- <div class="card-footer pt-0">
-                <span class="card-link">Contact support <i class="bi-chevron-right small ms-1"></i></span>
-              </div> -->
-            </a>
+
+
+                <!-- Blockquote -->
+                <figure>
+                    <p class=" text-dark"> At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
+
+                </figure>
+                <!-- End Blockquote -->
+                <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
+            </div>
+
             <!-- End Card -->
-          </div>
-          <!-- End Col -->
-  
+        </div>
+<!--   
           <div class="col-md-4 mb-3 mb-md-0">
-            <!-- Card -->
+           
             <a class="card card-transition text-center h-100" href="#">
               <div class="card-body">
                 <div class="svg-icon text-primary mb-3">
@@ -449,49 +473,56 @@
                 <h4 class="card-title">Generate an API key</h4>
                 <p class=" lead text-dark">Generate an API key for your app To achieve best results in digital world  with overall Create an API Key.</p>
               </div>
-  <!-- 
-              <div class="card-footer pt-0">
-                <span class="card-link">Visit FAQ <i class="bi-chevron-right small ms-1"></i></span>
-              </div> -->
+  
             </a>
-            <!-- End Card -->
+        
           </div>
-          <!-- End Col -->
-  
-          <div class="col-md-4">
-            <!-- Card -->
-            <a class="card card-transition text-center h-100" href="#">
-              <div class="card-body">
-                <div class="svg-icon text-primary mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"></path>
-                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"></path>
-                  </svg>
-  
-                </div>
-  
-                <h4 class="card-title">That’s it!</h4>
-                <p class=" lead text-dark">That’s it! Now you can use the app and improve your scores and mastering the app's features.</p>
-              </div>
-  
-              <!-- <div class="card-footer pt-0">
-                <span class="card-link">Contact sales <i class="bi-chevron-right small ms-1"></i></span>
-              </div> -->
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
+        
+   -->
+   <div class="col-sm-6 mb-3 mb-sm-0">
+    <!-- Card -->
+    <div class="card-body card card-transition text-center gradient-animation">
+        <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+                <span class="svg-icon svg-icon-lg text-primary feature">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
+                </svg>
+
+                </span>
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy lead mb-3">
+                        Vision</span></h6>
+                <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
+                <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+            </div>
         </div>
-        <!-- End Row -->
+
+
+        <!-- Blockquote -->
+        <figure>
+            <p class=" text-dark">Our vision is to be a global leader in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
+
+        </figure>
+        <!-- End Blockquote -->
+        <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
+    </div>
+
+    <!-- End Card -->
+</div>
+        </div>
+   
       </div>
   
-      <!-- Shape -->
+   
       <div class="shape shape-bottom zi-1">
         <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 500H3000V0L0 500Z" fill="#fff"></path>
         </svg>
       </div>
-      <!-- End Shape -->
+ 
     </div>
     
   <!-- End Browser Device -->
@@ -658,47 +689,62 @@
     <section class="bg-pink3n ">
     <div class="container content-space-2 content-space-lg-2 mt-n2 mt-10 ">
       <div class="row ">
-        <div class="col-lg-6 mb-7 mb-lg-0">
+        <div class="col-lg-12  w-md-80">
           <!-- Heading -->
-          <div class="mb-5">
-            <p class="text-dark p1">Our Services</p>
-            <h2 class="bg-navy">Innovative Software Solutions for Your Success</h2>
-            <p class="  lead text-dark">At our software company, we pride ourselves on delivering cutting-edge solutions designed to meet the diverse needs of our clients. From custom software development and system integration to cloud solutions and beyond, our services are crafted with innovation at their core.</p>
-            <p class=" lead text-dark"> We collaborate closely with businesses of all sizes, employing a strategic approach to address challenges and capitalize on opportunities. Whether you seek streamlined processes, enhanced productivity, or a digital transformation, our team is dedicated to providing you with the technological foundation to achieve your goals. </p>
+          <div class="mb-5 ">
+            <!-- <p class="text-dark p1">Our Services</p>
+            <h2 class="bg-navy">Innovative Software Solutions for Your Success</h2> -->
+            <div class="w-md-75 w-md-40 text-center mx-md-auto mb-5 mb-md-9">
+              <p class="text-secondary p1 mt-5">Our Services</p>
+              <h2 class="h2"><span class="text-pr">Innovative Software Solutions for Your Success.</span></h2>
+          </div>
+            <!-- <p class="  lead text-dark">At our software company, we pride ourselves on delivering cutting-edge solutions designed to meet the diverse needs of our clients. From custom software development and system integration to cloud solutions and beyond, our services are crafted with innovation at their core.</p> -->
+            <p class=" lead text-dark w-md-40"> We collaborate closely with businesses of all sizes, employing a strategic approach to address challenges and capitalize on opportunities. Whether you seek streamlined processes, enhanced productivity, or a digital transformation, our team is dedicated to providing you with the technological foundation to achieve your goals. </p>
           </div>
           <!-- End Heading -->
-
-          <div class="row mb-4">
-            <div class="col-6">
-              <!-- List Checked -->
-              <ul class="list-checked list-checked-success mb-0">
-                <li class="list-checked-item text-dark lead">Product Development</li>
-                <li class="list-checked-item text-dark lead">Web App development</li>
-                <li class="list-checked-item text-dark lead">IOT</li>
+<!-- 
+          <div class="container">
+            <div class="row mb-4">
+                <div class="col-4">
+                   
+                    <ul class="list-checked list-checked-success mb-0">
+                        <li class=" text-dark lead">
+                            <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal1">ERP</button>
+                        </li>
+                    </ul>
+                   
+                </div>
                 
-              </ul>
-              <!-- End List Checked -->
+        
+                <div class="col-4">
+                   
+                    <ul class="list-checked list-checked-success mb-0">
+                        <li class=" text-dark lead">
+                            <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal2">CRM</button>
+                        </li>
+                    </ul>
+                   
+                </div>
+        
+                <div class="col-4">
+                   
+                    <ul class="list-checked list-checked-success mb-0">
+                        <li class=" text-dark lead">
+                            <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal3">CSM</button>
+                        </li>
+                    </ul>
+                   
+                </div>
+              
             </div>
-            <!-- End Col -->
-
-            <div class="col-6">
-              <!-- List Checked -->
-              <ul class="list-checked list-checked-success mb-0">
-                <li class="list-checked-item text-dark  lead">ERP</li>
-                <li class="list-checked-item text-dark  lead">CRM</li>
-                <li class="list-checked-item text-dark  lead">CSM</li>
-              </ul>
-              <!-- End List Checked -->
-            </div>
-            <!-- End Col -->
-          </div>
-          <!-- End Row -->
+        </div> -->
+          
 
 
         </div>
         <!-- End Col -->
 
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <!-- Card -->
           <div class="card bg-dark" style="min-height: 27rem;">
             <div class="card-body">
@@ -718,17 +764,17 @@
 
                 <div class="text-center">
                   <!-- Nav Pills -->
-                  <ul class="nav nav-sm nav-pills nav-light nav-justified mb-5" id="featuresCodingTab" role="tablist">
+                  <ul class="nav nav-sm nav-pills nav-light nav-justified mb-5 " id="featuresCodingTab" role="tablist">
                     <li class="nav-item " role="presentation">
-                      <a class="nav-link active " href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product</a>
+                      <a class="nav-link active text-white " href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product</a>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="#featuresCodingTwo" id="featuresCodingTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingTwo" role="tab" aria-controls="featuresCodingTwo" aria-selected="false">Web App</a>
+                      <a class="nav-link text-white" href="#featuresCodingTwo" id="featuresCodingTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingTwo" role="tab" aria-controls="featuresCodingTwo" aria-selected="false">Web App</a>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="#featuresCodingThree" id="featuresCodingThree-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingThree" role="tab" aria-controls="featuresCodingThree" aria-selected="false">Iot</a>
+                      <a class="nav-link text-white" href="#featuresCodingThree" id="featuresCodingThree-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingThree" role="tab" aria-controls="featuresCodingThree" aria-selected="false">Iot</a>
                     </li>
 
                   </ul>
@@ -743,7 +789,7 @@
                   <!-- Code -->
                         <!-- Image Container -->
                         <div class="text-center">
-                          <img class="img-fluidh" src="./assets/img/erpprod.jpg" alt="Your Image Description">
+                          <img class="img-fluidh" src="./assets/img/producticon.png" alt="Your Image Description">
                         </div>
                         <!-- End Image Container -->
                     
@@ -756,7 +802,7 @@
                 <div class="tab-pane fade" id="featuresCodingTwo" role="tabpanel" aria-labelledby="featuresCodingTwo-tab">
                               <!-- Image Container -->
                               <div class="text-center">
-                                <img class="img-fluidh" src="./assets/img/webhero.jpg" alt="Your Second Image Description">
+                                <img class="img-fluidh" src="./assets/img/webiconnew.png" alt="Your Second Image Description">
                               </div>
                               <!-- End Image Container -->
                           
@@ -769,7 +815,7 @@
                   
                   <!-- Image Container -->
                   <div class="text-center">
-                    <img class="img-fluidh" src="./assets/img/iotabt.jpg" alt="Your Third Image Description">
+                    <img class="img-fluidh" src="./assets/img/iotnewicon.png" alt="Your Third Image Description">
                   </div>
                   <!-- End Image Container -->
               
@@ -799,7 +845,7 @@
   <!-- contact small -->
 
  <!-- Team -->
-<div class="container content-space-2 content-space-lg-3">
+ <div class="container content-space-2 content-space-lg-3">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
     <p class="text-secondary p1"> Our Team</p>
@@ -817,8 +863,8 @@
                 <img class="avatar-img" src="./assets/img/riya1n.jpeg" alt="Riya Vaidya Image">
             </div>
     
-            <span class="card-subtitle">Backend Developer</span>
-            <h4 class="card-title">Riya Vaidya</h4>
+            <span class="card-subtitle text-navy-blue">Backend Developer</span>
+            <h4 class="card-title text-primary">Riya Vaidya</h4>
             <p class="text-dark p2">Responsible for server-side web application logic and integration of the work front-end developers do. More..</p>
         </div>
     
@@ -865,7 +911,7 @@
                 </div>
                 <div class="col">
                   <!-- Designation or Additional Text -->
-                  <h3 class="text-left text-dark mb-0 mt-1">Riya Vaidya</h3>
+                  <h3 class="text-left  mb-0 mt-1  text-primary">Riya Vaidya</h3>
                   <h5 class="text-left text-dark mb-0 mt-2 p2">BackendEnd Developer</h5>
                   <!-- End Designation -->
                 </div>
@@ -897,7 +943,7 @@
             </div>
     
             <span class="card-subtitle p2">FrontEnd Developer</span>
-            <h4 class="card-title">Richa Kharwa</h4>
+            <h4 class="card-title  text-primary">Richa Kharwa</h4>
             <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
         </div>
     
@@ -944,7 +990,7 @@
                   </div>
                   <div class="col">
                     <!-- Designation or Additional Text -->
-                    <h3 class="text-left text-dark mb-0 mt-1">Richa Vaidya</h3>
+                    <h3 class="text-left  text-primary mb-0 mt-1">Richa Vaidya</h3>
                     <h5 class="text-left text-dark mb-0 mt-2 p2">FrontEnd Developer</h5>
                     <!-- End Designation -->
                   </div>
@@ -978,8 +1024,8 @@
             </div>
     
             <span class="card-subtitle lead">Lead Designer</span>
-            <h4 class="card-title">Emily Johnson</h4>
-            <p class="p2 text-dark">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
+            <h4 class="card-title  text-primary">Emily Johnson</h4>
+            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics. More..</p>
         </div>
     
         <div class="card-footer pt-0">
@@ -1024,7 +1070,7 @@
                   </div>
                   <div class="col">
                     <!-- Designation or Additional Text -->
-                    <h3 class="text-left text-dark mb-0 mt-1">Emily Johnson</h3>
+                    <h3 class="text-left  text-primary mb-0 mt-1">Emily Johnson</h3>
                     <h5 class="text-left text-dark mb-0 mt-2 p2">Lead Designer</h5>
                     <!-- End Designation -->
                   </div>
@@ -1032,8 +1078,8 @@
                 <!-- End Avatar Image with Title -->
               
                 <!-- Content specific to Emily Johnson -->
-                <p class="p2 text-dark">Emily Johnson's description goes here...
-                  I believe that design is not just about how things look but also about how they work. By combining creativity with technical expertise, I strive to create web interfaces that not only captivate users visually but also provide an intuitive and enjoyable journey.
+                <p class="p2 text-dark">
+                  Designer leads the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the Lead Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
@@ -1057,8 +1103,8 @@
               </div>
   
               <span class="card-subtitle lead">Lead Developer</span>
-              <h4 class="card-title">Michael Smith</h4>
-              <p class="p2 text-dark">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
+              <h4 class="card-title  text-primary">Michael Smith</h4>
+              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies. More..</p>
           </div>
   
           <div class="card-footer pt-0">
@@ -1105,7 +1151,7 @@
                     </div>
                     <div class="col">
                       <!-- Designation or Additional Text -->
-                      <h3 class="text-left text-dark mb-0 mt-1">Michael Smith</h3>
+                      <h3 class="text-left  text-primary mb-0 mt-1">Michael Smith</h3>
                       <h5 class="text-left text-dark mb-0 mt-2 p2">Lead Developer</h5>
                       <!-- End Designation -->
                     </div>
@@ -1113,8 +1159,8 @@
                   <!-- End Avatar Image with Title -->
                 
                   <!-- Content specific to Michael Smith -->
-                  <p class="p2 text-dark">Michael Smith's description goes here...
-                    I believe that design is not just about how things look but also about how they work. By combining creativity with technical expertise, I strive to create web interfaces that not only captivate users visually but also provide an intuitive and enjoyable journey.
+                  <p class="p2 text-dark">
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. Leading by example, the Lead Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
                   </p>
                   <!-- End Content -->
                 </div>
@@ -1132,7 +1178,6 @@
 
   
 </div>
-
 <!-- 
    Testimonials end -->
 
@@ -1260,8 +1305,51 @@
 </div>
 <!-- End Testimonials -->
 
-  <!-- contact form start  -->
+ <!-- partners start -->
+ <div class="container mt-10">
+  <div class="row">
+    <div class="col-lg-6 mb-3 mb-lg-0 d-flex align-items-center feature">
+        <!-- Card -->
+        <div class="card bg-primary h-100 overflow-hidden">
+            <div class="card-body">
+                <div class="w-65 pe-2">
+                    <h2 class="card-title text-white">Social Ages</h2>
+                    <p class="card-text text-white">Social Ages empowers businesses through integrated digital solutions, fostering collaboration and growth.</p>
+                    <!-- <a class="btn btn-light btn-sm btn-transition" href="#">Learn more <i class="bi-chevron-right small ms-1"></i></a> -->
+                </div>
 
+                <div class="position-absolute end-0 bottom-0 w-40 mb-n3 me-n7" >
+                    <img class="card-img" src="./assets/logo/socialageslogo1.png" alt="Image Description" style="width: 70%; margin-right: 60px;">
+                </div>
+            </div>
+        </div>
+        <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-lg-6 d-flex align-items-center feature">
+        <!-- Card -->
+        <div class="card bg-navybg h-120 overflow-hidden">
+            <div class="card-body">
+                <div class="w-65 pe-2">
+                    <h2 class="card-title text-white">Vriaum Technology</h2>
+                    <p class="card-text text-white p2">Vriaum Technology specializes in innovative product design, offering seamless solutions.</p>
+                </div>
+
+                <div class="position-absolute end-0 bottom-0 w-40 mb-n3 me-n7">
+                    <img class="card-img mt-n12" src="./assets/logo/vriaumlogo.png" alt="Image Description" style="width: 50%; margin-left: 240px; margin-bottom: 4px;">
+                </div>
+            </div>
+        </div>
+        <!-- End Card -->
+    </div>
+    <!-- End Col -->
+</div>
+
+  <!-- End Row -->
+</div>
+
+ <!-- partners end -->
   <!-- Contact Form -->
   <div id="contact">
     <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 mb-9 mt-md-n10">
@@ -1301,75 +1389,71 @@
                 </div>
               
                 <!-- Form -->
-                <form action="https://formsubmit.co/24richavaidya@gmail.com" method="POST" >
-                  <div class="row gx-3">
-                    <div class="col-sm-6">
-                      <!-- Form -->
-                      <div class="mb-3">
-                        <label for="name">Name:</label>
-                        <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Your Name" required>
-                      </div>
-                      <!-- End Form -->
+                <!-- Form -->
+              <form action="https://formsubmit.co/24richavaidya@gmail.com" method="POST" >
+                <div class="row gx-3">
+                  <div class="col-sm-6">
+                    <!-- Form -->
+                    <div class="mb-3">
+                      <label for="name">First Name:</label>
+                      <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Your Name" required>
                     </div>
-                    <!-- End Col -->
-              
-                    <div class="col-sm-6">
-                      <!-- Form -->
-                      <div class="mb-3">
-                        <label for="surname">Name:</label>
-                        <input type="text"  class="form-control form-control-lg"id="name" name="surname" placeholder="Your LastName" required>
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
+                    <!-- End Form -->
                   </div>
-                  <!-- End Row -->
-              
-                  <div class="row gx-3">
-                    <div class="col-sm-6">
-                      <!-- Form -->
-                      <div class="mb-3">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="xyz@gmail.com" required>
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-              
-                    <div class="col-sm-6">
-                      <!-- Form -->
-                      <div class="mb-3">
-                        <label  for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                        <input type="tel" class="form-control form-control-lg"  name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx" >
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-                  </div>
-                    <!-- End Col -->
-              
-                    <!-- End Col -->
-                  </div>
-                  <!-- End Row -->
-              
-                  <!-- Form -->
-                  <div class="mb-3 mx-3">
-                    <label  for="message">Details</label>
-                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..."  rows="4"  ></textarea>
-                  </div>
-                  <!-- End Form -->
-              
-                  <div class="d-grid">
-                    <button type="submit" class="btn  btn-outline-primary btn-transition">Contact Us</button>
-                  </div>
-                </form>
-
+                  <!-- End Col -->
             
+                  <div class="col-sm-6">
+                    <!-- Form -->
+                    <div class="mb-3">
+                      <label for="surname">Last Name:</label>
+                      <input type="text"  class="form-control form-control-lg"id="name" name="surname" placeholder="Your LastName" required>
+                    </div>
+                    <!-- End Form -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+                <div class="row gx-3">
+                  <div class="col-sm-6">
+                    <!-- Email Form -->
+                    <div class="mb-3">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="xyz@gmail.com" required>
+                    </div>
+                    <!-- End Email Form -->
+                  </div>
+                  <!-- End Col -->
+                
+                  <div class="col-sm-6">
+                    <!-- Phone Form -->
+                    <div class="mb-3">
+                      <label for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
+                      <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx">
+                    </div>
+                    <!-- End Phone Form -->
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+                
+                <!-- Details Form -->
+                <div class="mb-3 d-grid">
+                  <label for="message">Details</label>
+                  <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4"></textarea>
+                </div>
+                <!-- End Details Form -->
+                
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-outline-primary btn-transition">Contact Us</button>
+                </div>
+                
+              </form>
                 <!-- End Form -->
               </div>
             </div>
             <!-- End Card -->
           </div>
+        </div>
         </div>
         <!-- End Col -->
       </div>
@@ -1404,7 +1488,7 @@
 
           <!-- Links -->
           <ul class="list-unstyled list-py-1 mb-0 text-white-70">
-            <li><a class="link-sm text-white" href="./index1.html">Home</a></li>
+            <li><a class="link-sm text-white" href="./index.html">Home</a></li>
             <li><a class="link-sm text-white" href="./about.html">About Us</a></li>
             <!-- <li><a class="link-sm text-white" href="#service">Our Service</a></li>
             <li><a class="link-sm text-white" href="#blog">Our Blog</a></li> -->
@@ -1637,20 +1721,7 @@
   })()
 </script>
 
-<!-- form -->
-<!-- <script>
-  function submitForm(event) {
-    event.preventDefault();
-    
-    document.getElementById("successAlert").classList.remove("d-none");
 
-  
-    setTimeout(function () {
-      document.getElementById("successAlert").classList.add("d-none");
-      document.querySelector('form').reset();
-    }, 2000);
-  }
-</script>  -->
 
 <!-- JS Implementing Plugins -->
 <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
@@ -1683,9 +1754,24 @@
 
 <!-- JS Implementing Plugins -->
 <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
+<!-- for modal -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!-- JS Plugins Init. -->
+<script>
+  // Open the modal when a column is clicked
+  $(".open-modal").click(function () {
+      var targetModal = $(this).data("target");
+      var modalTop = $(window).scrollTop() + ($(window).height() - $(targetModal).height()) / 2;
 
+      // Set the top position of the modal
+      $(targetModal).css("top", modalTop + "px");
 
+      // Show the modal
+      $(targetModal).modal("show");
+  });
+</script>
+<!-- modal end -->
 </body>
 </html>

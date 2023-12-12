@@ -42,6 +42,118 @@
   <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+  <style>
+    /* Common styles for all screens */
+
+    .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    .containers {
+      text-align: center;
+      margin: 20px auto 20px;
+      color: #fff;
+    }
+  
+    .services-section {
+      display: flex;
+      flex-basis: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 350px;
+    height: 380px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      background: #fff;
+      margin: 0 15px 30px;
+      border-radius: 20px;
+      z-index: 10;
+      transition: transform 0.8s;
+    }
+  
+    .card .icon {
+      width: 150px;
+      height: 150px;
+      background: #fff;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 80px;
+      border-radius: 50%;
+      color: #517fb0;
+      border: 20px solid #56768e;
+      margin: -75px auto 0;
+      transition: transform 1s;
+    }
+  
+    /* .card h2 {
+      height: 35px;
+      width: 70%;
+      text-align: left;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 25px auto;
+      position: relative;
+      background: #fff;
+      line-height: 35px;
+    }
+   */
+    .card h2:after,
+    .card h2:before {
+      content: '';
+      width: 40px;
+      height: 30px;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .card h2:after {
+      background: linear-gradient(to right, #fff, #007bff);
+      right: -5px;
+      top: -5px;
+    }
+  
+    .card h2:before {
+      background: linear-gradient(to right, #007bff, #fff);
+      left: -5px;
+      bottom: -5px;
+    }
+  
+    
+p {
+    color: #666;
+    line-height: 1.5;
+}
+    .card:hover {
+      transform: translateY(-20px);
+    }
+  
+    .card:hover .icon {
+      transform: rotate(360deg);
+    }
+  
+     /* Media query for screens between 300px and 650px */
+  @media screen and (min-width: 300px) and (max-width: 650px) {
+    .services-section {
+      flex-direction: column;
+    }
+
+    .card {
+      max-width: none; /* Remove max-width for full width on small screens */
+    }
+  }
+  </style>
+  
+
 </head>
 
 <body>
@@ -176,7 +288,7 @@
       <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/producthero.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50">
-            <h2 class="text-white">Product For customers</h2>
+            <h2 class="text-dark">Product For customers</h2>
             <h1 class="display-7 text-white mb-0 ">Unlock Your Business with Tailor-Made Product .</h1>
           </div>
         </div>
@@ -199,19 +311,19 @@
       <!-- Slide -->
       <div class="swiper-slide">
         <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-          <div class="container content-space-2">
+          <div class="container">
             <div class="row">
-              <div class="col-md-5 col-12 mb-4 mb-md-0 order-md-1 order-2">
-                <span class="fs-3 fw-semibold mt-2">01.</span>
+              <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-7 order-lg-2">
+                <span class="fs-3 fw-semibold mt-2 text-dark">01.</span>
                 <h3 class="bg-navy">Web Development</h3>
                 <p class="mb-0 text-dark lead">Revolutionize Your Online Presence with Cutting-Edge Solutions.</p>
               </div>
               <!-- End Col -->
-  
-              <div class="col-md-5 d-md-inline-block d-none bg-primary position-absolute top-0 end-0 bottom-0 order-md-2 order-1">
-                <div class="position-absolute top-50 translate-middle-y p-7">
-                  <span class="fs-3 fw-semibold ">02.</span>
-                  <h3 class="text-dark">Internet Of Things</h3>
+        
+              <div class="col-lg-6 bg-primary order-1 order-lg-2">
+                <div class="p-2 p-lg-7">
+                  <span class="fs-3 text-dark ">02.</span>
+                  <h3 class="text-white">Internet Of Things</h3>
                   <p class="text-white mb-0 lead">IoT Solutions: Forging a Connected Tomorrow with Devloops International</p>
                 </div>
               </div>
@@ -240,42 +352,100 @@
       </div>
       <div class="container">
         <div class="row">
-                        <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
-                            <div class="services-block-three">
-                                <a href="javascript:void(0)">
-                                    <div class="padding-15px-bottom">
-                                        <i class="fa fa-eercast"></i>
-                                    </div>
-                                    <h3 class="text-primary">Integrated ERP Solutions</h3>
-                                    <p class="xs-font-size13 xs-line-height-22  text-dark">providing a centralized platform for seamless collaboration .</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
-                            <div class="services-block-three">
-                                <a href="javascript:void(0)">
-                                    <div class="padding-15px-bottom">
-                                        <i class="fa fa-snowflake-o"></i>
-                                    </div>
-                                    <h3 class="text-primary">Cross-Platform Compatibility</h3>
-                                    <p class="xs-font-size13 xs-line-height-22  text-dark">Storing and retrieving data login through social platforms.</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="services-block-three col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
-                            <div class="services-block-three">
-                                <a href="javascript:void(0)">
-                                    <div class="padding-15px-bottom">
-                                        <i class="fa fa-braille"></i>
-                                    </div>
-                                    <h3 class="text-primary">Version Control</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark">collaborate efficiently, and maintain a clear development .</p>
-                                </a>
-                            </div>
-                        </div>
+          <div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+            <div class="services-block-three">
+                <a href="#" class="open-modal" data-target="#myModal1">
+                    <div class="padding-15px-bottom">
+                        <i class="fa fa-eercast"></i>
+                    </div>
+                    <h3 class="text-primary">Integrated ERP Solutions</h3>
+                    <p class="xs-font-size13 xs-line-height-22  text-dark">providing a centralized platform for seamless collaboration.</p>
+                </a>
+            </div>
+        </div>
+        <!-- Modal 1 -->
+        <div class="modal" id="myModal1">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+        
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                      <h4 class="modal-title">Modal 1 Title</h4>
+                      <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                  </div>
+        
+                  <!-- Modal Body -->
+                  <div class="modal-body">
+                      <p>Modal 1 content goes here.</p>
+                  </div>
+        
+                  
+        
+              </div>
+          </div>
+        </div>
+<div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+  <div class="services-block-three">
+      <a href="#" class="open-modal" data-target="#myModal2">
+          <div class="padding-15px-bottom">
+              <i class="fa fa-snowflake-o"></i>
+          </div>
+          <h3 class="text-primary">Cross-Platform Compatibility</h3>
+          <p class="xs-font-size13 xs-line-height-22  text-dark">Storing and retrieving data login through social platforms.</p>
+      </a>
+  </div>
+</div>
+<!-- Modal 2 -->
+<div class="modal" id="myModal2">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Modal 2 Title</h4>
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+              <p>Modal 2 content goes here.</p>
+          </div>
+
+          
+
+      </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 margin-30px-bottom xs-margin-20px-bottom">
+  <div class="services-block-three">
+      <a href="#" class="open-modal" data-target="#myModal3">
+          <div class="padding-15px-bottom">
+              <i class="fa fa-code"></i>
+          </div>
+          <h3 class="text-primary">Custom Development</h3>
+          <p class="xs-font-size13 xs-line-height-22  text-dark">Tailored solutions to meet your specific business needs.</p>
+      </a>
+  </div>
+</div>
+<div class="modal" id="myModal3">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Modal 3 Title</h4>
+             
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+              <p>Modal 3 content goes here.</p>
+          </div>
+         
+      </div>
+  </div>
+</div>
                         <div class="services-block-three col-lg-4 col-md-6 sm-margin-30px-bottom xs-margin-20px-bottom">
                             <div class="services-block-three">
-                                <a href="javascript:void(0)">
+                              <a href="#" class="open-modal" data-target="#myModal4">
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-diamond"></i>
                                     </div>
@@ -284,9 +454,26 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="modal" id="myModal4">
+                          <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                      <h4 class="modal-title">Modal 4 Title</h4>
+                                     
+                                  </div>
+                                  <!-- Modal Body -->
+                                  <div class="modal-body">
+                                      <p>Modal 4 content goes here.</p>
+                                  </div>
+                                  <!-- Modal Footer -->
+                                
+                              </div>
+                          </div>
+                        </div>
                         <div class="services-block-three col-lg-4 col-md-6 xs-margin-20px-bottom">
                             <div class="services-block-three">
-                                <a href="javascript:void(0)">
+                              <a href="#" class="open-modal" data-target="#myModal5">
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-object-ungroup"></i>
                                     </div>
@@ -295,9 +482,25 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="modal" id="myModal5">
+                          <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                      <h4 class="modal-title">Modal 5 Title</h4>
+                                     
+                                  </div>
+                                  <!-- Modal Body -->
+                                  <div class="modal-body">
+                                      <p>Modal 5 content goes here.</p>
+                                  </div>
+                                
+                              </div>
+                          </div>
+                        </div>
                         <div class="services-block-three col-lg-4 col-md-6">
                             <div class="services-block-three">
-                                <a href="javascript:void(0)">
+                              <a href="#" class="open-modal" data-target="#myModal6">
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-paper-plane-o"></i>
                                     </div>
@@ -305,6 +508,22 @@
                                     <p class="xs-font-size13 xs-line-height-22 text-dark"> Incorporate features such as encryption &amp; authentication.</p>
                                 </a>
                             </div>
+                        </div>
+                        <div class="modal" id="myModal6">
+                          <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                  <!-- Modal Header -->
+                                  <div class="modal-header">
+                                      <h4 class="modal-title">Modal 6 Title</h4>
+                                     
+                                  </div>
+                                  <!-- Modal Body -->
+                                  <div class="modal-body">
+                                      <p>Modal 6 content goes here.</p>
+                                  </div>
+                                
+                              </div>
+                          </div>
                         </div>
                         <!-- end -->
                     </div>
@@ -317,22 +536,22 @@
     <!-- Icon Blocks -->
    
     <!-- End Icon Blocks -->
-    <section class="about-section ">
+    <section class="about-section mb-5 ">
       <div class="container">
           <div class="row">                
-              <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-11  ">
+              <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-10  ">
                   <div class="inner-column">
                       <div class="sec-title">
-                          <span class="p1">About us</span>
-                          <h2 class="bg-navy w-lg-40 ">
-                            Innovative Solutions: Crafting Software for a Digital Future</h2>
+                          <!-- <span class="p1 text-secondary">About us</span> -->
+                          <h2 class="bg-navy w-lg-30 ">
+                      Product Development </h2>
                       </div>
-                      <div class="xs-font-size13 xs-line-height-22 text-dark">Our development philosophy centers around user-centricity, where we immerse ourselves in understanding the unique challenges and aspirations of our users.</div><br>
+                      <!-- <div class="xs-font-size13 xs-line-height-22 text-dark">Our development philosophy centers around user-centricity, where we immerse ourselves in understanding the unique challenges and aspirations of our users.</div><br> -->
                     <div class=" xs-font-size13 xs-line-height-22 text-dark">
-                      We recognize the critical importance of safeguarding user data and maintaining the trust placed in our products. Our development practices prioritize robust security measures, incorporating the latest encryption techniques, stringent authentication protocols, and thorough security audits. 
+                      We recognize the critical importance of safeguarding user data and maintaining the trust placed in our products. Our development practices prioritize <span class="text-primary"> robust security measures</span>, incorporating the latest encryption techniques, stringent authentication protocols, and thorough security audits. 
                     </div><br>
                       <div class="btn-box">
-                          <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
                       </div>
                   </div>
               </div>
@@ -344,13 +563,13 @@
                       <h2>Product Development</h2>
                       <!-- <span>Web Developer</span> -->
                     </div>
-                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/homeabtgif.gif" alt=""></a></figure>
+                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/homelooping.gif" alt=""></a></figure>
                    
                   </div>
               </div>
             
           </div>
-             <div class="sec-title mt-3">
+             <!-- <div class="sec-title mt-3">
                           <span class="p1">Our Future Goal</span>
                           <h2 class="bg-navy ">Devloops Product Development Services We Offer</h2>
                       </div>
@@ -385,154 +604,46 @@
                           Prototyping and Testing
                         </li>
                       </ul>
-                      
+                       -->
       </div>
   </section>
 
      <!-- Features -->
-     <section class="bgcolour">
-     <div class="container content-space-1 b">
-      <!-- Heading -->
-      <div class="w-md-55 w-lg-40 text-center mx-auto mb-5 mb-md-9">
-        <span class="p1 text-dark">Other Services We Offer</span>
-        <h2 class="bg-navy">Devloops makes Product easy and performance fast</h2>
-      </div>
-      
-      <!-- End Heading -->
-
-      <div class="row align-items-lg-center">
-        <div class="col-lg-6 order-lg-1 mb-7 mb-lg-0">
-          <!-- Nav Scroller -->
-          <div class="js-nav-scroller hs-nav-scroller-horizontal">
-            <span class="hs-nav-scroller-arrow-prev" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-left"></i>
-              </a>
-            </span>
-
-            <span class="hs-nav-scroller-arrow-next" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-right"></i>
-              </a>
-            </span>
-
-            <!-- Nav Pills -->
-            <ul class="nav nav-lg nav-pills nav-pills-shadow flex-lg-column gap-lg-1 p-3" id="featuresTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresOne" id="featuresOne-tab" data-bs-toggle="tab" data-bs-target="#featuresOne" role="tab" aria-controls="featuresOne" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M22 19V17C22 16.4 21.6 16 21 16H8V3C8 2.4 7.6 2 7 2H5C4.4 2 4 2.4 4 3V19C4 19.6 4.4 20 5 20H21C21.6 20 22 19.6 22 19Z" fill="#035A4B"></path>
-                        <path d="M20 5V21C20 21.6 19.6 22 19 22H17C16.4 22 16 21.6 16 21V8H8V4H19C19.6 4 20 4.4 20 5ZM3 8H4V4H3C2.4 4 2 4.4 2 5V7C2 7.6 2.4 8 3 8Z" fill="#035A4B"></path>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Enterprise Resource Planning</h4>
-                      <p class="text-dark text-wrap mb-0 p2">ERP streamlines business processes by integrating and managing core functions such as finance, human resources, and inventory.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresTwo" id="featuresTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresTwo" role="tab" aria-controls="featuresTwo" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-crosshair" viewBox="0 0 16 16">
-                        <path d="M8.5.5a.5.5 0 0 0-1 0v.518A7.001 7.001 0 0 0 1.018 7.5H.5a.5.5 0 0 0 0 1h.518A7.001 7.001 0 0 0 7.5 14.982v.518a.5.5 0 0 0 1 0v-.518A7.001 7.001 0 0 0 14.982 8.5h.518a.5.5 0 0 0 0-1h-.518A7.001 7.001 0 0 0 8.5 1.018zm-6.48 7A6.001 6.001 0 0 1 7.5 2.02v.48a.5.5 0 0 0 1 0v-.48a6.001 6.001 0 0 1 5.48 5.48h-.48a.5.5 0 0 0 0 1h.48a6.002 6.002 0 0 1-5.48 5.48v-.48a.5.5 0 0 0-1 0v.48A6.001 6.001 0 0 1 2.02 8.5h.48a.5.5 0 0 0 0-1h-.48M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Customer Relationship Management</h4>
-                      <p class="text-dark text-wrap mb-0 p2">CRM focuses on enhancing customer interactions, providing tools to manage leads &amp; automate sales processes.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#featuresThree" id="featuresThree-tab" data-bs-toggle="tab" data-bs-target="#featuresThree" role="tab" aria-controls="featuresThree" aria-selected="true" style="min-width: 20rem;">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-circle-square" viewBox="0 0 16 16">
-                        <path d="M0 6a6 6 0 1 1 12 0A6 6 0 0 1 0 6"/>
-                        <path d="M12.93 5h1.57a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1.57a6.953 6.953 0 0 1-1-.22v1.79A1.5 1.5 0 0 0 5.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 4h-1.79c.097.324.17.658.22 1z"/>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Customer Success Management</h4>
-                      <p class="text-dark text-wrap mb-0 p2">CSM ensures ongoing value for customers by proactively addressing their needs &amp; monitoring user satisfaction.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-            </ul>
-            <!-- End Nav Pills -->
+     <section class="bgcolour ">
+     <div class="containers">
+      <h1 class="mt-11 mt-n2">WHAT WE DO?</h1>
+      <div class="services-section">
+        <div class="card">
+          <div class="icon">
+            <img class="avatar" src="./assets/img/erpprdtnew.jpg" alt="Logo">
           </div>
-          <!-- End Nav Scroller -->
+          <h2>ERP</h2>
+          <p class="p2 text-dark">ERP streamlines business processes by integrating and managing core functions such as <span class="text-primary">finance and human resources</span>. From financial management to human resources, supply chain, and beyond, ERP solutions provide a unified platform that enables seamless collaboration and real-time data access.</p>
         </div>
-        <!-- End Col -->
-
-        <div class="col-lg-4 order-lg-2">
-          <!-- Tab Content -->
-          <div class="tab-content" id="featuresTabContent">
-            <div class="tab-pane fade" id="featuresOne" role="tabpanel" aria-labelledby="featuresOne-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/erpprdtnew.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade" id="featuresTwo" role="tabpanel" aria-labelledby="featuresTwo-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/csmprdnew.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade active show" id="featuresThree" role="tabpanel" aria-labelledby="featuresThree-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/webillustration.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
+        <div class="card">
+          <div class="icon">
+            <img class="avatar" src="./assets/img/csmprdnew.jpg" alt="Logo">
           </div>
-          <!-- End Tab Content -->
+          <h2>CRM</h2>
+          <p  class="p2 text-dark">CRM focuses on enhancing customer interactions, providing tools to manage <span class="text-primary">leads &amp; automate sales processes</span>.  By leveraging CRM tools, software companies can personalize customer experiences, streamline sales processes, and gain a deeper understanding of client needs. </p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img class="avatar" src="./assets/img/webillustration.jpg" alt="Logo">
+            </div>
+            <h2>CSM</h2>
+            <p class="p2 text-dark">CSM ensures ongoing value for customers by proactively addressing their <span class="text-primary">needs &amp; monitoring user satisfaction</span>.CSM services enable software companies to deliver prompt and effective support by managing customer queries, issues, and feedback and communication .</p>
         </div>
-        <!-- End Col -->
       </div>
-      <!-- End Row -->
     </div>
   </section>
     <!-- End Features -->
     <!-- Subscribe -->
-    <div class="container content-space-2 content-space-lg-3">
+    <div class="container content-space-2 ">
       <!-- Heading -->
       <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
         <p class="text-secondary  p1">Explore Startups</p>
-        <h2 class="bg-navy">Find a job you love. Set your career interests.</h2>
+        <h3 class="bg-navy">Find a job you love. Set your career interests.</h3>
       </div>
       <!-- End Heading -->
     
@@ -669,7 +780,7 @@
 
           <!-- Links -->
           <ul class="list-unstyled list-py-1 mb-0 text-white-70">
-            <li><a class="link-sm text-white" href="./index1.html">Home</a></li>
+            <li><a class="link-sm text-white" href="./index.html">Home</a></li>
             <li><a class="link-sm text-white" href="./about.html">About Us</a></li>
             <!-- <li><a class="link-sm text-white" href="#service">Our Service</a></li>
             <li><a class="link-sm text-white" href="#blog">Our Blog</a></li> -->
@@ -918,7 +1029,23 @@
     })()
   </script>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<script>
+  // Open the modal when a column is clicked
+  $(".open-modal").click(function () {
+      var targetModal = $(this).data("target");
+      var modalTop = $(window).scrollTop() + ($(window).height() - $(targetModal).height()) / 2;
+
+      // Set the top position of the modal
+      $(targetModal).css("top", modalTop + "px");
+
+      // Show the modal
+      $(targetModal).modal("show");
+  });
+</script>
 
 </body>
 
