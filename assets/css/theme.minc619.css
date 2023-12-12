@@ -7061,9 +7061,11 @@ background-color:   #CEC8D6!important;
   background-color: rgba(114, 143, 206, 0.3) !important;
 }
 .bg-navy {
-  color: rgba(0, 31, 63, 0.6) !important;
+  color: rgba(0, 31, 63, 0.7) !important;
 }
-
+.bg-navybg{
+  background-color: rgba(0, 31, 63, 0.4) !important;
+}
 
 .bg-pink4 {
 
@@ -15374,9 +15376,14 @@ input[type="number"] {
   width: 3.3333333333rem;
   height: inherit;
 }
-.avatar-lg.avatar-4x3 {
+.avatar1-lg.avatar-4x3 {
   width: 5.6666666667rem;
   height: auto;
+  border-radius: 0;
+}
+.avatar-lg.avatar-4x3 {
+  width: 9.6666666667rem;
+  height: 70px;
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 .avatar-img {
@@ -24006,8 +24013,8 @@ label.form-control {
 .gradient-x-overlay-lg-dark::before {
   background-image: linear-gradient(
     to right,
-    rgba(122, 156, 199, 0.5) 0,
-    rgba(122, 156, 199, 0.5) 100%
+    rgba(122, 156, 199, 0.7) 0,
+    rgba(122, 156, 199, 0.7) 100%
   );
 }
 

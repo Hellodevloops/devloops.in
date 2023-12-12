@@ -42,6 +42,118 @@
   <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+  <style>
+    /* Common styles for all screens */
+
+    .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    .containers {
+      text-align: center;
+      margin: 20px auto 20px;
+      color: #fff;
+    }
+  
+    .services-section {
+      display: flex;
+      flex-basis: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 350px;
+      height: 380px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      background: #fff;
+      margin: 0 15px 30px;
+      border-radius: 20px;
+      z-index: 10;
+      transition: transform 0.8s;
+    }
+  
+    .card .icon {
+      width: 150px;
+      height: 150px;
+      background: #fff;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 80px;
+      border-radius: 50%;
+      color: #517fb0;
+      border: 20px solid #56768e;
+      margin: -75px auto 0;
+      transition: transform 1s;
+    }
+  
+    /* .card h2 {
+      height: 35px;
+      width: 70%;
+      text-align: left;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 25px auto;
+      position: relative;
+      background: #fff;
+      line-height: 35px;
+    }
+   */
+    .card h2:after,
+    .card h2:before {
+      content: '';
+      width: 40px;
+      height: 30px;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .card h2:after {
+      background: linear-gradient(to right, #fff, #007bff);
+      right: -5px;
+      top: -5px;
+    }
+  
+    .card h2:before {
+      background: linear-gradient(to right, #007bff, #fff);
+      left: -5px;
+      bottom: -5px;
+    }
+  
+    
+p {
+    color: #666;
+    line-height: 1.5;
+}
+    .card:hover {
+      transform: translateY(-20px);
+    }
+  
+    .card:hover .icon {
+      transform: rotate(360deg);
+    }
+  
+     /* Media query for screens between 300px and 650px */
+  @media screen and (min-width: 300px) and (max-width: 650px) {
+    .services-section {
+      flex-direction: column;
+    }
+
+    .card {
+      max-width: none; /* Remove max-width for full width on small screens */
+    }
+  }
+  </style>
+  
+
 </head>
 
 <body>
@@ -173,10 +285,10 @@
   <div class="js-swiper-main swiper">
     <div class="swiper-wrapper">
      
-      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/webhero.jpg);">
+      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/webheronew.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50">
-            <h2 class="text-white">Web Development</h2>
+            <h2 class="text-dark">Web Development</h2>
             <h1 class="display-7 text-white mb-0 ">Revolutionize Your Online Presence with Cutting-Edge Solutions</h1>
           </div>
         </div>
@@ -199,26 +311,26 @@
       <!-- Slide -->
       <div class="swiper-slide">
         <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-          <div class="container content-space-2">
+          <div class="container">
             <div class="row">
-              <div class="col-md-5">
+              <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-7 order-lg-2">
                 <span class="fs-3 fw-semibold mt-2">01.</span>
                 <h3 class="bg-navy">Product Development</h3>
                 <p class="mb-0 text-dark lead">Unlock Your Business Potential with Tailor-Made Product Development.</p>
               </div>
               <!-- End Col -->
+        
+              <div class="col-lg-6 bg-primary order-1 order-lg-2">
+                <div class="p-2 p-lg-7">
+                  <span class="fs-3 text-dark ">02.</span>
+                  <h3 class="text-white">Internet Of Things</h3>
+                  <p class="text-white mb-0 lead">IoT Solutions: Forging a Connected with Devloops International</p>
+                </div>
+              </div>
+              <!-- End Col -->
             </div>
-            <!-- End Row -->  
+            <!-- End Row -->
           </div>
-
-          <div class="col-md-5 d-none d-md-inline-block bg-primary position-absolute top-0 end-0 bottom-0">
-            <div class="position-absolute top-50 translate-middle-y p-7">
-              <span class="fs-3 fw-semibold ">02.</span>
-              <h3 class="text-dark">Internet Of Things</h3>
-              <p class="text-white mb-0 lead">IoT Solutions: Forging a Connected Tomorrow with Devloops International</p>
-            </div>
-          </div>
-          <!-- End Col -->
         </div>
       </div>
       <!-- End Slide -->
@@ -246,7 +358,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-eercast"></i>
                                     </div>
-                                    <h3 class="text-primary">Analytics and Monitoring</h3>
+                                    <h3 class="text-primary mt-n2">Analytics and Monitoring</h3>
                                     <p class="xs-font-size10 xs-line-height-22 text-dark"> Monitoring tools can identify and address issues promptly, ensuring a smooth user experience.</p>
                                 </a>
                             </div>
@@ -257,7 +369,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-snowflake-o"></i>
                                     </div>
-                                    <h3 class="text-primary">User Authentication</h3>
+                                    <h3 class="text-primary  mt-n2">User Authentication</h3>
                                     <p class="xs-font-size10 xs-line-height-22  text-dark">Implementing secure login and authorization systems to protect sensitive information.</p>
                                 </a>
                             </div>
@@ -268,7 +380,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-braille"></i>
                                     </div>
-                                    <h3 class="text-primary">Security Measures</h3>
+                                    <h3 class="text-primary  mt-n2">Security Measures</h3>
                                     <p class="xs-font-size10 xs-line-height-22 text-dark">Implementing robust security protocols to protect against threats and vulnerabilities.</p>
                                 </a>
                             </div>
@@ -279,7 +391,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-diamond"></i>
                                     </div>
-                                    <h3 class="text-primary">Real-Time Updates</h3>
+                                    <h3 class="text-primary  mt-n2">Real-Time Updates</h3>
                                     <p class="xs-font-size10 xs-line-height-22 text-dark">Web apps that involve data analytics can benefit from real-time updates to display live charts, or others.</p>
                                 </a>
                             </div>
@@ -290,7 +402,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-object-ungroup"></i>
                                     </div>
-                                    <h3 class="text-primary">Offline Functionality</h3>
+                                    <h3 class="text-primary  mt-n2">Offline Functionality</h3>
                                     <p class="xs-font-size10 xs-line-height-22 text-dark"> Users can still access certain features and content even when they are not connected.</p>
                                 </a>
                             </div>
@@ -301,7 +413,7 @@
                                     <div class="padding-15px-bottom">
                                         <i class="fa fa-paper-plane-o"></i>
                                     </div>
-                                    <h3 class="text-primary">Cross-Browser Compatibility</h3>
+                                    <h3 class="text-primary  mt-n2">Cross-Browser Compatibility</h3>
                                     <p class="xs-font-size10 xs-line-height-22 text-dark">Web apps should work seamlessly across different web browsers to reach a broader audience .</p>
                                 </a>
                             </div>
@@ -323,15 +435,15 @@
               <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-11 ">
                   <div class="inner-column">
                       <div class="sec-title">
-                          <span class="p1">About us</span>
-                          <h2 class="bg-navy w-lg-40">Revolutionizing Web Presence with Cutting-edge Solutions</h2>
+                          <!-- <span class="p1">About us</span> -->
+                          <h2 class="bg-navy w-lg-40">Web Development</h2>
                       </div>
-                      <div class="text-dark xs-font-size13 xs-line-height-22">We proactively consult, design, develop and scale robust web, mobile and custom software solutions that drive innovation and digital success.</div><br>
+        
                     <div class="xs-font-size13 xs-line-height-22 text-dark">
-                      Web applications can also play an important role in providing an interface for customers and control points for businesses. Our dedicated web application developers will develop and deliver web applications that help improve operational efficiency, accelerate decision making and gain competitive advantage.
+                      Web development can also play an important role in providing an interface for customers and control points for businesses. Our dedicated web application developers will develop and deliver web development that help improve <span class="text-primary">operational efficiency</span>, accelerate decision making and gain competitive advantage.
                     </div><br>
                       <div class="btn-box">
-                          <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
                       </div>
                   </div>
               </div>
@@ -349,189 +461,47 @@
               </div>
             
           </div>
-             <div class="sec-title mt-3">
-                          <span class="p1">Our Future Goal</span>
-                          <h2 class="bg-navy ">Devloops Web Development Services We Offer</h2>
-                      </div>
-                      <ul class="list-unstyled">
-                       <li class="text text-dark p1"><h3> 
-                          Winning UI/UX style Experiences that Attract + interact + Convert</h3>
-                        </li>
-                        <li class="lead text-dark">
-                          Crafting each conceivable internet experiences with component good UI/UX styles to make full stack internet application SaaS solutions, internet portals & way more.
-                        </li><br>
-                        <li class="text text-dark"><h3> 
-                          We consider all facts of Web Security:</h3>
-                        </li>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shield-shaded" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 14.933a.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
-                          </svg></span>
-                          Application Security
-                        </li><br>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
-                            <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295M1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
-                          </svg></span>
-                          Web VAPT
-                        </li><br>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shield-lock-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5"/>
-                          </svg></span>
-                          Data Security
-                        </li>
-                      </ul>
+           
                       
       </div>
   </section>
 
      <!-- Features -->
-     <section class="bgcolour">
-     <div class="container content-space-1 b">
-      <!-- Heading -->
-      <div class="w-md-55 w-lg-40 text-center mx-auto mb-5 mb-md-9">
-        <span class="p1 text-dark">Other Services We Offer</span>
-        <h2 class="bg-navy">Devloops makes Product easy and performance fast</h2>
-      </div>
-      
-      <!-- End Heading -->
-
-      <div class="row align-items-lg-center">
-        <div class="col-lg-6 order-lg-1 mb-7 mb-lg-0">
-          <!-- Nav Scroller -->
-          <div class="js-nav-scroller hs-nav-scroller-horizontal">
-            <span class="hs-nav-scroller-arrow-prev" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-left"></i>
-              </a>
-            </span>
-
-            <span class="hs-nav-scroller-arrow-next" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-right"></i>
-              </a>
-            </span>
-
-            <!-- Nav Pills -->
-            <ul class="nav nav-lg nav-pills nav-pills-shadow flex-lg-column gap-lg-1 p-3" id="featuresTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresOne" id="featuresOne-tab" data-bs-toggle="tab" data-bs-target="#featuresOne" role="tab" aria-controls="featuresOne" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M22 19V17C22 16.4 21.6 16 21 16H8V3C8 2.4 7.6 2 7 2H5C4.4 2 4 2.4 4 3V19C4 19.6 4.4 20 5 20H21C21.6 20 22 19.6 22 19Z" fill="#035A4B"></path>
-                        <path d="M20 5V21C20 21.6 19.6 22 19 22H17C16.4 22 16 21.6 16 21V8H8V4H19C19.6 4 20 4.4 20 5ZM3 8H4V4H3C2.4 4 2 4.4 2 5V7C2 7.6 2.4 8 3 8Z" fill="#035A4B"></path>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Single page</h4>
-                      <p class="text-dark text-wrap mb-0 p2">Providing a smoother user experience by minimizing page reloads.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresTwo" id="featuresTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresTwo" role="tab" aria-controls="featuresTwo" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 19.5229C15 20.265 15.9624 20.5564 16.374 19.9389L22.2227 11.166C22.5549 10.6676 22.1976 10 21.5986 10H17V4.47708C17 3.73503 16.0376 3.44363 15.626 4.06106L9.77735 12.834C9.44507 13.3324 9.80237 14 10.4014 14H15V19.5229Z" fill="#035A4B"></path>
-                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M3 6.5C3 5.67157 3.67157 5 4.5 5H9.5C10.3284 5 11 5.67157 11 6.5C11 7.32843 10.3284 8 9.5 8H4.5C3.67157 8 3 7.32843 3 6.5ZM3 18.5C3 17.6716 3.67157 17 4.5 17H9.5C10.3284 17 11 17.6716 11 18.5C11 19.3284 10.3284 20 9.5 20H4.5C3.67157 20 3 19.3284 3 18.5ZM2.5 11C1.67157 11 1 11.6716 1 12.5C1 13.3284 1.67157 14 2.5 14H6.5C7.32843 14 8 13.3284 8 12.5C8 11.6716 7.32843 11 6.5 11H2.5Z" fill="#035A4B"></path>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Progressive Web App</h4>
-                      <p class="text-dark text-wrap mb-0 p2">Allowing users to access them seamlessly on various devices.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#featuresThree" id="featuresThree-tab" data-bs-toggle="tab" data-bs-target="#featuresThree" role="tab" aria-controls="featuresThree" aria-selected="true" style="min-width: 20rem;">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.2718 8.68537C16.8933 8.28319 16.9125 7.65032 17.3146 7.2718C17.7168 6.89329 18.3497 6.91246 18.7282 7.31464L22.7282 11.5646C23.0906 11.9497 23.0906 12.5503 22.7282 12.9354L18.7282 17.1854C18.3497 17.5875 17.7168 17.6067 17.3146 17.2282C16.9125 16.8497 16.8933 16.2168 17.2718 15.8146L20.6268 12.25L17.2718 8.68537Z" fill="#035A4B"></path>
-                        <path d="M6.7282 8.68537C7.10671 8.28319 7.08754 7.65032 6.68536 7.2718C6.28319 6.89329 5.65031 6.91246 5.2718 7.31464L1.2718 11.5646C0.909397 11.9497 0.909397 12.5503 1.2718 12.9354L5.2718 17.1854C5.65031 17.5875 6.28319 17.6067 6.68536 17.2282C7.08754 16.8497 7.10671 16.2168 6.7282 15.8146L3.37325 12.25L6.7282 8.68537Z" fill="#035A4B"></path>
-                        <rect opacity="0.3" x="12.7388" y="3.97168" width="2" height="16" rx="1" transform="rotate(12.3829 12.7388 3.97168)" fill="#035A4B"></rect>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Serverless Web Applications</h4>
-                      <p class="text-dark text-wrap mb-0 p2">Leverage cloud services to eliminate the need for managing traditional server.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-            </ul>
-            <!-- End Nav Pills -->
-          </div>
-          <!-- End Nav Scroller -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-lg-4 order-lg-2">
-          <!-- Tab Content -->
-          <div class="tab-content" id="featuresTabContent">
-            <div class="tab-pane fade" id="featuresOne" role="tabpanel" aria-labelledby="featuresOne-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/spawennew.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade" id="featuresTwo" role="tabpanel" aria-labelledby="featuresTwo-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/pwawebnew.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade active show" id="featuresThree" role="tabpanel" aria-labelledby="featuresThree-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/swawebnew.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-          </div>
-          <!-- End Tab Content -->
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
+     <section class="bgcolour ">
+      <div class="containers mt-n12">
+       <h1 class="mt-11">WHAT WE DO?</h1>
+       <div class="services-section">
+         <div class="card">
+           <div class="icon">
+             <img class="avatar" src="./assets/img/spawebicon.png" alt="Logo">
+           </div>
+           <h2>Single Page</h2>
+           <p class="p2 text-dark">Single Page application's leverage JavaScript frameworks such as<span class="text-primary">React, Angular, or Vue.js</span>  to efficiently manage and render content on the client side. This approach eliminates the need for full-page reloads, resulting in faster, more responsive web applications. </p>
+         </div>
+         <div class="card">
+           <div class="icon">
+             <img class="avatar" src="./assets/img/pwawebicon.png" alt="Logo">
+           </div>
+           <h2>Progressive web</h2>
+           <p  class="p2 text-dark">Progressive Web App's utilize modern web technologies to provide <span class="text-primary">offline capabilities, push notifications</span>, and seamless responsiveness across devices. They leverage service workers to cache resources and enable offline functionality.</p>
+           </div>
+           <div class="card">
+             <div class="icon">
+               <img class="avatar" src="./assets/img/swawebicon.png" alt="Logo">
+             </div>
+             <h2>Serverless Web</h2>
+             <p class="p2 text-dark">This approach significantly reduces operational overhead and allows developers to focus on building features . Serverless architectures often use Function as a Service (FaaS) platforms like  <span class="text-primary">AWS Lambda or Azure Functions</span> to execute code in response to events.</p>
+         </div>
+       </div>
+     </div>
+   </section>
     <!-- End Features -->
     <!-- Subscribe -->
     <div class="container content-space-2 content-space-lg-3">
       <!-- Heading -->
       <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
         <p class="text-secondary  p1">Explore Startups</p>
-        <h2 class="bg-navy">Find a job you love. Set your career interests.</h2>
+        <h3 class="bg-navy">Find a job you love. Set your career interests.</h3>
       </div>
       <!-- End Heading -->
     
@@ -668,7 +638,7 @@
 
           <!-- Links -->
           <ul class="list-unstyled list-py-1 mb-0 text-white-70">
-            <li><a class="link-sm text-white" href="./index1.html">Home</a></li>
+            <li><a class="link-sm text-white" href="./index.html">Home</a></li>
             <li><a class="link-sm text-white" href="./about.html">About Us</a></li>
             <!-- <li><a class="link-sm text-white" href="#service">Our Service</a></li>
             <li><a class="link-sm text-white" href="#blog">Our Blog</a></li> -->
@@ -917,6 +887,23 @@
     })()
   </script>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  // Open the modal when a column is clicked
+  $(".open-modal").click(function () {
+      var targetModal = $(this).data("target");
+      var modalTop = $(window).scrollTop() + ($(window).height() - $(targetModal).height()) / 2;
+
+      // Set the top position of the modal
+      $(targetModal).css("top", modalTop + "px");
+
+      // Show the modal
+      $(targetModal).modal("show");
+  });
+</script>
 
 
 </body>

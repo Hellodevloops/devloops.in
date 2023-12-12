@@ -41,6 +41,117 @@
   <!-- JS Implementing Plugins -->
   <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <style>
+    /* Common styles for all screens */
+
+    .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    .containers {
+      text-align: center;
+      margin: 20px auto 20px;
+      color: #fff;
+    }
+  
+    .services-section {
+      display: flex;
+      flex-basis: auto;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 350px;
+      height: 380px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      background: #fff;
+      margin: 0 15px 30px;
+      border-radius: 20px;
+      z-index: 10;
+      transition: transform 0.8s;
+    }
+  
+    .card .icon {
+      width: 150px;
+      height: 150px;
+      background: #fff;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: 80px;
+      border-radius: 50%;
+      color: #517fb0;
+      border: 20px solid #56768e;
+      margin: -75px auto 0;
+      transition: transform 1s;
+    }
+  
+    /* .card h2 {
+      height: 35px;
+      width: 70%;
+      text-align: left;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 25px auto;
+      position: relative;
+      background: #fff;
+      line-height: 35px;
+    }
+   */
+    .card h2:after,
+    .card h2:before {
+      content: '';
+      width: 40px;
+      height: 30px;
+      position: absolute;
+      z-index: -1;
+    }
+  
+    .card h2:after {
+      background: linear-gradient(to right, #fff, #007bff);
+      right: -5px;
+      top: -5px;
+    }
+  
+    .card h2:before {
+      background: linear-gradient(to right, #007bff, #fff);
+      left: -5px;
+      bottom: -5px;
+    }
+  
+    
+p {
+    color: #666;
+    line-height: 1.5;
+}
+    .card:hover {
+      transform: translateY(-20px);
+    }
+  
+    .card:hover .icon {
+      transform: rotate(360deg);
+    }
+  
+     /* Media query for screens between 300px and 650px */
+  @media screen and (min-width: 300px) and (max-width: 650px) {
+    .services-section {
+      flex-direction: column;
+    }
+
+    .card {
+      max-width: none; /* Remove max-width for full width on small screens */
+    }
+  }
+  </style>
+  
 
 </head>
 
@@ -173,10 +284,10 @@
   <div class="js-swiper-main swiper">
     <div class="swiper-wrapper">
      
-      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/iotnewherochng.jpg);">
+      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/iotheronew.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50">
-            <h3 class="text-white">IOT Solutions</h3>
+            <h3 class="text-dark">IOT Solutions</h3>
             <h1 class="display-7 text-white mb-0 ">Devloops International pioneers the future of connectivity</h1>
           </div>
         </div>
@@ -199,26 +310,26 @@
       <!-- Slide -->
       <div class="swiper-slide">
         <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-          <div class="container content-space-2">
+          <div class="container">
             <div class="row">
-              <div class="col-md-5">
+              <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-7 order-lg-2">
                 <span class="fs-3 fw-semibold mt-2">01.</span>
                 <h3 class="bg-navy">Product Development</h3>
-                <p class="mb-0  text-dark lead">Unlock Your Business Potential with Tailor-Made Product Development.</p>
+                <p class="mb-0 text-dark lead">Unlock Your Business Potential with Tailor-Made Product Development</p>
+              </div>
+              <!-- End Col -->
+        
+              <div class="col-lg-6 bg-primary order-1 order-lg-2">
+                <div class="p-2 p-lg-7">
+                  <span class="fs-3 fw-semibold ">02.</span>
+                  <h3 class="text-dark">Web Development</h3>
+                  <p class="text-white mb-0 lead">Revolutionize Your Online Presence with Cutting-Edge Solutions.</p>
+                </div>
               </div>
               <!-- End Col -->
             </div>
-            <!-- End Row -->  
+            <!-- End Row -->
           </div>
-
-          <div class="col-md-5 d-none d-md-inline-block bg-primary position-absolute top-0 end-0 bottom-0">
-            <div class="position-absolute top-50 translate-middle-y p-7">
-              <span class="fs-3 fw-semibold ">02.</span>
-              <h3 class="text-white">Web Development</h3>
-              <p class="text-white-70 mb-0n lead">Revolutionize Your Online Presence with Cutting-Edge Solutions</p>
-            </div>
-          </div>
-          <!-- End Col -->
         </div>
       </div>
       <!-- End Slide -->
@@ -320,18 +431,18 @@
     <section class="about-section">
       <div class="container">
           <div class="row">                
-              <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-11 ">
+              <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-10 ">
                   <div class="inner-column">
                       <div class="sec-title">
-                          <span class="p1">About us</span>
-                          <h2 class="bg-navy w-lg-40">Beat the Future with Our IoT Development Services</h2>
+                          <!-- <span class="p1">About us</span> -->
+                          <h2 class="bg-navy w-lg-40">Internet Of Things</h2>
                       </div>
-                      <div class="text-dark xs-font-size13 xs-line-height-22">Building user-friendly IoT applications that work with a range of hardware, software, and screen resolutions have become possible with IoT.</div><br>
+         
                     <div class="xs-font-size13 xs-line-height-22 text-dark">
-                      Utilize Devloops's IoT development services in sensor programming, gateway integration, connection, IoT applications, IoT platform development, and analytics to drive hyperconnectivity in your organization. Use cutting-edge IoT technologies to increase efficiency, engage customers, and improve the strategy by gaining business information more quickly.
+                      Utilize Devloops's IoT development services in <span class="text-primary">sensor programming, gateway integration, connection</span>, IoT applications, IoT platform development, and analytics to drive hyperconnectivity in your organization. Use cutting-edge IoT technologies to increase efficiency, engage customers, and improve the strategy by gaining business information more quickly.
                           </div><br>
                       <div class="btn-box">
-                          <a href="#" class="theme-btn btn-style-one">Contact Us</a>
+                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
                       </div>
                   </div>
               </div>
@@ -349,190 +460,47 @@
               </div>
             
           </div>
-             <div class="sec-title mt-3">
-                          <span class="p1">Our Future Goal</span>
-                          <h2 class="bg-navy ">Devloops Internet Of Things Services We Offer</h2>
-                      </div>
-                      <ul class="list-unstyled">
-                       <li class="text text-dark p1"><h3> 
-                         
-Transformative IoT Experiences: Elevating Connectivity and Security</h3>
-                        </li>
-                        <li class="lead text-dark">
-                          We specialize in crafting UI/UX styles that not only attract and interact but also convert users into avid participants in the Internet of Things. From full-stack IoT applications to dynamic SaaS solutions 
-                        </li><br>
-                        <li class="text text-dark"><h3> 
-                          We consider all facts of IOT Security:</h3>
-                        </li>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-shuffle" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5"/>
-                            <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
-                          </svg></span>
-                          IoT Domains
-                        </li><br>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
-                            <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8"/>
-                          </svg></span>
-                          Security Integration
-                        </li><br>
-                        <li class="lead text-dark">
-                          <span class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-up-left" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M7.364 3.5a.5.5 0 0 1 .5-.5H14.5A1.5 1.5 0 0 1 16 4.5v10a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 3 14.5V7.864a.5.5 0 1 1 1 0V14.5a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5v-10a.5.5 0 0 0-.5-.5H7.864a.5.5 0 0 1-.5-.5"/>
-                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 0 1H1.707l8.147 8.146a.5.5 0 0 1-.708.708L1 1.707V5.5a.5.5 0 0 1-1 0z"/>
-                          </svg></span>
-                          Explosive Growth
-                        </li>
-                      </ul>
+            
                       
       </div>
   </section>
 
      <!-- Features -->
-     <section class="bgcolour">
-     <div class="container content-space-1 b">
-      <!-- Heading -->
-      <div class="w-md-55 w-lg-40 text-center mx-auto mb-5 mb-md-9">
-        <span class="p1 text-dark">Other Services We Offer</span>
-        <h2 class="bg-navy">Devloops makes Product easy and performance fast</h2>
-      </div>
-      
-      <!-- End Heading -->
-
-      <div class="row align-items-lg-center">
-        <div class="col-lg-6 order-lg-1 mb-7 mb-lg-0">
-          <!-- Nav Scroller -->
-          <div class="js-nav-scroller hs-nav-scroller-horizontal">
-            <span class="hs-nav-scroller-arrow-prev" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-left"></i>
-              </a>
-            </span>
-
-            <span class="hs-nav-scroller-arrow-next" style="display: none;">
-              <a class="hs-nav-scroller-arrow-link" href="javascript:;">
-                <i class="bi-chevron-right"></i>
-              </a>
-            </span>
-
-            <!-- Nav Pills -->
-            <ul class="nav nav-lg nav-pills nav-pills-shadow flex-lg-column gap-lg-1 p-3" id="featuresTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresOne" id="featuresOne-tab" data-bs-toggle="tab" data-bs-target="#featuresOne" role="tab" aria-controls="featuresOne" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Iot Analytics</h4>
-                      <p class="text-dark text-wrap mb-0 p2">Unleashing actionable insights from vast streams of IoT-generated data, analytics empowers informed decision-making.</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="#featuresTwo" id="featuresTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresTwo" role="tab" aria-controls="featuresTwo" aria-selected="false" style="min-width: 20rem;" tabindex="-1">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-ethernet" viewBox="0 0 16 16">
-                        <path d="M14 13.5v-7a.5.5 0 0 0-.5-.5H12V4.5a.5.5 0 0 0-.5-.5h-1v-.5A.5.5 0 0 0 10 3H6a.5.5 0 0 0-.5.5V4h-1a.5.5 0 0 0-.5.5V6H2.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5M3.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m2 0h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zM9.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
-                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Iot Connectivity</h4>
-                      <p class="text-dark text-wrap mb-0 p2"> IoT connectivity forms the digital nervous system, enabling real-time communication .</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-
-              <li class="nav-item" role="presentation">
-                <a class="nav-link active" href="#featuresThree" id="featuresThree-tab" data-bs-toggle="tab" data-bs-target="#featuresThree" role="tab" aria-controls="featuresThree" aria-selected="true" style="min-width: 20rem;">
-                  <!-- Media -->
-                  <div class="d-flex align-items-center align-items-lg-start">
-                    <span class="svg-icon svg-icon-sm text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-database-fill-gear" viewBox="0 0 16 16">
-                        <path d="M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1"/>
-                        <path d="M2 7v-.839c.457.432 1.004.751 1.49.972C4.722 7.693 6.318 8 8 8s3.278-.307 4.51-.867c.486-.22 1.033-.54 1.49-.972V7c0 .424-.155.802-.411 1.133a4.51 4.51 0 0 0-4.815 1.843A12.31 12.31 0 0 1 8 10c-1.573 0-3.022-.289-4.096-.777C2.875 8.755 2 8.007 2 7m6.257 3.998L8 11c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13h.027a4.552 4.552 0 0 1 .23-2.002m-.002 3L8 14c-1.682 0-3.278-.307-4.51-.867-.486-.22-1.033-.54-1.49-.972V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16c.536 0 1.058-.034 1.555-.097a4.507 4.507 0 0 1-1.3-1.905m3.631-4.538c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
-                      </svg>
-
-                    </span>
-
-                    <div class="flex-grow-1 ms-3">
-                      <h4 class="mb-1">Iot Security</h4>
-                      <p class="text-dark text-wrap mb-0 p2">IoT security involves robust measures such as encryption, authentication, and secure communication protocols .</p>
-                    </div>
-                  </div>
-                  <!-- End Media -->
-                </a>
-              </li>
-            </ul>
-            <!-- End Nav Pills -->
-          </div>
-          <!-- End Nav Scroller -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-lg-4 order-lg-2">
-          <!-- Tab Content -->
-          <div class="tab-content" id="featuresTabContent">
-            <div class="tab-pane fade" id="featuresOne" role="tabpanel" aria-labelledby="featuresOne-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/iotanlyticillus.png" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade" id="featuresTwo" role="tabpanel" aria-labelledby="featuresTwo-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/iotconnectillus.jpg" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-
-            <div class="tab-pane fade active show" id="featuresThree" role="tabpanel" aria-labelledby="featuresThree-tab">
-              <!-- Browser Device -->
-              <figure class="device-browser">
-                <div class="device-browser-frame">
-                  <img class="device-browser-img  img-fluid" src="./assets/img/iotsecurityillus.png" alt="Image Description">
-                </div>
-              </figure>
-              <!-- End Browser Device -->
-            </div>
-          </div>
-          <!-- End Tab Content -->
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
+     <section class="bgcolour ">
+      <div class="containers mt-n12">
+       <h1 class="mt-11">WHAT WE DO?</h1>
+       <div class="services-section">
+         <div class="card">
+           <div class="icon">
+             <img class="avatar" src="./assets/img/analyticsioticon.png" alt="Logo">
+           </div>
+           <h2 class="text-primary">Iot analytics</h2>
+           <p class="p2 text-dark">It involves collecting, processing, and analyzing data from sensors, devices, and other IoT components to derive valuable information. Advanced analytics techniques, including <span class="text-primary"> machine learning and artificial intelligence </span>, are often employed to discover patterns, trends, and anomalies within the data.</p>
+         </div>
+         <div class="card">
+           <div class="icon">
+             <img class="avatar" src="./assets/img/connectivityioticon.png" alt="Logo">
+           </div>
+           <h2 class="text-primary">Iot Connectivity </h2>
+           <p  class="p2 text-dark"> As IoT  involve a diverse range of devices with varying communication protocols, standards, and requirements, effective connectivity solutions are essential. Technologies such as <span class="text-primary">MQTT, CoAP, and HTTP </span>are commonly used to establish communication between IoT devices and platforms.  </p>
+           </div>
+           <div class="card">
+             <div class="icon">
+               <img class="avatar" src="./assets/img/securityioticon.png" alt="Logo">
+             </div>
+             <h2 class="text-primary">Iot Security</h2>
+             <p class="p2 text-dark"> As IoT devices collect and transmit sensitive data, ensuring the confidentiality, integrity, and availability of this information is paramount. Security measures include <span class="text-primary">robust authentication mechanisms</span> , encryption of data in transit and at rest, and secure device management practices.</p>
+         </div>
+       </div>
+     </div>
+   </section>
     <!-- End Features -->
     <!-- Subscribe -->
     <div class="container content-space-2 content-space-lg-3">
       <!-- Heading -->
       <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
         <p class="text-secondary  p1">Explore Startups</p>
-        <h2 class="bg-navy">Find a job you love. Set your career interests.</h2>
+        <h3 class="bg-navy">Find a job you love. Set your career interests.</h3>
       </div>
       <!-- End Heading -->
     
@@ -669,7 +637,7 @@ Transformative IoT Experiences: Elevating Connectivity and Security</h3>
 
           <!-- Links -->
           <ul class="list-unstyled list-py-1 mb-0 text-white-70">
-            <li><a class="link-sm text-white" href="./index1.html">Home</a></li>
+            <li><a class="link-sm text-white" href="./index.html">Home</a></li>
             <li><a class="link-sm text-white" href="./about.html">About Us</a></li>
             <!-- <li><a class="link-sm text-white" href="#service">Our Service</a></li>
             <li><a class="link-sm text-white" href="#blog">Our Blog</a></li> -->
@@ -917,6 +885,23 @@ Transformative IoT Experiences: Elevating Connectivity and Security</h3>
       new HsNavScroller('.js-nav-scroller')
     })()
   </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  // Open the modal when a column is clicked
+  $(".open-modal").click(function () {
+      var targetModal = $(this).data("target");
+      var modalTop = $(window).scrollTop() + ($(window).height() - $(targetModal).height()) / 2;
+
+      // Set the top position of the modal
+      $(targetModal).css("top", modalTop + "px");
+
+      // Show the modal
+      $(targetModal).modal("show");
+  });
+</script>
 
 
 
