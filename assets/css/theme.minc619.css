@@ -9993,6 +9993,12 @@ margin-left: 90px !important;
   .vh-md-70 {
     height: 70vh !important;
   }
+  .vh-md-85 {
+    height: 85vh !important;
+  }
+  .vh-md-90 {
+    height: 90vh !important;
+  }
   .min-vh-md-100 {
     min-height: 100vh !important;
   }
@@ -22257,8 +22263,8 @@ label.form-control {
   color: #677788;
 }
 .navbar-light .navbar-toggler {
-  color: #677788;
-  border-color: rgba(33, 50, 91, 0.1);
+  color:#000;
+  border-color:#000;
 }
 .navbar-light .navbar-nav .nav-link {
   color:black !important;

@@ -43,6 +43,16 @@
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
   <style>
+    
+  @media only screen and (max-width: 767px) {
+    h1 {
+      margin-top: 10px; /* Adjust the margin as needed for mobile devices */
+    }
+
+    h2 {
+      margin-top: 10px; /* Adjust the margin as needed for mobile devices */
+    }
+  }
     /* Common styles for all screens */
 
     .modal {
@@ -81,20 +91,26 @@
     }
   
     .card .icon {
-      width: 150px;
-      height: 150px;
-      background: #fff;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      font-size: 80px;
-      border-radius: 50%;
-      color: #517fb0;
-      border: 20px solid #56768e;
-      margin: -75px auto 0;
-      transition: transform 1s;
-    }
-  
+  width: 100px; /* Reduced size to make it smaller */
+  height: 100px; /* Maintain aspect ratio and make it a circle */
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px; /* Adjusted font size for smaller circle */
+  border-radius: 50%; /* Made it a perfect circle with a reduced border-radius */
+  color: #517fb0;
+  border: 5px solid #56768e; /* Reduced the border width to 5px */
+  margin: -40px auto 0; /* Adjusted margin for centering */
+  transition: transform 1s;
+}
+
+.icon img {
+  width: 60px; /* Make the image fill the container */
+  height: 60px; /* Maintain aspect ratio */
+}
+
+    
     /* .card h2 {
       height: 35px;
       width: 70%;
@@ -283,13 +299,13 @@ p {
 <div class="border-bottom">
   <!-- Main Slider -->
   <div class="js-swiper-main swiper">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper"> 
      
       <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/producthero.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50">
             <h2 class="text-dark">Product For customers</h2>
-            <h1 class="display-7 text-white mb-0 ">Unlock Your Business with Tailor-Made Product .</h1>
+            <h1 class="display-7 text-white mb-0 h1 ">Unlock Your Business with Tailor-Made Product .</h1>
           </div>
         </div>
       </div>
@@ -550,19 +566,20 @@ p {
                     <div class=" xs-font-size13 xs-line-height-22 text-dark">
                       We recognize the critical importance of safeguarding user data and maintaining the trust placed in our products. Our development practices prioritize <span class="text-primary"> robust security measures</span>, incorporating the latest encryption techniques, stringent authentication protocols, and thorough security audits. 
                     </div><br>
-                      <div class="btn-box">
-                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
-                      </div>
+                       
+                    <a href="./contact.html" id="#job">
+                      <button class=" btn   btn-outline-primary  btn-transition">Contact Us</button>
+                    </a>
                   </div>
               </div>
 
               <!-- Image Column -->
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
                   <div class="inner-column ">
-                    <div class="author-desc">
+                    <!-- <div class="author-desc">
                       <h2>Product Development</h2>
-                      <!-- <span>Web Developer</span> -->
-                    </div>
+                     
+                    </div> -->
                       <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/homelooping.gif" alt=""></a></figure>
                    
                   </div>

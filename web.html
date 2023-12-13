@@ -81,32 +81,27 @@
     }
   
     .card .icon {
-      width: 150px;
-      height: 150px;
-      background: #fff;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      font-size: 80px;
-      border-radius: 50%;
-      color: #517fb0;
-      border: 20px solid #56768e;
-      margin: -75px auto 0;
-      transition: transform 1s;
-    }
+  width: 100px; /* Reduced size to make it smaller */
+  height: 100px; /* Maintain aspect ratio and make it a circle */
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px; /* Adjusted font size for smaller circle */
+  border-radius: 50%; /* Made it a perfect circle with a reduced border-radius */
+  color: #517fb0;
+  border: 5px solid #56768e; /* Reduced the border width to 5px */
+  margin: -40px auto 0; /* Adjusted margin for centering */
+  transition: transform 1s;
+}
+
+.icon img {
+  width: 60px; /* Make the image fill the container */
+  height: 60px; /* Maintain aspect ratio */
+}
+
   
-    /* .card h2 {
-      height: 35px;
-      width: 70%;
-      text-align: left;
-      font-size: 25px;
-      text-transform: uppercase;
-      margin: 25px auto;
-      position: relative;
-      background: #fff;
-      line-height: 35px;
-    }
-   */
+    
     .card h2:after,
     .card h2:before {
       content: '';
@@ -287,7 +282,7 @@ p {
      
       <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/webheronew.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
-          <div class="w-75 w-lg-50">
+          <div class="w-75 w-lg-50 mt-3">
             <h2 class="text-dark">Web Development</h2>
             <h1 class="display-7 text-white mb-0 ">Revolutionize Your Online Presence with Cutting-Edge Solutions</h1>
           </div>
@@ -436,25 +431,25 @@ p {
                   <div class="inner-column">
                       <div class="sec-title">
                           <!-- <span class="p1">About us</span> -->
-                          <h2 class=" w-lg-30" style="color: rgba(0, 31, 63, 0.7) !important;">Web Development</h2>
+                          <h2 class=" w-lg-30 mt-7" style="color: rgba(0, 31, 63, 0.7) !important;">Web Development</h2>
                       </div>
         
                     <div class="xs-font-size13 xs-line-height-22 text-dark">
                       Web development can also play an important role in providing an interface for customers and control points for businesses. Our dedicated web application developers will develop and deliver web development that help improve <span class="text-primary">operational efficiency</span>, accelerate decision making and gain competitive advantage.
                     </div><br>
-                      <div class="btn-box">
-                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
-                      </div>
+                    <a href="./contact.html" id="#job">
+                      <button class=" btn   btn-outline-primary  btn-transition">Contact Us</button>
+                    </a>
                   </div>
               </div>
 
               <!-- Image Column -->
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
                   <div class="inner-column ">
-                    <div class="author-desc">
+                    <!-- <div class="author-desc">
                       <h2>Web Development</h2>
-                      <!-- <span>Web Developer</span> -->
-                    </div>
+                   
+                    </div> -->
                       <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/webillustration.jpg" alt=""></a></figure>
                    
                   </div>
