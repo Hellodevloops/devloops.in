@@ -15393,7 +15393,7 @@ input[type="number"] {
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 .avatar-img {
-  width: 5.6666666667rem;
+  width: 12.6666666667rem;
   height: inherit;
 }
 .avatar-xl.avatar-4x3 {
@@ -15479,9 +15479,7 @@ input[type="number"] {
   width: 100%;
   max-width: 35rem;
 }
-.p1{
-  font-size: 18px;
-}
+
 .p2{
   font-size:16px ;
 }
