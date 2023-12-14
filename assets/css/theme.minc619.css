@@ -15388,8 +15388,8 @@ input[type="number"] {
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 {
-  width: 12.6666666667rem;
-  height: 120px;
+  width: 8.6666666667rem;
+  height: 90px;
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 .avatar-img {
@@ -15480,10 +15480,10 @@ input[type="number"] {
   max-width: 35rem;
 }
 .p1{
-  font-size: 22px;
+  font-size: 18px;
 }
 .p2{
-  font-size:18px ;
+  font-size:16px ;
 }
 .p3{
   font-size:16.5px ;
@@ -22264,7 +22264,7 @@ label.form-control {
 }
 .navbar-light .navbar-toggler {
   color: #000;
-  border-color:#000;
+  border-color:white;
 }
 .navbar-light .navbar-nav .nav-link {
   color:black !important;

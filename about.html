@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/demo-real-estate/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:47 GMT -->
+
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -24,18 +24,41 @@
   <link rel="stylesheet" href="./assets/css/theme.minc619.css?v=1.0">
   <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"> -->
   <style>
-    /* our mission vision animation */
-
-    .gradient-animation {
-   
-   background-size: 100% 200%;
-   transition: background-position 0.5s;
+       .gradient-animation {
+    background-size: 100% 200%;
+    transition: background-position 0.5s;
+    overflow: hidden; /* Ensure the overflow is hidden to prevent the gradient overflow */
 }
 
 .gradient-animation:hover {
-   background-position: 0 100%;
-   background: linear-gradient(to top, #82a5c9, #f46a9f);
+    background-position: 0 100%;
+    background: linear-gradient(to top, #82a5c9, #f46a9f);
 }
+
+.gradient-animation:hover .text-to-change,
+.gradient-animation:hover .icon-to-change,
+.gradient-animation:hover p
+ {
+    color: white;
+   
+}
+
+.lightbulb-icon {
+      fill: #ad3c62; /* Set the initial color, in this case, dark pink */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .lightbulb-icon:hover {
+      fill: #d0c9c9; /* Change the color on hover to white */
+    }
+    .stack-icon {
+      fill: #ad3c62; /* Set the initial color, in this case, dark green */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .stack-icon:hover {
+      fill: #ffffff; /* Change the color on hover to white */
+    }
 
   </style>
 </head>
@@ -54,7 +77,7 @@
     <div class="container  content-space-t-1">
       <nav class="js-mega-menu navbar-nav-wrap ">
         <!-- Default Logo -->
-        <a class="navbar-brand" aria-label="Front">
+        <a class="navbar-brand" aria-label="Front"  href="./index.html">
           <img class="navbar-brand-logo" src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
         </a>
         
@@ -169,9 +192,9 @@
           <div class="col-12 col-lg-9 mb-7 mb-md-0">
             <!-- Heading -->
             <div class="w-md-75 mb-7">
-                <p class="text-secondary p1 mt-10">About Us</p>
+                <p class="text-secondary lead mt-10">About Us</p>
               <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Unleashing Creativity and Innovation</h1>
-              <p class="text-dark lead">As a creative design agency, our passion ignites at the prospect of bringing your visions to life. We thrive on  <span class="text-primary">crafting captivating visuals, innovative solutions, and unforgettable brand experiences</span>. With a dedicated team driven by artistic enthusiasm, we don't just create designs; we breathe life into them, infusing each project with creativity and a touch of magic. At<span class="text-primary">DevLoops International </span> Services, your aspirations become our inspiration, and we're thrilled to embark on this artistic journey with you</p>
+              <p class="text-dark p1">As a creative design agency, our passion ignites at the prospect of bringing your visions to life. We thrive on  <span class="text-primary">crafting captivating visuals, innovative solutions, and unforgettable brand experiences</span>. With a dedicated team driven by artistic enthusiasm, we don't just create designs; we breathe life into them, infusing each project with creativity and a touch of magic. At<span class="text-primary">DevLoops International </span> Services, your aspirations become our inspiration, and we're thrilled to embark on this artistic journey with you.</p>
             </div>
             <!-- End Heading -->
 
@@ -327,7 +350,7 @@
                 </div>
   
                 <h2 class="card-title">Who we are</h2>
-                <p class="p1 text-body text-dark">We offer<span class="text-primary">robust & scalable</span>  web development services across all verticals an Agile way .</p>
+                <p class="p1 text-body text-dark">We offer<span class="text-primary"> robust & scalable</span>  web development services across all verticals an Agile way .</p>
               </div>
   
               <!-- <div class="card-footer pt-0">
@@ -357,7 +380,7 @@
       <div class="container content-space-1  ">
         <!-- Title -->
         <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
-          <p class="text-dark p1">What We offer</p>
+          <p class="text-dark lead">What We offer</p>
           <h2 style="color: rgba(0, 31, 63, 0.7) !important;">Explore the distinctive features that drive the functionality</h2>
          
         </div>
@@ -378,7 +401,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Product development</h3>
-                <p class=" mb-0 lead text-dark">Crafting innovative solutions that seamlessly blend user experience with cutting-edge technology, bringing your ideas to life."</p>
+                <p class=" mb-0 p1 text-dark">Crafting innovative solutions that seamlessly blend user experience with cutting-edge technology, bringing your ideas to life.</p>
               </div>
             </div>
             <!-- End Icon Block -->
@@ -395,7 +418,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Web Development</h3>
-                <p class="text-dark lead mb-0 ">Building dynamic and responsive web experiences that not only meet but exceed modern standards</p>
+                <p class="text-dark p1 mb-0 ">Building dynamic and responsive web experiences that not only meet but exceed modern standards.</p>
               </div>
             </div>
         
@@ -413,7 +436,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Internet Of Things</h3>
-                <p class="text-dark lead mb-0 ">CEmpowering the future with interconnected devices and smart solutions, driving efficiency &amp; automation.</p>
+                <p class="text-dark p1 mb-0 ">Empowering the future with interconnected devices and smart solutions, driving efficiency &amp; automation.</p>
               </div>
             </div>
             <!-- End Icon Block -->
@@ -435,7 +458,7 @@
           <div class="text-center">
             <small class="text-cap text-primary">&mdash; Delivered Goods </small>
             <h4 class="display-4">420+</h4>
-            <p class="text-dark p1">Efficient and timely delivery of software solutions to meet client needs</p>
+            <p class="text-dark p1">Efficient and timely delivery of software solutions to meet client needs.</p>
           </div>
         </div>
         <!-- End Col -->
@@ -444,7 +467,7 @@
           <div class="text-center">
             <small class="text-cap text-primary">&mdash; IT Consulting</small>
             <h4 class="display-4">245+</h4>
-            <p class="text-dark p1">Delivering strategic IT consulting services to optimize business processes</p>
+            <p class="text-dark p1">Delivering strategic IT consulting services to optimize business processes. </p>
           </div>
         </div>
         <!-- End Col -->
@@ -463,111 +486,91 @@
     <!-- End Features Stats -->
 
     <!-- features new -->
-    <section class=" mt-md-n5" style="background-color:  rgba(114, 143, 206, 0.3) !important;"> 
-        <div class="position-relative " style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
-        <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
-         
-          <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <!-- Card -->
-              <div class="card-body card card-transition text-center gradient-animation">
-                  <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                          <span class="svg-icon svg-icon-lg text-primary feature">
-                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#035A4B"></path>
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.175 14.75C10.9354 14.75 10.6958 14.6542 10.5042 14.4625L8.58749 12.5458C8.20415 12.1625 8.20415 11.5875 8.58749 11.2042C8.97082 10.8208 9.59374 10.8208 9.92915 11.2042L11.175 12.45L14.3375 9.2875C14.7208 8.90417 15.2958 8.90417 15.6792 9.2875C16.0625 9.67083 16.0625 10.2458 15.6792 10.6292L11.8458 14.4625C11.6542 14.6542 11.4146 14.75 11.175 14.75Z" fill="#035A4B"></path>
-                              </svg>
-  
-                          </span>
+    <section class="mt-md-n5" style="background-color: rgba(114, 143, 206, 0.3) !important;">
+      <div class="position-relative" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
+          <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
+              <div class="row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="stack-icon" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
+                                        <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
+                                      </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                  <h6 class="display-6 text-navy-blue text-to-change" onmouseover="changeTextColor(this)"
+                                      onmouseout="resetTextColor(this)">Our<span
+                                          class="display-5 h1 mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">Mission</span></h6>
+                                  <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                              </div>
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark text-to-change" > At DevLoops International, our mission is to be at the forefront of
+                                  transformative software development, pioneering innovative solutions that empower
+                                  businesses to thrive in the digital era. We are committed to delivering excellence in
+                                  every line of code we write, ensuring that our clients receive cutting-edge products
+                                  tailored to their unique needs.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
                       </div>
-                      <div class="flex-grow-1 ms-3">
-                          <h6 class="display-6 text-navy-blue">Our<span class="display-5 lead mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">
-                                  Mission</span></h6>
-                          <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                          <!-- <span class="blockquote-footer-source">Happy customer</span> -->
-                      </div>
+                      <!-- End Card -->
                   </div>
   
-  
-                  <!-- Blockquote -->
-                  <figure>
-                      <p class=" text-dark"> At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
-  
-                  </figure>
-                  <!-- End Blockquote -->
-                  <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
-              </div>
-  
-              <!-- End Card -->
-          </div>
-  <!--   
-            <div class="col-md-4 mb-3 mb-md-0">
-             
-              <a class="card card-transition text-center h-100" href="#">
-                <div class="card-body">
-                  <div class="svg-icon text-primary mb-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
-                      <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"></path>
-                      <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"></path>
-                    </svg>
-    
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="lightbulb-icon" viewBox="0 0 16 16">
+                                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                                      </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                  <h6 class="display-6 text-navy-blue text-to-change" onmouseover="changeTextColor(this)"
+                                      onmouseout="resetTextColor(this)">Our<span
+                                          class="display-5 h1 mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">Vision</span></h6>
+                                  <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                              </div>
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark">Our vision is to be a global p1er in software development, recognized for
+                                  our unwavering commitment to quality, innovation, and client satisfaction. We aim to
+                                  push the boundaries of what is possible in the digital landscape, creating solutions
+                                  that not only meet current needs but also anticipate future challenges.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
+                      </div>
+                      <!-- End Card -->
                   </div>
-    
-                  <h4 class="card-title">Generate an API key</h4>
-                  <p class=" lead text-dark">Generate an API key for your app To achieve best results in digital world  with overall Create an API Key.</p>
-                </div>
-    
-              </a>
-          
-            </div>
-          
-     -->
-     <div class="col-sm-6 mb-3 mb-sm-0">
-      <!-- Card -->
-      <div class="card-body card card-transition text-center gradient-animation">
-          <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                  <span class="svg-icon svg-icon-lg text-primary feature">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
-                  </svg>
-  
-                  </span>
-              </div>
-              <div class="flex-grow-1 ms-3">
-                  <h6 class="display-6 text-navy-blue">Our<span class="display-5  lead mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">
-                          Vision</span></h6>
-                  <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
               </div>
           </div>
-  
-  
-          <!-- Blockquote -->
-          <figure>
-              <p class=" text-dark">Our vision is to be a global leader in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
-  
-          </figure>
-          <!-- End Blockquote -->
-          <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
       </div>
+  </section>
   
-      <!-- End Card -->
-  </div>
-          </div>
-       
-        </div>
-      </div>
-    </section>
-   
     <!-- End features new -->
 <!-- team start -->
 <div class="container content-space-2 content-space-lg-3">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-    <p class="text-secondary p1"> Our Team</p>
+    <p class="text-secondary lead"> Our Team</p>
     <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Creative minds</span></h2>
    
   </div>
@@ -584,7 +587,7 @@
     
             <span class="card-subtitle text-navy-blue">Backend Developer</span>
             <h4 class="card-title text-primary">Riya Vaidya</h4>
-            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work front-end developers do. More..</p>
+            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work  More..</p>
         </div>
     
         <div class="card-footer pt-0">
@@ -663,7 +666,7 @@
     
             <span class="card-subtitle p2">FrontEnd Developer</span>
             <h4 class="card-title  text-primary">Richa Kharwa</h4>
-            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
+            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  More..</p>
         </div>
     
         <div class="card-footer pt-0">
@@ -742,9 +745,9 @@
                 <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
             </div>
     
-            <span class="card-subtitle lead">Lead Designer</span>
+            <span class="card-subtitle p1">Lead  Designer</span>
             <h4 class="card-title  text-primary">Emily Johnson</h4>
-            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics. More..</p>
+            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics More..</p>
         </div>
     
         <div class="card-footer pt-0">
@@ -798,7 +801,7 @@
               
                 <!-- Content specific to Emily Johnson -->
                 <p class="p2 text-dark">
-                  Designer leads the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the Lead Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
+                  Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
@@ -821,9 +824,9 @@
                   <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
               </div>
   
-              <span class="card-subtitle lead">Lead Developer</span>
+              <span class="card-subtitle p1">Lead Developer</span>
               <h4 class="card-title  text-primary">Michael Smith</h4>
-              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies. More..</p>
+              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies More..</p>
           </div>
   
           <div class="card-footer pt-0">
@@ -879,7 +882,7 @@
                 
                   <!-- Content specific to Michael Smith -->
                   <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. Leading by example, the Lead Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
                   </p>
                   <!-- End Content -->
                 </div>
@@ -899,13 +902,12 @@
 </div>
     <!-- team end -->
     <!-- Testimonials -->
-    
-    <div class="bg-pink3n">
-      <div class="container content-space-2 content-space-t-lg-3 mt-n6">
+    <div style="background-color:  rgba(114, 143, 206, 0.3) !important;">
+      <div class="container content-space-2 content-space-t-lg-3 mt-11">
         <!-- Heading -->
         <div class="w-lg-40 mb-5 mb-md-9 text-center">
-          <p class="text-dark p1">Testimonials</p>
-          <h2 style="color: rgba(0, 31, 63, 0.7) !important;"Loved by business and individuals across the globe.</h2>
+          <p class="text-dark lead">Testimonials</p>
+          <h2 style="color: rgba(0, 31, 63, 0.7) !important;">Loved by business and individuals across the globe.</h2>
       </div>
       
         <!-- End Heading -->
@@ -913,7 +915,7 @@
         <div class="row">
           <div class="col-sm-6 col-lg-4 feature">
             <!-- Card -->
-            <div class="card shadow-none">
+            <div class="card shadow-none"> 
               <div class="card-body ">
                 <!-- Rating -->
                 <!-- <div class="d-flex gap-1 mb-2">
@@ -1021,20 +1023,21 @@
     <!-- End Testimonials -->
 
     <!-- contact -->
-    <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 mb-9 mt-md-n10">
+    <div id="contact">
+      <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 mb-9 mt-md-n10">
         <div class="row">
           <div class="col-lg-6 mb-9 mb-lg-0">
             <!-- Heading -->
             <div class="mb-5">
-              <p class="text-secondary p1">Get in touch</p>
-              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">We'd love to talk about how we can help you.</h1>
+              <p class="text-secondary lead">Get in touch</p>
+              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">We'd love to talk about how we can help you</h1>
             </div>
             <!-- End Heading -->
   
             <!-- Leaflet -->
             <div class="overflow-hidden">
               <div class="col-sm-9 mb-3 mb-sm-4">
-                <img class="img-fluid img-float" src="./assets/img/Contactry.png" alt="Image Description">
+                <img class="img-fluid img-float" src="./assets/img/contactloop.gif" alt="Image Description">
               </div>
             </div>
             <!-- End Leaflet -->
@@ -1042,7 +1045,7 @@
             
             <!-- End Row -->
           </div>
-          <!-- End Col -->
+          <!-- End Col -->        
   
           <div class="col-lg-6">
             <div class="ps-lg-5">
@@ -1123,11 +1126,11 @@
               <!-- End Card -->
             </div>
           </div>
+          </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
       </div>
-
     <!-- contact end -->
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
@@ -1138,7 +1141,7 @@
       <div class="row mb-9 " >
         <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
           <!-- Logo -->
-          <a href="#home" aria-label="Front ">
+          <a  aria-label="Front " href="./index.html" >
             <img class="brand mt-8"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 240px; height: 50px;">
           </a>
           <!-- End Logo -->
