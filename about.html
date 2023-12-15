@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="./assets/css/theme.minc619.css?v=1.0">
   <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"> -->
   <style>
-       .gradient-animation {
+   
+   .gradient-animation {
     background-size: 100% 200%;
     transition: background-position 0.5s;
     overflow: hidden; /* Ensure the overflow is hidden to prevent the gradient overflow */
@@ -39,26 +40,27 @@
 .gradient-animation:hover .icon-to-change,
 .gradient-animation:hover p
  {
-    color: white;
+    color: white !important;
    
 }
 
-.lightbulb-icon {
+.checkmark {
       fill: #ad3c62; /* Set the initial color, in this case, dark pink */
       transition: fill 0.3s; /* Add a smooth transition effect */
     }
 
-    .lightbulb-icon:hover {
+    .checkmark:hover {
       fill: #d0c9c9; /* Change the color on hover to white */
     }
-    .stack-icon {
+    .warning{
       fill: #ad3c62; /* Set the initial color, in this case, dark green */
       transition: fill 0.3s; /* Add a smooth transition effect */
     }
 
-    .stack-icon:hover {
+    .warning:hover {
       fill: #ffffff; /* Change the color on hover to white */
     }
+
 
   </style>
 </head>
@@ -486,7 +488,7 @@
     <!-- End Features Stats -->
 
     <!-- features new -->
-    <section class="mt-md-n5" style="background-color: rgba(114, 143, 206, 0.3) !important;">
+    <section class="mt-n10" >
       <div class="position-relative" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
           <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
               <div class="row">
@@ -499,23 +501,27 @@
                                       onmouseover="changeIconColor(this)"
                                       onmouseout="resetIconColor(this)">
                                       
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="stack-icon" fill="currentColor" viewBox="0 0 16 16">
-                                        <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
-                                        <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
+                                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M17 6H3C2.4 6 2 6.4 2 7V21C2 21.6 2.4 22 3 22H17C17.6 22 18 21.6 18 21V7C18 6.4 17.6 6 17 6Z" fill="#035A4B"></path>
+                                        <path d="M17.8 4.79999L9.3 13.3C8.9 13.7 8.9 14.3 9.3 14.7C9.5 14.9 9.80001 15 10 15C10.2 15 10.5 14.9 10.7 14.7L19.2 6.20001L17.8 4.79999Z" fill="#035A4B"></path>
+                                        <path opacity="0.3" d="M22 9.09998V3C22 2.4 21.6 2 21 2H14.9L22 9.09998Z" fill="#035A4B"></path>
                                       </svg>
                                   </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                  <h6 class="display-6 text-navy-blue text-to-change" onmouseover="changeTextColor(this)"
-                                      onmouseout="resetTextColor(this)">Our<span
-                                          class="display-5 h1 mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">Mission</span></h6>
-                                  <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
-                                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
-                              </div>
+                                <h6 class="display-6 " >
+                                    Our
+                                    <span class="display-5 h1 mb-3 text-to-change "  onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" >Mission</span>
+                                </h6>
+                                <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                            </div>
+                            
                           </div>
                           <!-- Blockquote -->
                           <figure>
-                              <p class="text-dark text-to-change" > At DevLoops International, our mission is to be at the forefront of
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > 
+                                At DevLoops International, our mission is to be at the forefront of
                                   transformative software development, pioneering innovative solutions that empower
                                   businesses to thrive in the digital era. We are committed to delivering excellence in
                                   every line of code we write, ensuring that our clients receive cutting-edge products
@@ -535,22 +541,24 @@
                                   <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
                                       onmouseover="changeIconColor(this)"
                                       onmouseout="resetIconColor(this)">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="lightbulb-icon" viewBox="0 0 16 16">
-                                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
-                                      </svg>
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
+                                    </svg>
                                   </span>
                               </div>
                               <div class="flex-grow-1 ms-3">
-                                  <h6 class="display-6 text-navy-blue text-to-change" onmouseover="changeTextColor(this)"
-                                      onmouseout="resetTextColor(this)">Our<span
-                                          class="display-5 h1 mb-3" style="color: rgba(0, 31, 63, 0.7) !important;">Vision</span></h6>
+                                  <h6 class="display-6 text-navy-blue ">Our<span
+                                          class="display-5 h1 mb-3 text-to-change" onmouseover="changeTextColor(this)"
+                                          onmouseout="resetTextColor(this)">Vision</span></h6>
                                   <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
                                   <!-- <span class="blockquote-footer-source">Happy customer</span> -->
                               </div>
                           </div>
                           <!-- Blockquote -->
                           <figure>
-                              <p class="text-dark">Our vision is to be a global er in software development, recognized for
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)"
+                              onmouseout="resetTextColor(this)">Our vision is to be a global p1er in software development, recognized for
                                   our unwavering commitment to quality, innovation, and client satisfaction. We aim to
                                   push the boundaries of what is possible in the digital landscape, creating solutions
                                   that not only meet current needs but also anticipate future challenges.</p>
@@ -566,8 +574,8 @@
   </section>
   
     <!-- End features new -->
-<!-- team start -->
-<div class="container content-space-2 content-space-lg-3">
+ <!-- Team -->
+ <div class="container  ">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
     <p class="text-secondary lead"> Our Team</p>
@@ -587,7 +595,7 @@
     
             <span class="card-subtitle text-navy-blue">Backend Developer</span>
             <h4 class="card-title text-primary">Riya Vaidya</h4>
-            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work  More..</p>
+            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -666,7 +674,7 @@
     
             <span class="card-subtitle p2">FrontEnd Developer</span>
             <h4 class="card-title  text-primary">Richa Kharwa</h4>
-            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  More..</p>
+            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -745,9 +753,9 @@
                 <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
             </div>
     
-            <span class="card-subtitle ">Lead  Designer</span>
+            <span class="card-subtitle p1">Lead  Designer</span>
             <h4 class="card-title  text-primary">Emily Johnson</h4>
-            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics More..</p>
+            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -801,7 +809,7 @@
               
                 <!-- Content specific to Emily Johnson -->
                 <p class="p2 text-dark">
-                  Designer s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the  Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
+                  Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
@@ -824,9 +832,9 @@
                   <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
               </div>
   
-              <span class="card-subtitle ">Lead Developer</span>
+              <span class="card-subtitle p1">Lead Developer</span>
               <h4 class="card-title  text-primary">Michael Smith</h4>
-              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies More..</p>
+              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of  technologies <span class="text-muted">Read  More..</span></p>
           </div>
   
           <div class="card-footer pt-0">
@@ -882,7 +890,7 @@
                 
                   <!-- Content specific to Michael Smith -->
                   <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. ing by example, the  Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
                   </p>
                   <!-- End Content -->
                 </div>
@@ -900,9 +908,12 @@
 
   
 </div>
-    <!-- team end -->
+<!-- 
+   team end -->
+
+
     <!-- Testimonials -->
-    <div style="background-color:  rgba(114, 143, 206, 0.3) !important;">
+    <div   class="mt-n9"  style="background-color:  rgba(114, 143, 206, 0.3) !important;">
       <div class="container content-space-2 content-space-t-lg-3 mt-11">
         <!-- Heading -->
         <div class="w-lg-40 mb-5 mb-md-9 text-center">
@@ -1030,7 +1041,7 @@
             <!-- Heading -->
             <div class="mb-5">
               <p class="text-secondary lead">Get in touch</p>
-              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">We'd love to talk about how we can help you</h1>
+              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Get a project in mind let's contact us!!</h1>
             </div>
             <!-- End Heading -->
   
@@ -1100,7 +1111,7 @@
                       <!-- Phone Form -->
                       <div class="mb-3">
                         <label for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx">
+                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx" required>
                       </div>
                       <!-- End Phone Form -->
                     </div>
@@ -1111,12 +1122,12 @@
                   <!-- Details Form -->
                   <div class="mb-3 d-grid">
                     <label for="message">Details</label>
-                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4"></textarea>
+                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4" required></textarea>
                   </div>
                   <!-- End Details Form -->
                   
                   <div class="d-grid">
-                    <button type="submit" class="btn btn-outline-primary btn-transition">Contact Us</button>
+                    <button type="submit" class="btn btn-outline-primary btn-transition">Send</button>
                   </div>
                   
                 </form>
@@ -1410,7 +1421,8 @@
     }, 2000);
   }
 </script>
+
 </body>
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/demo-real-estate/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:52 GMT -->
+
 </html>

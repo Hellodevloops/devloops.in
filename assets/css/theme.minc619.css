@@ -15477,7 +15477,7 @@ input[type="number"] {
 }
 .brand {
   width: 100%;
-  max-width: 35rem;
+  max-width: 36rem;
 }
 
 .p2{
@@ -19726,7 +19726,7 @@ label.form-control {
 }
 .navbar-brand-logo {
   width: 100%;
-  min-width: 17rem;
+  min-width: 9rem;
   max-width: 22rem;
 }
 .navbar-brand-collapsed,
