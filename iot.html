@@ -273,16 +273,19 @@ p {
   <main id="content" role="main">
     <!-- Hero -->
     <!-- Swiper Slider -->
-<div class="border-bottom">
-  <!-- Main Slider -->
-  <div class="js-swiper-main swiper">
+   <div class="border-bottom">
+      <!-- Main Slider -->
+      <div class="js-swiper-main swiper">
     <div class="swiper-wrapper">
      
       <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/iotheronew.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70  content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50 mt-3">
-            <h3 class="text-dark">IOT Solutions</h3>
-            <h1 class="display-7 text-white mb-0 ">Devloops International pioneers the future of connectivity</h1>
+            <h2 class="text-dark">IOT Solutions</h3>
+            <h1 class="display-7 text-white mb-0 d-md-block d-none ">Devloops International pioneers the future of connectivity</h1>
+
+            <!-- for smaller screen -->
+            <h2 class="display-7 text-white mb-0 d-block d-md-none ">Devloops International pioneers the future of connectivity</h1>
           </div>
         </div>
       </div>
@@ -428,7 +431,7 @@ p {
                   <div class="inner-column">
                       <div class="sec-title">
                           <!-- <span class="">About us</span> -->
-                          <h2 class=" w-lg-40" style="color: rgba(0, 31, 63, 0.7) !important;">Internet Of Things</h2>
+                          <h2 class=" w-lg-40 py-3" style="color: rgba(0, 31, 63, 0.7) !important;">Internet Of Things</h2>
                       </div>
          
                     <div class=" xs-line-height-22 text-dark">
@@ -442,15 +445,25 @@ p {
 
               <!-- Image Column -->
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
-                  <div class="inner-column ">
-                    <!-- <div class="author-desc">
-                      <h2>Internet Of Things</h2>
-                      
-                    </div> -->
-                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/iotillustration.jpg" alt=""></a></figure>
+                <div class="inner-column ">
+                  <!-- <div class="author-desc">
+                    <h2>Product Development</h2> 
                    
-                  </div>
-              </div>
+                  </div> -->
+                    <figure class="image-1 d-md-block d-none">
+                      <a href="#" class="lightbox-image" data-fancybox="images">
+                      <img src="./assets/img/iotillustration.jpg" alt="" class="img-fluid"></a>
+                    </figure>
+
+                    <!-- smaller screen -->
+                    <figure class="image-1  d-block d-md-none">
+                      <a href="#" class="lightbox-image" data-fancybox="images">
+                      <img src="./assets/img/iotillustration.jpg" alt="" class="img-fluid img-thumbnail d-sm-none"></a>
+                    </figure>
+                 
+                </div>
+            </div>
+              
             
           </div>
             

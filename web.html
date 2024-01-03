@@ -276,29 +276,24 @@ p {
   <main id="content" role="main">
     <!-- Hero -->
     <!-- Swiper Slider -->
-<div class="border-bottom">
-  <!-- Main Slider -->
-  <div class="js-swiper-main swiper">
-    <div class="swiper-wrapper">
-     
-      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/webheronew.jpg);">
-        <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
-          <div class="w-75 w-lg-50 mt-3">
-            <h2 class="text-dark">Web Development</h2>
-            <h1 class="display-7 text-white mb-0 ">Revolutionize Your Online Presence with Cutting-Edge Solutions</h1>
+  <div class="border-bottom">
+    <!-- Main Slider -->
+    <div class="js-swiper-main swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/webheronew.jpg);">
+          <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
+            <div class="w-75 w-lg-50 mt-3">
+              <h2 class="text-dark">Web Development</h2>
+              <h1 class="display-7 text-white mb-0 d-md-block d-none">Revolutionize Your Online Presence with Cutting-Edge Solutions</h1>
+              <!-- smaller screen -->
+              <h2 class="display-7 text-white mb-0 d-block d-md-none content-space-b-1">Revolutionize Your Online Presence with Cutting-Edge Solutions</h2>
+            </div>
           </div>
         </div>
+        <!-- End Slide -->
       </div>
-      <!-- End Slide -->
-
     </div>
-
-    <!-- Arrows -->
-    <!-- <div class="d-none d-md-inline-block">
-      <div class="js-swiper-main-button-next swiper-button-next swiper-button-next-soft-white"></div>
-      <div class="js-swiper-main-button-prev swiper-button-prev swiper-button-prev-soft-white"></div>
-    </div> -->
-  </div>
+    
   <!-- End Main Slider -->
 
 
@@ -306,6 +301,7 @@ p {
 <!-- Swiper Slider -->
     <!-- End Hero -->
 
+ 
     <!-- working process -->
 
     <section class="pt-5 pb-5 mt-8">
@@ -415,11 +411,17 @@ p {
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
                   <div class="inner-column ">
                     <!-- <div class="author-desc">
-                      <h2>Web Development</h2>
+                      <h2>Web Development</h2> 
                    
                     </div> -->
-                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/webillustration.jpg" alt=""></a></figure>
+                      <figure class="image-1 d-md-block d-none">
+                        <a href="#" class="lightbox-image" data-fancybox="images">
+                        <img src="./assets/img/webillustration.jpg" alt="" class="img-fluid"></a>
+                      </figure>
                    
+                      <figure class="image-1  d-block d-md-none"><a href="#" class="lightbox-image" data-fancybox="images">
+                        <img src="./assets/img/webillustration.jpg" alt="" class="img-fluid img-thumbnail d-sm-none"></a>
+                      </figure>
                   </div>
               </div>
             

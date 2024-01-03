@@ -296,16 +296,19 @@ p {
   <main id="content" role="main">
     <!-- Hero -->
     <!-- Swiper Slider -->
-<div class="border-bottom">
-  <!-- Main Slider -->
-  <div class="js-swiper-main swiper">
+      <div class="border-bottom">
+        <!-- Main Slider -->
+        <div class="js-swiper-main swiper">
     <div class="swiper-wrapper"> 
      
       <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/producthero.jpg);">
         <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
           <div class="w-75 w-lg-50">
-            <h2 class="text-dark">Product For customers</h2>
-            <h1 class="display-7 text-white mb-0 h1 ">Unlock Your Business with Tailor-Made Product </h1>
+            <h2 class="text-dark ">Product For customers</h2>
+
+            <h1 class="display-7 text-white mb-0 d-md-block d-none">Unlock Your Business with Tailor-Made Product </h1>
+            <!-- smaller view -->
+            <h2 class="display-7 text-white mb-0 d-block d-md-none content-space-b-1">Unlock Your Business with Tailor-Made Product </h1>
           </div>
         </div>
       </div>
@@ -446,7 +449,7 @@ p {
                   <div class="inner-column">
                       <div class="sec-title">
                           <!-- <span class=" text-secondary">About us</span> -->
-                          <h2 class=" w-lg-30 lead " style="color: rgba(0, 31, 63, 0.7) !important;">
+                          <h2 class=" w-lg-30 lead  py-3" style="color: rgba(0, 31, 63, 0.7) !important;">
                       Product Development </h2>
                       </div>
                       <!-- <div class="xs-font-size13 xs-line-height-22 text-dark">Our development philosophy centers around user-centricity, where we immerse ourselves in understanding the unique challenges and aspirations of our users.</div><br> -->
@@ -464,10 +467,19 @@ p {
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
                   <div class="inner-column ">
                     <!-- <div class="author-desc">
-                      <h2>Product Development</h2>
+                      <h2>Product Development</h2> 
                      
                     </div> -->
-                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/homelooping.gif" alt=""></a></figure>
+                      <figure class="image-1 d-md-block d-none">
+                        <a href="#" class="lightbox-image" data-fancybox="images">
+                        <img src="./assets/img/homelooping.gif" alt="" class="img-fluid"></a>
+                      </figure>
+
+                      <!-- smaller screen -->
+                      <figure class="image-1  d-block d-md-none">
+                        <a href="#" class="lightbox-image" data-fancybox="images">
+                        <img src="./assets/img/homelooping.gif" alt="" class="img-fluid img-thumbnail d-sm-none"></a>
+                      </figure>
                    
                   </div>
               </div>
