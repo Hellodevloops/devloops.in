@@ -234,7 +234,8 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: none;
-  color: rgb(240, 98, 121) !important;
+  /* color: rgb(240, 98, 121) !important; */
+  color: rgb(244, 240, 240) !important;
 }
 a:hover {
   color: var(--bs-link-hover-color);

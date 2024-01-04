@@ -75,34 +75,6 @@
       margin-top: 80px;
     }
   
-    .card {
-      width: 100%;
-      max-width: 350px;
-    height: 380px;
-      text-align: center;
-      position: relative;
-      cursor: pointer;
-      background: #fff;
-      margin: 0 15px 30px;
-      border-radius: 20px;
-      z-index: 10;
-      transition: transform 0.8s;
-    }
-  
-    .card .icon {
-  width: 100px; /* Reduced size to make it smaller */
-  height: 100px; /* Maintain aspect ratio and make it a circle */
-  background: #fff;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  font-size: 40px; /* Adjusted font size for smaller circle */
-  border-radius: 50%; /* Made it a perfect circle with a reduced border-radius */
-  color: #517fb0;
-  border: 5px solid #56768e; /* Reduced the border width to 5px */
-  margin: -40px auto 0; /* Adjusted margin for centering */
-  transition: transform 1s;
-}
 
 .icon img {
   width: 60px; /* Make the image fill the container */
@@ -110,38 +82,7 @@
 }
 
     
-    /* .card h2 {
-      height: 35px;
-      width: 70%;
-      text-align: left;
-      font-size: 25px;
-      text-transform: uppercase;
-      margin: 25px auto;
-      position: relative;
-      background: #fff;
-      line-height: 35px;
-    }
-   */
-    .card h2:after,
-    .card h2:before {
-      content: '';
-      width: 40px;
-      height: 30px;
-      position: absolute;
-      z-index: -1;
-    }
   
-    .card h2:after {
-      background: linear-gradient(to right, #fff, #007bff);
-      right: -5px;
-      top: -5px;
-    }
-  
-    .card h2:before {
-      background: linear-gradient(to right, #007bff, #fff);
-      left: -5px;
-      bottom: -5px;
-    }
   
     
 p {
@@ -525,34 +466,71 @@ p {
   </section>
 
      <!-- Features -->
-     <section style="background-image: url('./assets/img/bgcolour.jpeg'); background-repeat: no-repeat;background-size: cover;">
-     <div class="containers">
-      <h1 class="mt-11 mt-n2">What We Offer?</h1>
-      <div class="services-section mt-11 content-space-t-1">
-        <div class="card">
-          <div class="icon">
-            <img class="avatar" src="./assets/img/erpprdtnew.jpg" alt="Logo">
-          </div>
-          <h2>ERP</h2>
-          <p class="p2 text-dark">Enterprise Resource Planning (ERP) streamlines business processes by integrating and managing core functions such as <span class="text-primary">finance and human resources</span>. From financial management to human resources, supply chain, and beyond, ERP solutions provide a unified platform that enables seamless collaboration and real-time data access.</p>
-        </div>
-        <div class="card">
-          <div class="icon">
-            <img class="avatar" src="./assets/img/csmprdnew.jpg" alt="Logo">
-          </div>
-          <h2>CRM</h2>
-          <p  class="p2 text-dark"> Customer Relationship Management (CRM) focuses on enhancing customer interactions, providing tools to manage <span class="text-primary">leads &amp; automate sales processes</span>.  By leveraging CRM tools, software companies can personalize customer experiences, streamline sales processes, and gain a deeper understanding of client needs. </p>
-          </div>
-          <div class="card">
-            <div class="icon">
-              <img class="avatar" src="./assets/img/webillustration.jpg" alt="Logo">
-            </div>
-            <h2>CMS</h2>
-            <p class="p2 text-dark">Content Management System is a software application or platform that facilitates the <span class="text-primary">creation, modification, and management of digital content</span>, typically for websites. CMS platforms are designed to streamline the process of content publication, making it accessible to users with varying technical expertise.</p>
-        </div>
+     <div class="container content-space-2">
+      <!-- Heading -->
+      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <!-- <span class="text-cap">Platforms</span> -->
+        <h2 class="h1">What We Offer</h2>
       </div>
+      <!-- End Heading -->
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" >
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/erp.png" alt="Logo">
+              </div>
+              <h3 class="card-title">ERP</h3>
+              <p class="card-text text-dark">Enterprise Resource Planning (ERP) streamlines business processes by integrating and managing core functions such as finance and human resources.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" >
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/crmflaticon.png" alt="Logo">
+              </div>
+              <h3 class="card-title">CRM</h3>
+              <p class="card-text text-dark">Customer Relationship Management (CRM) focuses on enhancing customer interactions, providing tools to manage leads & automate sales processes.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-6 col-lg-4">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" href="#">
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/cmsflaticon.png" alt="Logo">
+              </div>
+              <h3 class="card-title">CMS</h3>
+              <p class="card-text text-dark">Content Management System is a software application or platform that facilitates the creation, modification, and management of digital content for websites.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
     </div>
-  </section>
     <!-- End Features -->
     <!-- Subscribe -->
     <div class="container content-space-2 ">
