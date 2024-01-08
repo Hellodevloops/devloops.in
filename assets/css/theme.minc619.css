@@ -1,9 +1,4 @@
-@charset "UTF-8"; /*!
- * Bootstrap  v5.2.2 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+@charset "UTF-8"; 
 :root {
   --bs-blue: #377dff;
   --bs-indigo: #6610f2;
@@ -239,7 +234,8 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: none;
-  color: rgb(240, 98, 121) !important;
+  /* color: rgb(240, 98, 121) !important; */
+  color: rgb(244, 240, 240) !important;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -9993,6 +9989,12 @@ margin-left: 90px !important;
   .vh-md-70 {
     height: 70vh !important;
   }
+  .vh-md-85 {
+    height: 85vh !important;
+  }
+  .vh-md-90 {
+    height: 90vh !important;
+  }
   .min-vh-md-100 {
     min-height: 100vh !important;
   }
@@ -15382,12 +15384,12 @@ input[type="number"] {
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 {
-  width: 9.6666666667rem;
-  height: 70px;
+  width: 8.6666666667rem;
+  height: 90px;
   border-radius: 0;
 }
 .avatar-lg.avatar-4x3 .avatar-img {
-  width: 5.6666666667rem;
+  width: 14.6666666667rem;
   height: inherit;
 }
 .avatar-xl.avatar-4x3 {
@@ -15471,13 +15473,11 @@ input[type="number"] {
 }
 .brand {
   width: 100%;
-  max-width: 35rem;
+  max-width: 36rem;
 }
-.p1{
-  font-size: 22px;
-}
+
 .p2{
-  font-size:18px ;
+  font-size:16px ;
 }
 .p3{
   font-size:16.5px ;
@@ -19722,7 +19722,7 @@ label.form-control {
 }
 .navbar-brand-logo {
   width: 100%;
-  min-width: 17rem;
+  min-width: 9rem;
   max-width: 22rem;
 }
 .navbar-brand-collapsed,
@@ -22257,8 +22257,8 @@ label.form-control {
   color: #677788;
 }
 .navbar-light .navbar-toggler {
-  color: #677788;
-  border-color: rgba(33, 50, 91, 0.1);
+  color: #000;
+  border-color:white;
 }
 .navbar-light .navbar-nav .nav-link {
   color:black !important;
@@ -25095,4 +25095,27 @@ a:hover .text-inherit {
 }
 
 /* /new hero end */
+/* blog max min heiht width img */
+
+.img-blog {
+  max-width: 100%; /* Allow the image to be responsive within the container */
+  max-height: 30vh; /* Allow the image to be responsive within the container, using 60% of the viewport height */
+  object-fit: fill; /* Maintain aspect ratio while covering the container */
+  width: 100%; /* Make sure the image takes up 100% of the container width */
+  height: 100%; /* Make sure the image takes up 100% of the container height */
+}
+
+.tag-line {
+  line-height: 1;
+  overflow: hidden !important;
+  max-height: 2em;
+  min-height: 2em;
+}
+
+.para-line  {
+  line-height: 1.5; /* Adjust the line height for the paragraph */
+  max-height: 4.5em; /* Set a fixed number of lines (3 lines with 1.5em line height) */
+  overflow: hidden; /* Hide any overflow content */
+  
+}
 

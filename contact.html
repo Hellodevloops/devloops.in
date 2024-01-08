@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:15 GMT -->
 
 <head>
   <!-- Required Meta Tags Always Come First -->
@@ -101,8 +100,8 @@
   <div class="container  content-space-t-1">
     <nav class="js-mega-menu navbar-nav-wrap ">
       <!-- Default Logo -->
-      <a class="navbar-brand" aria-label="Front">
-        <img class="navbar-brand-logo" src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
+      <a class="navbar-brand" aria-label="Front" href="./index.html">
+        <img class="navbar-brand-logo"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
       </a>
       
       <!-- End Default Logo -->
@@ -168,11 +167,24 @@
                 <a class="dropdown-item text-dark " href="./product.html">Product Development</a>
                 <a class="dropdown-item text-dark" href="./web.html">Web Development </a>
                 <a class="dropdown-item text-dark" href="./iot.html">IOT</a>
+                <a class="dropdown-item text-dark" href="./Healthcare.html">Healthcare</a>
 
          
               <!-- End Mega Menu -->
             </li>
             <!-- End Pages -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Blog</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                <a class="dropdown-item text-dark " href="./blog.html">Blog Grid</a>
+                <a class="dropdown-item text-dark" href="./blogdetails.html">Blog Details </a>
+             
+
+         
+              <!-- End Mega Menu -->
+            </li>
 
             <li class="hs-has-sub-menu nav-item">
               <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./career.html" role="button" aria-expanded="false">Career</a>
@@ -207,7 +219,7 @@
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
-  <main id="content" role="main" class="bg-navybg mt-10">
+  <main id="content" role="main" class=" mt-10" style="background-color:  rgba(0, 31, 63, 0.4) !important;">
     <!-- Hero -->
     <div class="position-relative  " style="background-image: url(assets/svg/components/card-11.svg);">
       <div class="container  content-space-b-lg-1 position-relative zi-2">
@@ -223,7 +235,7 @@
     <!-- End Hero -->
 
     <!-- Contact Form -->
-    <div class="container  content-space-t-1 content-space-b-4 mb-3 mt-5">
+    <div class="container  content-space-t-1 content-space-b-4 mb-3 mt-11">
       <div class="text-center mb-10 mt-n4">
         <h2 class="text-white">Contact Us</h2>
         <h1 class="text-dark lead">Reach out to us and let's start a conversation. We're here to assist you every step of the way.</h1>
@@ -233,10 +245,10 @@
           <div class="col-lg-6 mb-9 mb-lg-0">
             <!-- Heading -->
             <div class="mb-5">
-              <p class="text-white p1">Get in touch</p>
+              <p class="text-white ">Get in touch</p>
               <h3 class="text-dark">
-                <img src="./assets/img/infinite.png" alt="Image Description" class="img-fluid inline-image bg-dark feature" style="width: 80px; height: 80px;">
-                  We'd love to talk about how we can help you.
+                <!-- <img src="./assets/img/infinite.png" alt="Image Description" class="avatar avatar-sm px-1 bg-dark feature" style="width: 62px; height: 62px;"> -->
+                Get a project in mind let's contact us!!
             
               </h3>
           </div>
@@ -351,7 +363,7 @@
                       <!-- Phone Form -->
                       <div class="mb-3">
                         <label for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx">
+                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx" required>
                       </div>
                       <!-- End Phone Form -->
                     </div>
@@ -362,12 +374,12 @@
                   <!-- Details Form -->
                   <div class="mb-3 d-grid">
                     <label for="message">Details</label>
-                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4"></textarea>
+                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4" required></textarea>
                   </div>
                   <!-- End Details Form -->
                   
                   <div class="d-grid">
-                    <button type="submit" class="btn btn-outline-primary btn-transition">Contact Us</button>
+                    <button type="submit" class="btn btn-outline-primary btn-transition">Send</button>
                   </div>
                   
                 </form>
@@ -386,7 +398,138 @@
        
     <!-- End Contact Form -->
 
+    <!-- addresses -->
     
+    <div class="container  mt-n12 content-space-b-2 ">
+      <!-- Heading -->
+      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
+        <p class="text-white  lead ">Our Offices</p>
+        <h3 style="color: rgba(0, 31, 63, 0.7) !important;">Schedule your visit with us</h3>
+      </div>
+      <!-- End Heading -->
+    
+      <div class="row row-cols-1 row-cols-sm-2 1 row-cols-md-3 row-cols-lg-4 mb-5">
+        <div class="col mb-3 mb-sm-4">
+          <!-- Card -->
+          <a class="card card-sm card-bordered card-transition h-100" >
+            <div class="card-body">
+              <div class="row align-items-center">
+                  <div class="col">
+                      <h5 class="text-dark lead text-center">Vadodara</h5>
+                      <!-- Add the address below the Vadodara text using Bootstrap classes -->
+                      <address class="text-center text-dark">
+                          GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara, Gujarat, India – 390023 <br><br> Call us: +919106077817
+                      </address>
+                  <!-- <p class="card-text text-body small">4 job positions</p> -->
+                </div>
+                <!-- End Col -->
+    
+                <!-- <div class="col-auto">
+                  <span class="text-muted">
+                    <i class="bi-chevron-right small"></i>
+                  </span>
+                </div> -->
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+    
+        <div class="col mb-3 mb-sm-4">
+          <!-- Card -->
+          <a class="card card-sm card-bordered card-transition h-100" >
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h5 class="text-dark lead text-center">Pune</h5>
+                  <address class="text-center text-dark">
+                    Devloops, Near shani mandir road, Ambegaon Budruk, Katraj, Pune, India- 411046 <br><br>Call us: 
+                    +91 9909066557
+                </address>
+                  
+                </div>
+                <!-- End Col -->
+<!--     
+                <div class="col-auto">
+                  <span class="text-muted">
+                    <i class="bi-chevron-right small"></i>
+                  </span>
+                </div> -->
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+    
+        <div class="col mb-3 mb-sm-4">
+          <!-- Card -->
+          <a class="card card-sm card-bordered card-transition h-100" >
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h5 class="text-dark lead text-center">Mumbai</h5>
+                  <address class="text-center text-dark">
+                    402, Kesrnandan Niwas 2 , Near Mahesh Park, Tulinj Road, Nallasopara (East), Mumbai, India      – 401209 <br> Call us: +918208853699
+                </address>
+                  
+                </div>
+                <!-- End Col -->
+    
+                <!-- <div class="col-auto">
+                  <span class="text-muted">
+                    <i class="bi-chevron-right small"></i>
+                  </span>
+                </div> -->
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+    
+        <div class="col mb-3 mb-sm-4">
+          <!-- Card -->
+          <a class="card card-sm card-bordered card-transition h-100">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h5 class=" text-dark lead text-center">Canada</h5>
+                  <address class="text-center text-dark">
+                    Kitchener, Ontario, Canada <br><br><br><br>Call us:
+                    +1 (226) 600-9628
+                </address>
+              
+                </div>
+                <!-- End Col -->
+    
+                <!-- <div class="col-auto">
+                  <span class="text-muted">
+                    <i class="bi-chevron-right small"></i>
+                  </span>
+                </div> -->
+                <!-- End Col -->
+              </div>
+              <!-- End Row -->
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+        
+      </div>
+      <!-- End Row -->
+    
+     
+    </div>
+
+    <!-- addresses end -->
   </main>
 
   <section class="container-fluid my-1 mt-n12 mb-14">
@@ -401,7 +544,8 @@
             marginheight="0"
             marginwidth="0"
             
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         
             <!-- End Google Map Embed -->
         </div>
@@ -413,7 +557,7 @@
       <div class="row mb-9 " >
         <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
           <!-- Logo -->
-          <a href="#home" aria-label="Front ">
+          <a  aria-label="Front "href="./index.html"  >
             <img class="brand mt-8"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 240px; height: 50px;">
           </a>
           <!-- End Logo -->
@@ -875,6 +1019,5 @@
 
 </body>
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:45 GMT -->
 
 </html>

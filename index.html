@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:15 GMT -->
+
 
 <head>
   <!-- Required Meta Tags Always Come First -->
@@ -45,17 +45,46 @@
 
   <style>
     /* our mission vision animation */
+    .p1{
+  font-size: 18px;
+}
 
     .gradient-animation {
-   
     background-size: 100% 200%;
     transition: background-position 0.5s;
+    overflow: hidden; /* Ensure the overflow is hidden to prevent the gradient overflow */
 }
 
 .gradient-animation:hover {
     background-position: 0 100%;
     background: linear-gradient(to top, #82a5c9, #f46a9f);
 }
+
+.gradient-animation:hover .text-to-change,
+.gradient-animation:hover .icon-to-change,
+.gradient-animation:hover p
+ {
+    color: white !important;
+   
+}
+
+.checkmark {
+      fill: #ad3c62; /* Set the initial color, in this case, dark pink */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .checkmark:hover {
+      fill: #d0c9c9; /* Change the color on hover to white */
+    }
+    .warning{
+      fill: #ad3c62; /* Set the initial color, in this case, dark green */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .warning:hover {
+      fill: #ffffff; /* Change the color on hover to white */
+    }
+
 
        /* Add your existing styles here */
     .container-animation {
@@ -114,6 +143,7 @@
   clip-path: ellipse(70% 50% at 50% 50%);
 }
 
+
    </style>
 
 </head>
@@ -134,8 +164,8 @@
     <div class="container  content-space-t-1">
       <nav class="js-mega-menu navbar-nav-wrap ">
         <!-- Default Logo -->
-        <a class="navbar-brand" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
+        <a class="navbar-brand" aria-label="Front" href="./index.html">
+          <img class="navbar-brand-logo"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
         </a>
         
         <!-- End Default Logo -->
@@ -201,11 +231,24 @@
                   <a class="dropdown-item text-dark " href="./product.html">Product Development</a>
                   <a class="dropdown-item text-dark" href="./web.html">Web Development </a>
                   <a class="dropdown-item text-dark" href="./iot.html">IOT</a>
+                  <a class="dropdown-item text-dark" href="./Healthcare.html">Healthcare</a>
   
            
                 <!-- End Mega Menu -->
               </li>
               <!-- End Pages -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Blog</a>
+  
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item text-dark " href="./blog.html">Blog Grid</a>
+                  <a class="dropdown-item text-dark" href="./blogdetails.html">Blog Details </a>
+               
+  
+           
+                <!-- End Mega Menu -->
+              </li>
   
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./career.html" role="button" aria-expanded="false">Career</a>
@@ -241,15 +284,15 @@
 
   <!-- ========== MAIN CONTENT ========== -->
   <!-- hero -->
-  <div id="home">
+
    
   <!-- Hero -->
   <div class="position-relative overflow-hidden" style="background-image: url(assets/svg/components/card-11.svg);">
     <div class="container position-relative zi-2 content-space-t-3 content-space-t-lg-4 content-space-b-2 content-space-b-md-3">
-      <div class="row align-items-lg-center">
-        <div class="col-lg-5 mb-7 mb-lg-0">
+      <div class="row align-items-lg-center mt-n3">
+        <div class="col-lg-5 ">
        
-          <div class="mb-6">
+          <div class="mb-4">
             <h1 class="display-6 text-dark">
               Revolutionizing 
               <span class="text-primary">
@@ -262,10 +305,10 @@
                       }"></span><span class="typed-cursor" aria-hidden="true">..</span>
               </span>
               <br>
-              with Smart Software <br>Solutions.
+              with Smart Software <br>Solutions
             </h1>
 
-            <p class="lead text-dark">Elevate Your Business with Intelligent Software Solutions</p>
+            <p class="p1 text-dark">Elevate Your Business with Intelligent Software Solutions</p>
             <a href="./product.html" id="#job">
               <button class=" btn   btn-outline-primary  btn-transition">Explore Solutions</button>
             </a>
@@ -276,38 +319,18 @@
          
         </div>
 
-        <div class="col-lg-7">
+        <div class="col-md-6">
           <div class="position-relative">
-           
-            <figure class="device-browser ">
-          
-              <div class="device-browser-frame  ">
-                <img class="device-browser-img img-float " src="assets/img/homeloopnew.gif" alt="Image Description">
-              </div>
-            </figure>
-          
-
-            <div class="d-none d-sm-block position-absolute bottom-0 end-0 zi-1 mb-n5 me-n5 aos-init aos-animate" style="max-width: 20rem;" data-aos="fade-up" data-aos-delay="100">
-              
-              <div class="card bg-dark img-float" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
-                <div class="card-body">
-                  <h4 class="card-title text-white">Integrate quickly</h4>
-                  <p class="card-text text-white-70">Devloops lets you spend your development time on product improvements.</p>
-                  <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                      <img class="avatar avatar-sm avatar-circle " src="assets/img/160x160/img3.jpg" alt="Image Description">
-                    </div>
-                    <div class="flex-grow-1 ms-2">
-                      <h5 class="card-title text-white mb-0">Raphael Olston</h5>
-                      <p class="card-text text-white-70 small">Business</p>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-             
-            </div>
+            <img class="img-fluid rounded-2 shadow-md" src="./assets/img/Dataanalysis1.png" alt="Image Description">
+            <div class="position-absolute top-0 end-0 w-100 bg-soft-primary rounded-2 zi-n1 mt-5 me-n5"></div>
           </div>
+          <!-- second fig -->
+
+          <!-- <figure class="device-browser" style="position: absolute; top: 70%; left: 110%; transform: translate(-50%, -50%); margin-bottom: 0;">
+            <div class="device-browser-frame">
+                <img class="device-browser-img img-float img-fluid object-fit-cover" src="./assets/img/infinite.png" alt="Second Image Description">
+            </div>
+        </figure> -->
         </div>
        
       </div>
@@ -323,89 +346,42 @@
   </div>
 <!-- End Hero -->
 
-
-
-    <!-- End Clients -->
-
-<section class=" mt-3">   
-   <div class="container">
-      <div class="row">
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3 feature" src="./assets/logo/vriaumlogo.png" alt="Logo">
-        </div>
-        <!-- End Col -->
-
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/brands/levis-dark.svg" alt="Logo">
-        </div>
-        <!-- End Col -->
-
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/brands/new-balance-dark.svg" alt="Logo">
-        </div>
-        <!-- End Col -->
-
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/brands/puma-dark.svg" alt="Logo">
-        </div>
-        <!-- End Col -->
-
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/svg/brands/nike-dark.svg" alt="Logo">
-        </div>
-        <!-- End Col -->
-
-        <div class="col text-center py-3">
-          <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
-        </div>
-        <!-- End Col -->
-        
-      </div>
-      <!-- End Row -->
-    </div>
-  </section>
-
-
   <!-- !-- why choose us --> 
   <div id="about">
       
-      <div class="container content-space-2 ">
+      <div class="container content-space-1 mt-n4 ">
       <div class="row justify-content-lg-between">
-        <div class="col-lg-7 mb-9 mb-lg-0">
-          <!-- <img class="avatar avatar-xxl avatar-4x3 mb-4" src="assets/svg/illustrations/app-wreath.svg" alt="SVG"> -->
 
-          <!-- Heading -->
-          <div class="mb-5">
-            <p class="text-secondary p1">About Company</p>
-            <h2 class="bg-navy ">Harnessing the power of international insights with tailoring solutions to meet your unique needs.</h2>
-            <p class="lead text-dark">    <span class="text-primary">DevLoops International</span> is a dynamic and forward-thinking company at the intersection of technology and creativity. Established with a passion for innovation, we are dedicated to delivering bespoke solutions that empower businesses and individuals to thrive in the ever-evolving digital landscape. With our Expertise like</p>
-          </div>
-          <!-- End Heading -->
-
-          
-        </div>
-        <!-- End Col -->
-
-        <div class="col-lg-5 col-md-12">
+        <div class="col-lg-5 d-none d-lg-block">
           <div class="row">
-              <div class="col-sm-12">
-                  <!-- Article -->
-                  <a class="aos-init aos-animate" href="#" data-aos="fade-left" data-aos-delay="100">
-                      <img class="img-fluid rounded-2 img-float " src="./assets/img/homeabtloop.gif" alt="Image Description">
-                      <!-- <div class="py-4">
-                          <h4 class="text-inherit">390+</h4>
-                          <p class="text-body">Access to the Adobe Illustrator techniques</p>
-                          <span class="link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
-                      </div> -->
-                  </a>
-                  <!-- End Article -->
-              </div>
-              <!-- End Col -->
+            <div class="col-sm-12">
+              <!-- Article -->
+              <a class="aos-init aos-animate " href="#" data-aos="fade-left" data-aos-delay="100">
+                <img class="img-fluid rounded-2 img-float mt-n8 object-fit-cover " src="./assets/img/herocomabtpink.png" alt="Image Description">
+              </a>
+              <!-- End Article -->
+            </div>
+            <!-- End Col -->
           </div>
           <!-- End Row -->
-      </div>
-      
-        <!-- End Col -->
+        </div>
+        <!-- End Image Column -->
+   
+        <!-- Content Column -->
+        <div class="col-lg-7 mb-9 mb-lg-0 mt-n5">
+          <!-- Heading -->
+          <div class="mb-5">
+            <p class="text-secondary lead">About Company</p>
+            <h2 class="text-sm text-md-lg" style="color: rgba(0, 31, 63, 0.7) !important;">Harnessing the power of international insights with tailoring solutions to meet your unique needs</h2>
+            
+            <p class="p1 text-dark">
+              <span class="text-primary">DevLoops International</span> is a dynamic and forward-thinking company at the intersection of technology and creativity. Established with a passion for innovation, we are dedicated to delivering bespoke solutions that empower businesses and individuals to thrive in the ever-evolving digital landscape.
+            </p>
+          </div>
+          <!-- End Heading -->
+        </div>
+
+        
       </div>
       <!-- End Row -->
     </div>
@@ -416,124 +392,100 @@
 
      <!-- Browser Device -->
 
-     <div class="position-relative bg-img-start  bgcolour ">
-      <div class="container  position-relative zi-2">
-        <!-- <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9 ">
-          <p class="text-dark p1 mt-n12">Main Steps..!!</p>
-          <h1 class="text-dark">What to expect? Easy setup.</h1>
-        </div> -->
+     <section class="mt-n12" >
+      <div class="position-relative" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
+          <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
+              <div class="row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      
+                                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M17 6H3C2.4 6 2 6.4 2 7V21C2 21.6 2.4 22 3 22H17C17.6 22 18 21.6 18 21V7C18 6.4 17.6 6 17 6Z" fill="#035A4B"></path>
+                                        <path d="M17.8 4.79999L9.3 13.3C8.9 13.7 8.9 14.3 9.3 14.7C9.5 14.9 9.80001 15 10 15C10.2 15 10.5 14.9 10.7 14.7L19.2 6.20001L17.8 4.79999Z" fill="#035A4B"></path>
+                                        <path opacity="0.3" d="M22 9.09998V3C22 2.4 21.6 2 21 2H14.9L22 9.09998Z" fill="#035A4B"></path>
+                                      </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <h6 class="display-6 " >
+                                   
+                                    <span class="  mb-3 text-to-change "  onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > Our Mission</span>
+                                </h6>
+                                <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                            </div>
+                            
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > 
+                                At DevLoops International, our mission is to be at the forefront of
+                                  transformative software development, pioneering innovative solutions that empower
+                                  businesses to thrive in the digital era. We are committed to delivering excellence in
+                                  every line of code we write, ensuring that our clients receive cutting-edge products
+                                  tailored to their unique needs.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
+                      </div>
+                      <!-- End Card -->
+                  </div>
   
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <!-- Card -->
-            <div class="card-body card card-transition text-center gradient-animation">
-                <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0">
-                        <span class="svg-icon svg-icon-lg text-primary feature">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#035A4B"></path>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.175 14.75C10.9354 14.75 10.6958 14.6542 10.5042 14.4625L8.58749 12.5458C8.20415 12.1625 8.20415 11.5875 8.58749 11.2042C8.97082 10.8208 9.59374 10.8208 9.92915 11.2042L11.175 12.45L14.3375 9.2875C14.7208 8.90417 15.2958 8.90417 15.6792 9.2875C16.0625 9.67083 16.0625 10.2458 15.6792 10.6292L11.8458 14.4625C11.6542 14.6542 11.4146 14.75 11.175 14.75Z" fill="#035A4B"></path>
-                            </svg>
-
-                        </span>
-                    </div>
-                    <div class="flex-grow-1 ms-3">
-                        <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy  lead mb-3">
-                                Mission</span></h6>
-                        <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                        <!-- <span class="blockquote-footer-source">Happy customer</span> -->
-                    </div>
-                </div>
-
-
-                <!-- Blockquote -->
-                <figure>
-                    <p class=" text-dark"> At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
-
-                </figure>
-                <!-- End Blockquote -->
-                <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
-            </div>
-
-            <!-- End Card -->
-        </div>
-<!--   
-          <div class="col-md-4 mb-3 mb-md-0">
-           
-            <a class="card card-transition text-center h-100" href="#">
-              <div class="card-body">
-                <div class="svg-icon text-primary mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
-                    <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"></path>
-                    <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"></path>
-                  </svg>
-  
-                </div>
-  
-                <h4 class="card-title">Generate an API key</h4>
-                <p class=" lead text-dark">Generate an API key for your app To achieve best results in digital world  with overall Create an API Key.</p>
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
+                                    </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                  <h6 class="display-6 text-navy-blue "><span
+                                          class=" mb-3 text-to-change" onmouseover="changeTextColor(this)"
+                                          onmouseout="resetTextColor(this)"> Our Vision</span></h6>
+                                  <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                              </div>
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)"
+                              onmouseout="resetTextColor(this)">Our vision is to be a global p1er in software development, recognized for
+                                  our unwavering commitment to quality, innovation, and client satisfaction. We aim to
+                                  push the boundaries of what is possible in the digital landscape, creating solutions
+                                  that not only meet current needs but also anticipate future challenges.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
+                      </div>
+                      <!-- End Card -->
+                  </div>
               </div>
-  
-            </a>
-        
           </div>
-        
-   -->
-   <div class="col-sm-6 mb-3 mb-sm-0">
-    <!-- Card -->
-    <div class="card-body card card-transition text-center gradient-animation">
-        <div class="d-flex align-items-center">
-            <div class="flex-shrink-0">
-                <span class="svg-icon svg-icon-lg text-primary feature">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
-                </svg>
-
-                </span>
-            </div>
-            <div class="flex-grow-1 ms-3">
-                <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy lead mb-3">
-                        Vision</span></h6>
-                <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                <!-- <span class="blockquote-footer-source">Happy customer</span> -->
-            </div>
-        </div>
-
-
-        <!-- Blockquote -->
-        <figure>
-            <p class=" text-dark">Our vision is to be a global leader in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
-
-        </figure>
-        <!-- End Blockquote -->
-        <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
-    </div>
-
-    <!-- End Card -->
-</div>
-        </div>
-   
       </div>
+  </section>
   
-   
-      <div class="shape shape-bottom zi-1">
-        <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 500H3000V0L0 500Z" fill="#fff"></path>
-        </svg>
-      </div>
- 
-    </div>
-    
   <!-- End Browser Device -->
 
   <!-- Features start -->
 
-  <div class="container mt-10 content-space-lg-3 mt-1 mt-n5">
+  <div class="container  mt-n7">
     <!-- Heading -->
     <div class="w-md-75 w-md-40 text-center mx-md-auto mb-5 mb-md-9">
-      <p class="text-secondary p1 mt-5">Our Software Development Process</p>
-      <h2 class="h2"><span class="text-pr">Guiding Your Digital Success with Precision and Expertise.</span></h2>
+      <p class="text-secondary lead mt-5">Our  Process</p>
+      <h2 class="h2"><span class="text-primary">Guiding Your Digital Success with Precision and Expertise</span></h2>
   </div>
   
     <!-- End Heading -->
@@ -557,7 +509,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Thoroughly assess and document project requirements to establish a solid foundation.</p>
+        <p class="   p1 text-dark">Thoroughly assess and document project requirements to establish a foundation.</p>
       </div>
       <!-- End Col -->
 
@@ -580,7 +532,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Craft a visually appealing and functional design, incorporating prototypes for user.</p>
+        <p class="   p1 text-dark">Craft a visually appealing and functional design, incorporating prototypes for user.</p>
       </div>
       <!-- End Col -->
 
@@ -602,7 +554,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Utilize industry best practices in coding, ensuring clean, efficient Solutions</p>
+        <p class="   p1 text-dark">Utilize industry best practices in coding, ensuring clean, efficient Solutions.</p>
       </div>
       <!-- End Col -->
 
@@ -624,7 +576,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Rigorously test the software to identify and rectify bugs and reliable end product.</p>
+        <p class="   p1 text-dark">Rigorously test the software to identify and rectify bugs and reliable end product.</p>
       </div>
       <!-- End Col -->
 
@@ -647,7 +599,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Safely deploy the software to make the product accessible to users seamlessly.</p>
+        <p class="   p1 text-dark">Safely deploy the software to make the product accessible to users seamlessly.</p>
       </div>
       <!-- End Col -->
 
@@ -670,7 +622,7 @@
         </div>
         <!-- End Icon Block -->
 
-        <p class="   lead text-dark">Implement ongoing maintenance and ensuring sustained performance excellence.</p>
+        <p class="   p1 text-dark">Implement ongoing maintenance and ensuring sustained performance .</p>
       </div>
       <!-- End Col -->
     </div>
@@ -686,7 +638,7 @@
 
   <div id="service ">
     <!-- Card Grid -->
-    <section class="bg-pink3n ">
+    <section style="background-color:  rgba(114, 143, 206, 0.3) !important;">
     <div class="container content-space-2 content-space-lg-2 mt-n2 mt-10 ">
       <div class="row ">
         <div class="col-lg-12  w-md-80">
@@ -695,11 +647,11 @@
             <!-- <p class="text-dark p1">Our Services</p>
             <h2 class="bg-navy">Innovative Software Solutions for Your Success</h2> -->
             <div class="w-md-75 w-md-40 text-center mx-md-auto mb-5 mb-md-9">
-              <p class="text-secondary p1 mt-5">Our Services</p>
-              <h2 class="h2"><span class="text-pr">Innovative Software Solutions for Your Success.</span></h2>
+              <p class="text-secondary lead mt-5">Our Services</p>
+              <h2 class="h2"><span class="text-pr">Innovative Software Solutions for Your Success</span></h2>
           </div>
-            <!-- <p class="  lead text-dark">At our software company, we pride ourselves on delivering cutting-edge solutions designed to meet the diverse needs of our clients. From custom software development and system integration to cloud solutions and beyond, our services are crafted with innovation at their core.</p> -->
-            <p class=" lead text-dark w-md-40"> We collaborate closely with businesses of all sizes, employing a strategic approach to address challenges and capitalize on opportunities. Whether you seek streamlined processes, enhanced productivity, or a digital transformation, our team is dedicated to providing you with the technological foundation to achieve your goals. </p>
+            <!-- <p class="  p1 text-dark">At our software company, we pride ourselves on delivering cutting-edge solutions designed to meet the diverse needs of our clients. From custom software development and system integration to cloud solutions and beyond, our services are crafted with innovation at their core.</p> -->
+            <p class=" p1 text-dark w-md-40"> We collaborate closely with businesses of all sizes, employing a strategic approach to address challenges and capitalize on opportunities. Whether you seek streamlined processes, enhanced productivity, or a digital transformation, our team is dedicated to providing you with the technological foundation to achieve your goals. </p>
           </div>
           <!-- End Heading -->
 <!-- 
@@ -708,7 +660,7 @@
                 <div class="col-4">
                    
                     <ul class="list-checked list-checked-success mb-0">
-                        <li class=" text-dark lead">
+                        <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal1">ERP</button>
                         </li>
                     </ul>
@@ -719,7 +671,7 @@
                 <div class="col-4">
                    
                     <ul class="list-checked list-checked-success mb-0">
-                        <li class=" text-dark lead">
+                        <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal2">CRM</button>
                         </li>
                     </ul>
@@ -729,7 +681,7 @@
                 <div class="col-4">
                    
                     <ul class="list-checked list-checked-success mb-0">
-                        <li class=" text-dark lead">
+                        <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal3">CSM</button>
                         </li>
                     </ul>
@@ -761,24 +713,42 @@
                     <i class="bi-chevron-right"></i>
                   </a>
                 </span>
-
                 <div class="text-center">
                   <!-- Nav Pills -->
                   <ul class="nav nav-sm nav-pills nav-light nav-justified mb-5 " id="featuresCodingTab" role="tablist">
                     <li class="nav-item " role="presentation">
-                      <a class="nav-link active text-white " href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product</a>
+                      <a class="nav-link active text-white  d-none d-lg-block d-sm-block" href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product  Development</a>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link text-white" href="#featuresCodingTwo" id="featuresCodingTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingTwo" role="tab" aria-controls="featuresCodingTwo" aria-selected="false">Web App</a>
+                      <a class="nav-link text-white d-none d-lg-block d-sm-block" href="#featuresCodingTwo" id="featuresCodingTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingTwo" role="tab" aria-controls="featuresCodingTwo" aria-selected="false">Web Application</a>
                     </li>
 
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link text-white" href="#featuresCodingThree" id="featuresCodingThree-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingThree" role="tab" aria-controls="featuresCodingThree" aria-selected="false">Iot</a>
+                      <a class="nav-link text-white d-none d-lg-block d-sm-block" href="#featuresCodingThree" id="featuresCodingThree-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingThree" role="tab" aria-controls="featuresCodingThree" aria-selected="false">Internet Of  Things</a>
                     </li>
 
                   </ul>
                   <!-- End Nav Pills -->
+                </div>
+
+                <div class="text-center">
+                  
+                  <ul class="nav nav-sm nav-pills nav-light nav-justified mb-5 " id="featuresCodingTab" role="tablist">
+                    <li class="nav-item " role="presentation">
+                      <a class="nav-link active text-white   d-md-none d-sm-block" href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product <br> Development</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link text-white  d-md-none d-sm-block" href="#featuresCodingTwo" id="featuresCodingTwo-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingTwo" role="tab" aria-controls="featuresCodingTwo" aria-selected="false">Web<br> Application</a>
+                    </li>
+
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link text-white  d-md-none d-sm-block" href="#featuresCodingThree" id="featuresCodingThree-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingThree" role="tab" aria-controls="featuresCodingThree" aria-selected="false">Internet Of <br> Things</a>
+                    </li>
+
+                  </ul>
+                 
                 </div>
               </div>
               <!-- End Nav Scroller -->
@@ -788,41 +758,48 @@
                 <div class="tab-pane fade show active" id="featuresCodingOne" role="tabpanel" aria-labelledby="featuresCodingOne-tab">
                   <!-- Code -->
                         <!-- Image Container -->
-                        <div class="text-center">
-                          <img class="img-fluidh" src="./assets/img/producticon.png" alt="Your Image Description">
+                        <div class="text-center text-primary">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-rocket-takeoff-fill" viewBox="0 0 16 16">
+                            <path d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.578 3.578 0 0 0-.108-.563 2.22 2.22 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2.35 2.35 0 0 0-.16-.045 3.797 3.797 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.552 2.552 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526l.24-2.408Zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361.599.599.437 1.732-.36 2.531Z"/>
+                            <path d="M5.205 10.787a7.632 7.632 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925Z"/>
+                          </svg>
                         </div>
                         <!-- End Image Container -->
                     
                         <!-- Image Description -->
-                        <p class="text-center mt-7 text-white lead">Product development refers to the process of creating, designing, and bringing a new product to market.</p>
+                        <p class="text-left mt-4 text-white ">It encompasses a range of activities, from idea generation and market research <b>to prototyping, testing, and eventual production</b>. It involves collaboration across various departments, including design, engineering, marketing, and quality assurance, to ensure the final product meets both customer expectations and business objectives.The goal is to create innovative solutions that meet customer needs, differentiate the product in the market, and contribute to the overall growth and success of the business. </p>
+                       
+                        
                         <!-- End Image Description -->
                   <!-- End Code -->
                 </div>
 
                 <div class="tab-pane fade" id="featuresCodingTwo" role="tabpanel" aria-labelledby="featuresCodingTwo-tab">
                               <!-- Image Container -->
-                              <div class="text-center">
-                                <img class="img-fluidh" src="./assets/img/webiconnew.png" alt="Your Second Image Description">
+                              <div class="text-center text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-file-earmark-code-fill" viewBox="0 0 16 16">
+                                  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708z"/>
+                                </svg>
                               </div>
                               <!-- End Image Container -->
                           
                               <!-- Image Description -->
-                              <p class="text-center mt-7 text-white lead">Web app development involves creating applications that run in a web browser, accessible through the internet.</p>
-                              <!-- End Image Description -->
+                              <p class="text-left mt-4 text-white ">Unlike traditional desktop applications, web apps do not require installation on a user's device and can be accessed from various platforms. Web apps leverage technologies such as frontend, backend  to provide dynamic and interactive user experiences and give security also. They are versatile and can serve a wide range of purposes, from content delivery and collaboration to complex data processing. Web apps play a pivotal role in the modern digital landscape, offering accessibility and scalability for businesses and users alike. </p>
+                             
                 </div>
 
                 <div class="tab-pane fade" id="featuresCodingThree" role="tabpanel" aria-labelledby="featuresCodingThree-tab">
                   
-                  <!-- Image Container -->
-                  <div class="text-center">
-                    <img class="img-fluidh" src="./assets/img/iotnewicon.png" alt="Your Third Image Description">
+                  <div class="text-center text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cloud-upload-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0m-.5 14.5V11h1v3.5a.5.5 0 0 1-1 0"/>
+                    </svg>
                   </div>
                   <!-- End Image Container -->
               
                   <!-- Image Description -->
-                  <p class="text-center mt-7 text-white lead">The Internet of Things refers to the network of interconnected physical devices that communicate and share data with each other through the internet.</p>
-                  <!-- End Image Description -->
-
+                  <p class="text-left mt-4 text-white ">These devices, equipped with sensors, actuators, and connectivity, can collect and exchange information to enable intelligent decision-making and automation. IoT applications span various industries, including healthcare, agriculture, smart cities, and industrial automation. The transformative power of IoT lies in its ability to create a seamless and interconnected ecosystem, enhancing efficiency, reducing costs, and unlocking new possibilities for innovation and improved quality of life.  </p>
+                 
                 </div>
 
               </div>
@@ -848,8 +825,8 @@
  <div class="container content-space-2 content-space-lg-3">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-    <p class="text-secondary p1"> Our Team</p>
-    <h2><span class="bg-navy">Creative minds</span></h2>
+    <p class="text-secondary lead"> Our Team</p>
+    <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Creative minds</span></h2>
    
   </div>
   <!-- End Heading -->
@@ -865,7 +842,7 @@
     
             <span class="card-subtitle text-navy-blue">Backend Developer</span>
             <h4 class="card-title text-primary">Riya Vaidya</h4>
-            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work front-end developers do. More..</p>
+            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -944,7 +921,7 @@
     
             <span class="card-subtitle p2">FrontEnd Developer</span>
             <h4 class="card-title  text-primary">Richa Kharwa</h4>
-            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
+            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -1023,9 +1000,9 @@
                 <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
             </div>
     
-            <span class="card-subtitle lead">Lead Designer</span>
+            <span class="card-subtitle p1">Lead  Designer</span>
             <h4 class="card-title  text-primary">Emily Johnson</h4>
-            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics. More..</p>
+            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -1079,7 +1056,7 @@
               
                 <!-- Content specific to Emily Johnson -->
                 <p class="p2 text-dark">
-                  Designer leads the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the Lead Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
+                  Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
@@ -1102,9 +1079,9 @@
                   <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
               </div>
   
-              <span class="card-subtitle lead">Lead Developer</span>
+              <span class="card-subtitle p1">Lead Developer</span>
               <h4 class="card-title  text-primary">Michael Smith</h4>
-              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies. More..</p>
+              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of  technologies <span class="text-muted">Read  More..</span></p>
           </div>
   
           <div class="card-footer pt-0">
@@ -1160,7 +1137,7 @@
                 
                   <!-- Content specific to Michael Smith -->
                   <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. Leading by example, the Lead Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
                   </p>
                   <!-- End Content -->
                 </div>
@@ -1179,18 +1156,59 @@
   
 </div>
 <!-- 
-   Testimonials end -->
+   team end -->
 
+
+ <!-- End Clients -->
+ <!-- Clients -->
+<div class="container ">
+  <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+
+    <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Our Clients companies</span></h2>
+   
+  </div>
+  <div class="row">
+    
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaum2logo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3 mt-n4">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/urjalogo2.jpeg" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/neslogo.jpeg" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
 
    
+    <!-- End Col -->
+  </div>
+  <!-- End Row -->
+</div>
+<!-- End Clients -->
+
 <!-- Testimonials -->
 <!-- Card Grid -->
-<div class="bg-pink3n">
-  <div class="container content-space-2 content-space-t-lg-3 mt-n6">
+<div style="background-color:  rgba(114, 143, 206, 0.3) !important;">
+  <div class="container content-space-2 content-space-t-lg-3 mt-11">
     <!-- Heading -->
     <div class="w-lg-40 mb-5 mb-md-9 text-center">
-      <p class="text-dark p1">Testimonials</p>
-      <h2 class="bg-navy">Loved by business and individuals across the globe.</h2>
+      <p class="text-dark lead">Testimonials</p>
+      <h2 style="color: rgba(0, 31, 63, 0.7) !important;">Loved by business and individuals across the globe.</h2>
   </div>
   
     <!-- End Heading -->
@@ -1198,7 +1216,7 @@
     <div class="row">
       <div class="col-sm-6 col-lg-4 feature">
         <!-- Card -->
-        <div class="card shadow-none">
+        <div class="card shadow-none"> 
           <div class="card-body ">
             <!-- Rating -->
             <!-- <div class="d-flex gap-1 mb-2">
@@ -1222,7 +1240,7 @@
                 <img class="avatar avatar-circle" src="./assets/img/160x160/img8.jpg" alt="Image Description">
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="card-title mb-0">alvin Carlo</h5>
+                <h5 class="card-title mb-0">Calvin Carlo</h5>
                 <p class="card-text small">Business Manager</p>
               </div>
             </div>
@@ -1289,7 +1307,7 @@
                 <img class="avatar avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="card-title mb-0">ristino Murfi</h5>
+                <h5 class="card-title mb-0">Cristino Murfi</h5>
                 <p class="card-text small">Front Pay user</p>
               </div>
             </div>
@@ -1306,48 +1324,52 @@
 <!-- End Testimonials -->
 
  <!-- partners start -->
- <div class="container mt-10">
-  <div class="row">
-    <div class="col-lg-6 mb-3 mb-lg-0 d-flex align-items-center feature">
-        <!-- Card -->
-        <div class="card bg-primary h-100 overflow-hidden">
-            <div class="card-body">
-                <div class="w-65 pe-2">
-                    <h2 class="card-title text-white">Social Ages</h2>
-                    <p class="card-text text-white">Social Ages empowers businesses through integrated digital solutions, fostering collaboration and growth.</p>
-                    <!-- <a class="btn btn-light btn-sm btn-transition" href="#">Learn more <i class="bi-chevron-right small ms-1"></i></a> -->
-                </div>
 
-                <div class="position-absolute end-0 bottom-0 w-40 mb-n3 me-n7" >
-                    <img class="card-img" src="./assets/logo/socialageslogo1.png" alt="Image Description" style="width: 70%; margin-right: 60px;">
-                </div>
-            </div>
-        </div>
-        <!-- End Card -->
+  
+  <div class="container mt-10">
+    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+  
+      <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Our Partners Companies</span></h2>
+     
     </div>
-    <!-- End Col -->
-
-    <div class="col-lg-6 d-flex align-items-center feature">
-        <!-- Card -->
-        <div class="card bg-navybg h-120 overflow-hidden">
-            <div class="card-body">
-                <div class="w-65 pe-2">
-                    <h2 class="card-title text-white">Vriaum Technology</h2>
-                    <p class="card-text text-white p2">Vriaum Technology specializes in innovative product design, offering seamless solutions.</p>
-                </div>
-
-                <div class="position-absolute end-0 bottom-0 w-40 mb-n3 me-n7">
-                    <img class="card-img mt-n12" src="./assets/logo/vriaumlogo.png" alt="Image Description" style="width: 50%; margin-left: 240px; margin-bottom: 4px;">
-                </div>
-            </div>
-        </div>
-        <!-- End Card -->
+    <div class="row">
+    
+      <div class="col text-center py-3">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
+      </div>
+      <!-- End Col -->
+  
+      <div class="col text-center py-3">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaum2logo.png" alt="Logo">
+      </div>
+      <!-- End Col -->
+  
+      <div class="col text-center py-3 mt-n4">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/urjalogo2.jpeg" alt="Logo">
+      </div>
+      <!-- End Col -->
+  
+      <div class="col text-center py-3">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/neslogo.jpeg" alt="Logo">
+      </div>
+      <!-- End Col -->
+  
+      <div class="col text-center py-3">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
+      </div>
+      <!-- End Col -->
+      <div class="col text-center py-3">
+        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/socialageslogo1.png" alt="Logo">
+      </div>
+     
+      <!-- End Col -->
     </div>
-    <!-- End Col -->
-</div>
+  
+    <!-- End Row -->
+  </div>
 
   <!-- End Row -->
-</div>
+
 
  <!-- partners end -->
   <!-- Contact Form -->
@@ -1357,15 +1379,15 @@
         <div class="col-lg-6 mb-9 mb-lg-0">
           <!-- Heading -->
           <div class="mb-5">
-            <p class="text-secondary p1">Get in touch</p>
-            <h1 class="bg-navy">We'd love to talk about how we can help you.</h1>
+            <p class="text-secondary lead">Get in touch</p>
+            <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Get a project in mind let's contact us!!</h1>
           </div>
           <!-- End Heading -->
 
           <!-- Leaflet -->
           <div class="overflow-hidden">
             <div class="col-sm-9 mb-3 mb-sm-4">
-              <img class="img-fluid img-float" src="./assets/img/Contactry.png" alt="Image Description">
+              <img class="img-fluid img-float" src="./assets/img/contactloop.gif" alt="Image Description">
             </div>
           </div>
           <!-- End Leaflet -->
@@ -1428,7 +1450,7 @@
                     <!-- Phone Form -->
                     <div class="mb-3">
                       <label for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                      <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx">
+                      <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx" required>
                     </div>
                     <!-- End Phone Form -->
                   </div>
@@ -1439,12 +1461,12 @@
                 <!-- Details Form -->
                 <div class="mb-3 d-grid">
                   <label for="message">Details</label>
-                  <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4"></textarea>
+                  <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4" required></textarea>
                 </div>
                 <!-- End Details Form -->
                 
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-outline-primary btn-transition">Contact Us</button>
+                  <button type="submit" class="btn btn-outline-primary btn-transition">Send</button>
                 </div>
                 
               </form>
@@ -1468,7 +1490,7 @@
       <div class="row mb-9 " >
         <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
           <!-- Logo -->
-          <a href="#home" aria-label="Front ">
+          <a  aria-label="Front "href="./index.html" >
             <img class="brand mt-8"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 240px; height: 50px;">
           </a>
           <!-- End Logo -->
@@ -1588,11 +1610,7 @@
   </footer>
 
   <!-- ========== END FOOTER ========== -->
-  <!-- ========== END FOOTER ========== -->
-
-  
-
-
+ 
   <!-- Go To -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
        "offsetTop": 700,
@@ -1616,7 +1634,7 @@
   <script src="assets/js/vendor.min.js"></script>
   <script src="assets/vendor/aos/dist/aos.js"></script>
 
-  <!-- JS Front -->
+ 
   <script src="assets/js/theme.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -1625,8 +1643,7 @@
 
 
 
-  <!-- JS Front
-  <script src="../assets/js/hs.leaflet.js"></script> -->
+  
 
   <!-- JS Plugins Init. -->
   <script>
@@ -1692,25 +1709,8 @@
         });
       })()
 
-      //for testimonia;l swiper
-      // (function () {
-      //   var swiper = new Swiper('.js-swiper-single-testimonials', {
-      //     pagination: {
-      //       el: '.js-swiper-single-testimonials-pagination',
-      //       clickable: true,
-      //     },
-      //   });
-      // })()
-
-
-    // for testimonial end
+      
   </script>
-
-<!-- JS Implementing Plugins -->
-<!-- <script src="../node_modules/typed.js/lib/typed.min.js"></script> -->
-
-<!-- JS Front -->
-<!-- <script src="../assets/js/hs.typed.js"></script> -->
 
 <!-- JS Plugins Init. -->
 <script>
@@ -1772,6 +1772,26 @@
       $(targetModal).modal("show");
   });
 </script>
-<!-- modal end -->
+
+<!-- our mission -->
+<script>
+function changeTextColor(element) {
+    element.classList.add('text-white'); // Change to your desired text color class
+}
+
+function resetTextColor(element) {
+    element.classList.remove('text-white'); // Reset to the original text color class
+}
+
+function changeIconColor(element) {
+    element.classList.add('text-white'); // Change to your desired icon color class
+}
+
+function resetIconColor(element) {
+    element.classList.remove('text-white'); // Reset to the original icon color class
+}
+
+</script>
+
 </body>
 </html>

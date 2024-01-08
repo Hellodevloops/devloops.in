@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/demo-real-estate/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:47 GMT -->
+
 <head>
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -24,18 +24,43 @@
   <link rel="stylesheet" href="./assets/css/theme.minc619.css?v=1.0">
   <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"> -->
   <style>
-    /* our mission vision animation */
-
-    .gradient-animation {
    
-   background-size: 100% 200%;
-   transition: background-position 0.5s;
+   .gradient-animation {
+    background-size: 100% 200%;
+    transition: background-position 0.5s;
+    overflow: hidden; /* Ensure the overflow is hidden to prevent the gradient overflow */
 }
 
 .gradient-animation:hover {
-   background-position: 0 100%;
-   background: linear-gradient(to top, #82a5c9, #f46a9f);
+    background-position: 0 100%;
+    background: linear-gradient(to top, #82a5c9, #f46a9f);
 }
+
+.gradient-animation:hover .text-to-change,
+.gradient-animation:hover .icon-to-change,
+.gradient-animation:hover p
+ {
+    color: white !important;
+   
+}
+
+.checkmark {
+      fill: #ad3c62; /* Set the initial color, in this case, dark pink */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .checkmark:hover {
+      fill: #d0c9c9; /* Change the color on hover to white */
+    }
+    .warning{
+      fill: #ad3c62; /* Set the initial color, in this case, dark green */
+      transition: fill 0.3s; /* Add a smooth transition effect */
+    }
+
+    .warning:hover {
+      fill: #ffffff; /* Change the color on hover to white */
+    }
+
 
   </style>
 </head>
@@ -43,120 +68,133 @@
 <body>
   <!-- ========== HEADER ========== -->
   <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
-    data-hs-header-options='{
-    "fixMoment": 1000,
-    "fixEffect": "slide"
-  }'>
-    <!-- Topbar -->
-  
-    <!-- End Topbar -->
-  
-    <div class="container  content-space-t-1">
-      <nav class="js-mega-menu navbar-nav-wrap ">
-        <!-- Default Logo -->
-        <a class="navbar-brand" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
-        </a>
-        
-        <!-- End Default Logo -->
-  
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-default">
-            <i class="bi-list"></i>
-          </span>
-          <span class="navbar-toggler-toggled">
-            <i class="bi-x"></i>
-          </span>
-        </button>
-        <!-- End Toggler -->
-  
-        <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="navbar-absolute-top-scroller">
-            <ul class="navbar-nav">
-              <!-- Landings -->
-             
-              <!-- End Landings -->
-  
-              <!-- Company -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./index.html" role="button" aria-expanded="false">Home</a>
-  
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-                 
-                  <!-- End Authentication -->
-  
-                  
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-              <!-- End Company -->
-  
-              <!-- Account -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./about.html" role="button" aria-expanded="false">About</a>
-  
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-                 
-                  <!-- End Authentication -->
-  
-                  
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-              <!-- End Account -->
-  
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Service</a>
-  
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item text-dark " href="./product.html">Product Development</a>
-                  <a class="dropdown-item text-dark" href="./web.html">Web Development </a>
-                  <a class="dropdown-item text-dark" href="./iot.html">IOT</a>
-  
+  data-hs-header-options='{
+  "fixMoment": 1000,
+  "fixEffect": "slide"
+}'>
+  <!-- Topbar -->
+
+  <!-- End Topbar -->
+
+  <div class="container  content-space-t-1">
+    <nav class="js-mega-menu navbar-nav-wrap ">
+      <!-- Default Logo -->
+      <a class="navbar-brand" aria-label="Front" href="./index.html">
+        <img class="navbar-brand-logo"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
+      </a>
+      
+      <!-- End Default Logo -->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-default">
+          <i class="bi-list"></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <i class="bi-x"></i>
+        </span>
+      </button>
+      <!-- End Toggler -->
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="navbar-absolute-top-scroller">
+          <ul class="navbar-nav">
+            <!-- Landings -->
            
-                <!-- End Mega Menu -->
-              </li>
-              <!-- End Pages -->
-  
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./career.html" role="button" aria-expanded="false">Career</a>
-  
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-                 
-                  <!-- End Authentication -->
-  
-                  
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-  
-              <!-- Blog -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./contact.html" role="button" aria-expanded="false">Contact</a>
-  
+            <!-- End Landings -->
+
+            <!-- Company -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./index.html" role="button" aria-expanded="false">Home</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
+                <!-- Authentication -->
+               
+                <!-- End Authentication -->
+
                 
-              </li>
-              <!-- End Blog -->
-  
+              </div>
+              <!-- End Mega Menu -->
+            </li>
+            <!-- End Company -->
+
+            <!-- Account -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./about.html" role="button" aria-expanded="false">About</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
+                <!-- Authentication -->
+               
+                <!-- End Authentication -->
+
+                
+              </div>
+              <!-- End Mega Menu -->
+            </li>
+            <!-- End Account -->
+
+            <!-- Pages -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Service</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                <a class="dropdown-item text-dark " href="./product.html">Product Development</a>
+                <a class="dropdown-item text-dark" href="./web.html">Web Development </a>
+                <a class="dropdown-item text-dark" href="./iot.html">IOT</a>
+                <a class="dropdown-item text-dark" href="./Healthcare.html">Healthcare</a>
+
+         
+              <!-- End Mega Menu -->
+            </li>
+            <!-- End Pages -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Blog</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                <a class="dropdown-item text-dark " href="./blog.html">Blog Grid</a>
+                <a class="dropdown-item text-dark" href="./blogdetails.html">Blog Details </a>
              
-            </ul>
-          </div>
+
+         
+              <!-- End Mega Menu -->
+            </li>
+
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./career.html" role="button" aria-expanded="false">Career</a>
+
+              <!-- Mega Menu -->
+              <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
+                <!-- Authentication -->
+               
+                <!-- End Authentication -->
+
+                
+              </div>
+              <!-- End Mega Menu -->
+            </li>
+
+            <!-- Blog -->
+            <li class="hs-has-sub-menu nav-item">
+              <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./contact.html" role="button" aria-expanded="false">Contact</a>
+
+              
+            </li>
+            <!-- End Blog -->
+
+           
+          </ul>
         </div>
-       
-      </nav>
-    </div>
-  </header>
+      </div>
+     
+    </nav>
+  </div>
+</header>
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN CONTENT ========== -->
@@ -169,9 +207,9 @@
           <div class="col-12 col-lg-9 mb-7 mb-md-0">
             <!-- Heading -->
             <div class="w-md-75 mb-7">
-                <p class="text-secondary p1 mt-10">About Us</p>
-              <h2 class="h1 bg-navy">Unleashing Creativity and Innovation</h2>
-              <p class="text-dark lead">As a creative design agency, our passion ignites at the prospect of bringing your visions to life. We thrive on  <span class="text-primary">crafting captivating visuals, innovative solutions, and unforgettable brand experiences</span>. With a dedicated team driven by artistic enthusiasm, we don't just create designs; we breathe life into them, infusing each project with creativity and a touch of magic. At<span class="text-primary">DevLoops International </span> Services, your aspirations become our inspiration, and we're thrilled to embark on this artistic journey with you</p>
+                <p class="text-secondary lead mt-10">About Us</p>
+              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Unleashing Creativity and Innovation</h1>
+              <p class="text-dark ">As a creative design agency, our passion ignites at the prospect of bringing your visions to life. We thrive on  <span class="text-primary">crafting captivating visuals, innovative solutions, and unforgettable brand experiences</span>. With a dedicated team driven by artistic enthusiasm, we don't just create designs; we breathe life into them, infusing each project with creativity and a touch of magic. At<span class="text-primary"> DevLoops International </span> Services, your aspirations become our inspiration, and we're thrilled to embark on this artistic journey with you.</p>
             </div>
             <!-- End Heading -->
 
@@ -246,11 +284,11 @@
 
 <div class="container mt-8">
   <!-- Banner for Desktop -->
-  <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(./assets/img/abtcompgif.png); height: 100vh;"></div>
+  <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(./assets/img/atheropinknew.png); height: 100vh;"></div>
 
   <!-- Banner for Mobile -->
   <div class="d-md-none">
-      <img src="./assets/img/abtcompgif.png" alt="Responsive Image" class="img-fluid">
+      <img src="./assets/img/atheropinknew.png" alt="Responsive Image" class="img-fluid object-fit-cover">
   </div>
 </div>
 
@@ -262,7 +300,7 @@
       <div class="container content-space-t-3 content-space-t-lg-2 content-space-b-2 position-relative zi-2">
         <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9 ">
    
-          <h1 class="bg-navy">Who We Are!!?</h1>
+          <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Who We Are!!?</h1>
         </div>
   
         <div class="row">
@@ -280,7 +318,7 @@
                 </div>
   
                 <h2 class="card-title">Our History</h2>
-                <p class="p1 text-body text-dark">We create <span class="text-primary"> pixel perfect web & mobile app designs </span>that are visually appealing and foster your identity.</p>
+                <p class=" text-body text-dark">We create <span class="text-primary"> pixel perfect web & mobile app designs </span>that are visually appealing and foster your identity.</p>
               </div>
   
              
@@ -303,7 +341,7 @@
                 </div>
   
                 <h2 class="card-title">Our Mission</h2>
-                <p class="p1 text-body text-dark">We provide <span class="text-primary">Digital solutions </span>that create competitive shopping & B2B trade experiences. </p>
+                <p class=" text-body text-dark">We provide <span class="text-primary">Digital solutions </span>that create competitive shopping & B2B trade experiences. </p>
               </div>
   <!-- 
               <div class="card-footer pt-0">
@@ -327,7 +365,7 @@
                 </div>
   
                 <h2 class="card-title">Who we are</h2>
-                <p class="p1 text-body text-dark">We offer<span class="text-primary">robust & scalable</span>  web development services across all verticals an Agile way .</p>
+                <p class=" text-body text-dark">We offer<span class="text-primary"> robust & scalable</span>  web development services across all verticals an Agile way .</p>
               </div>
   
               <!-- <div class="card-footer pt-0">
@@ -353,13 +391,13 @@
     
 
      <!-- Card Grid -->
-     <section class="bg-pink3n content mb-9" id="about">
+     <section class=" content mb-9" style="background-color:  rgba(114, 143, 206, 0.3) !important;">
       <div class="container content-space-1  ">
         <!-- Title -->
         <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
-          <p class="text-dark p1">What We offer</p>
-          <h2 class="bg-navy ">Explore the distinctive features that drive the functionality</h2>
-         
+          <p class="text-dark lead">What We offer</p>
+          <h2  style="color: rgba(0, 31, 63, 0.7) !important;">      Explore the distinctive features that drive the functionality</h2>
+    
         </div>
         <!-- End Title -->
   
@@ -378,7 +416,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Product development</h3>
-                <p class=" mb-0 lead text-dark">Crafting innovative solutions that seamlessly blend user experience with cutting-edge technology, bringing your ideas to life."</p>
+                <p class=" mb-0  text-dark">Crafting innovative solutions that seamlessly blend user experience with cutting-edge technology, bringing your ideas to life.</p>
               </div>
             </div>
             <!-- End Icon Block -->
@@ -395,7 +433,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Web Development</h3>
-                <p class="text-dark lead mb-0 ">Building dynamic and responsive web experiences that not only meet but exceed modern standards</p>
+                <p class="text-dark  mb-0 ">Building dynamic and responsive web experiences that not only meet but exceed modern standards.</p>
               </div>
             </div>
         
@@ -413,7 +451,7 @@
               </div>
               <div class="flex-grow-1 ms-4">
                 <h3 class="mb-1">Internet Of Things</h3>
-                <p class="text-dark lead mb-0 ">CEmpowering the future with interconnected devices and smart solutions, driving efficiency &amp; automation.</p>
+                <p class="text-dark  mb-0 ">Empowering the future with interconnected devices and smart solutions, driving efficiency &amp; automation.</p>
               </div>
             </div>
             <!-- End Icon Block -->
@@ -435,7 +473,7 @@
           <div class="text-center">
             <small class="text-cap text-primary">&mdash; Delivered Goods </small>
             <h4 class="display-4">420+</h4>
-            <p class="text-dark p1">Efficient and timely delivery of software solutions to meet client needs</p>
+            <p class="text-dark ">Efficient and timely delivery of software solutions to meet client needs.</p>
           </div>
         </div>
         <!-- End Col -->
@@ -444,7 +482,7 @@
           <div class="text-center">
             <small class="text-cap text-primary">&mdash; IT Consulting</small>
             <h4 class="display-4">245+</h4>
-            <p class="text-dark p1">Delivering strategic IT consulting services to optimize business processes</p>
+            <p class="text-dark ">Delivering strategic IT consulting services to optimize business processes. </p>
           </div>
         </div>
         <!-- End Col -->
@@ -453,7 +491,7 @@
           <div class="text-center">
             <small class="text-cap text-primary">&mdash; Fully Launched </small>
             <h4 class="display-4">400+</h4>
-            <p class="text-dark p1">Ensuring a seamless and successful software or IT consulting project launch.</p>
+            <p class="text-dark ">Ensuring a seamless and successful software or IT consulting project launch.</p>
           </div>
         </div>
         <!-- End Col -->
@@ -463,196 +501,98 @@
     <!-- End Features Stats -->
 
     <!-- features new -->
-    <section class="bg-pink3n mt-md-n5"> 
-        <div class="position-relative " style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
-        <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
-          <!-- Heading -->
-          <!-- <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-            <p class="text-secondary p1">Why Choose Us</p>
-            <h2 class="bg-navy">Embark on a Revolutionary Journey with Devloops International</h2>
-
-          </div> -->
-          <!-- End Heading -->
-  
-          <!-- Icon Blocks -->
-          <!-- <div class="row mb-5 mb-sm-9">
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-7">
-              <span class="svg-icon text-primary mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-disc-fill" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-6 0a2 2 0 1 0-4 0 2 2 0 0 0 4 0zM4 8a4 4 0 0 1 4-4 .5.5 0 0 0 0-1 5 5 0 0 0-5 5 .5.5 0 0 0 1 0zm9 0a.5.5 0 1 0-1 0 4 4 0 0 1-4 4 .5.5 0 0 0 0 1 5 5 0 0 0 5-5z"></path>
-                  </svg>
-  
-              </span>
-              <h4 class="text-dark p1">Incredible Infrastructure</h4>
-              <p class="text-dark p1">Front Software's rich planning features enable your team to flexibly plan.</p>
-            </div>
-           
-  
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-7">
-              <span class="svg-icon text-primary mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
-                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"></path>
-                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"></path>
-                  </svg>
-  
-              </span>
-              <h4 class="text-dark p1">Email Notifications</h4>
-              <p class="text-dark p1">Use story points, hours, t-shirt sizes, or your own estimation technique.</p>
-            </div>
-           
-  
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-7">
-              <span class="svg-icon text-primary mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-dash-square" viewBox="0 0 16 16">
-                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
-                    <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"></path>
-                  </svg>
-  
-              </span>
-              <h4 class="text-dark p1">Simple Dashboard</h4>
-              <p class="text-dark p1">Order user stories, issues, and bugs in your product backlog with simple dragging.</p>
-            </div>
-           
-  
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-7 mb-md-0">
-              <span class="svg-icon text-primary mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-info-square" viewBox="0 0 16 16">
-                    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
-                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
-                  </svg>
-  
-              </span>
-              <h4 class="text-dark p1">Information Retrieval</h4>
-              <p class="text-dark p1">Front Software brings a new level of transparency to your team's work.</p>
-            </div>
-           
-  
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
-              <span class="svg-icon text-primary mb-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-grip-horizontal" viewBox="0 0 16 16">
-                    <path d="M2 8a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m3 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                  </svg>
-  
-              </span>
-              <h4 class="text-dark p1">Deadline Reminders</h4>
-              <p class="text-dark p1">Extensive reporting functionality gives your team critical insight into their agile process.</p>
-            </div>
-           
-  
-            <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
-                <span class="svg-icon text-primary   mb-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-shield-slash-fill" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1.093 3.093c-.465 4.275.885 7.46 2.513 9.589a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.32 11.32 0 0 0 1.733-1.525zm12.215 8.215L3.128 1.128A61.369 61.369 0 0 1 5.073.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.483 3.626-.332 6.491-1.551 8.616zm.338 3.046-13-13 .708-.708 13 13-.707.707z"/>
-                      </svg>
-    
-                </span>
-                <h4 class="text-dark p1">Deadline Reminders</h4>
-                <p class="text-dark p1">Extensive reporting functionality gives your team critical insight into their agile process.</p>
-              </div>
-           
-          </div> -->
-          <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-              <!-- Card -->
-              <div class="card-body card card-transition text-center gradient-animation">
-                  <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                          <span class="svg-icon svg-icon-lg text-primary feature">
-                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#035A4B"></path>
-                                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.175 14.75C10.9354 14.75 10.6958 14.6542 10.5042 14.4625L8.58749 12.5458C8.20415 12.1625 8.20415 11.5875 8.58749 11.2042C8.97082 10.8208 9.59374 10.8208 9.92915 11.2042L11.175 12.45L14.3375 9.2875C14.7208 8.90417 15.2958 8.90417 15.6792 9.2875C16.0625 9.67083 16.0625 10.2458 15.6792 10.6292L11.8458 14.4625C11.6542 14.6542 11.4146 14.75 11.175 14.75Z" fill="#035A4B"></path>
-                              </svg>
-  
-                          </span>
+    <section class="mt-n10" >
+      <div class="position-relative" style="background-image: url(assets/svg/components/wave-pattern-light.svg);">
+          <div class="container content-space-2 content-space-lg-3 position-relative zi-2">
+              <div class="row">
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      
+                                      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" d="M17 6H3C2.4 6 2 6.4 2 7V21C2 21.6 2.4 22 3 22H17C17.6 22 18 21.6 18 21V7C18 6.4 17.6 6 17 6Z" fill="#035A4B"></path>
+                                        <path d="M17.8 4.79999L9.3 13.3C8.9 13.7 8.9 14.3 9.3 14.7C9.5 14.9 9.80001 15 10 15C10.2 15 10.5 14.9 10.7 14.7L19.2 6.20001L17.8 4.79999Z" fill="#035A4B"></path>
+                                        <path opacity="0.3" d="M22 9.09998V3C22 2.4 21.6 2 21 2H14.9L22 9.09998Z" fill="#035A4B"></path>
+                                      </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                <h6 class="display-6 " >
+                                  
+                                    <span class=" mb-3 text-to-change "  onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" >   Our Mission</span>
+                                </h6>
+                                <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                            </div>
+                            
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > 
+                                At DevLoops International, our mission is to be at the forefront of
+                                  transformative software development, pioneering innovative solutions that empower
+                                  businesses to thrive in the digital era. We are committed to delivering excellence in
+                                  every line of code we write, ensuring that our clients receive cutting-edge products
+                                  tailored to their unique needs.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
                       </div>
-                      <div class="flex-grow-1 ms-3">
-                          <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy  lead mb-3">
-                                  Mission</span></h6>
-                          <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                          <!-- <span class="blockquote-footer-source">Happy customer</span> -->
-                      </div>
+                      <!-- End Card -->
                   </div>
   
-  
-                  <!-- Blockquote -->
-                  <figure>
-                      <p class=" text-dark"> At DevLoops International, our mission is to be at the forefront of transformative software development, pioneering innovative solutions that empower businesses to thrive in the digital era. We are committed to delivering excellence in every line of code we write, ensuring that our clients receive cutting-edge products tailored to their unique needs.</p>
-  
-                  </figure>
-                  <!-- End Blockquote -->
-                  <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
-              </div>
-  
-              <!-- End Card -->
-          </div>
-  <!--   
-            <div class="col-md-4 mb-3 mb-md-0">
-             
-              <a class="card card-transition text-center h-100" href="#">
-                <div class="card-body">
-                  <div class="svg-icon text-primary mb-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
-                      <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"></path>
-                      <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"></path>
-                    </svg>
-    
+                  <div class="col-sm-6 mb-3 mb-sm-0">
+                      <!-- Card -->
+                      <div class="card-body card card-transition text-center gradient-animation">
+                          <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0">
+                                  <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
+                                      onmouseover="changeIconColor(this)"
+                                      onmouseout="resetIconColor(this)">
+                                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
+                                    </svg>
+                                  </span>
+                              </div>
+                              <div class="flex-grow-1 ms-3">
+                                  <h6 class="display-6 text-navy-blue "><span
+                                          class=" mb-3 text-to-change" onmouseover="changeTextColor(this)"
+                                          onmouseout="resetTextColor(this)"> Our Vision</span></h6>
+                                  <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
+                                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
+                              </div>
+                          </div>
+                          <!-- Blockquote -->
+                          <figure>
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)"
+                              onmouseout="resetTextColor(this)">Our vision is to be a global p1er in software development, recognized for
+                                  our unwavering commitment to quality, innovation, and client satisfaction. We aim to
+                                  push the boundaries of what is possible in the digital landscape, creating solutions
+                                  that not only meet current needs but also anticipate future challenges.</p>
+                          </figure>
+                          <!-- End Blockquote -->
+                          <div class="border-top border-10 my-3" style="max-width: 30rem;"></div>
+                      </div>
+                      <!-- End Card -->
                   </div>
-    
-                  <h4 class="card-title">Generate an API key</h4>
-                  <p class=" lead text-dark">Generate an API key for your app To achieve best results in digital world  with overall Create an API Key.</p>
-                </div>
-    
-              </a>
-          
-            </div>
-          
-     -->
-     <div class="col-sm-6 mb-3 mb-sm-0">
-      <!-- Card -->
-      <div class="card-body card card-transition text-center gradient-animation">
-          <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                  <span class="svg-icon svg-icon-lg text-primary feature">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M5 15L3 21.5L9.5 19.5L5 15Z" fill="#035A4B"></path>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 21C18.7467 21 23 16.7467 23 11.5C23 6.2533 18.7467 2 13.5 2C8.2533 2 4 6.2533 4 11.5C4 16.7467 8.2533 21 13.5 21ZM13.5 14.0061L11.5463 15.0332C11.3124 15.1562 11.0232 15.0663 10.9003 14.8324C10.8513 14.7393 10.8344 14.6326 10.8522 14.5289L11.2254 12.3533L9.6447 10.8126C9.4555 10.6282 9.45165 10.3254 9.63605 10.1362C9.7095 10.0609 9.8057 10.0118 9.9098 9.9967L12.0942 9.67925L13.0711 7.69985C13.1881 7.46295 13.4749 7.3657 13.7118 7.4826C13.8061 7.52915 13.8825 7.60555 13.9291 7.69985L14.9059 9.67925L17.0903 9.9967C17.3517 10.0347 17.5329 10.2774 17.4949 10.5388C17.4798 10.6429 17.4307 10.7392 17.3554 10.8126L15.7748 12.3533L16.1479 14.5289C16.1926 14.7893 16.0177 15.0366 15.7573 15.0813C15.6537 15.0991 15.5469 15.0822 15.4538 15.0332L13.5 14.0061Z" fill="#035A4B"></path>
-                  </svg>
-  
-                  </span>
-              </div>
-              <div class="flex-grow-1 ms-3">
-                  <h6 class="display-6 text-navy-blue">Our<span class="display-5 bg-navy lead mb-3">
-                          Vision</span></h6>
-                  <div class="border-top  border-10 my-3" style="max-width: 25rem;"></div>
-                  <!-- <span class="blockquote-footer-source">Happy customer</span> -->
               </div>
           </div>
-  
-  
-          <!-- Blockquote -->
-          <figure>
-              <p class=" text-dark">Our vision is to be a global leader in software development, recognized for our unwavering commitment to quality, innovation, and client satisfaction. We aim to push the boundaries of what is possible in the digital landscape, creating solutions that not only meet current needs but also anticipate future challenges.</p>
-  
-          </figure>
-          <!-- End Blockquote -->
-          <div class="border-top  border-10 my-3" style="max-width: 30rem;"></div>
       </div>
+  </section>
   
-      <!-- End Card -->
-  </div>
-          </div>
-       
-        </div>
-      </div>
-    </section>
-   
     <!-- End features new -->
-<!-- team start -->
-<div class="container content-space-2 content-space-lg-3">
+ <!-- Team -->
+ <div class="container  ">
   <!-- Heading -->
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-    <p class="text-secondary p1"> Our Team</p>
-    <h2><span class="bg-navy">Creative minds</span></h2>
+    <p class="text-secondary lead"> Our Team</p>
+    <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Creative minds</span></h2>
    
   </div>
   <!-- End Heading -->
@@ -668,7 +608,7 @@
     
             <span class="card-subtitle text-navy-blue">Backend Developer</span>
             <h4 class="card-title text-primary">Riya Vaidya</h4>
-            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work front-end developers do. More..</p>
+            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -747,7 +687,7 @@
     
             <span class="card-subtitle p2">FrontEnd Developer</span>
             <h4 class="card-title  text-primary">Richa Kharwa</h4>
-            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare industries. More..</p>
+            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -826,9 +766,9 @@
                 <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
             </div>
     
-            <span class="card-subtitle lead">Lead Designer</span>
+            <span class="card-subtitle p1">Lead  Designer</span>
             <h4 class="card-title  text-primary">Emily Johnson</h4>
-            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics. More..</p>
+            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics <span class="text-muted">Read  More..</span></p>
         </div>
     
         <div class="card-footer pt-0">
@@ -882,7 +822,7 @@
               
                 <!-- Content specific to Emily Johnson -->
                 <p class="p2 text-dark">
-                  Designer leads the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the Lead Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
+                  Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
@@ -905,9 +845,9 @@
                   <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
               </div>
   
-              <span class="card-subtitle lead">Lead Developer</span>
+              <span class="card-subtitle p1">Lead Developer</span>
               <h4 class="card-title  text-primary">Michael Smith</h4>
-              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of cutting-edge technologies. More..</p>
+              <p class="p2 text-dark"> With a wealth of experience and a deep understanding of  technologies <span class="text-muted">Read  More..</span></p>
           </div>
   
           <div class="card-footer pt-0">
@@ -963,7 +903,7 @@
                 
                   <!-- Content specific to Michael Smith -->
                   <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. Leading by example, the Lead Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
                   </p>
                   <!-- End Content -->
                 </div>
@@ -981,15 +921,17 @@
 
   
 </div>
-    <!-- team end -->
+<!-- 
+   team end -->
+
+
     <!-- Testimonials -->
-    
-    <div class="bg-pink3n">
-      <div class="container content-space-2 content-space-t-lg-3 mt-n6">
+    <div   class="mt-n4"  style="background-color:  rgba(114, 143, 206, 0.3) !important;">
+      <div class="container content-space-2 content-space-t-lg-3 mt-11">
         <!-- Heading -->
         <div class="w-lg-40 mb-5 mb-md-9 text-center">
-          <p class="text-dark p1">Testimonials</p>
-          <h2 class="bg-navy">Loved by business and individuals across the globe.</h2>
+          <p class="text-dark lead">Testimonials</p>
+          <h2 style="color: rgba(0, 31, 63, 0.7) !important;">Loved by business and individuals across the globe.</h2>
       </div>
       
         <!-- End Heading -->
@@ -997,7 +939,7 @@
         <div class="row">
           <div class="col-sm-6 col-lg-4 feature">
             <!-- Card -->
-            <div class="card shadow-none">
+            <div class="card shadow-none"> 
               <div class="card-body ">
                 <!-- Rating -->
                 <!-- <div class="d-flex gap-1 mb-2">
@@ -1105,20 +1047,21 @@
     <!-- End Testimonials -->
 
     <!-- contact -->
-    <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 mb-9 mt-md-n10">
+    <div id="contact">
+      <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2 mb-9 mt-md-n10">
         <div class="row">
           <div class="col-lg-6 mb-9 mb-lg-0">
             <!-- Heading -->
             <div class="mb-5">
-              <p class="text-secondary p1">Get in touch</p>
-              <h1 class="bg-navy">We'd love to talk about how we can help you.</h1>
+              <p class="text-secondary lead">Get in touch</p>
+              <h1 style="color: rgba(0, 31, 63, 0.7) !important;">Get a project in mind let's contact us!!</h1>
             </div>
             <!-- End Heading -->
   
             <!-- Leaflet -->
             <div class="overflow-hidden">
               <div class="col-sm-9 mb-3 mb-sm-4">
-                <img class="img-fluid img-float" src="./assets/img/Contactry.png" alt="Image Description">
+                <img class="img-fluid img-float" src="./assets/img/contactloop.gif" alt="Image Description">
               </div>
             </div>
             <!-- End Leaflet -->
@@ -1126,7 +1069,7 @@
             
             <!-- End Row -->
           </div>
-          <!-- End Col -->
+          <!-- End Col -->        
   
           <div class="col-lg-6">
             <div class="ps-lg-5">
@@ -1181,7 +1124,7 @@
                       <!-- Phone Form -->
                       <div class="mb-3">
                         <label for="Phone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx">
+                        <input type="tel" class="form-control form-control-lg" name="Phone" id="Phone" placeholder="+x(xxx)xxx-xx-xx" required>
                       </div>
                       <!-- End Phone Form -->
                     </div>
@@ -1192,12 +1135,12 @@
                   <!-- Details Form -->
                   <div class="mb-3 d-grid">
                     <label for="message">Details</label>
-                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4"></textarea>
+                    <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4" required></textarea>
                   </div>
                   <!-- End Details Form -->
                   
                   <div class="d-grid">
-                    <button type="submit" class="btn btn-outline-primary btn-transition">Contact Us</button>
+                    <button type="submit" class="btn btn-outline-primary btn-transition">Send</button>
                   </div>
                   
                 </form>
@@ -1207,11 +1150,11 @@
               <!-- End Card -->
             </div>
           </div>
+          </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
       </div>
-
     <!-- contact end -->
   </main>
   <!-- ========== END MAIN CONTENT ========== -->
@@ -1222,7 +1165,7 @@
       <div class="row mb-9 " >
         <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
           <!-- Logo -->
-          <a href="#home" aria-label="Front ">
+          <a  aria-label="Front " href="./index.html" >
             <img class="brand mt-8"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 240px; height: 50px;">
           </a>
           <!-- End Logo -->
@@ -1491,7 +1434,8 @@
     }, 2000);
   }
 </script>
+
 </body>
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/demo-real-estate/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:52 GMT -->
+
 </html>

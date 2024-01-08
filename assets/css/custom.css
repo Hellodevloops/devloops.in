@@ -8,6 +8,14 @@
   .xs-font-size10{
     font-size: 18px;
   }
+
+  .object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
   .services-block-three i {
       font-size: 32px;
   }
@@ -313,17 +321,22 @@ color: #fff;
 display: block;
 font-weight: 400;
 }
-.about-section .image-column .inner-column:before{
-content: '';
-position: absolute;
-width: calc(50% + 80px);
-height: calc(100% + 160px);
-top: -80px;
-left: -3px;
-background: transparent;
-z-index: 0;
-border: 44px solid #ef0083;
+
+.about-section .image-column .inner-column:before {
+  content: '';
+  position: absolute;
+  width: calc(50% + 80px);
+  height: calc(100% + 160px);
+  top: -80px;
+  left: -3px;
+  background: linear-gradient(135deg, rgba(239, 0, 131, 0.10), rgba(0, 191, 255, 0.10));
+  z-index: 0;
+  transform: skew(-20deg);
+  transform-origin: top left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
+
 
 .about-section .image-column .image-1{
 position: relative;

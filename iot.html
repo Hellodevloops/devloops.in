@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="">
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:15 GMT -->
 
 <head>
   <!-- Required Meta Tags Always Come First -->
@@ -78,34 +77,28 @@
       z-index: 10;
       transition: transform 0.8s;
     }
-  
     .card .icon {
-      width: 150px;
-      height: 150px;
-      background: #fff;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      font-size: 80px;
-      border-radius: 50%;
-      color: #517fb0;
-      border: 20px solid #56768e;
-      margin: -75px auto 0;
-      transition: transform 1s;
-    }
+  width: 100px; /* Reduced size to make it smaller */
+  height: 100px; /* Maintain aspect ratio and make it a circle */
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px; /* Adjusted font size for smaller circle */
+  border-radius: 50%; /* Made it a perfect circle with a reduced border-radius */
+  color: #517fb0;
+  border: 5px solid #56768e; /* Reduced the border width to 5px */
+  margin: -40px auto 0; /* Adjusted margin for centering */
+  transition: transform 1s;
+}
+
+.icon img {
+  width: 60px; /* Make the image fill the container */
+  height: 60px; /* Maintain aspect ratio */
+}
+
   
-    /* .card h2 {
-      height: 35px;
-      width: 70%;
-      text-align: left;
-      font-size: 25px;
-      text-transform: uppercase;
-      margin: 25px auto;
-      position: relative;
-      background: #fff;
-      line-height: 35px;
-    }
-   */
+   
     .card h2:after,
     .card h2:before {
       content: '';
@@ -170,8 +163,8 @@ p {
     <div class="container  content-space-t-1">
       <nav class="js-mega-menu navbar-nav-wrap ">
         <!-- Default Logo -->
-        <a class="navbar-brand" aria-label="Front">
-          <img class="navbar-brand-logo" src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
+        <a class="navbar-brand" aria-label="Front" href="./index.html">
+          <img class="navbar-brand-logo"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 250px; height:40px;">
         </a>
         
         <!-- End Default Logo -->
@@ -237,11 +230,24 @@ p {
                   <a class="dropdown-item text-dark " href="./product.html">Product Development</a>
                   <a class="dropdown-item text-dark" href="./web.html">Web Development </a>
                   <a class="dropdown-item text-dark" href="./iot.html">IOT</a>
+                  <a class="dropdown-item text-dark" href="./Healthcare.html">Healthcare</a>
   
            
                 <!-- End Mega Menu -->
               </li>
               <!-- End Pages -->
+              <li class="hs-has-sub-menu nav-item">
+                <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Blog</a>
+  
+                <!-- Mega Menu -->
+                <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
+                  <a class="dropdown-item text-dark " href="./blog.html">Blog Grid</a>
+                  <a class="dropdown-item text-dark" href="./blogdetails.html">Blog Details </a>
+               
+  
+           
+                <!-- End Mega Menu -->
+              </li>
   
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="./career.html" role="button" aria-expanded="false">Career</a>
@@ -278,76 +284,54 @@ p {
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
     <!-- Hero -->
-    <!-- Swiper Slider -->
-<div class="border-bottom">
-  <!-- Main Slider -->
-  <div class="js-swiper-main swiper">
-    <div class="swiper-wrapper">
-     
-      <div class="swiper-slide gradient-x-overlay-lg-dark bg-img-start" style="background-image: url(./assets/img/iotheronew.jpg);">
-        <div class="container d-md-flex align-items-md-center vh-md-70 content-space-t-2 content-space-md-0">
-          <div class="w-75 w-lg-50">
-            <h3 class="text-dark">IOT Solutions</h3>
-            <h1 class="display-7 text-white mb-0 ">Devloops International pioneers the future of connectivity</h1>
+   <!-- Swiper Slider -->
+   <div class="position-relative overflow-hidden" style="background-image: url(assets/svg/components/card-11.svg); background-size: cover; background-position: center center;">
+    <div class="overlay"></div>
+    <div class="container position-relative zi-2 content-space-t-3 content-space-t-lg-4 content-space-b-2 content-space-b-md-3 text-center text-lg-left">
+      <div class="row align-items-lg-center mt-n4">
+          <div class="col-lg-5 mb-4 mb-lg-0 text-light position-relative">
+              <!-- Content on the left column -->
+              <h2 class="text-primary">IOT Solutions</h2>
+              <h1 class="display-7 text-dark mb-0 d-md-block d-none">Devloops International pioneers the future of connectivity</h1>
+              <!-- smaller screen -->
+              <h2 class="display-7 text-dark mb-0 d-block d-md-none content-space-b-1">Devloops International pioneers the future of connectivity</h2>
+  
+              <!-- Horizontal border below text -->
+              <!-- <div class="border-bottom border-dark mb-2"></div> -->
           </div>
-        </div>
-      </div>
-      <!-- End Slide -->
-
-    </div>
-
-    <!-- Arrows -->
-    <!-- <div class="d-none d-md-inline-block">
-      <div class="js-swiper-main-button-next swiper-button-next swiper-button-next-soft-white"></div>
-      <div class="js-swiper-main-button-prev swiper-button-prev swiper-button-prev-soft-white"></div>
-    </div> -->
-  </div>
-  <!-- End Main Slider -->
-
-  <!-- Thumbs Slider -->
-  <div class="js-swiper-thumbs swiper">
-    <div class="swiper-wrapper">
-      <!-- Slide -->
-      <div class="swiper-slide">
-        <div class="d-flex align-items-center bg-white position-relative vh-md-30">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-7 order-lg-2">
-                <span class="fs-3 fw-semibold mt-2">01.</span>
-                <h3 class="bg-navy">Product Development</h3>
-                <p class="mb-0 text-dark lead">Unlock Your Business Potential with Tailor-Made Product Development</p>
-              </div>
-              <!-- End Col -->
-        
-              <div class="col-lg-6 bg-primary order-1 order-lg-2">
-                <div class="p-2 p-lg-7">
-                  <span class="fs-3 fw-semibold ">02.</span>
-                  <h3 class="text-dark">Web Development</h3>
-                  <p class="text-white mb-0 lead">Revolutionize Your Online Presence with Cutting-Edge Solutions.</p>
-                </div>
-              </div>
-              <!-- End Col -->
+          <div class="col-lg-7">
+            <!-- Content on the right column -->
+            <div class="position-relative">
+                <figure class="device-browser">
+                    <div class="device-browser-frame p-3  ">
+                        <img class="device-browser-img img-float img-fluid mx-auto " style="width: 80%; height: 40% ;" src="./assets/img/iotnewherochng.png" alt="Image Description">
+                    </div>
+                </figure>
             </div>
-            <!-- End Row -->
-          </div>
         </div>
-      </div>
-      <!-- End Slide -->
+        
+            <!-- Horizontal border below image -->
+            <div class="border-bottom border-dark mt-9 " style="height: 2px; width: 100%; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);"></div>
 
-      
-    </div>
+      </div>
   </div>
-  <!-- End Thumbs Slider -->
+  
+
+    <div class="shape shape-bottom zi-1">
+        <svg width="3000" height="500" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 500H3000V0L0 500Z" fill="#fff"></path>
+        </svg>
+    </div>
 </div>
 <!-- Swiper Slider -->
     <!-- End Hero -->
 
     <!-- working process -->
 
-    <section class="pt-5 pb-5 mt-8">
+    <section class="pt-5 pb-5 mt-n4">
       <div class="w-md-55 w-lg-40 text-center mx-auto mb-5 mb-md-9">
-        <span class="p1">Features built for scale</span>
-        <h2 class="bg-navy">The quickest and easiest theme for every team</h2>
+        <span class="lead">Features built for scale</span>
+        <h2 style="color: rgba(0, 31, 63, 0.7) !important;">The quickest and easiest theme for every team</h2>
       </div>
       <div class="container">
         <div class="row">
@@ -358,7 +342,7 @@ p {
                                         <i class="fa fa-eercast"></i>
                                     </div>
                                     <h3 class="text-primary">Security Measures</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark">Advanced security protocols to protect data .</p>
+                                    <p class=" xs-line-height-22 text-dark">Advanced security protocols to protect data .</p>
                                 </a>
                             </div>
                         </div>
@@ -369,7 +353,7 @@ p {
                                         <i class="fa fa-snowflake-o"></i>
                                     </div>
                                     <h3 class="text-primary">Predictive Maintenance</h3>
-                                    <p class="xs-font-size13 xs-line-height-22  text-dark">Proactive upkeep for equipment and systems</p>
+                                    <p class=" xs-line-height-22  text-dark">Proactive upkeep for equipment and systems</p>
                                 </a>
                             </div>
                         </div>
@@ -380,7 +364,7 @@ p {
                                         <i class="fa fa-braille"></i>
                                     </div>
                                     <h3 class="text-primary">Integration Capabilities</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark">Seamlessly connect with existing systems.</p>
+                                    <p class=" xs-line-height-22 text-dark">Seamlessly connect with existing systems.</p>
                                 </a>
                             </div>
                         </div>
@@ -391,7 +375,7 @@ p {
                                         <i class="fa fa-diamond"></i>
                                     </div>
                                     <h3 class="text-primary">Data Visualization</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark">Clear data representation for understanding.</p>
+                                    <p class=" xs-line-height-22 text-dark">Clear data representation for understanding.</p>
                                 </a>
                             </div>
                         </div>
@@ -402,7 +386,7 @@ p {
                                         <i class="fa fa-object-ungroup"></i>
                                     </div>
                                     <h3 class="text-primary">Data Analytics</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark"> Real-time data insights for informed decision-making .</p>
+                                    <p class=" xs-line-height-22 text-dark"> Real-time data insights for informed decision-making .</p>
                                 </a>
                             </div>
                         </div>
@@ -413,7 +397,7 @@ p {
                                         <i class="fa fa-paper-plane-o"></i>
                                     </div>
                                     <h3 class="text-primary">Remote Monitoring</h3>
-                                    <p class="xs-font-size13 xs-line-height-22 text-dark">Allowing users to access and manage them from anywhere.</p>
+                                    <p class=" xs-line-height-22 text-dark">Allowing users to access and manage them from anywhere.</p>
                                 </a>
                             </div>
                         </div>
@@ -434,30 +418,40 @@ p {
               <div class="content-column col-lg-7 col-md-12 col-sm-12 order-1 mt-10 ">
                   <div class="inner-column">
                       <div class="sec-title">
-                          <!-- <span class="p1">About us</span> -->
-                          <h2 class="bg-navy w-lg-40">Internet Of Things</h2>
+                          <!-- <span class="">About us</span> -->
+                          <h2 class=" w-lg-40 py-3" style="color: rgba(0, 31, 63, 0.7) !important;">Internet Of Things</h2>
                       </div>
          
-                    <div class="xs-font-size13 xs-line-height-22 text-dark">
+                    <div class=" xs-line-height-22 text-dark">
                       Utilize Devloops's IoT development services in <span class="text-primary">sensor programming, gateway integration, connection</span>, IoT applications, IoT platform development, and analytics to drive hyperconnectivity in your organization. Use cutting-edge IoT technologies to increase efficiency, engage customers, and improve the strategy by gaining business information more quickly.
                           </div><br>
-                      <div class="btn-box">
-                          <a href="./contact.html" class="theme-btn btn-style-one">Contact Us</a>
-                      </div>
+                          <a href="./contact.html" id="#job">
+                            <button class=" btn   btn-outline-primary  btn-transition">Contact Us</button>
+                          </a>
                   </div>
               </div>
 
               <!-- Image Column -->
               <div class="image-column col-lg-5 col-md-12 col-sm-12">
-                  <div class="inner-column ">
-                    <div class="author-desc">
-                      <h2>Internet Of Things</h2>
-                      <!-- <span>Web Developer</span> -->
-                    </div>
-                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="./assets/img/iotillustration.jpg" alt=""></a></figure>
+                <div class="inner-column ">
+                  <!-- <div class="author-desc">
+                    <h2>Product Development</h2> 
                    
-                  </div>
-              </div>
+                  </div> -->
+                    <figure class="image-1 d-md-block d-none">
+                      <a href="#" class="lightbox-image" data-fancybox="images">
+                      <img src="./assets/img/iotnewchangegif.gif" alt="" class="img-fluid"></a>
+                    </figure>
+
+                    <!-- smaller screen -->
+                    <figure class="image-1  d-block d-md-none">
+                      <a href="#" class="lightbox-image" data-fancybox="images">
+                      <img src="./assets/img/iotnewchange.png" alt="" class="img-fluid img-thumbnail d-sm-none"></a>
+                    </figure>
+                 
+                </div>
+            </div>
+              
             
           </div>
             
@@ -466,41 +460,79 @@ p {
   </section>
 
      <!-- Features -->
-     <section class="bgcolour ">
-      <div class="containers mt-n12">
-       <h1 class="mt-11">WHAT WE DO?</h1>
-       <div class="services-section">
-         <div class="card">
-           <div class="icon">
-             <img class="avatar" src="./assets/img/analyticsioticon.png" alt="Logo">
-           </div>
-           <h2 class="text-primary">Iot analytics</h2>
-           <p class="p2 text-dark">It involves collecting, processing, and analyzing data from sensors, devices, and other IoT components to derive valuable information. Advanced analytics techniques, including <span class="text-primary"> machine learning and artificial intelligence </span>, are often employed to discover patterns, trends, and anomalies within the data.</p>
-         </div>
-         <div class="card">
-           <div class="icon">
-             <img class="avatar" src="./assets/img/connectivityioticon.png" alt="Logo">
-           </div>
-           <h2 class="text-primary">Iot Connectivity </h2>
-           <p  class="p2 text-dark"> As IoT  involve a diverse range of devices with varying communication protocols, standards, and requirements, effective connectivity solutions are essential. Technologies such as <span class="text-primary">MQTT, CoAP, and HTTP </span>are commonly used to establish communication between IoT devices and platforms.  </p>
-           </div>
-           <div class="card">
-             <div class="icon">
-               <img class="avatar" src="./assets/img/securityioticon.png" alt="Logo">
-             </div>
-             <h2 class="text-primary">Iot Security</h2>
-             <p class="p2 text-dark"> As IoT devices collect and transmit sensitive data, ensuring the confidentiality, integrity, and availability of this information is paramount. Security measures include <span class="text-primary">robust authentication mechanisms</span> , encryption of data in transit and at rest, and secure device management practices.</p>
-         </div>
-       </div>
-     </div>
-   </section>
+     <div class="container content-space-2">
+      <!-- Heading -->
+      <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <!-- <span class="text-cap">Platforms</span> -->
+        <h2 class="h1">What We Offer</h2>
+      </div>
+      <!-- End Heading -->
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" >
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/analyticsioticon.png" alt="Logo">
+              </div>
+              <h3 class="card-title">Iot analytics</h3>
+              <p class="card-text text-dark">It involves collecting, processing, and analyzing data from sensors, devices, and other IoT components to derive valuable information.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-md-5 mb-lg-0">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" >
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/connectivityioticon.png" alt="Logo">
+              </div>
+              <h3 class="card-title">Iot Connectivity</h3>
+              <p class="card-text text-dark">As IoT involve a diverse range of devices with varying communication protocols, standards, and requirements, effective connectivity solutions.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-6 col-lg-4">
+          <!-- Card -->
+          <a class="card card-lg card-transition h-100 text-center" href="#">
+            <div class="card-body">
+              <div class="mb-4">
+                <img class="avatar" src="./assets/img/securityioticon.png" alt="Logo">
+              </div>
+              <h3 class="card-title">Iot Security</h3>
+              <p class="card-text text-dark">
+                As IoT devices collect and transmit sensitive data, ensuring the confidentiality, integrity, and availability of this information is paramount.</p>
+            </div>
+            <!-- <div class="card-footer pt-0">
+              <span class="card-link">Learn more <i class="bi-chevron-right small ms-1"></i></span>
+            </div> -->
+          </a>
+          <!-- End Card -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
     <!-- End Features -->
     <!-- Subscribe -->
-    <div class="container content-space-2 content-space-lg-3">
+    <div class="container content-space-2 ">
       <!-- Heading -->
       <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
-        <p class="text-secondary  p1">Explore Startups</p>
-        <h3 class="bg-navy">Find a job you love. Set your career interests.</h3>
+        <p class="text-secondary  lead ">Explore Startups</p>
+        <h3 style="color: rgba(0, 31, 63, 0.7) !important;">Find a job you love. Set your career interests.</h3>
       </div>
       <!-- End Heading -->
     
@@ -511,7 +543,7 @@ p {
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col">
-                  <h5 class="text-dark p1">IT<br> Coordinator</h5>
+                  <h5 class="text-dark lead">IT<br> Coordinator</h5>
                   <!-- <p class="card-text text-body small">4 job positions</p> -->
                 </div>
                 <!-- End Col -->
@@ -536,7 +568,7 @@ p {
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col">
-                  <h5 class="text-dark p1">Software Development</h5>
+                  <h5 class="text-dark lead">Software Development</h5>
                   
                 </div>
                 <!-- End Col -->
@@ -561,7 +593,7 @@ p {
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col">
-                  <h5 class="text-dark p1">UI/UX <br> Designer</h5>
+                  <h5 class="text-dark lead">UI/UX <br> Designer</h5>
                   
                 </div>
                 <!-- End Col -->
@@ -586,7 +618,7 @@ p {
             <div class="card-body">
               <div class="row align-items-center">
                 <div class="col">
-                  <h5 class=" text-dark p1">Product Designer</h5>
+                  <h5 class=" text-dark lead">Product <br>Designer</h5>
               
                 </div>
                 <!-- End Col -->
@@ -617,7 +649,7 @@ p {
       <div class="row mb-9 " >
         <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
           <!-- Logo -->
-          <a href="#home" aria-label="Front ">
+          <a  aria-label="Front " href="./index.html" >
             <img class="brand mt-8"  src="./assets/img/newlogobg.png" alt="Logo" style="width: 240px; height: 50px;">
           </a>
           <!-- End Logo -->
@@ -907,6 +939,5 @@ p {
 
 </body>
 
-<!-- Mirrored from htmlstream.com/preview/front-v4.3.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 06:20:45 GMT -->
 
 </html>
