@@ -25095,4 +25095,27 @@ a:hover .text-inherit {
 }
 
 /* /new hero end */
+/* blog max min heiht width img */
+
+.img-blog {
+  max-width: 100%; /* Allow the image to be responsive within the container */
+  max-height: 30vh; /* Allow the image to be responsive within the container, using 60% of the viewport height */
+  object-fit: fill; /* Maintain aspect ratio while covering the container */
+  width: 100%; /* Make sure the image takes up 100% of the container width */
+  height: 100%; /* Make sure the image takes up 100% of the container height */
+}
+
+.tag-line {
+  line-height: 1;
+  overflow: hidden !important;
+  max-height: 2em;
+  min-height: 2em;
+}
+
+.para-line  {
+  line-height: 1.5; /* Adjust the line height for the paragraph */
+  max-height: 4.5em; /* Set a fixed number of lines (3 lines with 1.5em line height) */
+  overflow: hidden; /* Hide any overflow content */
+  
+}
 
