@@ -601,361 +601,10 @@
   <!-- contact small -->
 
   <!-- Team -->
-  <div class="container content-space-2 content-space-lg-3">
-    <!-- Heading -->
-    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-      <p class="text-secondary lead"> Our Team</p>
-      <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Creative minds</span></h2>
-
-    </div>
-    <!-- End Heading -->
-
-    <div class="row gx-3 mb-5">
-      <div class="col-sm-6 col-lg-3 mb-3">
-        <!-- Card -->
-        <div class="card card-transition h-100" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable">
-          <div class="card-body">
-            <div class="avatar avatar-lg avatar-circle mb-4">
-              <img class="avatar-img" src="./assets/img/riya1n.jpeg" alt="Riya Vaidya Image">
-            </div>
-
-            <span class="card-subtitle text-navy-blue">Backend Developer</span>
-            <h4 class="card-title text-primary">Riya Vaidya</h4>
-            <p class="text-dark p2">Responsible for server-side web application logic and integration of the work <span
-                class="text-muted">Read More..</span></p>
-          </div>
-
-          <div class="card-footer pt-0">
-            <!-- Socials -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-google"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-twitter"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End Socials -->
-          </div>
-        </div>
-
-        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <!-- <h5 class="modal-title" id="exampleModalScrollableTitle">Riya Vaidya</h5> -->
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-
-              <div class="modal-body">
-                <!-- Avatar Image with Title -->
-                <div class="row justify-content-center mb-4">
-                  <div class="col-auto">
-                    <div class="avatar avatar-lg avatar-circle text-center">
-                      <img class="avatar-img" src="./assets/img/riya1n.jpeg" alt="Riya Vaidya Image">
-                      <!-- Title/Name -->
-                      <!-- <h5 class="text-dark mt-3 mb-0">Riya Vaidya</h5> -->
-                    </div>
-                  </div>
-                  <div class="col">
-                    <!-- Designation or Additional Text -->
-                    <h3 class="text-left  mb-0 mt-1  text-primary">Riya Vaidya</h3>
-                    <h5 class="text-left text-dark mb-0 mt-2 p2">BackendEnd Developer</h5>
-                    <!-- End Designation -->
-                  </div>
-                </div>
-                <!-- End Avatar Image with Title -->
-
-                <!-- Content specific to Riya Vaidya -->
-                <p class="p2 text-dark">
-                  Maintain the mechanisms that process data and perform actions on websites. Unlike front-end
-                  developers, who control everything you can see on a website, back-end developers are involved in data
-                  storage, security, and other server-side functions that you cannot see.
-                </p>
-                <!-- End Content -->
-              </div>
-
-            </div>
-          </div>
-        </div>
 
 
-      </div>
-
-      <!-- End Col -->
-
-      <div id="Richa" class="col-sm-6 col-lg-3 mb-3">
-        <!-- Card -->
-        <div class="card card-transition h-100" data-bs-toggle="modal" data-bs-target="#RichaModal">
-          <div class="card-body">
-            <div class="avatar avatar-lg avatar-circle mb-4">
-              <img class="avatar-img" src="./assets/img/richa.JPG" alt="Richa Kharwa Image">
-            </div>
-
-            <span class="card-subtitle p2">FrontEnd Developer</span>
-            <h4 class="card-title  text-primary">Richa Kharwa</h4>
-            <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and
-              healthcare <span class="text-muted">Read More..</span></p>
-          </div>
-
-          <div class="card-footer pt-0">
-            <!-- Socials -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-google"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-twitter"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End Socials -->
-          </div>
-        </div>
-
-        <div class="modal fade" id="RichaModal" tabindex="-1" role="dialog" aria-labelledby="RichaModalTitle"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header text-center">
-                <!-- <h5 class="modal-title" id="RichaModalTitle">Richa Kharwa</h5> -->
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-
-              <div class="modal-body">
-                <!-- Avatar Image with Title -->
-                <div class="row justify-content-center mb-4">
-                  <div class="col-auto">
-                    <div class="avatar avatar-lg avatar-circle text-center">
-                      <img class="avatar-img" src="./assets/img/richa.JPG" alt="Richa Kharwa Image">
-                      <!-- Title/Name -->
-                      <!-- <h5 class="text-dark mt-3 mb-0">Richa Kharwa</h5> -->
-                    </div>
-                  </div>
-                  <div class="col">
-                    <!-- Designation or Additional Text -->
-                    <h3 class="text-left  text-primary mb-0 mt-1">Richa Vaidya</h3>
-                    <h5 class="text-left text-dark mb-0 mt-2 p2">FrontEnd Developer</h5>
-                    <!-- End Designation -->
-                  </div>
-                </div>
-                <!-- End Avatar Image with Title -->
-
-                <!-- Content specific to Richa Kharwa -->
-                <p class="p2 text-dark">
-                  I'm passionate about creating great user experiences and have a strong understanding of usability and
-                  accessibility standards.
-                  I believe that design is not just about how things look but also about how they work. By combining
-                  creativity with technical expertise, I strive to create web interfaces that not only captivate users
-                  visually but also provide an intuitive and enjoyable journey.
-                </p>
-                <!-- End Content -->
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-
-        <!-- End Modal -->
-      </div>
-
-
-      <!-- End Col -->
-      <div id="Emily" class="col-sm-6 col-lg-3 mb-3">
-        <!-- Card -->
-        <div class="card card-transition h-100" data-bs-toggle="modal" data-bs-target="#emilyModal">
-          <div class="card-body">
-            <div class="avatar avatar-lg avatar-circle mb-4">
-              <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
-            </div>
-
-            <span class="card-subtitle p1">Lead Designer</span>
-            <h4 class="card-title  text-primary">Emily Johnson</h4>
-            <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics
-              <span class="text-muted">Read More..</span></p>
-          </div>
-
-          <div class="card-footer pt-0">
-            <!-- Socials -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-google"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-twitter"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End Socials -->
-          </div>
-        </div>
-
-        <div class="modal fade" id="emilyModal" tabindex="-1" role="dialog" aria-labelledby="emilyModalTitle"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <!-- <h5 class="modal-title" id="emilyModalTitle">Emily Johnson's Modal</h5> -->
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- Avatar Image with Title -->
-                <div class="row justify-content-center mb-4">
-                  <div class="col-auto">
-                    <div class="avatar avatar-lg avatar-circle text-center">
-                      <img class="avatar-img" src="./assets/img//160x160/img9.jpg" alt="Emily Johnson Image">
-                      <!-- Title/Name -->
-
-                    </div>
-                  </div>
-                  <div class="col">
-                    <!-- Designation or Additional Text -->
-                    <h3 class="text-left  text-primary mb-0 mt-1">Emily Johnson</h3>
-                    <h5 class="text-left text-dark mb-0 mt-2 p2">Lead Designer</h5>
-                    <!-- End Designation -->
-                  </div>
-                </div>
-                <!-- End Avatar Image with Title -->
-
-                <!-- Content specific to Emily Johnson -->
-                <p class="p2 text-dark">
-                  Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play
-                  a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user
-                  journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative
-                  design solutions, transforming concepts into captivating and user-friendly software interfaces.
-                </p>
-                <!-- End Content -->
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-
-        <!-- End Modal -->
-      </div>
-
-      <!-- End Col -->
-
-      <div id="Michael" class="col-sm-6 col-lg-3 mb-3">
-        <!-- Card -->
-        <div class="card card-transition h-100" data-bs-toggle="modal" data-bs-target="#michaelModal">
-          <div class="card-body">
-            <div class="avatar avatar-lg avatar-circle mb-4">
-              <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
-            </div>
-
-            <span class="card-subtitle p1">Lead Developer</span>
-            <h4 class="card-title  text-primary">Michael Smith</h4>
-            <p class="p2 text-dark"> With a wealth of experience and a deep understanding of technologies <span
-                class="text-muted">Read More..</span></p>
-          </div>
-
-          <div class="card-footer pt-0">
-            <!-- Socials -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-google"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-xs btn-icon rounded text-dark" href="#">
-                  <i class="bi-twitter"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End Socials -->
-          </div>
-        </div>
-        <!-- End Card -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="michaelModal" tabindex="-1" role="dialog" aria-labelledby="michaelModalTitle"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <!-- <h5 class="modal-title" id="michaelModalTitle">Michael Smith's Modal</h5> -->
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- Avatar Image with Title -->
-                <div class="row justify-content-center mb-4">
-                  <div class="col-auto">
-                    <div class="avatar avatar-lg avatar-circle text-center">
-                      <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
-                      <!-- Title/Name -->
-
-                    </div>
-                  </div>
-                  <div class="col">
-                    <!-- Designation or Additional Text -->
-                    <h3 class="text-left  text-primary mb-0 mt-1">Michael Smith</h3>
-                    <h5 class="text-left text-dark mb-0 mt-2 p2">Lead Developer</h5>
-                    <!-- End Designation -->
-                  </div>
-                </div>
-                <!-- End Avatar Image with Title -->
-
-                <!-- Content specific to Michael Smith -->
-                <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering
-                  high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous
-                  learning and innovation within the development team, ensuring that our software products not only meet
-                  but exceed industry standards.
-                </p>
-                <!-- End Content -->
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-        <!-- End Modal -->
-      </div>
-      <!-- End Col -->
-
-    </div>
-    <!-- End Row -->
-
-
-  </div>
-
-
-  <!-- 
+<!-- end team -->
+  <!--
    Testimonials  -->
 
   <div style="background-color:  rgba(114, 143, 206, 0.3) !important;">
@@ -996,7 +645,7 @@
                   <img class="avatar avatar-circle" src="./assets/img/160x160/img8.jpg" alt="Image Description">
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h5 class="card-title mb-0">Calvin Carlo</h5>
+                  <h5 class="card-title mb-0">Chandni Rai</h5>
                   <p class="card-text small">Business Manager</p>
                 </div>
               </div>
@@ -1034,7 +683,7 @@
                   <img class="avatar avatar-circle" src="./assets/img/160x160/img9.jpg" alt="Image Description">
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h5 class="card-title text-white mb-0">Jemina CLone</h5>
+                  <h5 class="card-title text-white mb-0">Jaimini Thevar</h5>
                   <p class="card-text small text-white-70">CEO </p>
                 </div>
               </div>
@@ -1066,7 +715,7 @@
                   <img class="avatar avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h5 class="card-title mb-0">Cristino Murfi</h5>
+                  <h5 class="card-title mb-0">Jay patel</h5>
                   <p class="card-text small">Front Pay user</p>
                 </div>
               </div>
@@ -1201,21 +850,21 @@
   <!-- blog new -->
   <div id="blog">
     <!-- <div class="container content-space-2 content-space-lg-3">
-      
+
       <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
         <span class="text-cap">Success stories</span>
         <h2>Our Latest & Most Popular Tips & Tricks For You</h2>
       </div>
-     
+
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-5">
         <div class="col mb-5">
-          
+
           <div class="card h-100">
             <img class="card-img-top" src="assets/img/480x320/img13.jpg" alt="Image Description">
 
             <div class="card-body">
-              
+
               <a href="#">
                 <h2 class="card-text text-dark">How To Recover Health Faster With Online Session.</h2>
               </a>
@@ -1226,17 +875,17 @@
                   class="bi-chevron-right small ms-1"></i></a>
             </div>
           </div>
-         
+
         </div>
-        
+
 
         <div class="col mb-5">
-          
+
           <div class="card h-100">
             <img class="card-img-top" src="assets/img/480x320/img17.jpg" alt="Image Description">
 
             <div class="card-body">
-             
+
               <a href="#">
                 <h2 class="card-text text-dark">Telehealth Services Are Ready To Help Your Family.</h2>
               </a>
@@ -1247,17 +896,17 @@
                   class="bi-chevron-right small ms-1"></i></a>
             </div>
           </div>
-       
+
         </div>
-       
+
 
         <div class="col mb-5">
-        
+
           <div class="card h-100">
             <img class="card-img-top" src="assets/img/480x320/img16.jpg" alt="Image Description">
 
             <div class="card-body">
-             
+
               <a href="#">
                 <h2 class="card-text text-dark">10 Tips To Lead A Healthy And Happy Life.</h2>
               </a>
@@ -1268,15 +917,15 @@
                   class="bi-chevron-right small ms-1"></i></a>
             </div>
           </div>
-          
+
         </div>
-      
 
 
 
-      
+
+
       </div>
-     
+
     </div> -->
   </div>
   <!--  blog new -->

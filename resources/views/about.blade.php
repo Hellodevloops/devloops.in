@@ -176,7 +176,7 @@
                 <p class=" text-body text-dark">We provide <span class="text-primary">Digital solutions </span>that
                   create competitive shopping & B2B trade experiences. </p>
               </div>
-              <!-- 
+              <!--
               <div class="card-footer pt-0">
                 <span class="card-link">Visit FAQ <i class="bi-chevron-right small ms-1"></i></span>
               </div> -->
@@ -798,7 +798,7 @@
 
 
     </div>
-    <!-- 
+    <!--
    team end -->
 
 
@@ -841,7 +841,7 @@
                     <img class="avatar avatar-circle" src="./assets/img/160x160/img8.jpg" alt="Image Description">
                   </div>
                   <div class="flex-grow-1 ms-3">
-                    <h5 class="card-title mb-0">Calvin Carlo</h5>
+                    <h5 class="card-title mb-0">Chandni Rai</h5>
                     <p class="card-text small">Business Manager</p>
                   </div>
                 </div>
@@ -879,7 +879,7 @@
                     <img class="avatar avatar-circle" src="./assets/img/160x160/img9.jpg" alt="Image Description">
                   </div>
                   <div class="flex-grow-1 ms-3">
-                    <h5 class="card-title text-white mb-0">Jemina CLone</h5>
+                    <h5 class="card-title text-white mb-0">Jaimini Thevar</h5>
                     <p class="card-text small text-white-70">CEO </p>
                   </div>
                 </div>
@@ -911,7 +911,8 @@
                     <img class="avatar avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
                   </div>
                   <div class="flex-grow-1 ms-3">
-                    <h5 class="card-title mb-0">Cristino Murfi</h5>
+                    <h5 class="card-title mb-0">
+Jay patel</h5>
                     <p class="card-text small">Front Pay user</p>
                   </div>
                 </div>
