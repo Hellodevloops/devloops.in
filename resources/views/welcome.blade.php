@@ -4,16 +4,16 @@
   <!-- ========== MAIN CONTENT ========== -->
   <!-- hero -->
 
-   
+
   <!-- Hero -->
   <div class="position-relative overflow-hidden" style="background-image: url(assets/svg/components/card-11.svg);">
     <div class="container position-relative zi-2 content-space-t-3 content-space-t-lg-4 content-space-b-2 content-space-b-md-3">
       <div class="row align-items-lg-center mt-n3">
         <div class="col-lg-5 ">
-       
+
           <div class="mb-4">
             <h1 class="display-6 text-dark">
-              Revolutionizing 
+              Revolutionizing
               <span class="text-primary">
                 <span class="js-typedjs text-primary" data-hs-typed-options="{
                         &quot;strings&quot;: [ &quot;Industries&quot;,  &quot;Power&quot;],
@@ -35,7 +35,7 @@
               <button class=" btn   btn-outline-primary  btn-transition">Get Started</button>
             </a>
           </div>
-         
+
         </div>
 
         <div class="col-md-6">
@@ -51,9 +51,9 @@
             </div>
         </figure> -->
         </div>
-       
+
       </div>
-      
+
     </div>
 
     <div class="shape shape-bottom zi-1">
@@ -61,13 +61,13 @@
         <path d="M0 500H3000V0L0 500Z" fill="#fff"></path>
       </svg>
     </div>
-   
+
   </div>
 <!-- End Hero -->
 
-  <!-- !-- why choose us --> 
+  <!-- !-- why choose us -->
   <div id="about">
-      
+
       <div class="container content-space-1 mt-n4 ">
       <div class="row justify-content-lg-between">
 
@@ -85,14 +85,14 @@
           <!-- End Row -->
         </div>
         <!-- End Image Column -->
-   
+
         <!-- Content Column -->
         <div class="col-lg-7 mb-9 mb-lg-0 mt-n5">
           <!-- Heading -->
           <div class="mb-5">
             <p class="text-secondary lead">About Company</p>
             <h2 class="text-sm text-md-lg" style="color: rgba(0, 31, 63, 0.7) !important;">Harnessing the power of international insights with tailoring solutions to meet your unique needs</h2>
-            
+
             <p class="p1 text-dark">
               <span class="text-primary">DevLoops International</span> is a dynamic and forward-thinking company at the intersection of technology and creativity. Established with a passion for innovation, we are dedicated to delivering bespoke solutions that empower businesses and individuals to thrive in the ever-evolving digital landscape.
             </p>
@@ -100,12 +100,12 @@
           <!-- End Heading -->
         </div>
 
-        
+
       </div>
       <!-- End Row -->
     </div>
 
- 
+
   </div>
   <!-- why choose us end -->
 
@@ -123,7 +123,7 @@
                                   <span class="svg-icon svg-icon-lg text-primary feature icon-to-change"
                                       onmouseover="changeIconColor(this)"
                                       onmouseout="resetIconColor(this)">
-                                      
+
                                       <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.3" d="M17 6H3C2.4 6 2 6.4 2 7V21C2 21.6 2.4 22 3 22H17C17.6 22 18 21.6 18 21V7C18 6.4 17.6 6 17 6Z" fill="#035A4B"></path>
                                         <path d="M17.8 4.79999L9.3 13.3C8.9 13.7 8.9 14.3 9.3 14.7C9.5 14.9 9.80001 15 10 15C10.2 15 10.5 14.9 10.7 14.7L19.2 6.20001L17.8 4.79999Z" fill="#035A4B"></path>
@@ -133,17 +133,17 @@
                               </div>
                               <div class="flex-grow-1 ms-3">
                                 <h6 class="display-6 " >
-                                   
+
                                     <span class="  mb-3 text-to-change "  onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > Our Mission</span>
                                 </h6>
                                 <div class="border-top border-10 my-3" style="max-width: 25rem;"></div>
                                 <!-- <span class="blockquote-footer-source">Happy customer</span> -->
                             </div>
-                            
+
                           </div>
                           <!-- Blockquote -->
                           <figure>
-                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" > 
+                              <p class="text-dark text-to-change" onmouseover="changeTextColor(this)" onmouseout="resetTextColor(this)" >
                                 At DevLoops International, our mission is to be at the forefront of
                                   transformative software development, pioneering innovative solutions that empower
                                   businesses to thrive in the digital era. We are committed to delivering excellence in
@@ -155,7 +155,7 @@
                       </div>
                       <!-- End Card -->
                   </div>
-  
+
                   <div class="col-sm-6 mb-3 mb-sm-0">
                       <!-- Card -->
                       <div class="card-body card card-transition text-center gradient-animation">
@@ -195,7 +195,7 @@
           </div>
       </div>
   </section>
-  
+
   <!-- End Browser Device -->
 
   <!-- Features start -->
@@ -206,7 +206,7 @@
       <p class="text-secondary lead mt-5">Our  Process</p>
       <h2 class="h2"><span class="text-primary">Guiding Your Digital Success with Precision and Expertise</span></h2>
   </div>
-  
+
     <!-- End Heading -->
 
     <div class="row mb-5 mb-md-9">
@@ -347,7 +347,7 @@
     </div>
     <!-- End Row -->
 
-    
+
   </div>
 
   <!-- Features end -->
@@ -373,43 +373,43 @@
             <p class=" p1 text-dark w-md-40"> We collaborate closely with businesses of all sizes, employing a strategic approach to address challenges and capitalize on opportunities. Whether you seek streamlined processes, enhanced productivity, or a digital transformation, our team is dedicated to providing you with the technological foundation to achieve your goals. </p>
           </div>
           <!-- End Heading -->
-<!-- 
+<!--
           <div class="container">
             <div class="row mb-4">
                 <div class="col-4">
-                   
+
                     <ul class="list-checked list-checked-success mb-0">
                         <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal1">ERP</button>
                         </li>
                     </ul>
-                   
+
                 </div>
-                
-        
+
+
                 <div class="col-4">
-                   
+
                     <ul class="list-checked list-checked-success mb-0">
                         <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal2">CRM</button>
                         </li>
                     </ul>
-                   
+
                 </div>
-        
+
                 <div class="col-4">
-                   
+
                     <ul class="list-checked list-checked-success mb-0">
                         <li class=" text-dark p1">
                             <button class="btn btn-outline-primary btn-transition open-modal" data-target="#myModal3">CSM</button>
                         </li>
                     </ul>
-                   
+
                 </div>
-              
+
             </div>
         </div> -->
-          
+
 
 
         </div>
@@ -452,7 +452,7 @@
                 </div>
 
                 <div class="text-center">
-                  
+
                   <ul class="nav nav-sm nav-pills nav-light nav-justified mb-5 " id="featuresCodingTab" role="tablist">
                     <li class="nav-item " role="presentation">
                       <a class="nav-link active text-white   d-md-none d-sm-block" href="#featuresCodingOne" id="featuresCodingOne-tab" data-bs-toggle="tab" data-bs-target="#featuresCodingOne" role="tab" aria-controls="featuresCodingOne" aria-selected="true">Product <br> Development</a>
@@ -467,7 +467,7 @@
                     </li>
 
                   </ul>
-                 
+
                 </div>
               </div>
               <!-- End Nav Scroller -->
@@ -484,11 +484,11 @@
                           </svg>
                         </div>
                         <!-- End Image Container -->
-                    
+
                         <!-- Image Description -->
                         <p class="text-left mt-4 text-white ">It encompasses a range of activities, from idea generation and market research <b>to prototyping, testing, and eventual production</b>. It involves collaboration across various departments, including design, engineering, marketing, and quality assurance, to ensure the final product meets both customer expectations and business objectives.The goal is to create innovative solutions that meet customer needs, differentiate the product in the market, and contribute to the overall growth and success of the business. </p>
-                       
-                        
+
+
                         <!-- End Image Description -->
                   <!-- End Code -->
                 </div>
@@ -501,24 +501,24 @@
                                 </svg>
                               </div>
                               <!-- End Image Container -->
-                          
+
                               <!-- Image Description -->
                               <p class="text-left mt-4 text-white ">Unlike traditional desktop applications, web apps do not require installation on a user's device and can be accessed from various platforms. Web apps leverage technologies such as frontend, backend  to provide dynamic and interactive user experiences and give security also. They are versatile and can serve a wide range of purposes, from content delivery and collaboration to complex data processing. Web apps play a pivotal role in the modern digital landscape, offering accessibility and scalability for businesses and users alike. </p>
-                             
+
                 </div>
 
                 <div class="tab-pane fade" id="featuresCodingThree" role="tabpanel" aria-labelledby="featuresCodingThree-tab">
-                  
+
                   <div class="text-center text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cloud-upload-fill" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0m-.5 14.5V11h1v3.5a.5.5 0 0 1-1 0"/>
                     </svg>
                   </div>
                   <!-- End Image Container -->
-              
+
                   <!-- Image Description -->
                   <p class="text-left mt-4 text-white ">These devices, equipped with sensors, actuators, and connectivity, can collect and exchange information to enable intelligent decision-making and automation. IoT applications span various industries, including healthcare, agriculture, smart cities, and industrial automation. The transformative power of IoT lies in its ability to create a seamless and interconnected ecosystem, enhancing efficiency, reducing costs, and unlocking new possibilities for innovation and improved quality of life.  </p>
-                 
+
                 </div>
 
               </div>
@@ -546,7 +546,7 @@
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
     <p class="text-secondary lead"> Our Team</p>
     <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Creative minds</span></h2>
-   
+
   </div>
   <!-- End Heading -->
 
@@ -558,12 +558,12 @@
             <div class="avatar avatar-lg avatar-circle mb-4">
                 <img class="avatar-img" src="./assets/img/riya1n.jpeg" alt="Riya Vaidya Image">
             </div>
-    
+
             <span class="card-subtitle text-navy-blue">Backend Developer</span>
             <h4 class="card-title text-primary">Riya Vaidya</h4>
             <p class="text-dark p2">Responsible for server-side web application logic and integration of the work <span class="text-muted">Read  More..</span></p>
         </div>
-    
+
         <div class="card-footer pt-0">
           <!-- Socials -->
           <ul class="list-inline mb-0">
@@ -586,7 +586,7 @@
           <!-- End Socials -->
         </div>
     </div>
-    
+
     <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
           <div class="modal-content">
@@ -594,7 +594,7 @@
               <!-- <h5 class="modal-title" id="exampleModalScrollableTitle">Riya Vaidya</h5> -->
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            
+
             <div class="modal-body">
               <!-- Avatar Image with Title -->
               <div class="row justify-content-center mb-4">
@@ -613,21 +613,21 @@
                 </div>
               </div>
               <!-- End Avatar Image with Title -->
-            
+
               <!-- Content specific to Riya Vaidya -->
               <p class="p2 text-dark">
                 Maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website, back-end developers are involved in data storage, security, and other server-side functions that you cannot see.
               </p>
               <!-- End Content -->
             </div>
-            
+
           </div>
       </div>
   </div>
-  
-    
+
+
     </div>
-    
+
     <!-- End Col -->
 
     <div id="Richa" class="col-sm-6 col-lg-3 mb-3">
@@ -637,12 +637,12 @@
             <div class="avatar avatar-lg avatar-circle mb-4">
                 <img class="avatar-img" src="./assets/img/richa.JPG" alt="Richa Kharwa Image">
             </div>
-    
+
             <span class="card-subtitle p2">FrontEnd Developer</span>
             <h4 class="card-title  text-primary">Richa Kharwa</h4>
             <p class="text-dark p2">I've worked on a variety of projects for clients in the retail, travel, and healthcare  <span class="text-muted">Read  More..</span></p>
         </div>
-    
+
         <div class="card-footer pt-0">
           <!-- Socials -->
           <ul class="list-inline mb-0">
@@ -665,7 +665,7 @@
           <!-- End Socials -->
         </div>
     </div>
-    
+
     <div class="modal fade" id="RichaModal" tabindex="-1" role="dialog" aria-labelledby="RichaModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -673,7 +673,7 @@
                 <!-- <h5 class="modal-title" id="RichaModalTitle">Richa Kharwa</h5> -->
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              
+
               <div class="modal-body">
                 <!-- Avatar Image with Title -->
                 <div class="row justify-content-center mb-4">
@@ -692,7 +692,7 @@
                   </div>
                 </div>
                 <!-- End Avatar Image with Title -->
-              
+
                 <!-- Content specific to Richa Kharwa -->
                 <p class="p2 text-dark">
                   I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.
@@ -700,16 +700,16 @@
                 </p>
                 <!-- End Content -->
               </div>
-              
-              
+
+
             </div>
         </div>
     </div>
-    
+
       <!-- End Modal -->
     </div>
-    
-    
+
+
     <!-- End Col -->
     <div id="Emily" class="col-sm-6 col-lg-3 mb-3">
       <!-- Card -->
@@ -718,12 +718,12 @@
             <div class="avatar avatar-lg avatar-circle mb-4">
                 <img class="avatar-img" src="./assets/img/160x160/img9.jpg" alt="Emily Johnson Image">
             </div>
-    
+
             <span class="card-subtitle p1">Lead  Designer</span>
             <h4 class="card-title  text-primary">Emily Johnson</h4>
             <p class="p2 text-dark"> Meticulously crafting user-centric experiences that seamlessly blend aesthetics <span class="text-muted">Read  More..</span></p>
         </div>
-    
+
         <div class="card-footer pt-0">
           <!-- Socials -->
           <ul class="list-inline mb-0">
@@ -746,7 +746,7 @@
           <!-- End Socials -->
         </div>
     </div>
-    
+
     <div class="modal fade" id="emilyModal" tabindex="-1" role="dialog" aria-labelledby="emilyModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -761,7 +761,7 @@
                     <div class="avatar avatar-lg avatar-circle text-center">
                       <img class="avatar-img" src="./assets/img//160x160/img9.jpg" alt="Emily Johnson Image">
                       <!-- Title/Name -->
-                     
+
                     </div>
                   </div>
                   <div class="col">
@@ -772,22 +772,22 @@
                   </div>
                 </div>
                 <!-- End Avatar Image with Title -->
-              
+
                 <!-- Content specific to Emily Johnson -->
                 <p class="p2 text-dark">
                   Designer p1s the design team in translating complex ideas into visually compelling interfaces. I play a pivotal role in shaping the overall product aesthetic, ensuring a harmonious and intuitive user journey. Through collaboration with cross-functional teams, the p1 Designer brings forth innovative design solutions, transforming concepts into captivating and user-friendly software interfaces.
                 </p>
                 <!-- End Content -->
               </div>
-              
-                
+
+
             </div>
         </div>
     </div>
-    
+
       <!-- End Modal -->
     </div>
-    
+
     <!-- End Col -->
 
     <div id="Michael" class="col-sm-6 col-lg-3 mb-3">
@@ -797,12 +797,12 @@
               <div class="avatar avatar-lg avatar-circle mb-4">
                   <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
               </div>
-  
+
               <span class="card-subtitle p1">Lead Developer</span>
               <h4 class="card-title  text-primary">Michael Smith</h4>
               <p class="p2 text-dark"> With a wealth of experience and a deep understanding of  technologies <span class="text-muted">Read  More..</span></p>
           </div>
-  
+
           <div class="card-footer pt-0">
             <!-- Socials -->
             <ul class="list-inline mb-0">
@@ -826,7 +826,7 @@
           </div>
       </div>
       <!-- End Card -->
-  
+
       <!-- Modal -->
       <div class="modal fade" id="michaelModal" tabindex="-1" role="dialog" aria-labelledby="michaelModalTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
@@ -842,7 +842,7 @@
                       <div class="avatar avatar-lg avatar-circle text-center">
                         <img class="avatar-img" src="./assets/img/160x160/img10.jpg" alt="Michael Smith Image">
                         <!-- Title/Name -->
-                
+
                       </div>
                     </div>
                     <div class="col">
@@ -853,15 +853,15 @@
                     </div>
                   </div>
                   <!-- End Avatar Image with Title -->
-                
+
                   <!-- Content specific to Michael Smith -->
                   <p class="p2 text-dark">
-                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards. 
+                  Our expertise extends beyond coding, encompassing strategic thinking and a commitment to delivering high-quality, maintainable code. p1ing by example, the p1 Developer fosters a culture of continuous learning and innovation within the development team, ensuring that our software products not only meet but exceed industry standards.
                   </p>
                   <!-- End Content -->
                 </div>
-                
-                 
+
+
               </div>
           </div>
       </div>
@@ -872,9 +872,9 @@
   </div>
   <!-- End Row -->
 
-  
+
 </div>
-<!-- 
+<!--
    team end -->
 
 
@@ -884,10 +884,10 @@
   <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
 
     <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Our Clients companies</span></h2>
-   
+
   </div>
   <div class="row">
-    
+
     <div class="col text-center py-3">
       <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
     </div>
@@ -913,7 +913,43 @@
     </div>
     <!-- End Col -->
 
-   
+
+
+
+    <!-- End Col -->
+  </div>
+  <!-- End Row -->
+
+  <div class="row">
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/ttslogo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/logowoodbgrem.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3 ">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/globallogo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/sterlinglogo.png" alt="Logo">
+    </div>
+    <!-- End Col -->
+
+    <!-- <div class="col text-center py-3">
+      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
+    </div> -->
+    <!-- End Col -->
+
+
+
+
     <!-- End Col -->
   </div>
   <!-- End Row -->
@@ -929,13 +965,13 @@
       <p class="text-dark lead">Testimonials</p>
       <h2 style="color: rgba(0, 31, 63, 0.7) !important;">Loved by business and individuals across the globe.</h2>
   </div>
-  
+
     <!-- End Heading -->
 
     <div class="row">
       <div class="col-sm-6 col-lg-4 feature">
         <!-- Card -->
-        <div class="card shadow-none"> 
+        <div class="card shadow-none">
           <div class="card-body ">
             <!-- Rating -->
             <!-- <div class="d-flex gap-1 mb-2">
@@ -959,7 +995,7 @@
                 <img class="avatar avatar-circle" src="./assets/img/160x160/img8.jpg" alt="Image Description">
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="card-title mb-0">Calvin Carlo</h5>
+                <h5 class="card-title mb-0">Chandni Rai</h5>
                 <p class="card-text small">Business Manager</p>
               </div>
             </div>
@@ -996,7 +1032,7 @@
                 <img class="avatar avatar-circle" src="./assets/img/160x160/img9.jpg" alt="Image Description">
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="card-title text-white mb-0">Jemina CLone</h5>
+                <h5 class="card-title text-white mb-0">Jaimini Thevar</h5>
                 <p class="card-text small text-white-70">CEO </p>
               </div>
             </div>
@@ -1011,7 +1047,7 @@
         <!-- Card -->
         <div class="card shadow-none">
           <div class="card-body">
-           
+
             <!-- End Rating -->
 
             <div class="mb-auto">
@@ -1026,7 +1062,8 @@
                 <img class="avatar avatar-circle" src="./assets/img/160x160/img3.jpg" alt="Image Description">
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="card-title mb-0">Cristino Murfi</h5>
+                <h5 class="card-title mb-0">
+Jay patel</h5>
                 <p class="card-text small">Front Pay user</p>
               </div>
             </div>
@@ -1044,46 +1081,46 @@
 
  <!-- partners start -->
 
-  
+
   <div class="container mt-10">
     <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-  
+
       <h2><span style="color: rgba(0, 31, 63, 0.7) !important;">Our Partners Companies</span></h2>
-     
+
     </div>
     <div class="row">
-    
+
       <div class="col text-center py-3">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
       </div>
       <!-- End Col -->
-  
+
       <div class="col text-center py-3">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaum2logo.png" alt="Logo">
       </div>
       <!-- End Col -->
-  
-      <div class="col text-center py-3 mt-n4">
+
+      <!-- <div class="col text-center py-3 mt-n4">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/urjalogo2.jpeg" alt="Logo">
-      </div>
+      </div> -->
       <!-- End Col -->
-  
-      <div class="col text-center py-3">
+
+      <!-- <div class="col text-center py-3">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/neslogo.jpeg" alt="Logo">
-      </div>
+      </div> -->
       <!-- End Col -->
-  
-      <div class="col text-center py-3">
+
+      <!-- <div class="col text-center py-3">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
-      </div>
+      </div> -->
       <!-- End Col -->
       <div class="col text-center py-3">
         <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/socialageslogo1.png" alt="Logo">
       </div>
-     
+
       <!-- End Col -->
     </div>
-  
+
     <!-- End Row -->
   </div>
 
@@ -1111,10 +1148,10 @@
           </div>
           <!-- End Leaflet -->
 
-          
+
           <!-- End Row -->
         </div>
-        <!-- End Col -->        
+        <!-- End Col -->
 
         <div class="col-lg-6">
           <div class="ps-lg-5">
@@ -1128,7 +1165,7 @@
                 <div class="alert alert-success d-none" role="alert" id="successAlert">
                   Your form has been successfully submitted!
                 </div>
-              
+
                 <!-- Form -->
                 <!-- Form -->
               <form action="https://formsubmit.co/24richavaidya@gmail.com" method="POST" >
@@ -1142,7 +1179,7 @@
                     <!-- End Form -->
                   </div>
                   <!-- End Col -->
-            
+
                   <div class="col-sm-6">
                     <!-- Form -->
                     <div class="mb-3">
@@ -1164,7 +1201,7 @@
                     <!-- End Email Form -->
                   </div>
                   <!-- End Col -->
-                
+
                   <div class="col-sm-6">
                     <!-- Phone Form -->
                     <div class="mb-3">
@@ -1176,18 +1213,18 @@
                   <!-- End Col -->
                 </div>
                 <!-- End Row -->
-                
+
                 <!-- Details Form -->
                 <div class="mb-3 d-grid">
                   <label for="message">Details</label>
                   <textarea class="form-control form-control-lg" name="message" id="message" placeholder="Tell us about your ..." rows="4" required></textarea>
                 </div>
                 <!-- End Details Form -->
-                
+
                 <div class="d-grid">
                   <button type="submit" class="btn btn-outline-primary btn-transition">Send</button>
                 </div>
-                
+
               </form>
                 <!-- End Form -->
               </div>
@@ -1202,5 +1239,5 @@
     </div>
   </div>
   <!-- End Contact Form -->
-  
+
 @endsection
