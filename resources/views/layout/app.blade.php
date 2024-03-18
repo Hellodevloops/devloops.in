@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="{{asset('assets/vendor/aos/dist/aos.css')}}">
   <link rel="stylesheet" href="{{asset('../node_modules/swiper/swiper-bundle.min.css')}}">
   <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
-  
+
   <link rel="stylesheet" href="../node_modules/leaflet/dist/leaflet.css" /> -->
 
 
@@ -66,7 +66,7 @@
 .gradient-animation:hover p
  {
     color: white !important;
-   
+
 }
 
 .checkmark {
@@ -151,7 +151,7 @@
 
 <body>
   <!-- ========== HEADER ========== -->
-  
+
   <!-- ========== HEADER ========== -->
   <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
     data-hs-header-options='{
@@ -159,18 +159,18 @@
     "fixEffect": "slide"
   }'>
     <!-- Topbar -->
-  
+
     <!-- End Topbar -->
-  
+
     <div class="container  content-space-t-1">
       <nav class="js-mega-menu navbar-nav-wrap ">
         <!-- Default Logo -->
         <a class="navbar-brand" aria-label="Front" href="./index.html">
           <img class="navbar-brand-logo"  src="{{asset('./assets/img/newlogobg.png')}}" alt="Logo" style="width: 250px; height:40px;">
         </a>
-        
+
         <!-- End Default Logo -->
-  
+
         <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -182,60 +182,60 @@
           </span>
         </button>
         <!-- End Toggler -->
-  
+
         <!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <div class="navbar-absolute-top-scroller">
             <ul class="navbar-nav">
               <!-- Landings -->
-             
+
               <!-- End Landings -->
-  
+
               <!-- Company -->
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/') }}" role="button" aria-expanded="false">Home</a>
-  
+
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
                   <!-- Authentication -->
-                 
+
                   <!-- End Authentication -->
-  
-                  
+
+
                 </div>
                 <!-- End Mega Menu -->
               </li>
               <!-- End Company -->
-              
-  
+
+
               <!-- Account -->
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/about') }}" role="button" aria-expanded="false">About</a>
-  
+
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
                   <!-- Authentication -->
-                 
+
                   <!-- End Authentication -->
-  
-                  
+
+
                 </div>
                 <!-- End Mega Menu -->
               </li>
               <!-- End Account -->
-  
+
               <!-- Pages -->
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Service</a>
-  
+
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
                   <a class="dropdown-item text-dark " href="{{url('product')}}">Product Development</a>
                   <a class="dropdown-item text-dark" href="{{url('webdev')}}">Web Development </a>
                   <a class="dropdown-item text-dark" href="{{url('iot')}}">IOT</a>
                   <a class="dropdown-item text-dark" href="{{url('healthcare')}}">Healthcare</a>
-  
-           
+
+
                 <!-- End Mega Menu -->
               </li>
              <!-- blog -->
@@ -245,41 +245,41 @@
               <!-- Mega Menu -->
               <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
                 <!-- Authentication -->
-               
+
                 <!-- End Authentication -->
 
-                
+
               </div>
               <!-- End Mega Menu -->
             </li>
             <!-- End blog -->
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/career') }}" role="button" aria-expanded="false">Career</a>
-  
+
                 <!-- Mega Menu -->
                 <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
                   <!-- Authentication -->
-                 
+
                   <!-- End Authentication -->
-  
-                  
+
+
                 </div>
                 <!-- End Mega Menu -->
               </li>
-  
+
               <!-- Blog -->
               <li class="hs-has-sub-menu nav-item">
                 <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{url('contact')}}" role="button" aria-expanded="false">Contact</a>
-  
-                
+
+
               </li>
               <!-- End Blog -->
-  
-             
+
+
             </ul>
           </div>
         </div>
-       
+
       </nav>
     </div>
   </header>
@@ -287,7 +287,7 @@
 
     @yield('content')
 
-    
+
   <!-- ========== FOOTER ========== -->
   <footer class="bg-dark" style="background-image: url(assets/svg/components/wave-pattern-light.svg);" >
     <div class="container content-space-t-2 content-space-b-1 mt-n8 ">
@@ -333,7 +333,7 @@
             <li><a class="link-sm text-white" href="./web.html">Web App Development</a></li>
 
             <li><a class="link-sm text-white" href="./iot.html">IOT</a></li>
-<!-- 
+<!--
             <li><a class="link-sm text-white" href="#">Login</a></li>
 
             <li><a class="link-sm text-white" href="#">Subscribe</a></li> -->
@@ -358,7 +358,7 @@
           <!-- End Input Card -->
         </form>
           <!-- End Form -->
-          
+
         <p class="form-text text-white">Stay upto date with our news later.</p>
           <!-- <p class="form-text text-white-70">New UI kits or big discounts. Never spam.</p> -->
         </div>
@@ -414,7 +414,7 @@
   </footer>
 
   <!-- ========== END FOOTER ========== -->
- 
+
   <!-- Go To -->
   <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
        "offsetTop": 700,
@@ -438,16 +438,16 @@
   <script src="assets/js/vendor.min.js"></script>
   <script src="assets/vendor/aos/dist/aos.js"></script>
 
- 
+
   <script src="assets/js/theme.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
-  
 
 
 
-  
+
+
 
   <!-- JS Plugins Init. -->
   <script>
@@ -462,7 +462,7 @@
       })()
   </script>
 
-  
+
   <!-- JS Plugins Init. -->
   <script>
       (function () {
@@ -513,7 +513,7 @@
         });
       })()
 
-      
+
   </script>
 
 <!-- JS Plugins Init. -->
@@ -555,6 +555,7 @@
     container.classList.add('animate');
   });
 </script>
+
 
 <!-- JS Implementing Plugins -->
 <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
@@ -599,4 +600,3 @@ function resetIconColor(element) {
 
 </body>
 </html>
-    

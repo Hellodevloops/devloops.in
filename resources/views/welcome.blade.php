@@ -708,6 +708,7 @@
 
       <!-- End Modal -->
     </div>
+    
 
 
     <!-- End Col -->
@@ -889,7 +890,7 @@
   <div class="row">
 
     <div class="col text-center py-3">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
+      <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/logo/vriaumlogo.png') }}" alt="Logo">
     </div>
     <!-- End Col -->
 
@@ -923,29 +924,29 @@
   <div class="row">
 
     <div class="col text-center py-3">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/ttslogo.png" alt="Logo">
+      <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/img/ttslogo.jpg') }}" alt="Logo">
     </div>
     <!-- End Col -->
 
     <div class="col text-center py-3">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/logowoodbgrem.png" alt="Logo">
+      <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/img/logowoodbgrem.jpg') }}" alt="Logo">
     </div>
     <!-- End Col -->
 
     <div class="col text-center py-3 ">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/globallogo.png" alt="Logo">
+      <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/img/globallogo.jpg') }}" alt="Logo">
     </div>
     <!-- End Col -->
 
     <div class="col text-center py-3">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/img/sterlinglogo.png" alt="Logo">
+      <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/img/sterlinglogo.jpg ') }}" alt="Logo">
     </div>
     <!-- End Col -->
 
-    <!-- <div class="col text-center py-3">
-      <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
-    </div> -->
-    <!-- End Col -->
+    {{-- // <!-- <div class="col text-center py-3">
+    //   <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/kumarlogo.png" alt="Logo">
+    // </div> -->
+    // <!-- End Col --> --}}
 
 
 
@@ -1091,12 +1092,12 @@ Jay patel</h5>
     <div class="row">
 
       <div class="col text-center py-3">
-        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaumlogo.png" alt="Logo">
+        <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/logo/vriaumlogo.png') }}" alt="Logo">
       </div>
       <!-- End Col -->
 
       <div class="col text-center py-3">
-        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/vriaum2logo.png" alt="Logo">
+        <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/logo/vriaum2logo.png') }}" alt="Logo">
       </div>
       <!-- End Col -->
 
@@ -1115,7 +1116,7 @@ Jay patel</h5>
       </div> -->
       <!-- End Col -->
       <div class="col text-center py-3">
-        <img class="avatar avatar-lg avatar-4x3" src="./assets/logo/socialageslogo1.png" alt="Logo">
+        <img class="avatar avatar-lg avatar-4x3" src="{{ asset('assets/logo/socialageslogo1.png') }}" alt="Logo">
       </div>
 
       <!-- End Col -->
