@@ -20,6 +20,15 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/termsncondition', function () {
+    return view('termsncondition');
+});
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+Route::get('/refund', function () {
+    return view('refund');
+});
 
 Route::get('/webdev', function () {
     return view('webdev');
@@ -40,7 +49,7 @@ Route::get('/healthcare', function () {
     return view('healthcare');
 });
 
-// career 
+// career
 Route::get('/career', [CareerController::class, 'index'])->name('career');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
