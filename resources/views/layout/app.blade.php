@@ -368,8 +368,10 @@
 
       <div class="row align-items-center mt-n4">
         <div class="col">
-          <p class="text-white small mb-0">© Devloops. All rights reserved.</p>
+          <p class="text-white small mb-0">© Devloops. All rights reserved.    <span><a class="text-white  mb-3 " href="{{url('termsncondition')}}">   Terms and Conditions</a>    <a class="text-white  mb-3 " href="{{url('privacy')}}">Privacy Policy</a>  <a class="text-white  mb-3 " href="{{url('refund')}}">Refund Policy</a></span></p>
+          {{-- <a class="text-white small mb-0 " href="{{url('termsncondition')}}">Terms and Conditions</a> --}}
         </div>
+
         <!-- End Col -->
 
         <div class="col-auto">
