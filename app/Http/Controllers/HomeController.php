@@ -9,7 +9,7 @@ use App\Models\Banner;
 use App\Models\Service;
 use App\Models\Testimonial;
 use App\Models\Course;
-use App\Models\team;
+use App\Models\Team;
 use App\Models\Batch;
 use App\Models\Contact;
 use App\Mail\ContactFormSubmitted;
