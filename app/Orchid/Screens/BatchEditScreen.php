@@ -47,7 +47,7 @@ class BatchEditScreen extends Screen
      */
     public function name(): ?string
     {
-        return $this->batch->exists ? 'Edit batch' : 'Creating a new batch';
+        return $this->batch->exists ? 'Edit batch' : 'Creating a new company';
     }
 
     /**
