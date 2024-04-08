@@ -10,7 +10,11 @@ use Orchid\Platform\OrchidServiceProvider;
 use Orchid\Screen\Actions\Menu;
 use App\Models\Post;
 use App\Models\Career;
+use App\Models\Contact;
 use Orchid\Support\Color;
+use App\Models\Team;
+use App\Models\Banner;
+use App\Models\Batch;
 
 class PlatformProvider extends OrchidServiceProvider
 {
@@ -37,28 +41,57 @@ class PlatformProvider extends OrchidServiceProvider
     {
 
         $postcount = Post::count();
+        $contactcount = Contact::count();
+        $bannercount = Banner::count();
+        $teamcount = Team::count();
+        $batchcount = Batch::count();
         $careercount = Career::count();
+        // $careercount = Career::count();
         return [
             // Menu::make('Get Started')
             //     ->icon('bs.book')
-               
+
             //     ->route(config('platform.index')),
 
+            // bi for ochid icona and bs.for bootstrap icons
                 Menu::make('Dashboard')
-                ->icon('bs.collection')
+                ->icon('bi user-follow')
                 ->title('Navigation')
                 ->route('platform.example'),
 
-            Menu::make('Post')
-                ->icon('bs.collection')
+                Menu::make('Post')
+                ->icon('bi user-follow')
                 ->route('platform.post.list')
                 ->badge(fn () =>  $postcount),
-            Menu::make('Career')
-                ->icon('bs.collection')
+
+                Menu::make('Contact')
+                ->icon('bi user-follow')
+                ->route('platform.contact.list')
+                ->badge(fn () =>  $contactcount),
+            // Menu::make('Career')
+            //     ->icon('bi user-follow')
+            //     ->route('platform.career.list')
+            //     ->badge(fn () =>  $careercount),
+
+            Menu::make('Banner')
+                ->icon('bi user-follow')
+                ->route('platform.banner.list')
+                ->badge(fn () =>  $bannercount),
+
+             Menu::make('Team')
+                ->icon('bi user-follow')
+                ->route('platform.team.list')
+                ->badge(fn () =>  $teamcount),
+
+                Menu::make('Company')
+                ->icon('bi user-follow')
+                ->route('platform.batch.list')
+                ->badge(fn () =>  $batchcount),
+
+                Menu::make('Career')
+                ->icon('bi user-follow')
                 ->route('platform.career.list')
                 ->badge(fn () =>  $careercount),
-
-            
 
             // Menu::make('Form Elements')
             //     ->icon('bs.card-list')

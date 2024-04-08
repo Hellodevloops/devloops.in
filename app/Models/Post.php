@@ -15,15 +15,16 @@ class Post extends Model
 {
     use HasFactory, HasSlug;
     use AsSource;
-    
+
 
     protected $fillable = [
         'title',
-        'description',
+        'hero',
+        // 'description',
         'body',
         'author',
-        'slug',
-        'hero'
+        'slug'
+
     ];
 
     protected $allowedSorts = [
@@ -36,7 +37,7 @@ class Post extends Model
         'title' => Like::class,
     ];
 
-    public function author_id()
+    public function author_name()
     {
         return $this->belongsTo(User::class, 'author');
     }

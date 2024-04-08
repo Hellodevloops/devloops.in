@@ -97,11 +97,11 @@ class PostEditScreen extends Screen
                     ->width(1000)
                     ->height(500),
 
-                TextArea::make('post.description')
-                    ->title('Description')
-                    ->rows(3)
-                    ->maxlength(200)
-                    ->placeholder('Brief description for preview'),
+                // TextArea::make('post.description')
+                //     ->title('Description')
+                //     ->rows(3)
+                //     ->maxlength(200)
+                //     ->placeholder('Brief description for preview'),
 
                 Relation::make('post.author')
                     ->title('Author')

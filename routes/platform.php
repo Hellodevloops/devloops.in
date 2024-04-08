@@ -23,6 +23,14 @@ use App\Orchid\Screens\PostEditScreen;
 use App\Orchid\Screens\PostListScreen;
 use App\Orchid\Screens\CareerEditScreen;
 use App\Orchid\Screens\CareerListScreen;
+use App\Orchid\Screens\ContactEditScreen;
+use App\Orchid\Screens\ContactListScreen;
+use App\Orchid\Screens\TeamEditScreen;
+use App\Orchid\Screens\TeamListScreen;
+use App\Orchid\Screens\BannerEditScreen;
+use App\Orchid\Screens\BannerListScreen;
+use App\Orchid\Screens\BatchEditScreen;
+use App\Orchid\Screens\BatchListScreen;
 
 /*
 |--------------------------------------------------------------------------
@@ -119,3 +127,27 @@ Route::screen('career/{career?}', CareerEditScreen::class)
 
 Route::screen('careers', CareerListScreen::class)
     ->name('platform.career.list');
+
+Route::screen('contact/{contact?}', ContactEditScreen::class)
+    ->name('platform.contact.edit');
+
+Route::screen('contacts', ContactListScreen::class)
+    ->name('platform.contact.list');
+
+    Route::screen('team/{team?}', TeamEditScreen::class)
+    ->name('platform.team.edit');
+
+Route::screen('teams', TeamListScreen::class)
+    ->name('platform.team.list');
+
+    Route::screen('banner/{banner?}', BannerEditScreen::class)
+    ->name('platform.banner.edit');
+
+Route::screen('banners', BannerListScreen::class)
+    ->name('platform.banner.list');
+
+    Route::screen('batch/{batch?}', BatchEditScreen::class)
+    ->name('platform.batch.edit');
+
+Route::screen('batchs', BatchListScreen::class)
+    ->name('platform.batch.list');
