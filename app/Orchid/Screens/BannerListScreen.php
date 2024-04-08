@@ -25,7 +25,7 @@ class BannerListScreen extends Screen
      */
     public function name(): ?string
     {
-        return 'Blog banner';
+        return 'Banner';
     }
 
     /**
@@ -33,7 +33,7 @@ class BannerListScreen extends Screen
      */
     public function description(): ?string
     {
-        return "All blog banners";
+        return "All Banners";
     }
 
     /**

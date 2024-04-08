@@ -50,7 +50,7 @@ class CareerEditScreen extends Screen
      */
     public function description(): ?string
     {
-        return "Blog careers";
+        return "Careers";
     }
 
     /**

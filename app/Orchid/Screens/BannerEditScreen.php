@@ -53,7 +53,7 @@ class BannerEditScreen extends Screen
      */
     public function description(): ?string
     {
-        return "Blog banners";
+        return " Banners";
     }
 
     /**
