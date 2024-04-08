@@ -1,71 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terms and Conditions - IT Company</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  .container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 50px;
-    border: 2px solid #3498db; /* Blue border color */
-  }
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-</style>
-</head>
-<body>
+@extends('layout.app')
+@section('content')
+    <!-- ========== MAIN CONTENT ========== -->
+    <main>
 
-<div class="container">
-  <h1>Terms and Conditions</h1>
-  <p>Welcome to the terms and conditions for our Devloops company. These terms outline the rules and regulations for the use of our website and services.</p>
+        <!-- breadcrumb-area-start -->
+        <section class="breadcrumb-area breadcrumb-wrap">
+           <div class="breadcrumb-bg" data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg"></div>
+           <div class="container">
+              <div class="row align-items-center">
+                 <div class="col-12">
+                    <div class="tpbreadcrumb">
+                       <div class="breadcrumb-link mb-15">
+                          <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
+                          <span> / Terms And Condition</span>
+                       </div>
+                       <h2 class="breadcrumb-title">Terms And Condition</h2>
+                    </div>
+                 </div>
+              </div>
+           </div>
 
-  <h2> Agreement to Terms</h2>
-  <p>By accessing our website and using our services, you agree to be bound by these terms and conditions. If you disagree with any part of these terms, you may not access the website or use our services.</p>
+        </section>
+        <!-- breadcrumb-area-end -->
 
-  <h2> Services Offered</h2>
-  <p>Our company offers various IT services including but not limited to product development, web development, and Internet of Things solutions. The specifics of each service will be outlined in separate agreements.</p>
+        <!-- postbox area start -->
+        <section class="postbox__area pt-40 pb-105">
+           <div class="container">
 
-  <h2> User Responsibilities</h2>
-  <p>Users of our services are responsible for providing accurate and up-to-date information necessary for the completion of projects. Users must also adhere to any guidelines provided by our company.</p>
+              <div class="postbox-content">
 
-  <h2> Intellectual Property</h2>
-  <p>All intellectual property rights associated with our services, including but not limited to software, designs, and content, belong to our company. Users may not reproduce, distribute, or modify any of our intellectual property without prior written consent.</p>
+                 <h4 class="postbox-title"> Welcome to DevLoops Solutions!</h4>
+                 <div class="postbox-text">
+                    <p class="text-black">These terms and conditions outline the rules and regulations for the use of DevLoops Solutions's Website, located at devloops.in.</p>
+                    <p class="text-black">Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. DevLoops Solutions does not filter, edit, publish, or review Comments prior to their presence on the website.</p>
 
-  <h2> Limitation of Liability</h2>
-  <p>Our company shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or in connection with the use of our services.</p>
 
-  {{-- <h2>6. Governing Law</h2>
-  <p>These terms and conditions shall be governed by and construed in accordance with the laws of [Your Country]. Any disputes relating to these terms and conditions will be subject to the exclusive jurisdiction of the courts in that location.</p> --}}
+                 </div>
 
-  <h2> Changes to Terms</h2>
-  <p>We reserve the right to modify or replace these terms and conditions at any time. It is the responsibility of users to check this page periodically for changes. Continued use of our website and services after any modifications indicate acceptance of the changes.</p>
+                 <h4 class="postbox-title"> We may consider and approve other link requests from the following types of organizations</h4>
+                 <div class="postbox-text">
 
-  <h2> Contact Us</h2>
-  <p>If you have any questions or concerns regarding these terms and conditions, please contact us .</p>
-</div>
+                    <ul>
+                    <li class="text-black">
+                       commonly-known consumer and/or business information sources</li>
+                     <li class="text-black">  dot.com community sites;</li>
+                     <li class="text-black">  Associations or other groups representing charities;</li>
+                       <li class="text-black">  Online directory distributors;</li>
+                          <li class="text-black">  Internet portals;</li>
+                             <li class="text-black">  Accounting, law, and consulting firms</li>
+                                <li class="text-black"> Educational institutions and trade associations.</li>
+                    </li>
+                  </ul>
+                 </div>
+              </div>
+              <h4 class="postbox-title">Our Personal Approach</h4>
+              <p class="text-black">At DevLoops Solutions, we pride ourselves on our personal approach to serving our clients. Our commitment to providing exceptional service goes beyond just offering software solutions. We strive to build meaningful relationships with each of our clients, understanding their unique needs, challenges, and goals.
 
-</body>
-</html>
+              </p>
+              <!-- <div class="postbox-blockquote">
+                 <blockquote>
+                    <div class="postbox-blockquote-thumb">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#ff0080" class="bi bi-quote" viewBox="0 0 16 16">
+                          <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                        </svg>
+                    </div>
+                    <div class="postbox-blockquote-content">
+                       <h4>And the day came when the risk to remain tight in a bud was more painful than the risk.</h4>
+
+                    </div>
+                 </blockquote>
+              </div> -->
+              <h4 class="postbox-title">Changes to the Terms and Conditions</h4>
+              <p class="text-black">DevLoops Solutions reserves the right to modify these terms and conditions at any time. It is your responsibility to review these terms and conditions periodically for changes. Your continued use of this website following the posting of changes constitutes acceptance of those changes.
+
+              </p>
+           </div>
+        </section>
+        <!-- postbox area end -->
+
+     </main>
+
+@endsection

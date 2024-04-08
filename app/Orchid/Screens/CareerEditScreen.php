@@ -91,27 +91,27 @@ class CareerEditScreen extends Screen
                     ->title('Title')
                     ->placeholder('Enter a captivating job title')
                     ->help('Specify a short, descriptive title for this career opportunity.'),
-        
+
                 Input::make('career.location')
                     ->title('Location')
                     ->placeholder('Enter the primary location of the job')
                     ->help('Specify the main location for this career opportunity.'),
-        
-                Input::make('career.department')
-                    ->title('Department')
+
+                Input::make('career.content')
+                    ->title('Content')
                     ->placeholder('Enter the department or team name')
                     ->help('Specify the department or team associated with this career opportunity.'),
-        
-                Input::make('career.status')
-                    ->title('Status')
-                    ->placeholder('Enter the current status of the job opening')
-                    ->help('Specify the current status of this career opportunity.'),
-        
+
+                // Input::make('career.status')
+                //     ->title('Status')
+                //     ->placeholder('Enter the current status of the job opening')
+                //     ->help('Specify the current status of this career opportunity.'),
+
                 // Add more fields as needed
-        
+
             ]),
         ];
-        
+
     }
 
     /**

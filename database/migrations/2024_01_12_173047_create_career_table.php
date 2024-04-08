@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('location');
-            $table->string('department');
-            $table->string('status');
+            $table->string('content');
+            // $table->string('status');
             $table->timestamps();
-           
+
         });
     }
 
