@@ -1,17 +1,16 @@
 @extends('layout.app')
 @section('content')
-
 <main>
 
     <!-- breadcrumb-area-start -->
     <section class="breadcrumb-area breadcrumb-wrap">
-       <div class="breadcrumb-bg" data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg"></div>
+       <div class="breadcrumb-bg" data-background="{{ asset('assets/img/privacypolicy.jpg')}}"></div>
        <div class="container">
           <div class="row align-items-center">
              <div class="col-12">
                 <div class="tpbreadcrumb">
                    <div class="breadcrumb-link mb-15">
-                      <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
+                      <span class="breadcrumb-item-active"><a href="index.html">Home</a></span>
                       <span> / Privacy Policy</span>
                    </div>
                    <h2 class="breadcrumb-title"> Privacy Policy</h2>
@@ -31,27 +30,40 @@
 
              <h4 class="postbox-title"> Welcome to DevLoops Solutions!</h4>
              <div class="postbox-text">
-                <p class="text-black">This Privacy Policy outlines how DevLoops Solutions collects, uses, maintains, and discloses information collected from users of the DevLoops Solutions website, located at devloops.in.</p>
+                <p class="text-black">At DevLoops International, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you interact with our website, products, and services.</p>
 
              </div>
 
-             <h4 class="postbox-title">How We Use Collected Information</h4>
+             <h5 class="postbox-title">Information We Collect</h5>
+             <p class="text-black">When you visit our website or engage with our products and services, we may collect certain information to enhance your experience and provide you with the best possible service. This information may include.</p>
              <div class="postbox-text">
 
                 <ul>
                 <li class="text-black">
-                  <span style="color: #ff0080;"> To improvice</span>: ve customer serInformation you provide helps us respond to your customer service requests and  more efficiently.</li>
+                  <span style="color: #ff0080;"> Personal Information</span>: Such as your name, email address, phone number, and other contact details that you voluntarily provide to us.</li>
                   <li class="text-black">
-                   <span style="color: #ff0080;">To personalize user experience </span>:  We may use information in the aggregate to understand how our users as a group use the services .</li>
+                   <span style="color: #ff0080;">	Usage Information</span>: Such as your IP address, browser type, device type, and other data collected through cookies and similar technologies.</li>
 
                       <li class="text-black">
-                       <span style="color: #ff0080;"> To improve our site</span>: We may use feedback you provide to improve our products and services.</li>
+                       <span style="color: #ff0080;"> Transaction Information</span>:Such as details of purchases or transactions you make with us.</li>
+
+              </ul>
+             </div>
+
+             <h5 class="postbox-title">How We Use Your Information</h5>
+             <p class="text-black"> We may use the information we collect for various purposes, including:</p>
+             <div class="postbox-text">
+
+                <ul>
+                <li class="text-black">	Providing and improving our products and services.</li>
+                <li class="text-black"> Communicating with you, including responding to your inquiries and providing customer support.</li>
+                <li class="text-black"> Analyzing trends, monitoring the effectiveness of our marketing efforts, and conducting research and data analysis.</li>
 
               </ul>
              </div>
           </div>
-          <h4 class="postbox-title">How We Protect Your Information</h4>
-          <p class="text-black">We adopt appropriate data collection, storage, and processing practices and security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information, username, password, transaction information, and data stored on our site.
+          <h5 class="postbox-title">Data Security</h5>
+          <p class="text-black">We take data security seriously and have implemented appropriate technical and organizational measures to protect your personal information from unauthorized access, disclosure, alteration, and destruction. However, please note that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
 
           </p>
           <!-- <div class="postbox-blockquote">
@@ -67,12 +79,26 @@
                 </div>
              </blockquote>
           </div> -->
-          <h4 class="postbox-title">Sharing Your Personal Information</h4>
-          <p class="text-black">We do not sell, trade, or rent users' personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.
+          <h5 class="postbox-title">Data Retention</h5>
+          <p class="text-black">We will retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy unless a longer retention period is required or permitted by law.
 
           </p>
-          <h4 class="postbox-title">Changes to this Privacy Policy</h4>
-          <p class="text-black">DevLoops Solutions has the discretion to update this privacy policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect.
+          <h5 class="postbox-title">Third-Party Disclosure</h5>
+          <p class="text-black"> We may share your personal information with third-party service providers, business partners, and affiliates who assist us in providing our products and services or help us operate our business. We may also disclose your information in response to legal requests or to protect our rights and interests.
+
+          </p>
+
+          <h5 class="postbox-title">Changes to This Privacy Policy</h5>
+          <p class="text-black">We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We encourage you to review this page periodically for any updates. Your continued use of our website, products, or services after any changes indicate your acceptance of the updated Privacy Policy.
+
+          </p>
+
+          <h5 class="postbox-title">Your Rights</h5>
+          <p class="text-black">You have the right to access, update, or delete your personal information, as well as to object to or restrict certain processing activities. If you have any questions or requests regarding your data, please contact us using the information provided below.
+
+          </p>
+
+          <p class="text-black mt-10">Thank you for trusting DevLoops International with your privacy. We appreciate the opportunity to serve you and are committed to protecting your personal information.
 
           </p>
        </div>
@@ -80,5 +106,4 @@
     <!-- postbox area end -->
 
  </main>
-
 @endsection
