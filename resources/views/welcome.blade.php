@@ -91,9 +91,7 @@
                            <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
                            <img src="{{ asset('assets/img/about/three/about-3-thumb-2.jpg')}}" alt="">
                         </div>
-                        <!-- <div class="tp-about-3-shape-1">
-                           <img src="{{ asset()}}" alt="">
-                        </div> -->
+                       
                         <div class="tp-about-3-project">
                            <span>Project Completed</span>
                            <h3 class="tp-about-3-project-title">200+</h3>
