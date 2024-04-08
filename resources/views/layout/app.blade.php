@@ -22,6 +22,43 @@
       <link rel="stylesheet" href="{{ asset('assets/css/flaticon_tecz.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/spacing.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+      <!-- our clients codepen -->
+      <style>
+        img {
+ max-width: 100%;
+}
+.container {
+ max-width: 1140px;
+ width: 100%;
+}
+
+.client .swiper-container {
+ padding: 40px 50px;
+}
+.client__image {
+ width: 200px; /* Set the desired width */
+ height: 100px; /* Set the desired height */
+}
+
+.client__box img {
+ display: block;
+ margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+ .client .swiper-container {
+   padding: 0 0 40px;
+ }
+ .client__box {
+   padding: 0;
+   text-align: center;
+ }
+ .client .swiper-button-prev,
+ .client .swiper-button-next {
+   display: none;
+ }
+}
+     </style>
    </head>
    <body>
 
@@ -477,6 +514,47 @@
      <script src="{{ asset('assets/js/imagesloaded-pkgd.js') }}"></script>
      <script src="{{ asset('assets/js/ajax-form.js') }}"></script>
      <script src="{{ asset('assets/js/main.js') }}"></script>
+     <!-- our clients codepen js -->
+     <script>
+        var mySwiper = new Swiper('.client .swiper-container', {
+ loop: false,
+ speed: 1000,
+ autoplay: {
+   delay: 2500,
+   disableOnInteraction: false,
+ },
+
+ // If we need pagination
+ pagination: {
+   el: '.swiper-pagination',
+   clickable: true,
+ },
+
+ // Navigation arrows
+ navigation: {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+ },
+ breakpoints: {
+   0: {
+     slidesPerView: 1,
+     spaceBetween: 10,
+   },
+   414: {
+     slidesPerView: 2,
+     spaceBetween: 10,
+   },
+   768: {
+     slidesPerView: 3,
+     spaceBetween: 50,
+   },
+   991: {
+     slidesPerView: 4,
+     spaceBetween: 50,
+   },
+ }
+})
+      </script>
 
      <!-- modal team -->
      <!-- <script>

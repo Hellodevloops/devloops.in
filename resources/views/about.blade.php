@@ -5,7 +5,7 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-           <div class="breadcrumb-bg" data-background="./assets/img/devabouthero.jpg"></div>
+           <div class="breadcrumb-bg" data-background="{{ asset('assets/img/devabouthero.jpg')}}"></div>
            <div class="container">
               <div class="row align-items-center">
                  <div class="col-12">
@@ -21,13 +21,13 @@
            </div>
            <!-- <div class="breadcrumb-shape">
               <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                 <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                 <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-1.png')}}" alt="">
               </div>
               <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                 <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                 <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-3.png')}}" alt="">
               </div>
               <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                 <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                 <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-2.png')}}" alt="">
               </div>
            </div> -->
         </section>
@@ -35,61 +35,71 @@
 
         <!-- video-area-start -->
         <section class="video-area tp-benifits-inner pt-120">
-           <div class="container">
-              <div class="row">
-                 <div class="col-xxl-7 col-xl-6 col-lg-6 order-2 order-lg-1">
-                    <div class="tp-benifits-5-thumb">
-                       <div class="tp-benifits-5-thumb-1">
-                          <img src="assets/img/about/five/about-5-thumb-1.jpg" alt="">
-                       </div>
-                       <div class="tp-benifits-5-thumb-2 overlay-anim">
-                          <div class="tp-thumb-common-overlay wow"></div>
-                          <img src="assets/img/about/five/about-5-thumb-2.jpg" alt="">
-                       </div>
-                       <!-- <div class="tp-benifits-5-wrap">
-                          <div class="tp-benifits-5-contact">
-                             <div class="tp-benifits-5-contact-icon">
-                                <i class="fa-solid fa-phone-flip"></i>
-                             </div>
-                             <div class="tp-benifits-5-contact-content">
-                                <span>Call Anytime</span>
-                                <a href="tel:0123456789">+99 (786) 8765</a>
-                             </div>
-                          </div>
-                       </div> -->
-                    </div>
-                 </div>
-                 <div class="col-xxl-5 col-xl-6 col-lg-6 order-1 order-lg-2 mb-10">
-                    <div class="tp-video-two-wrapper p-relative pb-120 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".6s">
-                       <div class="tp-section  tp-section-3 mb-35">
-                          <span class="tp-section-sub-title">About Us</span>
-                          <h4 class="tp-section-title">Unleashing Creativity and Innovation</h4>
-                          <div class="tp-section-title-wrapper">
-                             <p class="text-black">As a creative design agency, our passion ignites at the prospect of bringing your visions to life. We thrive on crafting captivating visuals, innovative solutions, and unforgettable brand experiences. With a dedicated team driven by artistic enthusiasm, we don't just create designs; we breathe life into them, infusing each project with creativity and a touch of magic. </p>
-                          </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-7 col-xl-6 col-lg-6 order-2 order-lg-1">
+                     <div class="tp-benifits-5-thumb">
+                        <div class="tp-benifits-5-thumb-1">
+                           <img src="{{ asset('assets/img/about/five/about-5-thumb-1.jpg')}}" alt="">
+                        </div>
+                        <div class="tp-benifits-5-thumb-2 overlay-anim">
+                           <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                           <img src="{{ asset('assets/img/about/five/about-5-thumb-2.jpg')}}" alt="">
+                        </div>
+                        <!-- <div class="tp-benifits-5-wrap">
+                           <div class="tp-benifits-5-contact">
+                              <div class="tp-benifits-5-contact-icon">
+                                 <i class="fa-solid fa-phone-flip"></i>
+                              </div>
+                              <div class="tp-benifits-5-contact-content">
+                                 <span>Call Anytime</span>
+                                 <a href="tel:0123456789">+99 (786) 8765</a>
+                              </div>
+                           </div>
+                        </div> -->
+                     </div>
+                  </div>
+                  <div class="col-xxl-5 col-xl-6 col-lg-6 order-1 order-lg-2 ">
+                     <div class="tp-video-two-wrapper p-relative  pb-100 fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="tp-section  tp-section-3 ">
+                           <span class="tp-section-sub-title">About Us</span>
+                           <h4 class="tp-section-title">Why Choose DevLoops International</h4>
+                           <div class="postbox-text">
 
-                       </div>
-                       <!-- <div class="tp-video-two-list mb-50">
-                          <ul>
-                             <li><span><i class="fa-regular fa-circle-check"></i></span>Perspiciatis omnis natus error</li>
-                             <li><span><i class="fa-regular fa-circle-check"></i></span>Donec gravida imperdie</li>
-                          </ul>
-                       </div> -->
-                       <div class="tp-about-details d-flex align-items-center flex-wrap">
-                          <div class="tp-about-btn mr-30 mb-10">
-                             <a class="tp-btn" href="{{ route('contact') }}">Contact Us</a>
-                          </div>
+                              <ul>
+                                 <li class="text-black">
+                                   <span style="color: #ff0080;">	Expertise</span>: Our team brings years of experience and expertise to the table, ensuring top-notch solutions tailored to your unique needs.</li>
+                                   <li class="text-black">
+                                    <span style="color: #ff0080;">	Cutting-Edge Solutions</span>: We stay at the forefront of technological advancements, offering innovative solutions that drive real results.</li>
 
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </div>
-        </section>
+                                       <li class="text-black">
+                                        <span style="color: #ff0080;"> Global Reach</span>: With a diverse team and a global network of partners, we have the reach and resources to tackle projects of any size or scope.</li>
+
+                               </ul>
+                           </div>
+
+                        </div>
+                        <!-- <div class="tp-video-two-list mb-50">
+                           <ul>
+                              <li><span><i class="fa-regular fa-circle-check"></i></span>Perspiciatis omnis natus error</li>
+                              <li><span><i class="fa-regular fa-circle-check"></i></span>Donec gravida imperdie</li>
+                           </ul>
+                        </div> -->
+                        <div class="tp-about-details d-flex align-items-center flex-wrap">
+                           <div class="tp-about-btn mr-30 mb-10">
+                              <a class="tp-btn" href="contact.html">Contact Us</a>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
         <!-- video-area-end -->
 
         <!-- feature-area-start -->
-        <section class="feature-area pb-90 p-relative feature-inner-bg" data-background="assets/img/feature/inner/feature-inner-bg-1.jpg">
+        <section class="feature-area pb-90 p-relative feature-inner-bg" data-background="{{ asset('assets/img/feature/inner/feature-inner-bg-1.jpg')}}">
            <div class="container">
               <div class="row">
                  <div class="col-lg-4 col-md-6">
@@ -102,7 +112,7 @@
                           <p class="text-black tp-feature-content">Tailored solutions for optimized efficiency.</p>
                        </div>
                        <div class="tp-feature-shape-two">
-                          <img src="assets/img/feature/one/feature-shape-1.png" alt="">
+                          <img src="{{ asset('assets/img/feature/one/feature-shape-1.png')}}" alt="">
                        </div>
                     </div>
                  </div>
@@ -116,7 +126,7 @@
                           <p class="text-black tp-feature-content">Empowering businesses with innovative tech solutions.</p>
                        </div>
                        <div class="tp-feature-shape-two">
-                          <img src="assets/img/feature/one/feature-shape-1.png" alt="">
+                          <img src="{{ asset('assets/img/feature/one/feature-shape-1.png')}}" alt="">
                        </div>
                     </div>
                  </div>
@@ -130,7 +140,7 @@
                           <p class="text-black tp-feature-content">Ensuring resilience and fortified security measures.</p>
                        </div>
                        <div class="tp-feature-shape-two">
-                          <img src="assets/img/feature/one/feature-shape-1.png" alt="">
+                          <img src="{{ asset('assets/img/feature/one/feature-shape-1.png')}}" alt="">
                        </div>
                     </div>
                  </div>
@@ -138,7 +148,7 @@
            </div>
            <div class="tp-feature-shape">
               <div class="tp-feature-shape-one w-img">
-                 <img src="assets/img/feature/one/features-bg.png" alt="">
+                 <img src="{{ asset('assets/img/feature/one/features-bg.png')}}" alt="">
               </div>
            </div>
         </section>
@@ -153,10 +163,10 @@
                     <div class="tp-management-thumb-wrap p-relative">
                        <div class="tp-management-thumb overlay-anim tp-thumb-common fix w-img mb-60 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                           <div class="tp-thumb-common-overlay wow"></div>
-                          <img src="assets/img/thumbs/management-thumb-1.jpg" alt="">
+                          <img src="{{ asset('assets/img/thumbs/management-thumb-1.jpg')}}" alt="">
                        </div>
                        <div class="tp-management-shape-1">
-                          <img src="assets/img/shape/management-shape-1.png" alt="">
+                          <img src="{{ asset('assets/img/shape/management-shape-1.png')}}" alt="">
                        </div>
                     </div>
                  </div>
@@ -215,7 +225,7 @@
                        <div class="tp-team-3-thumb">
                           <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
                              <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="assets/img/team/team-3-thumb-1.jpg" alt="">
+                             <img src="{{ asset('assets/img/team/team-3-thumb-1.jpg')}}" alt="">
                           </div>
                           <div class="tp-team-3-thumb-social">
                              <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
@@ -235,7 +245,7 @@
                        <div class="tp-team-3-thumb">
                           <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
                              <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="assets/img/team/team-3-thumb-2.jpg" alt="">
+                             <img src="{{ asset('assets/img/team/team-3-thumb-2.jpg')}}" alt="">
                           </div>
                           <div class="tp-team-3-thumb-social">
                              <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
@@ -255,7 +265,7 @@
                        <div class="tp-team-3-thumb">
                           <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
                              <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="assets/img/team/team-3-thumb-3.jpg" alt="">
+                             <img src="{{ asset('assets/img/team/team-3-thumb-3.jpg')}}" alt="">
                           </div>
                           <div class="tp-team-3-thumb-social">
                              <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
