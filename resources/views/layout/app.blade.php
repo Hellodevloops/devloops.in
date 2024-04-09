@@ -63,7 +63,7 @@
    <body>
 
       <!-- pre loader area start -->
-      {{-- <div id="loading">
+      <div id="loading">
          <div id="loading-center">
             <div id="loading-center-absolute">
                <!-- loading content here -->
@@ -82,7 +82,7 @@
                </div>
             </div>
          </div>
-      </div> --}}
+      </div>
       <!-- pre loader area end -->
 
       <!-- back to top start -->
