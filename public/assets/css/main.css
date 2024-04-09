@@ -25,7 +25,7 @@
 		2.3 Buttons
 		2.4 Animations
 		2.5 Preloader
-		2.6 Background 
+		2.6 Background
 		2.7 Carousel
 		2.8 Nice Select
 		2.9 Pagination
@@ -251,7 +251,7 @@ li,
 }
 
 /*---------------------------------
-	typography css start 
+	typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -579,7 +579,7 @@ div.demo img {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: var(--tp-common-black);
@@ -6077,7 +6077,7 @@ a.ui-button:active {
 .tp-header-3 .logo {
   padding: 0px 110px 0 110px;
   height: 100%;
-  
+
   border-right: 5px solid var(--tp-theme-primary);
   display: flex;
   align-items: center;
@@ -11627,7 +11627,7 @@ blockquote cite::before {
 .tp-team-3-thumb-wrap img {
   width: 400px;
   height: 440px;
- 
+
 }
 .tp-team-3-thumb-social {
   position: absolute;
@@ -16161,8 +16161,8 @@ blockquote cite::before {
   text-transform: uppercase;
   font-weight: 700;
   color: var(--tp-common-white);
-  font-size: 90px;
-  line-height: 1.11;
+  font-size: 40px;
+  line-height: 1.2;
   margin-bottom: 37px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
