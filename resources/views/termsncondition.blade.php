@@ -5,7 +5,7 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-           <div class="breadcrumb-bg" data-background="{{ asset('assets/img/termsandconditionnew.jpg')}}"></div>
+           <div class="breadcrumb-bg" data-background="{{ asset('assets/img/termsandconditionnew1.jpg')}}"></div>
            <div class="container">
               <div class="row align-items-center">
                  <div class="col-12">
