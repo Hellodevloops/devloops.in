@@ -418,9 +418,9 @@
                              <div class="tp-footer-widget-gallery-all">
                                 @php
                                 use App\Models\Post;
-                                $recentPosts = Post::orderBy('created_at', 'desc')->take(2)->get();
+                                $blog_postss = Post::orderBy('created_at', 'desc')->take(2)->get();
                             @endphp
-                                @foreach ($recentPosts as $post)
+                                @foreach ($blog_postss as $post)
                                 <div class="tp-footer-widget-gallery-single-item">
                                    <a href="{{ route('post.show', ['slug' => $post->slug]) }}" class="tp-footer-widget-gallery-item">
 
