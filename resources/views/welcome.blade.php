@@ -48,7 +48,7 @@
                                         <div class="col-lg-12">
                                             <div class="tp-slider-content">
                                                 <span class="tp-slider-sub-title">{{ $banner->title }}</span>
-                                                <h2 class="tp-slider-title">{{ $banner->heading }}</h2>
+                                                <h4 class="tp-slider-title">{{ $banner->heading }}</h4>
                                                 <div class="tp-slider-btn">
                                                     <a class="tp-btn"
                                                         href="{{ route('about') }}">{{ $banner->buttontitle }}</a>
