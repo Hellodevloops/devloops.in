@@ -103,8 +103,7 @@ class BatchEditScreen extends Screen
                     ->accept('image/jpeg,image/png,image/webp')
                     ->targetRelativeUrl()
                     ->title('Large web banner image, generally in the front and center')
-                    ->width(600)
-                    ->height(400),
+                    ,
 
 
                 // Relation::make('batchauthor')
