@@ -48,7 +48,7 @@
                                         <div class="col-lg-12">
                                             <div class="tp-slider-content">
                                                 <span class="tp-slider-sub-title">{{ $banner->title }}</span>
-                                                <h4 class="tp-slider-title">{{ $banner->heading }}</h4>
+                                                <h6 class="tp-slider-title">{{ $banner->heading }}</h6>
                                                 <div class="tp-slider-btn">
                                                     <a class="tp-btn"
                                                         href="{{ route('about') }}">{{ $banner->buttontitle }}</a>
@@ -184,7 +184,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/proddevflaticon.png') }}" alt="prod">
+                                <img src="{{ asset('assets/img/proddev1flaticon.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
