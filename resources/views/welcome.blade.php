@@ -91,7 +91,7 @@
                            <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
                            <img src="{{ asset('assets/img/about/three/about-3-thumb-2.jpg')}}" alt="">
                         </div>
-                       
+
                         <div class="tp-about-3-project">
                            <span>Project Completed</span>
                            <h3 class="tp-about-3-project-title">200+</h3>
@@ -310,68 +310,55 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Working at DevLoops has been an enriching experience. The company
-                                                        fosters a culture of innovation and collaboration, allowing us to
-                                                        push boundaries in software development.</p>
-                                                </div>
-                                                <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Rajesh Sharma</h4>
-                                                    <span>Senior Developer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tp-review-item">
-                                                <div class="tp-review-content">
-                                                    <p>DevLoops sets the bar high when it comes to project management. As a
-                                                        PM, I appreciate the seamless communication channels and support
-                                                        provided, ensuring timely deliveries and client satisfaction.</p>
-                                                </div>
-                                                <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Neha Patel</h4>
-                                                    <span> Project Manager</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tp-review-item">
-                                                <div class="tp-review-content">
-                                                    <p>Being a part of DevLoops' team has elevated my technical skills
-                                                        significantly. The challenging projects and access to cutting-edge
-                                                        technologies have honed my abilities and broadened my horizon in the
-                                                        software domain.</p>
-                                                </div>
-                                                <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Amit Kumar</h4>
-                                                    <span>Software Engineer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="tp-review-item">
-                                                <div class="tp-review-content">
-                                                    <p>At DevLoops, quality is not just a checkbox; it's a commitment. As a
-                                                        QA analyst, I've witnessed the dedication to delivering flawless
-                                                        software solutions, backed by robust testing methodologies and
-                                                        attention to detail.</p>
+                                                    <p>Choosing DevLoops International was the best decision for my business growth planning. Their innovative tech solutions empowered my business to reach new heights. Thank you, DevLoops!</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
                                                     <h4 class="tp-review-avatar-title">Priya Singh</h4>
-                                                    <span>Quality Assurance Analyst</span>
+                                                    {{-- <span>Senior Developer</span> --}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>DevLoops understands the pulse of the market like no other. As a
-                                                        business analyst, I've had the opportunity to analyze market trends
-                                                        and translate them into actionable insights, contributing to the
-                                                        company's strategic growth trajectory. </p>
+                                                    <p>I've been amazed by DevLoops International's expertise! They understood my business needs perfectly and provided a custom software solution that streamlined my operations. Highly recommended!</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Sanjay Mehta</h4>
-                                                    <span>Business Analyst</span>
+                                                    <h4 class="tp-review-avatar-title">Rajesh Patel</h4>
+                                                    {{-- <span> Project Manager</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>DevLoops International's cutting-edge solutions have transformed my business. With their expertise, I now have a custom software solution that perfectly aligns with my unique needs. Their dedication to excellence is truly commendable!</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Neha Sharma</h4>
+                                                    {{-- <span>Software Engineer</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>DevLoops International exceeded my expectations with their search engine optimization services. Not only did they boost my website's ranking, but they also provided valuable insights for long-term success. I'm grateful for their expertise and professionalism.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Sneha Reddy</h4>
+                                                    {{-- <span>Quality Assurance Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>I'm impressed by DevLoops International's global reach! Despite being based in a different country, they seamlessly handled my project and delivered exceptional results.  </p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Anil Gupta</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -383,27 +370,27 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="assets/img/team/avatar/rating-avatar-1.png" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/ingirl1.jpg')}}" alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="assets/img/team/avatar/rating-avatar-2.png" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/inboy1.jpg')}}" alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="assets/img/team/avatar/rating-avatar-3.png" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/ingirl2.jpg')}}" alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="assets/img/team/avatar/rating-avatar-4.png" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/ingirl3.jpg')}}" alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="assets/img/team/avatar/rating-avatar-5.png" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/inboy2.jpg')}}" alt="testi-avata">
                                             </div>
                                         </div>
                                     </div>
