@@ -50,24 +50,25 @@
                                                 <span class="tp-slider-sub-title">{{ $banner->title }}</span>
                                                 <h2 class="tp-slider-title">{{ $banner->heading }}</h2>
                                                 <div class="tp-slider-btn">
-                                                    <a class="tp-btn" href="{{ route('about') }}">{{ $banner->buttontitle }}</a>
+                                                    <a class="tp-btn"
+                                                        href="{{ route('about') }}">{{ $banner->buttontitle }}</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- <div class="tp-slider-shape-1">
-                                          <img src="assets/img/slider/slider-shape-1.png" alt="">
-                                       </div>
-                                       <div class="tp-slider-shape-2">
-                                          <img src="assets/img/slider/slider-shape-2.png" alt="">
-                                       </div>
-                                       <div class="tp-slider-shape-3">
-                                          <img src="assets/img/slider/slider-shape-3.png" alt="">
-                                       </div> -->
+                                                  <img src="assets/img/slider/slider-shape-1.png" alt="">
+                                               </div>
+                                               <div class="tp-slider-shape-2">
+                                                  <img src="assets/img/slider/slider-shape-2.png" alt="">
+                                               </div>
+                                               <div class="tp-slider-shape-3">
+                                                  <img src="assets/img/slider/slider-shape-3.png" alt="">
+                                               </div> -->
                                 <!-- <div class="tp-slider-shape-4">
-                                          <img src="assets/img/slider/slider-shape-4.png" alt="">
-                                       </div> -->
+                                                  <img src="assets/img/slider/slider-shape-4.png" alt="">
+                                               </div> -->
                             </div>
                         </div>
                     @endforeach
@@ -80,142 +81,173 @@
         <!-- about-area-start -->
         <section class="about-area pt-115 tp-about-3 pb-60">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-5">
-                     <div class="tp-about-3-wrap">
-                        <div class="tp-about-3-thumb-1 tp-thumb-common fix mb-30 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
-                           <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                           <img src="{{ asset('assets/img/about/three/about-3-thumb-1.jpg')}}" alt="">
-                        </div>
-                        <div class="tp-about-3-thumb-2 wow fadeInLeft tp-thumb-common fix" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">
-                           <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                           <img src="{{ asset('assets/img/about/three/about-3-thumb-2.jpg')}}" alt="">
-                        </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="tp-about-3-wrap">
+                            <div class="tp-about-3-thumb-1 tp-thumb-common fix mb-30 wow fadeInRight" data-wow-duration="1s"
+                                data-wow-delay=".5s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
+                                <div class="tp-thumb-common-overlay wow"
+                                    style="visibility: visible; animation-name: tpoverlay;"></div>
+                                <img src="{{ asset('assets/img/about/three/about-3-thumb-1.jpg') }}" alt="">
+                            </div>
+                            <div class="tp-about-3-thumb-2 wow fadeInLeft tp-thumb-common fix" data-wow-duration="1s"
+                                data-wow-delay=".5s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                <div class="tp-thumb-common-overlay wow"
+                                    style="visibility: visible; animation-name: tpoverlay;"></div>
+                                <img src="{{ asset('assets/img/about/three/about-3-thumb-2.jpg') }}" alt="">
+                            </div>
 
-                        <div class="tp-about-3-project">
-                           <span>Project Completed</span>
-                           <h3 class="tp-about-3-project-title">200+</h3>
+                            <div class="tp-about-3-project">
+                                <span>Project Completed</span>
+                                <h3 class="tp-about-3-project-title">200+</h3>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="offset-lg-1 col-lg-6">
-                     <div class="tp-about-3-wrapper mb-50 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
-                        <div class="tp-section tp-section-3 mb-50">
-                           <span class="tp-section-sub-title">Welcome to Devloops </span>
-                           <h4 class="tp-section-title">Where innovation knows no bounds and creativity thrives!
+                    </div>
+                    <div class="offset-lg-1 col-lg-6">
+                        <div class="tp-about-3-wrapper mb-50 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
+                            <div class="tp-section tp-section-3 mb-50">
+                                <span class="tp-section-sub-title">Welcome to Devloops </span>
+                                <h4 class="tp-section-title">Where innovation knows no bounds and creativity thrives!
 
-                           </h4>
-                           <div class="tp-section-title-wrapper">
+                                </h4>
+                                <div class="tp-section-title-wrapper">
 
-                              <p class="text-black"><span class="text-pink">At DevLoops International</span> we're more than just a company; we're a passionate community of tech enthusiasts, creators, and problem solvers dedicated to pushing the boundaries of what's possible. With a relentless drive for innovation, we're on a mission to revolutionize the digital landscape and shape the future of technology worldwide.</p>
-                           </div>
+                                    <p class="text-black"><span class="text-pink">At DevLoops International</span> we're
+                                        more than just a company; we're a passionate community of tech enthusiasts,
+                                        creators, and problem solvers dedicated to pushing the boundaries of what's
+                                        possible. With a relentless drive for innovation, we're on a mission to
+                                        revolutionize the digital landscape and shape the future of technology worldwide.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tp-about-3-item mb-35">
+                                <div class="tp-about-3-item-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080"
+                                        class="bi bi-person-fill-up" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
+                                        </path>
+                                        <path
+                                            d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Who We Are</h4>
+                                    <p class="text-black">DevLoops International is a dynamic technology solutions provider
+                                        specializing in cutting-edge software development, AI solutions, and digital
+                                        transformation services. </p>
+                                </div>
+                            </div>
+                            <div class="tp-about-3-item mb-35">
+
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
+                                    <p class="text-black">Our vision is simple yet ambitious: to empower businesses and
+                                        individuals to thrive in the digital age. </p>
+                                </div>
+                                <div class="tp-about-3-item-icon">
+                                    <i class="flaticon-solution"></i>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="tp-about-3-item mb-35">
-                           <div class="tp-about-3-item-icon">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080" class="bi bi-person-fill-up" viewBox="0 0 16 16">
-                                 <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0"></path>
-                                 <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"></path>
-                               </svg>
-                           </div>
-                           <div class="tp-about-3-item-content">
-                              <h4 class="tp-about-3-item-title">Who We Are</h4>
-                              <p class="text-black">DevLoops International is a dynamic technology solutions provider specializing in cutting-edge software development, AI solutions, and digital transformation services. </p>
-                           </div>
-                        </div>
-                        <div class="tp-about-3-item mb-35">
-
-                           <div class="tp-about-3-item-content">
-                              <h4 class="tp-about-3-item-title">Our Vision</h4>
-                              <p class="text-black">Our vision is simple yet ambitious: to empower businesses and individuals to thrive in the digital age. </p>
-                           </div>
-                           <div class="tp-about-3-item-icon">
-                              <i class="flaticon-solution"></i>
-                           </div>
-                        </div>
-
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </section>
+        </section>
         <!-- about-area-end -->
 
         <!-- Offering-area-start -->
-        <section id="services-one-page" class="offering-area tp-offer-bg pb-80 pt-120" data-background="{{ asset('assets/img/bg/offer-bg-1.jpg') }}" style="background-image: url('{{ asset('assets/img/bg/offer-bg-1.jpg') }}');">
+        <section id="services-one-page" class="offering-area tp-offer-bg pb-80 pt-120"
+            data-background="{{ asset('assets/img/bg/offer-bg-1.jpg') }}"
+            style="background-image: url('{{ asset('assets/img/bg/offer-bg-1.jpg') }}');">
             <div class="container">
-               <div class="row align-items-end">
-                  <div class="col-lg-7">
-                     <div class="tp-section tp-section-white-two mb-80">
-                        <span class="tp-section-sub-title">What We’re Offering</span>
-                        <h4 class="tp-section-title">We Provide Exclusive Service <br> For Your Business</h4>
-                     </div>
-                  </div>
-                  <!-- <div class="col-lg-5">
-                     <div class="tp-section-title-wrapper mb-80">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
-                     </div>
-                  </div> -->
-               </div>
-               <div class="row">
-                  <div class="col-xl-3 col-lg-4 col-md-6">
-                     <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                          <img src="{{ asset('assets/img/proddevflaticon.png') }}" alt="prod">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="tp-section tp-section-white-two mb-80">
+                            <span class="tp-section-sub-title">What We’re Offering</span>
+                            <h4 class="tp-section-title">We Provide Exclusive Service <br> For Your Business</h4>
                         </div>
-                        <div class="tp-offer-item-content">
-                           <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('product') }}">ProductDevelopment</a></h4>
-                           <p> Engineering innovative software solutions tailored to your specific needs.</p>
+                    </div>
+                    <!-- <div class="col-lg-5">
+                             <div class="tp-section-title-wrapper mb-80">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
+                             </div>
+                          </div> -->
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <img src="{{ asset('assets/img/proddevflaticon.png') }}" alt="prod">
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white"><a
+                                        href="{{ route('product') }}">ProductDevelopment</a></h4>
+                                <p> Engineering innovative software solutions tailored to your specific needs.</p>
+                            </div>
+                            <div class="tp-offer-item-btn">
+                                <a href="{{ route('product') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                        <div class="tp-offer-item-btn">
-                           <a href="{{ route('product') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
+                            style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <img src="{{ asset('assets/img/webdevflaticonnew.png') }}" alt="prod">
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
+                                        Development</a></h4>
+                                <p>Designing captivating websites with intuitive interfaces and robust functionality.</p>
+                            </div>
+                            <div class="tp-offer-item-btn">
+                                <a href="{{ route('webdev') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-4 col-md-6">
-                     <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                           <img src="{{ asset('assets/img/webdevflaticonnew.png') }}" alt="prod">
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
+                            style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <img src="{{ asset('assets/img/iotdevflaticon.png') }}" alt="prod">
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
+                                        Of Things</a></h4>
+                                <p>Building interconnected solutions that leverage the power of the Internet of Things.</p>
+                            </div>
+                            <div class="tp-offer-item-btn">
+                                <a href="{{ route('iot') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                        <div class="tp-offer-item-content">
-                           <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web Development</a></h4>
-                           <p>Designing captivating websites with intuitive interfaces and robust functionality.</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <img src="{{ asset('assets/img/healthcaredevflaticon.png') }}" alt="prod">
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white"><a
+                                        href="{{ route('healthcare') }}">Healthcare</a></h4>
+                                <p> Developing secure and scalable software solutions tailored to the unique demands.</p>
+                            </div>
+                            <div class="tp-offer-item-btn">
+                                <a href="{{ route('healthcare') }}">Read More <i
+                                        class="fa-regular fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                        <div class="tp-offer-item-btn">
-                           <a href="{{ route('webdev') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-4 col-md-6">
-                     <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                           <img src="{{ asset('assets/img/iotdevflaticon.png') }}" alt="prod">
-                        </div>
-                        <div class="tp-offer-item-content">
-                           <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet Of Things</a></h4>
-                           <p>Building interconnected solutions that leverage the power of the Internet of Things.</p>
-                        </div>
-                        <div class="tp-offer-item-btn">
-                           <a href="{{ route('iot') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-4 col-md-6">
-                     <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                           <img src="{{ asset('assets/img/healthcaredevflaticon.png') }}" alt="prod">
-                        </div>
-                        <div class="tp-offer-item-content">
-                           <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('healthcare') }}">Healthcare</a></h4>
-                           <p> Developing secure and scalable software solutions tailored to the unique demands.</p>
-                        </div>
-                        <div class="tp-offer-item-btn">
-                           <a href="{{ route('healthcare') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </section>
+        </section>
         <!-- Offering-area-end -->
 
         <!-- cta-area-start -->
@@ -246,46 +278,64 @@
         <!-- brand-area-start -->
         <section class="client">
             <div class="container">
-              <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                <div
+                    class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
 
-                <div class="swiper-wrapper" id="swiper-wrapper-af9a2b0a26fb64d5" aria-live="off" style="transform: translate3d(-265px, 0px, 0px); transition-duration: 0ms;">
-                  <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 5" style="width: 215px; margin-right: 50px;">
-                    <div class="client__box">
-                      <img src="assets/img/urjalogo2.jpeg" class="client__image">
+                    <div class="swiper-wrapper" id="swiper-wrapper-af9a2b0a26fb64d5" aria-live="off"
+                        style="transform: translate3d(-265px, 0px, 0px); transition-duration: 0ms;">
+                        @foreach ($batch as $batch)
+
+                        <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 5"
+                            style="width: 215px; margin-right: 50px;">
+                            <div class="client__box">
+                                <img src="{{ $batch->hero }}" class="client__image">
+                            </div>
+                        </div>
+                        @endforeach
+                        {{-- <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 5"
+                            style="width: 215px; margin-right: 50px;">
+                            <div class="client__box">
+                                <img src="assets/img/vriaum2logo.png" class="client__image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 5"
+                            style="width: 215px; margin-right: 50px;">
+                            <div class="client__box">
+                                <img src="assets/img/vriaumlogo.png" class="client__image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="4 / 5"
+                            style="width: 215px; margin-right: 50px;">
+                            <div class="client__box">
+                                <img src="assets/img/socialageslogo1.png" class="client__image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="5 / 5"
+                            style="width: 215px; margin-right: 50px;">
+                            <div class="client__box">
+                                <img src="assets/img/vriaum2logo.png" class="client__image">
+                            </div>
+                        </div> --}}
                     </div>
-                  </div>
-                  <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 5" style="width: 215px; margin-right: 50px;">
-                    <div class="client__box">
-                      <img src="assets/img/vriaum2logo.png" class="client__image">
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
+                            class="swiper-pagination-bullet" tabindex="0" role="button"
+                            aria-label="Go to slide 1"></span><span
+                            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                            role="button" aria-label="Go to slide 2"></span></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                        aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="false"></div>
+                    <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button"
+                        aria-label="Next slide" aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="true">
                     </div>
-                  </div>
-                  <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 5" style="width: 215px; margin-right: 50px;">
-                    <div class="client__box">
-                      <img src="assets/img/vriaumlogo.png" class="client__image">
-                    </div>
-                  </div>
-                  <div class="swiper-slide" role="group" aria-label="4 / 5" style="width: 215px; margin-right: 50px;">
-                    <div class="client__box">
-                      <img src="assets/img/socialageslogo1.png" class="client__image">
-                    </div>
-                  </div>
-                  <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 215px; margin-right: 50px;">
-                    <div class="client__box">
-                      <img src="assets/img/vriaum2logo.png" class="client__image">
-                    </div>
-                  </div>
+
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
-
-                <!-- If we need pagination -->
-                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span></div>
-
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="false"></div>
-                <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="true"></div>
-
-              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
             </div>
-          </section>
+        </section>
         <!-- brand-area-end -->
 
 
@@ -383,27 +433,32 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-1.png')}}" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-1.png') }}"
+                                                    alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-2.png')}}" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-2.png') }}"
+                                                    alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-3.png')}}" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-3.png') }}"
+                                                    alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-4.png')}}" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-4.png') }}"
+                                                    alt="testi-avata">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-avatar-thumb">
-                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png')}}" alt="testi-avata">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
                                             </div>
                                         </div>
                                     </div>
@@ -534,7 +589,7 @@
                                     <li class="text-pink"> <b>DevLoops prioritizes client satisfaction above all else</b>.
                                     </li>
                                     <!-- <li>
-                                                DevLoops fosters innovation, turning ideas into practical solutions.</li> -->
+                                                        DevLoops fosters innovation, turning ideas into practical solutions.</li> -->
                                 </ul>
                             </div>
                         </div>
@@ -685,12 +740,12 @@
                     <div class="col-xl-5 col-lg-6">
                         <div class="tp-contact-main mb-40">
                             <!-- <div class="tp-section tp-section-two mb-25">
-                                          <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                                          <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
-                                          <div class="tp-section-title-wrapper">
-                                             <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                          </div>
-                                       </div> -->
+                                                  <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
+                                                  <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
+                                                  <div class="tp-section-title-wrapper">
+                                                     <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
+                                                  </div>
+                                               </div> -->
                             <div class="tp-contact-main-thumb mb-40 w-img">
                                 <img src="assets/img/thumbs/contact-main-bg-1.jpg" alt="">
                             </div>
@@ -773,24 +828,24 @@
                                     </div>
 
                                     <!-- <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <input type="text" placeholder="Company Name">
-                                             <span><i class="fa-light fa-user"></i></span>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
+                                                  <div class="tp-contact-details-form-input mb-20">
+                                                     <input type="text" placeholder="Company Name">
+                                                     <span><i class="fa-light fa-user"></i></span>
+                                                  </div>
+                                               </div>
+                                               <div class="col-lg-12">
+                                                  <div class="tp-contact-details-form-input mb-20">
 
-                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                             <input type="text" placeholder="Your Subject">
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                             <span><i class="fa-light fa-pen"></i></span>
-                                          </div>
-                                       </div> -->
+                                                     <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                                     <input type="text" placeholder="Your Subject">
+                                                  </div>
+                                               </div>
+                                               <div class="col-lg-12">
+                                                  <div class="tp-contact-details-form-input mb-20">
+                                                     <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                                     <span><i class="fa-light fa-pen"></i></span>
+                                                  </div>
+                                               </div> -->
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-btn">
                                             <button class="tp-btn">Send a Message</button>
