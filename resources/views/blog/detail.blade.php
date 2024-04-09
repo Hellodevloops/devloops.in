@@ -232,8 +232,9 @@
                                 <h3 class="sidebar-widget-title">Our Latest Post</h3>
                                 <div class="sidebar-widget-content">
                                     <div class="sidebar-post rc-post">
+                                        @foreach ($recentposts as $recentpost)
                                         <div class="rc-post mb-20 d-flex align-items-center">
-                                            @foreach ($recentposts as $recentpost)
+                                            {{-- @foreach ($recentposts as $recentpost) --}}
                                             <div class="rc-post-thumb">
                                                 <a href="{{ route('post.show', ['slug' => $post->slug]) }}"><img src="{{ $recentpost->hero }}"
                                                         alt=""></a>
