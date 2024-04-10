@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="tp-contact-details-form mb-40">
-                            @if (session('error'))
+                            {{-- @if (session('error'))
                                 <div class="alert alert-danger">
                                     {{ session('error') }}
                                 </div>
@@ -66,7 +66,18 @@
                                 <div class="alert alert-succuss">
                                     {{ session('succuss') }}
                                 </div>
-                            @endif
+                            @endif --}}
+
+                            @if (session('error'))
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                             <form method="POST" action="{{ route('contact.store') }}">
                                 @csrf
                                 <div class="row">

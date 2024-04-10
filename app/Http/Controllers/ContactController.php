@@ -46,51 +46,81 @@ class ContactController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    // public function store(Request $request)
+    //     {
+    //         $validatedData = $request->validate([
+    //             'firstname' => 'required|string|max:255',
+    //             'lastname' => 'required|string|max:255',
+    //             'phone' => 'nullable|string|max:20',
+    //             'email' => 'nullable|email|max:255',
+    //             // 'message' => 'nullable|string',
+    //         ]);
+
+    //         try {
+    //             // save data to database
+    //             $contact = new Contact();
+    //             $contact->firstname = $validatedData['firstname'];
+    //             $contact->lastname = $validatedData['lastname'];
+    //             $contact->phone = $validatedData['phone'];
+    //             $contact->email = $validatedData['email'];
+    //             // $contact->message = $validatedData['message'];
+    //             $contact->save();
+
+    //             // Send email
+    //         // $emailData = [
+    //         //     'firstname' => $validatedData['firstname'],
+    //         //     'lastname' => $validatedData['lastname'],
+    //         //     'phone' => $validatedData['phone'],
+    //         //     'email' => $validatedData['email'],
+    //         //     'message' => $validatedData['message'],
+    //         // ];
+
+    //         // $mailcontroller = new MailController;
+    //         // $mailcontroller->send_contact_email($validatedData['email'],$validatedData['firstname']);
+
+
+    //         // Notification::make()
+    //         // ->title('New Appointment')
+    //         // ->sendToDatabase(auth()->user());
+
+
+    //             // redirect to success page with success message
+    //             return back()->with('success', 'Thank you for contacting us!');
+    //         } catch (\Exception $e) {
+    //             // redirect back with error message
+    //             return back()->with('error', 'Error: ' . $e->getMessage());
+    //         }
+    //     }
+
     public function store(Request $request)
-        {
-            $validatedData = $request->validate([
-                'firstname' => 'required|string|max:255',
-                'lastname' => 'required|string|max:255',
-                'phone' => 'nullable|string|max:20',
-                'email' => 'nullable|email|max:255',
-                // 'message' => 'nullable|string',
-            ]);
+    {
+        $validatedData = $request->validate([
+            'firstname' => 'required|string|max:255',
+            'lastname' => 'required|string|max:255',
+            'phone' => 'nullable|string|max:20',
+            'email' => 'nullable|email|max:255',
+            // 'message' => 'nullable|string',
+        ]);
 
-            try {
-                // save data to database
-                $contact = new Contact();
-                $contact->firstname = $validatedData['firstname'];
-                $contact->lastname = $validatedData['lastname'];
-                $contact->phone = $validatedData['phone'];
-                $contact->email = $validatedData['email'];
-                // $contact->message = $validatedData['message'];
-                $contact->save();
+        try {
+            // Save data to database
+            $contact = new Contact();
+            $contact->firstname = $validatedData['firstname'];
+            $contact->lastname = $validatedData['lastname'];
+            $contact->phone = $validatedData['phone'];
+            $contact->email = $validatedData['email'];
+            // $contact->message = $validatedData['message'];
+            $contact->save();
 
-                // Send email
-            // $emailData = [
-            //     'firstname' => $validatedData['firstname'],
-            //     'lastname' => $validatedData['lastname'],
-            //     'phone' => $validatedData['phone'],
-            //     'email' => $validatedData['email'],
-            //     'message' => $validatedData['message'],
-            // ];
+            // Send email
 
-            // $mailcontroller = new MailController;
-            // $mailcontroller->send_contact_email($validatedData['email'],$validatedData['firstname']);
-
-
-            // Notification::make()
-            // ->title('New Appointment')
-            // ->sendToDatabase(auth()->user());
-
-
-                // redirect to success page with success message
-                return back()->with('success', 'Thank you for contacting us!');
-            } catch (\Exception $e) {
-                // redirect back with error message
-                return back()->with('error', 'Error: ' . $e->getMessage());
-            }
+            // Redirect to success page with success message
+            return redirect()->back()->with('success', 'Thank you for contacting us!');
+        } catch (\Exception $e) {
+            // Redirect back with error message
+            return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
         }
+    }
 
 
 
