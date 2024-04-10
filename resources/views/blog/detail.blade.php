@@ -236,7 +236,7 @@
                                         <div class="rc-post mb-20 d-flex align-items-center">
                                             {{-- @foreach ($recentposts as $recentpost) --}}
                                             <div class="rc-post-thumb">
-                                                <a href="{{ route('post.show', ['slug' => $post->slug]) }}"><img src="{{asset(' $recentpost->hero') }}"
+                                                <a href="{{ route('post.show', ['slug' => $post->slug]) }}"><img src="{{assets(' $recentpost->hero') }}"
                                                         alt=""></a>
                                             </div>
                                             <div class="rc-post-content">
