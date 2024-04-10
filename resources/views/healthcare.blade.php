@@ -69,7 +69,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Write to Us</span>
-                                        <a href="mailto:hr@devloops.in"><span class="text-white">hr@devloops.in</span></a>
+                                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
                                     </div>
 
                                 </div>
@@ -205,7 +205,7 @@
                                 </ul>
                             </div>
                             <div class="tp-price-btn">
-                                <a href="contact.html">Start Free Trial</a>
+                                <a href="{{ route('contact') }}">Start Free Trial</a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                                 </ul>
                             </div>
                             <div class="tp-price-btn">
-                                <a href="contact.html">Start Free Trial</a>
+                                <a href="{{ route('contact') }}">Start Free Trial</a>
                             </div>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
                                 </ul>
                             </div>
                             <div class="tp-price-btn">
-                                <a href="contact.html">Start Free Trial</a>
+                                <a href="{{ route('contact') }}">Start Free Trial</a>
                             </div>
                         </div>
                     </div>
@@ -295,7 +295,7 @@
                             </div>
                             <div class="tp-project-content">
                                 <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="project-details.html">Appointments</a>
+                                    <h4 class="tp-project-title mb-15"><a href="#">Appointments</a>
                                     </h4>
                                     <!-- <ul class="tp-project-meta">
                                            <li>Brain</li>
@@ -321,7 +321,7 @@
                             </div>
                             <div class="tp-project-content">
                                 <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="project-details.html">Billings</a></h4>
+                                    <h4 class="tp-project-title mb-15"><a href="#">Billings</a></h4>
                                     <!-- <ul class="tp-project-meta">
                                            <li>Software</li>
                                         </ul> -->
@@ -337,7 +337,7 @@
                             </div>
                             <div class="tp-project-content">
                                 <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="project-details.html">Patients</a></h4>
+                                    <h4 class="tp-project-title mb-15"><a href="#">Patients</a></h4>
                                     <!-- <ul class="tp-project-meta">
                                            <li>SEO</li>
                                         </ul> -->
@@ -362,7 +362,7 @@
                             </div>
                             <div class="tp-project-content">
                                 <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="project-details.html">Best Business
+                                    <h4 class="tp-project-title mb-15"><a href="#">Best Business
                                             Solution</a>
                                     </h4>
                                     <ul class="tp-project-meta">
@@ -390,7 +390,7 @@
         <!-- our team -->
 
         <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pb-60">
+        <section class="team-area tp-team-3-border fix pt-115 pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -408,12 +408,14 @@
                         <div class="tp-team-3-wrap">
                             <div class="swiper-container tp-team-3-active">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                    {{-- <div class="swiper-slide">
                                         <div class="tp-team-3-item mb-40">
                                             <div class="tp-team-3-thumb">
                                                 <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
                                                     <div class="tp-thumb-common-overlay wow"></div>
-                                                    <img src="assets/img/riya1n.jpeg" alt="">
+                                                    <!-- <a href="#" class="team-member" data-toggle="modal" data-target="#teamModal" data-name="Riya Vaidya" data-role="BackEnd developer"></a> -->
+                                                    <img src="assets/img/riya1n-removebg-preview.png" alt=""
+                                                        style="background-color: whitesmoke;">
                                                 </div>
                                                 <div class="tp-team-3-thumb-social">
                                                     <a href="#"><span><i
@@ -432,107 +434,40 @@
                                                 <span>BackEnd developer</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <img src="assets/img/richa.JPG" alt="">
+                                    </div> --}}
+                                    @php
+                                    use App\Models\Team;
+                                    $team = Team::all();
+                                @endphp
+                                    @foreach ($team as $team)
+                                        <div class="swiper-slide">
+                                            <div class="tp-team-3-item mb-40">
+                                                <div class="tp-team-3-thumb">
+                                                    <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
+                                                        <div class="tp-thumb-common-overlay wow"></div>
+                                                        <img src="{{ $team->img }}" alt=""
+                                                            style="background-color: whitesmoke;">
+                                                    </div>
+                                                    <div class="tp-team-3-thumb-social">
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-facebook-f"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-instagram"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-twitter"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-linkedin-in"></i></span></a>
+                                                    </div>
                                                 </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
+                                                <div class="tp-team-3-content">
+                                                    <h5 class="tp-team-3-title"><a
+                                                            href="{{ route('about') }}">{{ $team->name }}</a>
+                                                    </h5>
+                                                    <span>{{ $team->position }}</span>
                                                 </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Richa Vaidya</a>
-                                                </h5>
-                                                <span>FrontEnd Developer</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <img src="assets/img/team/team-3-thumb-3.jpg" alt="">
-                                                </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
-                                                </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Pranshu Tiwari</a>
-                                                </h5>
-                                                <span>HR Manager</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <img src="assets/img/team/team-3-thumb-4.jpg" alt="">
-                                                </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
-                                                </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Kavita Tiwari</a>
-                                                </h5>
-                                                <span>Manager</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <img src="assets/img/riya1n.jpeg" alt="">
-                                                </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
-                                                </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Priyanshi
-                                                        sachan</a></h5>
-                                                <span> Software Architech </span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
@@ -697,8 +632,8 @@
                                         Dhanlaxmi Complex,<br> Vadodara </a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
                                         +919106077817</a>
-                                    <a class="text-black" href="mailto:hr@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hr@devloops.in</a>
+                                    <a class="text-black" href="mailto:hello@devloops.in"><i
+                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                                 <div class="tp-contact-location ml-40">
                                     <span class="tp-contact-location-title">Canada</span>
@@ -706,8 +641,8 @@
                                             class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
                                         +919106077817</a>
-                                    <a class="text-black" href="mailto:hr@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hr@devloops.in</a>
+                                    <a class="text-black" href="mailto:hello@devloops.in"><i
+                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                             </div>
                         </div>

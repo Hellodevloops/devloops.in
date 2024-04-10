@@ -757,8 +757,8 @@
                                         Dhanlaxmi Complex,<br> Vadodara </a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
                                         +919106077817</a>
-                                    <a class="text-black" href="mailto:hr@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hr@devloops.in</a>
+                                    <a class="text-black" href="mailto:hello@devloops.in"><i
+                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                                 <div class="tp-contact-location ml-40">
                                     <span class="tp-contact-location-title">Canada</span>
@@ -766,8 +766,8 @@
                                             class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
                                         +919106077817</a>
-                                    <a class="text-black" href="mailto:hr@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hr@devloops.in</a>
+                                    <a class="text-black" href="mailto:hello@devloops.in"><i
+                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                             </div>
                         </div>

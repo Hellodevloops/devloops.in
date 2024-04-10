@@ -98,7 +98,7 @@
                             </div> -->
                             <div class="tp-about-details d-flex align-items-center flex-wrap">
                                 <div class="tp-about-btn mr-30 mb-10">
-                                    <a class="tp-btn" href="contact.html">Contact Us</a>
+                                    <a class="tp-btn" href="{{ route('contact') }}">Contact Us</a>
                                 </div>
 
                             </div>
@@ -296,7 +296,7 @@
                                                 </div>
                                                 <div class="tp-team-3-content">
                                                     <h5 class="tp-team-3-title"><a
-                                                            href="team-details.html">{{ $team->name }}</a>
+                                                            href="{{ route('about') }}">{{ $team->name }}</a>
                                                     </h5>
                                                     <span>{{ $team->position }}</span>
                                                 </div>
