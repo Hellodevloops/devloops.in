@@ -1,604 +1,576 @@
-<!DOCTYPE html>
-<html lang="en" dir="">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-
-
+<!-- Mirrored from template.wphix.com/tecz-prv/tecz/index-3-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Feb 2024 07:56:47 GMT -->
 <head>
-  <!-- Required Meta Tags Always Come First -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Devloops</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Title -->
-  <title>  Devloops</title>
+      <!-- Place favicon.ico in the root directory -->
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo/favicon.png') }}">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="{{asset('./assets/img/infinite.png')}}">
-
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
-
-  <!-- CSS Implementing Plugins -->
-  {{-- {{asset('')}} --}}
-  <link rel="stylesheet" href="{{asset('assets/css/vendor.min.css')}}">
-  <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-icons/font/bootstrap-icons.css')}}">
-  <link rel="stylesheet" href="{{asset('assets/vendor/aos/dist/aos.css')}}">
-  <link rel="stylesheet" href="{{asset('../node_modules/swiper/swiper-bundle.min.css')}}">
-  <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
-
-  <link rel="stylesheet" href="../node_modules/leaflet/dist/leaflet.css" /> -->
-
-
-  <!-- CSS Front Template -->
-  <link rel="stylesheet" href="{{asset('assets/css/theme.minc619.css?v=1.0')}}">
-  <!-- <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"> -->
-
-
-  <!-- JS Implementing Plugins -->
-  <!-- <script src="../node_modules/fslightbox/index.js"></script> -->
-
-  <!-- <script src="../node_modules/leaflet/dist/leaflet.js"></script> -->
-
-  <!-- JS Implementing Plugins -->
-
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-
-  <style>
-    /* our mission vision animation */
-    .p1{
-  font-size: 18px;
+      <!-- CSS here -->
+      <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/font-awesome-pro.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/flaticon_tecz.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/spacing.css') }}">
+      <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+      <!-- our clients codepen -->
+      <style>
+        img {
+ max-width: 100%;
+}
+.container {
+ max-width: 1140px;
+ width: 100%;
 }
 
-    .gradient-animation {
-    background-size: 100% 200%;
-    transition: background-position 0.5s;
-    overflow: hidden; /* Ensure the overflow is hidden to prevent the gradient overflow */
+.client .swiper-container {
+ padding: 40px 50px;
+}
+.client__image {
+ width: 200px; /* Set the desired width */
+ height: 100px; /* Set the desired height */
 }
 
-.gradient-animation:hover {
-    background-position: 0 100%;
-    background: linear-gradient(to top, #82a5c9, #f46a9f);
+.client__box img {
+ display: block;
+ margin: 0 auto;
 }
 
-.gradient-animation:hover .text-to-change,
-.gradient-animation:hover .icon-to-change,
-.gradient-animation:hover p
- {
-    color: white !important;
-
+@media only screen and (max-width: 767px) {
+ .client .swiper-container {
+   padding: 0 0 40px;
+ }
+ .client__box {
+   padding: 0;
+   text-align: center;
+ }
+ .client .swiper-button-prev,
+ .client .swiper-button-next {
+   display: none;
+ }
 }
+     </style>
+   </head>
+   <body>
 
-.checkmark {
-      fill: #ad3c62; /* Set the initial color, in this case, dark pink */
-      transition: fill 0.3s; /* Add a smooth transition effect */
-    }
+      <!-- pre loader area start -->
+      {{-- <div id="loading">
+         <div id="loading-center">
+            <div id="loading-center-absolute">
+               <!-- loading content here -->
+               <div class="tp-preloader-content">
+                  <div class="tp-preloader-logo">
+                     <!-- <div class="tp-preloader-circle">
+                        <svg width="190" height="190" viewBox="0 0 380 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <circle stroke="#D9D9D9" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round">
+                           </circle>
+                           <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle>
+                        </svg>
+                     </div> -->
+                     <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
+                  </div>
+                <!-- <p class="tp-preloader-subtitle">Loading...</p> -->
+               </div>
+            </div>
+         </div>
+      </div> --}}
+      <!-- pre loader area end -->
 
-    .checkmark:hover {
-      fill: #d0c9c9; /* Change the color on hover to white */
-    }
-    .warning{
-      fill: #ad3c62; /* Set the initial color, in this case, dark green */
-      transition: fill 0.3s; /* Add a smooth transition effect */
-    }
+      <!-- back to top start -->
+      <div class="back-to-top-wrapper">
+         <button id="back_to_top" type="button" class="back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+         </button>
+      </div>
+      <!-- back to top end -->
 
-    .warning:hover {
-      fill: #ffffff; /* Change the color on hover to white */
-    }
+      <!-- header area start -->
+      <header>
+         <div class="tp-header-area tp-header-3 tp-header-height">
+            <div class="tp-header-3-top theme-bg d-none d-lg-block">
+               <div class="tp-header-3-top-wrap d-flex align-items-center justify-content-between">
+                  <div class="tp-header-3-top-left d-flex align-items-center">
+                     <div class="tp-header-3-top-left-item">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <a href="{{ route('contact') }}">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara</a>
+                     </div>
+                     <div class="tp-header-3-top-left-item">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <a href="mailto:hello@devloops.in"><span>hello@devloops.in</span></a>
+                    </div>
 
+                  </div>
+                  <div class="tp-header-3-top-right d-flex align-items-center">
+                     <!-- <div class="tp-header-3-top-info">
+                        <a href="#">Help</a>
+                        <a href="#">Support</a>
+                        <a href="#">Contact</a>
+                     </div> -->
+                     <div class="tp-header-3-top-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="header-sticky" class="tp-header-3-wrap  white-bg d-flex justify-content-between">
+               <div class="tp-header-3-main d-flex">
+                  <div class="logo"  data-background="assets/img/shape/logo-shape-1.png">
+                     <a href="{{ route('/') }}">
+                        <img data-width="155" src="assets/img/logo/logo-black.png" alt="">
+                     </a>
+                  </div>
+                  <div class="main-menu tp-header-3-menu d-none d-xl-block">
+                     <nav id="mobile-menu" class="tp-main-menu-content">
+                        <ul class="tp-onepage-menu">
 
-       /* Add your existing styles here */
-    .container-animation {
-      opacity: 0;
-      transform: translateX(-50px);
-      animation: slideIn 1s ease-in-out forwards infinite;
-    }
+                           <li><a href="{{ route('/') }}">Home</a></li>
+                           <li><a href="{{ route('about') }}">About</a></li>
+                           <li class="has-dropdown">
+                              <a href="#">Service</a>
+                              <div class="tp-submenu ">
+                                 <div class="row gx-6 row-cols-1 ml-4">
 
-    @keyframes slideIn {
-      from {
-        opacity: 0;
-        transform: translateX(-50px);
-      }
-      to {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-    .client-card:hover {
-        transform: scale(1.05);
-    }
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('product') }}">Product Development</a></span>
+                                       </div>
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('webdev') }}">Web Development</a></span>
+                                       </div>
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('iot') }}">Internet Of Things</a></span>
+                                       </div>
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('healthcare') }}">Healthcare</a></span>
+                                       </div>
 
-    .card-header {
-        padding: 15px;
-        background: rgba(156, 152, 152, 0.5);
-        border-radius: 10px 10px 0 0;
-    }
+                                    <!-- <div class="col homemenu">
+                                       <div class="homemenu-thumb">
+                                          <img src="assets/img/menu/home-5.jpg" alt="">
+                                       </div>
+                                       <div class="homemenu-btn">
+                                          <a class="tp-btn menu-btn mb-5" href="index-6.html">Multi Page</a>
+                                          <a class="tp-btn menu-btn" href="index-5-one-page.html">One Page</a>
+                                       </div>
+                                       <div class="demo-name">
+                                          <span>Home 05</span>
+                                       </div>
+                                    </div> -->
+                                 </div>
+                              </div>
+                           </li>
+                           <li><a href="{{ route('post') }}">Blog</a></li>
+                           {{-- <li><a href="{{ route('post.show', ['slug' => 'funding-your-dream-scholarships-and-financial-aid-for-studying-abroad']) }}">Blog1</a></li> --}}
+                           <li><a href="{{ route('career') }}">Career</a></li>
+                           <li><a href="{{ route('contact') }}">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="tp-header-right d-flex align-items-center">
+                  <!-- <div class="tp-header-search">
+                     <button class="tp-header-search-btn tp-search-open-btn" type="submit">
+                        <i class="fa-light fa-magnifying-glass"></i>
+                     </button>
+                  </div>
+                  <div class="tp-header-cart ml-30">
+                  <button class="tp-header-cart-btn cartmini-open-btn p-relative" type="button">
+                     <i class="flaticon-shopping-cart"></i>
+                     <span>3</span>
+                  </button>
+                  </div> -->
+                  <!-- <div class="tp-header-btn ml-35 mr-30 d-none d-lg-block">
+                     <a class="tp-btn" href="#">Get Solution</a>
+                  </div> -->
+                  <div class="d-none d-xxl-block">
+                     <div class="tp-header-cta d-flex align-items-center">
+                        <div class="tp-header-cta-icon d-none d-lg-block">
+                           <!-- <img src="assets/img/icon/header-cta-icon.svg" alt=""> -->
+                           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#ff0080" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                              <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                            </svg>
+                        </div>
+                        <div class="tp-header-cta-content d-none d-lg-block">
+                           <p class="text-black">Need help? Talk to an expert </p>
+                           <a href="tel:+919106077817">Free +919106077817</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="offcanvas-btn d-xl-none ml-30">
+                     <button class="offcanvas-open-btn"><i class="fa-solid fa-bars"></i></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- header area end -->
 
-    @keyframes floatAnimation {
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-}
+      <!-- offcanvas area start -->
+      <div class="offcanvas__area">
+         <div class="offcanvas__wrapper">
+            <div class="offcanvas__close">
+               <button class="offcanvas__close-btn offcanvas-close-btn">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                     <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                  </svg>
+               </button>
+            </div>
+            <div class="offcanvas__content">
+               <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
+                  <div class="offcanvas__logo logo">
+                     <a href="{{ route('/') }}">
+                        <img src="assets/img/logo/logo-black.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+               <div class="tp-main-menu-mobile"></div>
+               <!-- <div class="offcanvas__btn">
+                  <a href="contact.html" class="tp-btn">Getting Started <i
+                        class="fa-regular fa-chevron-right"></i></a>
+               </div> -->
+               <div class="side-info-contact">
+                  <span>we are here</span>
+                  <p>1489 Langley Ave <br> Grand Forks Afb, North.</p>
+               </div>
+               <div class="side-info-social">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- offcanvas area end -->
 
-    .card-title {
-        margin: 0;
-        font-size: 1.5rem;
-    }
+      <!-- header-search -->
+      <div class="tpsearchbar tp-sidebar-area tp-search-area">
+         <button class="tpsearchbar__close"><i class="fa-sharp fa-regular fa-xmark"></i></button>
+         <div class="search-wrap text-center">
+               <div class="container">
+                  <div class="row justify-content-center">
+                     <div class="col-lg-6 col-md-10 pt-100 pb-100">
+                           <h2 class="tpsearchbar__title">What Are You Looking For?</h2>
+                           <div class="tpsearchbar__form">
+                              <form action="#">
+                                 <input type="text" name="search" placeholder="Search Product...">
+                                 <button class="tpsearchbar__search-btn"><i class="fa-regular fa-magnifying-glass"></i></button>
+                              </form>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+      <div class="search-body-overlay"></div>
+      <!-- header-search-end -->
 
-    .card-text {
-        font-size: 1rem;
-    }
-
-    .device-browser-frame1 {
-  position: relative;
-  overflow: hidden;
-}
-
-.device-browser-img1 {
-  width: 100%;
-  height: auto;
-  clip-path: ellipse(70% 50% at 50% 50%);
-}
-
-
-   </style>
-
-</head>
-
-<body>
-  <!-- ========== HEADER ========== -->
-
-  <!-- ========== HEADER ========== -->
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide"
-    data-hs-header-options='{
-    "fixMoment": 1000,
-    "fixEffect": "slide"
-  }'>
-    <!-- Topbar -->
-
-    <!-- End Topbar -->
-
-    <div class="container  content-space-t-1">
-      <nav class="js-mega-menu navbar-nav-wrap ">
-        <!-- Default Logo -->
-        <a class="navbar-brand" aria-label="Front" href="./index.html">
-          <img class="navbar-brand-logo"  src="{{asset('./assets/img/newlogobg.png')}}" alt="Logo" style="width: 250px; height:40px;">
-        </a>
-
-        <!-- End Default Logo -->
-
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-default">
-            <i class="bi-list"></i>
-          </span>
-          <span class="navbar-toggler-toggled">
-            <i class="bi-x"></i>
-          </span>
-        </button>
-        <!-- End Toggler -->
-
-        <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="navbar-absolute-top-scroller">
-            <ul class="navbar-nav">
-              <!-- Landings -->
-
-              <!-- End Landings -->
-
-              <!-- Company -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/') }}" role="button" aria-expanded="false">Home</a>
-
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-
-                  <!-- End Authentication -->
-
-
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-              <!-- End Company -->
-
-
-              <!-- Account -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/about') }}" role="button" aria-expanded="false">About</a>
-
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-
-                  <!-- End Authentication -->
-
-
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-              <!-- End Account -->
-
-              <!-- Pages -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker  dropdown-toggle text-dark  nav-link" href="#" role="button" aria-expanded="false">Service</a>
-
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu dropdown-menu" aria-labelledby="pagesMegaMenu" style="min-width: 14rem;">
-                  <a class="dropdown-item text-dark " href="{{url('product')}}">Product Development</a>
-                  <a class="dropdown-item text-dark" href="{{url('webdev')}}">Web Development </a>
-                  <a class="dropdown-item text-dark" href="{{url('iot')}}">IOT</a>
-                  <a class="dropdown-item text-dark" href="{{url('healthcare')}}">Healthcare</a>
-
-
-                <!-- End Mega Menu -->
-              </li>
-             <!-- blog -->
-             <li class="hs-has-sub-menu nav-item">
-              <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ route('blog') }}" role="button" aria-expanded="false">Blog</a>
-
-              <!-- Mega Menu -->
-              <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                <!-- Authentication -->
-
-                <!-- End Authentication -->
-
-
-              </div>
-              <!-- End Mega Menu -->
-            </li>
-            <!-- End blog -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{ url('/career') }}" role="button" aria-expanded="false">Career</a>
-
-                <!-- Mega Menu -->
-                <div class="hs-sub-menu " aria-labelledby="accountMegaMenu" style="min-width: 14rem;">
-                  <!-- Authentication -->
-
-                  <!-- End Authentication -->
-
-
-                </div>
-                <!-- End Mega Menu -->
-              </li>
-
-              <!-- Blog -->
-              <li class="hs-has-sub-menu nav-item">
-                <a id="pagesMegaMenu" class="hs-mega-menu-invoker   text-dark  nav-link" href="{{url('contact')}}" role="button" aria-expanded="false">Contact</a>
-
-
-              </li>
-              <!-- End Blog -->
-
-
-            </ul>
-          </div>
-        </div>
-
-      </nav>
-    </div>
-  </header>
-  <!-- ========== END HEADER ========== -->
+      <!-- header-cart-start -->
+      <div class="tpcartinfo cartmini__area p-relative">
+         <button class="cartmini-close-btn"><i class="fa-sharp fa-light fa-xmark"></i></button>
+         <div class="tpcart">
+            <h4 class="tpcart__title">Your Cart</h4>
+            <div class="tpcart__product">
+               <div class="tpcart__product-list">
+                  <ul>
+                     <li>
+                        <div class="tpcart__item">
+                           <div class="tpcart__img">
+                              <a href="shop-details.html"><img src="assets/img/shop/product-1.jpg" alt=""></a>
+                              <div class="tpcart__del">
+                                 <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
+                              </div>
+                           </div>
+                           <div class="tpcart__content">
+                              <span class="tpcart__content-title"><a href="shop-details.html">Running Trainers</a>
+                              </span>
+                              <div class="tpcart__cart-price">
+                                 <span class="quantity">1 x</span>
+                                 <span class="new-price">$162.80</span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="tpcart__item">
+                           <div class="tpcart__img">
+                              <a href="shop-details.html"><img src="assets/img/shop/product-2.jpg" alt=""></a>
+                              <div class="tpcart__del">
+                                 <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
+                              </div>
+                           </div>
+                           <div class="tpcart__content">
+                              <span class="tpcart__content-title"><a href="shop-details.html">Classic Chair</a>
+                              </span>
+                              <div class="tpcart__cart-price">
+                                 <span class="quantity">1 x</span>
+                                 <span class="new-price">$138.00</span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="tpcart__item">
+                           <div class="tpcart__img">
+                              <a href="shop-details.html"><img src="assets/img/shop/product-3.jpg" alt=""></a>
+                              <div class="tpcart__del">
+                                 <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
+                              </div>
+                           </div>
+                           <div class="tpcart__content">
+                              <span class="tpcart__content-title"><a href="shop-details.html">Skull Print T-Shirt</a>
+                              </span>
+                              <div class="tpcart__cart-price">
+                                 <span class="quantity">1 x</span>
+                                 <span class="new-price">$162.8</span>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="tpcart__checkout">
+                  <div class="tpcart__total-price d-flex justify-content-between align-items-center">
+                     <span> Subtotal:</span>
+                     <span class="heilight-price"> $300.00</span>
+                  </div>
+                  <div class="tpcart__checkout-btn">
+                     <a class="tp-btn mb-10" href="cart.html">View Cart</a>
+                     <a class="tp-btn tp-btn-2" href="checkout.html">Checkout</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tpcart__free-shipping text-center">
+               <span>Free shipping for orders <b>under 10km</b></span>
+            </div>
+         </div>
+      </div>
+      <div class="body-overlay"></div>
+      <!-- header-cart-end -->
 
     @yield('content')
 
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="bg-dark" style="background-image: url(assets/svg/components/wave-pattern-light.svg);" >
-    <div class="container content-space-t-2 content-space-b-1 mt-n8 ">
-      <div class="row mb-9 " >
-        <div class="col-lg-3 mb-5 mb-lg-0 mt-n8">
-          <!-- Logo -->
-          <a  aria-label="Front "href="./index.html" >
-            <img class="brand mt-8"  src="{{asset('./assets/img/newlogobg.png')}}" alt="Logo" style="width: 240px; height: 50px;">
-          </a>
-          <!-- End Logo -->
-          <!-- List -->
-        <ul class="list-unstyled list-py-1 py-3">
-          <li><a class="link-sm text-white" href="#"><i class="bi-geo-alt-fill me-1"></i> GF-2 Dhanlaxmi Complex,
-            390023 Vadodara Gujarat
-            India</a></li>
-          <li><a class="link-sm text-white" href="tel:+919106077817"><i class="bi-telephone-inbound-fill me-1"></i>+919106077817</a></li>
-        </ul>
-        <!-- End List -->
+     <!-- footer-area-start -->
+     <footer>
+        <div class="footer-area">
+           <div class="tp-footer-top pt-115 pb-70 theme-bg" data-background="{{ asset('assets/img/footer/one/footer-bg-1.jpg') }}">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                       <div class="tp-footer-widget footer-col-1 mb-40">
+                          <div class="tp-footer-widget-logo mb-15">
+                             <a href="{{ route('/') }}">
+                                <img src="{{ asset('assets/img/logo/logo.png') }}" alt="fw-logo" style="width: 200px; height: 50px;">
+                             </a>
+                          </div>
+                          <div class="tp-footer-widget-content">
+                             <p>Innovating Tomorrow's Technology Today.</p>
+                             <div class="tp-footer-widget-content-list">
+                                <div class="tp-footer-widget-content-list-item">
+                                   <i class="fa-solid fa-square-phone"></i><a href="tel:+919106077817"> +919106077817</a>
+                                </div>
+                                <div class="tp-footer-widget-content-list-item">
+                                   <a href="mailto:hello@devloops.in"><i class="fa-light fa-envelope"></i>hello@devloops.in</a>
+                                </div>
+                                <div class="tp-footer-widget-content-list-item">
+                                   <i class="fa-solid fa-location-dot"></i> <a href="#">GF-2 Dhanlaxmi Complex, Vadodara</a>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                       <div class="tp-footer-widget tp-footer-col-2 mb-40">
+                          <h4 class="tp-footer-widget-title mb-30">Company</h4>
+                          <div class="tp-footer-widget-link">
+                             <ul>
+                                <li><a href="{{ route('/') }}"><i class="fa-sharp fa-solid fa-plus"></i> Home</a></li>
+                                <li><a href="{{ route('about') }}"><i class="fa-sharp fa-solid fa-plus"></i>About</a></li>
+                                <li><a href="{{ route('post') }}"><i class="fa-sharp fa-solid fa-plus"></i>Blog</a></li>
+                                <li><a href="{{ route('career') }}"><i class="fa-sharp fa-solid fa-plus"></i>Career</a></li>
+                                <li><a href="{{ route('contact') }}"><i class="fa-sharp fa-solid fa-plus"></i> Contact</a></li>
+                             </ul>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                       <div class="tp-footer-widget tp-footer-col-3 mb-40">
+                          <h4 class="tp-footer-widget-title mb-40">Our Navigation</h4>
+                          <div class="tp-footer-widget-gallery">
+                             <div class="tp-footer-widget-gallery-all">
+                                @php
+                                use App\Models\Post;
+                                $blog_postss = Post::orderBy('created_at', 'desc')->take(2)->get();
+                            @endphp
+                                @foreach ($blog_postss as $post)
+                                <div class="tp-footer-widget-gallery-single-item">
+                                   <a href="{{ route('post.show', ['slug' => $post->slug]) }}" class="tp-footer-widget-gallery-item">
+
+                                         <img src="{{asset($post->hero) }}" alt="">
+                                         <!-- <div class="tp-footer-widget-gallery-social">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                         </div> -->
+
+                                   </a>
+                                </div>
+                                @endforeach
+                                {{-- <div class="tp-footer-widget-gallery-single-item">
+                                   <a href="#" class="tp-footer-widget-gallery-item">
+
+                                         <img src="{{ asset('assets/img/footer/one/gallery/fw-g-2.jpg') }}" alt="">
+
+                                   </a>
+                                </div> --}}
+
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                       <div class="tp-footer-widget tp-footer-col-4 mb-40">
+                          <h4 class="tp-footer-widget-title mb-20">Subscribe</h4>
+                          <div class="tp-footer-widget-newsletter-wrap">
+                             <form action="#">
+                                <div class="tp-footer-widget-newsletter-wrapper">
+                                   <div class="tp-footer-widget-newsletter-input">
+                                      <input type="email" placeholder="Get News & Updates">
+                                   </div>
+                                   <div class="tp-footer-widget-newsletter-submit">
+                                      <button>
+                                         <i class="fa-regular fa-arrow-right"></i>
+                                      </button>
+                                   </div>
+                                </div>
+                             </form>
+                             <div class="tp-footer-widget-newsletter-content">
+                                <p>Our expertise, as well as our passion for web design, sets us agenciese</p>
+                                <div class="tp-footer-widget-newsletter-social">
+                                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                   <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="tp-footer-bottom">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                       <div class="tp-footer-copyright">
+                          <span>Copyright © 2024 .All Rights Reserved <a target="_blank" href="">Devloops</a> </span>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                       <div class="tp-footer-terms">
+                          <a href="{{ route('termsncondition') }}">Terms of Use</a>
+                          <a href="{{ route('privacy') }}">Privacy Policy</a>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
         </div>
-        <!-- End Col -->
-
-        <div class="col-7 col-md-3 col-lg-2 mb-5 mb-md-0 text-white-70">
-          <h5 class="text-white">Company</h5>
-
-          <!-- Links -->
-          <ul class="list-unstyled list-py-1 mb-0 text-white-70">
-            <li><a class="link-sm text-white" href="./index.html">Home</a></li>
-            <li><a class="link-sm text-white" href="./about.html">About Us</a></li>
-            <!-- <li><a class="link-sm text-white" href="#service">Our Service</a></li>
-            <li><a class="link-sm text-white" href="#blog">Our Blog</a></li> -->
-            <li><a class="link-sm text-white" href="./contact.html">Contact us</a></li>
-          </ul>
-          <!-- End Links -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-white">Services</h5>
-
-          <!-- Nav Links -->
-          <ul class="list-unstyled list-py-1 mb-0">
-          <li><a class="link-sm text-white" href="{{url('product')}}">Product Development</a></li>
-            <li><a class="link-sm text-white" href="./web.html">Web App Development</a></li>
-
-            <li><a class="link-sm text-white" href="./iot.html">IOT</a></li>
-<!--
-            <li><a class="link-sm text-white" href="#">Login</a></li>
-
-            <li><a class="link-sm text-white" href="#">Subscribe</a></li> -->
-          </ul>
-          <!-- End Nav Links -->
-        </div>
-        <!-- End Col -->
-
-        <div class="col-md-5 col-lg-4">
-          <!-- Form -->
-         <!-- Form -->
-         <form>
-          <h5 class="text-white-70">Stay up to date</h5>
-
-          <!-- Input Card -->
-          <div class="input-card mt-3">
-            <div class="input-card-form">
-              <input type="text" class="form-control" placeholder="Enter email" aria-label="Enter email">
-            </div>
-            <button type="button" class="btn btn-secondary  ">Submit</button>
-          </div>
-          <!-- End Input Card -->
-        </form>
-          <!-- End Form -->
-
-        <p class="form-text text-white">Stay upto date with our news later.</p>
-          <!-- <p class="form-text text-white-70">New UI kits or big discounts. Never spam.</p> -->
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-
-      <div class="row align-items-center mt-n4">
-        <div class="col">
-          <p class="text-white small mb-0">© Devloops. All rights reserved.    <span><a class="text-white  mb-3 " href="{{url('termsncondition')}}">   Terms and Conditions</a>    <a class="text-white  mb-3 " href="{{url('privacy')}}">Privacy Policy</a>  <a class="text-white  mb-3 " href="{{url('refund')}}">Refund Policy</a></span></p>
-          {{-- <a class="text-white small mb-0 " href="{{url('termsncondition')}}">Terms and Conditions</a> --}}
-        </div>
-
-        <!-- End Col -->
-
-        <div class="col-auto">
-          <!-- Socials -->
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-secondary  btn-sm btn-icon" href="#">
-                <i class="bi-facebook"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-secondary  btn-sm btn-icon" href="#">
-                <i class="bi-google"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-secondary  btn-sm btn-icon" href="#">
-                <i class="bi-twitter"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-secondary  btn-sm btn-icon" href="#">
-                <i class="bi-github"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-secondary  btn-sm btn-icon" href="#">
-                <i class="bi-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-          <!-- End Socials -->
-        </div>
-        <!-- End Col -->
-      </div>
-      <!-- End Row -->
-    </div>
-  </footer>
-
-  <!-- ========== END FOOTER ========== -->
-
-  <!-- Go To -->
-  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
-       "offsetTop": 700,
-       "position": {
-         "init": {
-           "right": "2rem"
-         },
-         "show": {
-           "bottom": "2rem"
-         },
-         "hide": {
-           "bottom": "-2rem"
-         }
-       }
-     }'>
-    <i class="bi-chevron-up"></i>
-  </a>
-  <!-- ========== END SECONDARY CONTENTS ========== -->
-
-  <!-- JS Implementing Plugins -->
-  <script src="assets/js/vendor.min.js"></script>
-  <script src="assets/vendor/aos/dist/aos.js"></script>
+     </footer>
+     <!-- footer-area-end -->
 
 
-  <script src="assets/js/theme.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+     <!-- JS here -->
+     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery.js"></script>
+     <script src="{{ asset('assets/js/vendor/waypoints.js') }}"></script>
+     <script src="{{ asset('assets/js/bootstrap-bundle.js') }}"></script>
+     <script src="{{ asset('assets/js/meanmenu.js') }}"></script>
+     <script src="{{ asset('assets/js/swiper-bundle.js') }}"></script>
+     <script src="{{ asset('assets/js/slick.js') }}"></script>
+     <script src="{{ asset('assets/js/range-slider.js') }}"></script>
+     <script src="{{ asset('assets/js/magnific-popup.js') }}"></script>
+     <script src="{{ asset('assets/js/nice-select.js') }}"></script>
+     <script src="{{ asset('assets/js/purecounter.js') }}"></script>
+     <script src="{{ asset('assets/js/countdown.js') }}"></script>
+     <script src="{{ asset('assets/js/wow.js') }}"></script>
+     <script src="{{ asset('assets/js/isotope-pkgd.js') }}"></script>
+     <script src="{{ asset('assets/js/imagesloaded-pkgd.js') }}"></script>
+     <script src="{{ asset('assets/js/ajax-form.js') }}"></script>
+     <script src="{{ asset('assets/js/main.js') }}"></script>
+     <!-- our clients codepen js -->
+     <script>
+        var mySwiper = new Swiper('.client .swiper-container', {
+ loop: false,
+ speed: 1000,
+ autoplay: {
+   delay: 2500,
+   disableOnInteraction: false,
+ },
 
+ // If we need pagination
+ pagination: {
+   el: '.swiper-pagination',
+   clickable: true,
+ },
 
+ // Navigation arrows
+ navigation: {
+   nextEl: '.swiper-button-next',
+   prevEl: '.swiper-button-prev',
+ },
+ breakpoints: {
+   0: {
+     slidesPerView: 1,
+     spaceBetween: 10,
+   },
+   414: {
+     slidesPerView: 2,
+     spaceBetween: 10,
+   },
+   768: {
+     slidesPerView: 3,
+     spaceBetween: 50,
+   },
+   991: {
+     slidesPerView: 4,
+     spaceBetween: 50,
+   },
+ }
+})
+      </script>
 
-
-
-
-  <!-- JS Plugins Init. -->
-  <script>
-      (function () {
-        // INITIALIZATION OF LEAFLET
-        // =======================================================
-        const leaflet = HSCore.components.HSLeaflet.init(document.getElementById('mapEg3'))
-
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-          id: 'mapbox/light-v9'
-        })
-      })()
-  </script>
-
-
-  <!-- JS Plugins Init. -->
-  <script>
-      (function () {
-        // INITIALIZATION OF HEADER
-        // =======================================================
-        new HSHeader('#header').init()
-
-
-        // INITIALIZATION OF MEGA MENU
-        // =======================================================
-        new HSMegaMenu('.js-mega-menu', {
-          desktop: {
-            position: 'left'
-          }
-        })
-
-
-        // INITIALIZATION OF SHOW ANIMATIONS
-        // =======================================================
-        new HSShowAnimation('.js-animation-link')
-
-
-        // INITIALIZATION OF BOOTSTRAP VALIDATION
-        // =======================================================
-        HSBsValidation.init('.js-validate', {
-          onSubmit: data => {
-            data.event.preventDefault()
-            alert('Submited')
-          }
-        })
-
-
-        // INITIALIZATION OF BOOTSTRAP DROPDOWN
-        // =======================================================
-        HSBsDropdown.init()
-
-
-        // INITIALIZATION OF GO TO
-        // =======================================================
-        new HSGoTo('.js-go-to')
-
-
-        // INITIALIZATION OF AOS
-        // =======================================================
-        AOS.init({
-          duration: 650,
-          once: true
+     <!-- modal team -->
+     <!-- <script>
+        $(document).ready(function() {
+          $('.team-member').click(function() {
+            var name = $(this).data('name');
+            var role = $(this).data('role');
+            var modalBody = $('.modal-body');
+            modalBody.empty();
+            modalBody.append('<h5>Name: ' + name + '</h5>');
+            modalBody.append('<p>Role: ' + role + '</p>');
+          });
         });
-      })()
+      </script> -->
 
+  </body>
 
-  </script>
-
-<!-- JS Plugins Init. -->
-<script>
-  (function() {
-    // INITIALIZATION OF TEXT ANIMATION (TYPING)
-    // =======================================================
-    HSCore.components.HSTyped.init('.js-typedjs')
-  })()
-</script>
-
-
-
-<!-- JS Implementing Plugins -->
-<script src="../node_modules/swiper/swiper-bundle.min.js"></script>
-
-<!-- JS Plugins Init. -->
-<script>
-  (function() {
-    // INITIALIZATION OF SWIPER
-    // =======================================================
-    var swiper = new Swiper('.js-swiper-blog-metro-hero',{
-      effect: 'fade',
-      autoplay: true,
-      loop: true,
-      pagination: {
-        el: '.js-swiper-blog-metro-hero-pagination',
-        clickable: true,
-      }
-    });
-  })()
-</script>
-
-
-<script>
-  // Add the animation class using JavaScript when the content is ready
-  document.addEventListener('DOMContentLoaded', function () {
-    var container = document.querySelector('.container-animation');
-    container.classList.add('animate');
-  });
-</script>
-
-
-<!-- JS Implementing Plugins -->
-<script src="../node_modules/swiper/swiper-bundle.min.js"></script>
-<!-- for modal -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script>
-  // Open the modal when a column is clicked
-  $(".open-modal").click(function () {
-      var targetModal = $(this).data("target");
-      var modalTop = $(window).scrollTop() + ($(window).height() - $(targetModal).height()) / 2;
-
-      // Set the top position of the modal
-      $(targetModal).css("top", modalTop + "px");
-
-      // Show the modal
-      $(targetModal).modal("show");
-  });
-</script>
-
-<!-- our mission -->
-<script>
-function changeTextColor(element) {
-    element.classList.add('text-white'); // Change to your desired text color class
-}
-
-function resetTextColor(element) {
-    element.classList.remove('text-white'); // Reset to the original text color class
-}
-
-function changeIconColor(element) {
-    element.classList.add('text-white'); // Change to your desired icon color class
-}
-
-function resetIconColor(element) {
-    element.classList.remove('text-white'); // Reset to the original icon color class
-}
-
-</script>
-
-</body>
+<!-- Mirrored from template.wphix.com/tecz-prv/tecz/index-3-one-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Feb 2024 07:56:50 GMT -->
 </html>
