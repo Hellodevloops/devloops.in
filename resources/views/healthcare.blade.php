@@ -715,15 +715,15 @@
                     <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-contact-details-form mb-40">
                             @if (session('error'))
-                                <div class="alert alert-danger">
-                                    {{ session('error') }}
-                                </div>
-                            @endif
-                            @if (session('succus'))
-                                <div class="alert alert-succuss">
-                                    {{ session('succuss') }}
-                                </div>
-                            @endif
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                             <form method="POST" action="{{ route('contact.store') }}">
                                 @csrf
                                 <div class="row">

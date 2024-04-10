@@ -734,6 +734,7 @@
         </section>
         <!-- blog-area-end -->
 
+        {{-- contact start --}}
         <section class="contact-area ">
             <div class="container">
                 <div class="row">
@@ -774,15 +775,15 @@
                     <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-contact-details-form mb-40">
                             @if (session('error'))
-                                <div class="alert alert-danger">
-                                    {{ session('error') }}
-                                </div>
-                            @endif
-                            @if (session('succus'))
-                                <div class="alert alert-succuss">
-                                    {{ session('succuss') }}
-                                </div>
-                            @endif
+                            <div class="alert alert-danger">
+                                {{ session('error') }}
+                            </div>
+                        @endif
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                             <form method="POST" action="{{ route('contact.store') }}">
                                 @csrf
                                 <div class="row">
@@ -828,24 +829,24 @@
                                     </div>
 
                                     <!-- <div class="col-lg-12">
-                                                  <div class="tp-contact-details-form-input mb-20">
-                                                     <input type="text" placeholder="Company Name">
-                                                     <span><i class="fa-light fa-user"></i></span>
-                                                  </div>
-                                               </div>
-                                               <div class="col-lg-12">
-                                                  <div class="tp-contact-details-form-input mb-20">
+                                          <div class="tp-contact-details-form-input mb-20">
+                                             <input type="text" placeholder="Company Name">
+                                             <span><i class="fa-light fa-user"></i></span>
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-12">
+                                          <div class="tp-contact-details-form-input mb-20">
 
-                                                     <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                                     <input type="text" placeholder="Your Subject">
-                                                  </div>
-                                               </div>
-                                               <div class="col-lg-12">
-                                                  <div class="tp-contact-details-form-input mb-20">
-                                                     <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                                     <span><i class="fa-light fa-pen"></i></span>
-                                                  </div>
-                                               </div> -->
+                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                             <input type="text" placeholder="Your Subject">
+                                          </div>
+                                       </div>
+                                       <div class="col-lg-12">
+                                          <div class="tp-contact-details-form-input mb-20">
+                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                             <span><i class="fa-light fa-pen"></i></span>
+                                          </div>
+                                       </div> -->
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-btn">
                                             <button class="tp-btn">Send a Message</button>
@@ -858,6 +859,6 @@
                 </div>
             </div>
         </section>
-
+{{-- contact end --}}
     </main>
 @endsection
