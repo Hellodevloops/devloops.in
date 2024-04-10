@@ -200,7 +200,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/webdevflaticonnew.png') }}" alt="prod">
+                                <img src="{{ asset('assets/img/webdevflaticonnew1.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
@@ -216,7 +216,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/iotdevflaticon.png') }}" alt="prod">
+                                <img src="{{ asset('assets/img/iotdevflaticon1.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
@@ -232,7 +232,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/healthcaredevflaticon.png') }}" alt="prod">
+                                <img src="{{ asset('assets/img/healthcaredevflaticon1.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
