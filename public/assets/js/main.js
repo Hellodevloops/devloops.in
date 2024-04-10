@@ -1423,9 +1423,9 @@
 	// headerHeight js
 	if ($('.tp-header-height').length > 0) {
 		var headerHeight = document.querySelector(".tp-header-height");
-			  
+
 		var setHeaderHeight = headerHeight.offsetHeight;
-			  
+
 		$(".tp-header-height").each(function () {
 			$(this).css({
 				'height' : setHeaderHeight + 'px'
@@ -1443,3 +1443,44 @@
 
 
 })(jQuery);
+
+// client slider codepen
+
+var mySwiper = new Swiper('.client .swiper-container', {
+    loop: false,
+    speed: 1000,
+    autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+    },
+
+    // If we need pagination
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+    0: {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    },
+    414: {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    },
+    768: {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    },
+    991: {
+    slidesPerView: 3,
+    spaceBetween: 50,
+    },
+    }
+    })
