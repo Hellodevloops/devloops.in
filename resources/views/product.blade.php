@@ -102,7 +102,16 @@
                                 that our users' data remains safeguarded against potential threats and vulnerabilities,
                                 bolstering confidence in the reliability and integrity of our solutions.
                             </p>
+                            <div class="tp-about-3-item mb-35">
 
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
+                                    <p class="text-black">Creating groundbreaking products that enhance everyday life through meticulous design, advanced technologies, and user-focused innovation </p>
+                                </div>
+                                <div class="tp-about-3-item-icon">
+                                    <i class="flaticon-solution"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,7 +140,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/proderpflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>ERP</a></h4>
@@ -161,7 +170,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/prodcrmflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>CRM</a></h4>
@@ -177,7 +186,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/prodcmsflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>CMS</a></h4>

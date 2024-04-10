@@ -391,7 +391,7 @@
                                    <a href="mailto:hello@devloops.in"><i class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                   <i class="fa-solid fa-location-dot"></i> <a href="#">GF-2 Dhanlaxmi Complex, Vadodara</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara</a>
                                 </div>
                              </div>
                           </div>
