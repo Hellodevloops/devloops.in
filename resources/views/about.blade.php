@@ -207,81 +207,86 @@
         <!-- management-area-end -->
 
         <!-- team-area-start -->
-        <section class="team-area fix pb-60">
-           <div class="container">
-              <div class="row">
-                 <div class="col-lg-12">
-                    <div class="tp-team-3-wrapper text-center">
-                       <div class="tp-section tp-section-3 mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                          <span class="tp-section-sub-title">Meet With Our Specialist</span>
-                          <h4 class="tp-section-title">Team that Builds Ideas Driven <br> by the Future</h4>
-                       </div>
+        <section class="team-area tp-team-3-border fix pt-115 pb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tp-team-3-wrapper">
+                            <div class="tp-section tp-section-3 mb-50 wow fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".4s">
+                                <span class="tp-section-sub-title">Meet With Our Specialist</span>
+                                <h4 class="tp-section-title">Team that Builds Ideas Driven <br> by the Future</h4>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-              </div>
-              <div class="row">
-                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="tp-team-3-item mb-40">
-                       <div class="tp-team-3-thumb">
-                          <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                             <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="{{ asset('assets/img/team/team-3-thumb-1.jpg')}}" alt="">
-                          </div>
-                          <div class="tp-team-3-thumb-social">
-                             <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-instagram"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-twitter"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
-                          </div>
-                       </div>
-                       <div class="tp-team-3-content">
-                          <h5 class="tp-team-3-title"><a href="team-details.html">David Backhum</a></h5>
-                          <span>CEO & Founder</span>
-                       </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tp-team-3-wrap">
+                            <div class="swiper-container tp-team-3-active">
+                                <div class="swiper-wrapper">
+                                    {{-- <div class="swiper-slide">
+                                        <div class="tp-team-3-item mb-40">
+                                            <div class="tp-team-3-thumb">
+                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
+                                                    <div class="tp-thumb-common-overlay wow"></div>
+                                                    <!-- <a href="#" class="team-member" data-toggle="modal" data-target="#teamModal" data-name="Riya Vaidya" data-role="BackEnd developer"></a> -->
+                                                    <img src="assets/img/riya1n-removebg-preview.png" alt=""
+                                                        style="background-color: whitesmoke;">
+                                                </div>
+                                                <div class="tp-team-3-thumb-social">
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-facebook-f"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-instagram"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-twitter"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-linkedin-in"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="tp-team-3-content">
+                                                <h5 class="tp-team-3-title"><a href="team-details.html">Riya Vaidya</a>
+                                                </h5>
+                                                <span>BackEnd developer</span>
+                                            </div>
+                                        </div>
+                                    </div> --}}
+                                    @foreach ($team as $team)
+                                        <div class="swiper-slide">
+                                            <div class="tp-team-3-item mb-40">
+                                                <div class="tp-team-3-thumb">
+                                                    <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
+                                                        <div class="tp-thumb-common-overlay wow"></div>
+                                                        <img src="{{ $team->img }}" alt=""
+                                                            style="background-color: whitesmoke;">
+                                                    </div>
+                                                    <div class="tp-team-3-thumb-social">
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-facebook-f"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-instagram"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-twitter"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-linkedin-in"></i></span></a>
+                                                    </div>
+                                                </div>
+                                                <div class="tp-team-3-content">
+                                                    <h5 class="tp-team-3-title"><a
+                                                            href="team-details.html">{{ $team->name }}</a>
+                                                    </h5>
+                                                    <span>{{ $team->position }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="tp-team-3-item mb-40">
-                       <div class="tp-team-3-thumb">
-                          <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                             <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="{{ asset('assets/img/team/team-3-thumb-2.jpg')}}" alt="">
-                          </div>
-                          <div class="tp-team-3-thumb-social">
-                             <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-instagram"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-twitter"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
-                          </div>
-                       </div>
-                       <div class="tp-team-3-content">
-                          <h5 class="tp-team-3-title"><a href="team-details.html">Ketty Williams</a></h5>
-                          <span>Ui/Ux Designer</span>
-                       </div>
-                    </div>
-                 </div>
-                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="tp-team-3-item mb-40">
-                       <div class="tp-team-3-thumb">
-                          <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                             <div class="tp-thumb-common-overlay wow"></div>
-                             <img src="{{ asset('assets/img/team/team-3-thumb-3.jpg')}}" alt="">
-                          </div>
-                          <div class="tp-team-3-thumb-social">
-                             <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-instagram"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-twitter"></i></span></a>
-                             <a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
-                          </div>
-                       </div>
-                       <div class="tp-team-3-content">
-                          <h5 class="tp-team-3-title"><a href="team-details.html">Harry Newman</a></h5>
-                          <span>Frontend Developer</span>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </div>
+                </div>
+            </div>
         </section>
         <!-- team-area-end -->
 

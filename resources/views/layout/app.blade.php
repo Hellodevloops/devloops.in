@@ -424,7 +424,7 @@
                                 <div class="tp-footer-widget-gallery-single-item">
                                    <a href="{{ route('post.show', ['slug' => $post->slug]) }}" class="tp-footer-widget-gallery-item">
 
-                                         <img src="{{asset($recentpost->hero) }}" alt="{{ $post->title }}">
+                                         <img src="{{asset($post->hero) }}" alt="">
                                          <!-- <div class="tp-footer-widget-gallery-social">
                                             <i class="fa-brands fa-linkedin-in"></i>
                                          </div> -->
