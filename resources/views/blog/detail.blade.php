@@ -11,7 +11,7 @@
                     <div class="col-12">
                         <div class="tpbreadcrumb">
                             <div class="breadcrumb-link mb-15">
-                                <span class="breadcrumb-item-active"><a href="index-2.html">Home</a></span>
+                                <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
                                 <span> / Blog Details</span>
                             </div>
                             <h2 class="breadcrumb-title">Blog Details</h2>
