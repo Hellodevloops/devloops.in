@@ -90,7 +90,7 @@ class BannerEditScreen extends Screen
     {
         return [
             Layout::rows([
-                Input::make('banner.title')
+                // Input::make('banner.title')
                     // ->title('Title')
                     // ->required()
                     // ->placeholder('Attractive but mysterious title')
