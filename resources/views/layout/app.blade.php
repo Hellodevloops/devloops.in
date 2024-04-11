@@ -63,7 +63,7 @@
    <body>
 
       <!-- pre loader area start -->
-      {{-- <div id="loading">
+      <div id="loading">
          <div id="loading-center">
             <div id="loading-center-absolute">
                <!-- loading content here -->
@@ -82,7 +82,7 @@
                </div>
             </div>
          </div>
-      </div> --}}
+      </div>
       <!-- pre loader area end -->
 
       <!-- back to top start -->
@@ -128,9 +128,9 @@
             </div>
             <div id="header-sticky" class="tp-header-3-wrap  white-bg d-flex justify-content-between">
                <div class="tp-header-3-main d-flex">
-                  <div class="logo"  data-background="assets/img/shape/logo-shape-1.png">
+                  <div class="logo"  data-background="{{ asset('assets/img/shape/logo-shape-1.png')}}">
                      <a href="{{ route('/') }}">
-                        <img data-width="155" src="assets/img/logo/logo-black.png" alt="">
+                        <img data-width="155" src="{{ asset('assets/img/logo/logo-black.png')}}" alt="">
                      </a>
                   </div>
                   <div class="main-menu tp-header-3-menu d-none d-xl-block">
@@ -235,7 +235,7 @@
                <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo logo">
                      <a href="{{ route('/') }}">
-                        <img src="assets/img/logo/logo-black.png" alt="logo">
+                        <img src="{{ asset('assets/img/logo/logo-black.png')}}" alt="logo">
                      </a>
                   </div>
                </div>
@@ -293,7 +293,7 @@
                      <li>
                         <div class="tpcart__item">
                            <div class="tpcart__img">
-                              <a href="shop-details.html"><img src="assets/img/shop/product-1.jpg" alt=""></a>
+                              <a href="shop-details.html"><img src="{{ asset('assets/img/shop/product-1.jpg')}}" alt=""></a>
                               <div class="tpcart__del">
                                  <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
                               </div>
@@ -311,7 +311,7 @@
                      <li>
                         <div class="tpcart__item">
                            <div class="tpcart__img">
-                              <a href="shop-details.html"><img src="assets/img/shop/product-2.jpg" alt=""></a>
+                              <a href="shop-details.html"><img src="{{ asset('assets/img/shop/product-2.jpg')}}" alt=""></a>
                               <div class="tpcart__del">
                                  <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
                               </div>
@@ -329,7 +329,7 @@
                      <li>
                         <div class="tpcart__item">
                            <div class="tpcart__img">
-                              <a href="shop-details.html"><img src="assets/img/shop/product-3.jpg" alt=""></a>
+                              <a href="shop-details.html"><img src="{{ asset('assets/img/shop/product-3.jpg')}}" alt=""></a>
                               <div class="tpcart__del">
                                  <a href="#"><i class="fa-sharp fa-light fa-circle-xmark"></i></a>
                               </div>
@@ -498,7 +498,7 @@
 
 
      <!-- JS here -->
-     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery.js"></script>
+     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('assets/js/vendor/jquery.js')}}"></script>
      <script src="{{ asset('assets/js/vendor/waypoints.js') }}"></script>
      <script src="{{ asset('assets/js/bootstrap-bundle.js') }}"></script>
      <script src="{{ asset('assets/js/meanmenu.js') }}"></script>
