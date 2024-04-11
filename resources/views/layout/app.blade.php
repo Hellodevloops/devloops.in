@@ -371,7 +371,7 @@
      <!-- footer-area-start -->
      <footer>
         <div class="footer-area">
-           <div class="tp-footer-top pt-115 pb-70 theme-bg" data-background="{{ asset('assets/img/footer/one/footer-bg-1.jpg') }}">
+           <div class="tp-footer-top pt-25 theme-bg" data-background="{{ asset('assets/img/footer/one/footer-bg-1.jpg') }}">
               <div class="container">
                  <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12">
