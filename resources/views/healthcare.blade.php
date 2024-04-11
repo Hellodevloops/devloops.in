@@ -627,7 +627,7 @@
                             </div>
                             <div class="tp-contact-location-wrap d-flex align-items-center">
                                 <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">New York</span>
+                                    <span class="tp-contact-location-title">India</span>
                                     <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
                                         Dhanlaxmi Complex,<br> Vadodara </a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>

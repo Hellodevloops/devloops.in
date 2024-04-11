@@ -101,7 +101,16 @@
                                     empower businesses to seamlessly interact with their customers, optimize workflows
                                 </span>, and stay ahead in today's dynamic market landscape.
                             </p>
+                            <div class="tp-about-3-item mb-35">
 
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
+                                    <p class="text-black">Crafting immersive digital experiences that captivate users, drive engagement, and elevate brand presence through intuitive design and robust functionality</p>
+                                </div>
+                                <div class="tp-about-3-item-icon">
+                                    <i class="flaticon-solution"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,12 +139,12 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/webecomflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>E-commerce website</a></h4>
                                 <p>In an e-commerce website, businesses create an online presence to showcase their products
-                                    or services, enabling customers to browse.</p>
+                                    or services, enabling customers to <br> browse.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
                                       <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -160,7 +169,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/webmultipageflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Multipage Website</a></h4>
@@ -176,7 +185,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <i class="flaticon-ux-design"></i>
+                                <img src="{{ asset('assets/img/dynamicflaticon.png') }}" alt="">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Dynamic Website</a></h4>
@@ -211,7 +220,7 @@
                             </div>
                             <div class="tp-contact-location-wrap d-flex align-items-center">
                                 <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">New York</span>
+                                    <span class="tp-contact-location-title">India</span>
                                     <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
                                         Dhanlaxmi Complex,<br> Vadodara </a>
                                     <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
