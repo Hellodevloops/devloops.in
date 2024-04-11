@@ -21,9 +21,9 @@ class BannerListLayout extends Table
     public function columns(): array
     {
         return [
-            TD::make('title', 'Title')
+            TD::make('buttontitle', 'Buttontitle')
                 ->render(function (Banner $banner) {
-                    return Link::make($banner->title)
+                    return Link::make($banner->buttontitle)
                         ->route('platform.banner.edit', $banner);
                 }),
 
