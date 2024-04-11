@@ -3480,3 +3480,7 @@ input:checked + .toggle-bg {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+.pt-25{
+    padding-top: 25px;
+}
