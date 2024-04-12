@@ -276,7 +276,7 @@
 
 
         <!-- brand-area-start -->
-        <section class="client">
+        <section class="client mt-40 mb-30">
             <div class="container">
                 <div
                     class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
