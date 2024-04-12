@@ -31,7 +31,7 @@ class PlatformScreen extends Screen
      */
     public function name(): ?string
     {
-        return 'TTS Dashboard';
+        return 'Devloops Dashboard';
     }
 
     /**
@@ -41,7 +41,7 @@ class PlatformScreen extends Screen
      */
     public function description(): ?string
     {
-        return 'TTS Solutions';
+        return 'Devloops Solutions';
     }
 
     /**

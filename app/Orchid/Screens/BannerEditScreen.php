@@ -92,7 +92,7 @@ class BannerEditScreen extends Screen
             Layout::rows([
                 Input::make('banner.title')
                     ->title('Title')
-                    ->required()
+                    // ->required()
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this banner.'),
 
@@ -106,13 +106,13 @@ class BannerEditScreen extends Screen
 
                     Input::make('banner.buttontitle')
                     ->title('buttontitle')
-                    ->required()
+                    // ->required()
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this banner.'),
 
                     Input::make('banner.heading')
                     ->title('Heading')
-                    ->required()
+                    // ->required()
                     ->placeholder('Attractive but mysterious title')
                     ->help('Specify a short descriptive title for this banner.'),
 
