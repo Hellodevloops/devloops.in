@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div class="breadcrumb-shape">
+            {{-- <div class="breadcrumb-shape">
                 <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
                     <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
                 </div>
@@ -29,7 +29,7 @@
                 <div class="breadcrumb-shape-5 wow slideInRight" data-wow-duration="1.4s" data-wow-delay=".3s">
                     <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
                 </div>
-            </div>
+            </div> --}}
         </section>
         <!-- breadcrumb-area-end -->
 
@@ -38,30 +38,31 @@
             <div class="container">
                 <div class="row">
                     @foreach ($blog_posts as $post)
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-blog-two mb-30">
-                            <div class="tp-blog-two-item">
-                                <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                    <div class="tp-thumb-common-overlay wow"></div>
-                                    <a href="{{ route('post.show', ['slug' => $post->slug]) }}">
-                                        <img src="{{ $post->hero }}" alt="{{ $post->title }}">
-                                        <div class="tp-blog-two-thumb-plus">
-                                            <i class="fa-regular fa-plus"></i>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="tp-blog-two mb-30">
+                                <div class="tp-blog-two-item">
+                                    <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                        <div class="tp-thumb-common-overlay wow"></div>
+                                        <a href="{{ route('post.show', ['slug' => $post->slug]) }}">
+                                            <img src="{{ $post->hero }}" alt="{{ $post->title }}">
+                                            <div class="tp-blog-two-thumb-plus">
+                                                <i class="fa-regular fa-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="tp-blog-two-content">
+                                        <span>{{ $post->created_at->format('F d, Y') }} _ IT Service</span>
+                                        <h4 class="tp-blog-two-title">
+                                            <a
+                                                href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+                                        </h4>
+                                        <div class="tp-blog-two-btn">
+                                            <a href="{{ route('post.show', ['slug' => $post->slug]) }}">Read More</a>
                                         </div>
-                                    </a>
-                                </div>
-                                <div class="tp-blog-two-content">
-                                    <span>{{ $post->created_at->format('F d, Y') }} _ IT Service</span>
-                                    <h4 class="tp-blog-two-title">
-                                        <a href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
-                                    </h4>
-                                    <div class="tp-blog-two-btn">
-                                        <a href="{{ route('post.show', ['slug' => $post->slug]) }}">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     @endforeach
                     {{-- <div class="col-lg-4 col-md-6">
                         <div class="tp-blog-two mb-30">

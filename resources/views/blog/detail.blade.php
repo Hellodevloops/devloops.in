@@ -5,7 +5,7 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-            <div class="breadcrumb-bg" data-background="{{ asset('assets/img/breadcrumb/breadcrumb-bg-1.jpg') }}"></div>
+            <div class="breadcrumb-bg" data-background=""></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -14,11 +14,12 @@
                                 <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
                                 <span> / Blog Details</span>
                             </div>
-                            <h2 class="breadcrumb-title">Blog Details</h2>
+                            <h2 class="breadcrumb-title">{{ $post->title }}</h2>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="breadcrumb-shape">
                 <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
                     <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-1.png') }}" alt="">
@@ -53,7 +54,7 @@
                                             {{-- <span><i class="fa-thin fa-tag"></i>Solution</span>
                                    <span><a href="#"><i class="fa-light fa-comments"></i>02 Comments </a></span> --}}
                                         </div>
-                                        <h3 class="postbox-title"> Let’s understand different types data</h3>
+                                        {{-- <h3 class="postbox-title"> Let’s understand different types data</h3> --}}
                                         <div class="postbox-text">
                                             <p>{!! $post->body !!}</p>
                                             {{-- <p>Suspendisse ultricies vestibulum vehicula. Proin laoreet porttitor lacus. Duis auctor vel ex eu elementum. Fusce eu volutpat felis. Proin sed eros tincidunt, sagittis sapien eu, porta diam. Aenean finibus scelerisque nulla non facilisis. Fusce vel orci sed quam gravid</p> --}}
