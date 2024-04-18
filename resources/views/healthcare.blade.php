@@ -287,102 +287,207 @@
                         </div>
                     </div>
                 </div>
-                <div class="row-custom">
-                    <div class="col-custom">
-                        <div class="tp-project-item p-relative">
-                            <div class="tp-project-thumb">
-                                <img src="./assets/img/Appointment.png" alt="">
-                            </div>
-                            <div class="tp-project-content">
-                                <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="#">Appointments</a>
-                                    </h4>
-                                    <!-- <ul class="tp-project-meta">
-                                           <li>Brain</li>
-                                        </ul> -->
-                                </div>
-                            </div>
-                            <!-- <div class="tp-project-shape">
-                                     <img src="assets/img/project/project-shape-1.png" alt="">
-                                  </div> -->
-                            <!-- <div class="tp-project-arrow">
-                                     <a href="#">
-                                        <span>
-                                           <img src="assets/img/project/project-arrow.png" alt="">
-                                        </span>
-                                     </a>
-                                  </div> -->
-                        </div>
-                    </div>
-                    <div class="col-custom">
-                        <div class="tp-project-item p-relative">
-                            <div class="tp-project-thumb">
-                                <img src="./assets/img/Billingsnew.png" alt="">
-                            </div>
-                            <div class="tp-project-content">
-                                <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="#">Billings</a></h4>
-                                    <!-- <ul class="tp-project-meta">
-                                           <li>Software</li>
-                                        </ul> -->
-                                </div>
-                            </div>
-                            /
-                        </div>
-                    </div>
-                    <div class="col-custom">
-                        <div class="tp-project-item p-relative">
-                            <div class="tp-project-thumb">
-                                <img src="./assets/img/patientnew.png" alt="">
-                            </div>
-                            <div class="tp-project-content">
-                                <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="#">Patients</a></h4>
-                                    <!-- <ul class="tp-project-meta">
-                                           <li>SEO</li>
-                                        </ul> -->
-                                </div>
-                            </div>
-                            <!-- <div class="tp-project-shape">
-                                     <img src="assets/img/project/project-shape-1.png" alt="">
-                                  </div>
-                                  <div class="tp-project-arrow">
-                                     <a href="#">
-                                        <span>
-                                           <img src="assets/img/project/project-arrow.png" alt="">
-                                        </span>
-                                     </a>
-                                  </div> -->
-                        </div>
-                    </div>
-                    <div class="col-custom active">
-                        <div class="tp-project-item p-relative">
-                            <div class="tp-project-thumb">
-                                <img src="assets/img/project/project-thumb-1.jpg" alt="">
-                            </div>
-                            <div class="tp-project-content">
-                                <div class="tp-project-text">
-                                    <h4 class="tp-project-title mb-15"><a href="#">Best Business
-                                            Solution</a>
-                                    </h4>
-                                    <ul class="tp-project-meta">
-                                        <li>Data Analysis</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- <div class="tp-project-shape">
-                                     <img src="assets/img/project/project-shape-1.png" alt="">
-                                  </div>
-                                  <div class="tp-project-arrow">
-                                     <a href="#">
-                                        <span>
-                                           <img src="assets/img/project/project-arrow.png" alt="">
-                                        </span>
-                                     </a>
-                                  </div> -->
-                        </div>
-                    </div>
-                </div>
+
+
+                    <!-- blog-area-start -->
+                    <section class="blog-area tp-blog-inner ">
+                       <div class="container">
+                          <div class="row">
+                             <div class="col-lg-12">
+                                <div class="swiper-container tp-blog-carousel-active swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                                   <div class="swiper-wrapper" id="swiper-wrapper-38d3be10fa6cbeb79" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1600px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="1 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
+                                                  </h4>
+                                                  {{-- <div class="tp-blog-two-btn">
+                                                     <a href="blog-details.html">Read More</a>
+                                                  </div> --}}
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="2 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-5.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
+                                                  </h4>
+                                                  {{-- <div class="tp-blog-two-btn">
+                                                     <a href="blog-details.html">Read More</a>
+                                                  </div> --}}
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="3 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-6.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">What is Holding Back The IT Solution</a>
+                                                  </h4>
+
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="4 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
+                                                  </h4>
+
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="5 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">Transformation Challenges
+                                                        Into Opurtunities</a>
+                                                  </h4>
+
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+
+                                   <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="9 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
+                                                  </h4>
+
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="10 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+                                                  <span>June 23, 2023 _ IT Service</span>
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">Transformation Challenges
+                                                        Into Opurtunities</a>
+                                                  </h4>
+                                                  <div class="tp-blog-two-btn">
+                                                     <a href="blog-details.html">Read More</a>
+                                                  </div>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="11 / 11" style="width: 370px; margin-right: 30px;">
+                                         <div class="tp-blog-two mb-50">
+                                            <div class="tp-blog-two-item">
+                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
+                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
+                                                  <a href="blog-details.html">
+                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
+                                                     <div class="tp-blog-two-thumb-plus">
+                                                        <i class="fa-regular fa-plus"></i>
+                                                     </div>
+                                                  </a>
+                                               </div>
+                                               <div class="tp-blog-two-content">
+                                                  <span>March 23, 2023 _ IT Service</span>
+                                                  <h4 class="tp-blog-two-title">
+                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
+                                                  </h4>
+                                                  <div class="tp-blog-two-btn">
+                                                     <a href="blog-details.html">Read More</a>
+                                                  </div>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div></div>
+                                   <div class="tp-blog-carousel-dot swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                             </div>
+                          </div>
+                       </div>
+                    </section>
+                    <!-- blog-area-end -->
+
             </div>
         </section>
 
@@ -390,7 +495,7 @@
         <!-- our team -->
 
         <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pt-115 pb-60">
+        <section class="team-area tp-team-3-border fix pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

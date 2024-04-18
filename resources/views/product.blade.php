@@ -148,7 +148,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>ERP</a></h4>
-                                <p>Enterprise Resource Planning (ERP) streamlines business processes by integrating and
+                                <p class="text-white">Enterprise Resource Planning (ERP) streamlines business processes by integrating and
                                     managing core functions such as finance and human resources.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -181,7 +181,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>CRM</a></h4>
-                                <p>Customer Relationship Management (CRM) <br>focuses on enhancing customer interactions,
+                                <p class="text-white">Customer Relationship Management (CRM) <br>focuses on enhancing customer interactions,
                                     providing tools to manage leads & automate sales processes.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -200,7 +200,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>CMS</a></h4>
-                                <p>Content Management System is a software application or platform that facilitates the
+                                <p class="text-white">Content Management System is a software application or platform that facilitates the
                                     creation, modification, and management of digital content for websites.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">

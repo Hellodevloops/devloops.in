@@ -147,7 +147,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot analytics</a></h4>
-                                <p>It involves collecting, processing, and analyzing data from sensors, devices, and other
+                                <p class="text-white">It involves collecting, processing, and analyzing data from sensors, devices, and other
                                     IoT components to derive valuable information.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -183,7 +183,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot Connectivity</a></h4>
-                                <p>As IoT involve a diverse range of devices with varying communication protocols,
+                                <p class="text-white">As IoT involve a diverse range of devices with varying communication protocols,
                                     standards, and requirements and connectivity.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -202,7 +202,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot Security</a></h4>
-                                <p>As IoT devices collect and transmit sensitive data, ensuring the confidentiality,
+                                <p class="text-white">As IoT devices collect and transmit sensitive data, ensuring the confidentiality,
                                     integrity, and availability of this information is paramount.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">

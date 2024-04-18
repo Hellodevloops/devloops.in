@@ -384,7 +384,7 @@
                              {{-- <p>Innovating Tomorrow's Technology Today.</p> --}}
                              <div class="tp-footer-widget-content-list">
                                 <div class="tp-footer-widget-content-list-item">
-                                   <i class="fa-solid fa-square-phone"></i><a href="tel:+919106077817"> +919106077817</a>
+                                   <i class="fa-solid fa-square-phone "></i><a href="tel:+919106077817"> +919106077817</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
                                    <a href="mailto:hello@devloops.in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0080" class="bi bi-envelope-fill" viewBox="0 0 16 16">

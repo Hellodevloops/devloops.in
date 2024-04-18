@@ -192,8 +192,8 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
-                                        href="{{ route('product') }}">ProductDevelopment</a></h4>
-                                <p> Engineering innovative software solutions tailored to your specific needs.</p>
+                                        href="{{ route('product') }}">Product Development</a></h4>
+                                <p class="text-white"> Engineering innovative software solutions tailored to your specific needs.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('product') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -213,7 +213,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
                                         Development</a></h4>
-                                <p>Designing captivating websites with intuitive interfaces and robust functionality.</p>
+                                <p class="text-white">Designing captivating websites with intuitive interfaces and robust functionality.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('webdev') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -232,7 +232,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
                                         Of Things</a></h4>
-                                <p>Building interconnected solutions that leverage the power of the Internet of Things.</p>
+                                <p class="text-white">Building interconnected solutions that leverage the power of the Internet of Things.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('iot') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -250,7 +250,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
                                         href="{{ route('healthcare') }}">Healthcare</a></h4>
-                                <p> Developing secure and scalable software solutions tailored to the unique demands.</p>
+                                <p class="text-white"> Developing secure and scalable software solutions tailored to the unique demands.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('healthcare') }}">Read More <i
