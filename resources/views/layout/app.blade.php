@@ -118,11 +118,10 @@
                         <a href="#">Contact</a>
                      </div> -->
                      <div class="tp-header-3-top-social">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                     </div>
+                                         </div>
                   </div>
                </div>
             </div>
@@ -244,10 +243,10 @@
                   <a href="contact.html" class="tp-btn">Getting Started <i
                         class="fa-regular fa-chevron-right"></i></a>
                </div> -->
-               <div class="side-info-contact">
+               {{-- <div class="side-info-contact">
                   <span>we are here</span>
                   <p>1489 Langley Ave <br> Grand Forks Afb, North.</p>
-               </div>
+               </div> --}}
                <div class="side-info-social">
                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -382,16 +381,21 @@
                              </a>
                           </div>
                           <div class="tp-footer-widget-content">
-                             <p>Innovating Tomorrow's Technology Today.</p>
+                             {{-- <p>Innovating Tomorrow's Technology Today.</p> --}}
                              <div class="tp-footer-widget-content-list">
                                 <div class="tp-footer-widget-content-list-item">
                                    <i class="fa-solid fa-square-phone"></i><a href="tel:+919106077817"> +919106077817</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                   <a href="mailto:hello@devloops.in"><i class="fa-light fa-envelope"></i>hello@devloops.in</a>
+                                   <a href="mailto:hello@devloops.in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0080" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                                  </svg> hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara, Gujarat, India</a>
+                                </div>
+                                <div class="tp-footer-widget-content-list-item">
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>Kitchener, Ontario, Canada</a>
                                 </div>
                              </div>
                           </div>
@@ -407,7 +411,8 @@
                                 <li><a href="{{ route('post') }}"><i class="fa-sharp fa-solid fa-plus"></i>Blog</a></li>
                                 <li><a href="{{ route('career') }}"><i class="fa-sharp fa-solid fa-plus"></i>Career</a></li>
                                 <li><a href="{{ route('contact') }}"><i class="fa-sharp fa-solid fa-plus"></i> Contact</a></li>
-                             </ul>
+
+                            </ul>
                           </div>
                        </div>
                     </div>
@@ -446,9 +451,9 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                        <div class="tp-footer-widget tp-footer-col-4 mb-40">
-                          <h4 class="tp-footer-widget-title mb-20">Subscribe</h4>
+                          <h4 class="tp-footer-widget-title mb-20">Social Media Links</h4>
                           <div class="tp-footer-widget-newsletter-wrap">
-                             <form action="#">
+                             {{-- <form action="#">
                                 <div class="tp-footer-widget-newsletter-wrapper">
                                    <div class="tp-footer-widget-newsletter-input">
                                       <input type="email" placeholder="Get News & Updates">
@@ -459,14 +464,14 @@
                                       </button>
                                    </div>
                                 </div>
-                             </form>
+                             </form> --}}
                              <div class="tp-footer-widget-newsletter-content">
                                 <p>Our expertise, as well as our passion for web design, sets us agenciese</p>
                                 <div class="tp-footer-widget-newsletter-social">
-                                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
                                 </div>
                              </div>
                           </div>

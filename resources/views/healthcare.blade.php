@@ -166,7 +166,7 @@
         </section>
         <!-- sercices-area-end -->
 
-        <section class="pricing-area tp-price-blue  tp-price-wrap ">
+        {{-- <section class="pricing-area tp-price-blue  tp-price-wrap ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -274,7 +274,7 @@
             <!-- <div class="tp-price-shape-1">
                          <img src="assets/img/shape/line-5-shape-2.png" alt="">
                       </div> -->
-        </section>
+        </section> --}}
 
 
         <section id="project-one-page" class="project-area tp-project-width mb-80 pl-15 pr-15 fix">
@@ -608,47 +608,34 @@
         <!-- review-area-end -->
 
         <!-- contact form -->
-
-
-        <section class="contact-area ">
+        <section class="contact-area pt-115 pb-80 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <div class="tp-contact-main mb-40">
-                            <!-- <div class="tp-section tp-section-two mb-25">
-                                   <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                                   <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
-                                   <div class="tp-section-title-wrapper">
-                                      <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                   </div>
-                                </div> -->
-                            <div class="tp-contact-main-thumb mb-40 w-img">
-                                <img src="assets/img/thumbs/contact-main-bg-1.jpg" alt="">
-                            </div>
-                            <div class="tp-contact-location-wrap d-flex align-items-center">
-                                <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">India</span>
-                                    <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
-                                        Dhanlaxmi Complex,<br> Vadodara </a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
-                                <div class="tp-contact-location ml-40">
-                                    <span class="tp-contact-location-title">Canada</span>
-                                    <a class="text-black" href="#"><i
-                                            class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
+                        <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+                    </div>
+
+                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                        <div class="tp-section tp-section-two mb-25">
+                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
+                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                            <div class="tp-section-title-wrapper">
+                                <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
+                                  -->
                             </div>
                         </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-contact-details-form mb-40">
+                            {{-- @if (session('error'))
+                                <div class="alert alert-danger">
+                                    {{ session('error') }}
+                                </div>
+                            @endif
+                            @if (session('succus'))
+                                <div class="alert alert-succuss">
+                                    {{ session('succuss') }}
+                                </div>
+                            @endif --}}
+
                             @if (session('error'))
                             <div class="alert alert-danger">
                                 {{ session('error') }}
@@ -703,6 +690,14 @@
                                         @enderror
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                        </div>
+                                        @error('description')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
                                     <!-- <div class="col-lg-12">
                                           <div class="tp-contact-details-form-input mb-20">
                                              <input type="text" placeholder="Company Name">
@@ -734,7 +729,6 @@
                 </div>
             </div>
         </section>
-
     </main>
     {{-- main end --}}
 @endsection

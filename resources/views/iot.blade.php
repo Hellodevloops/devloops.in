@@ -140,7 +140,10 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/iotanalysisflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/iotanalysisflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bar-chart-steps" viewBox="0 0 16 16">
+                                    <path d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0M2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5z"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot analytics</a></h4>
@@ -170,7 +173,13 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/iotconnectivityflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/iotconnectivityflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-router-fill" viewBox="0 0 16 16">
+                                    <path d="M5.525 3.025a3.5 3.5 0 0 1 4.95 0 .5.5 0 1 0 .707-.707 4.5 4.5 0 0 0-6.364 0 .5.5 0 0 0 .707.707"/>
+                                    <path d="M6.94 4.44a1.5 1.5 0 0 1 2.12 0 .5.5 0 0 0 .708-.708 2.5 2.5 0 0 0-3.536 0 .5.5 0 0 0 .707.707Z"/>
+                                    <path d="M2.974 2.342a.5.5 0 1 0-.948.316L3.806 8H1.5A1.5 1.5 0 0 0 0 9.5v2A1.5 1.5 0 0 0 1.5 13H2a.5.5 0 0 0 .5.5h2A.5.5 0 0 0 5 13h6a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5h.5a1.5 1.5 0 0 0 1.5-1.5v-2A1.5 1.5 0 0 0 14.5 8h-2.306l1.78-5.342a.5.5 0 1 0-.948-.316L11.14 8H4.86zM2.5 11a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m4.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m1.5-.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0"/>
+                                    <path d="M8.5 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot Connectivity</a></h4>
@@ -186,7 +195,10 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/iotsecurityflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/iotsecurityflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Iot Security</a></h4>
@@ -204,45 +216,34 @@
 
         <!-- contact -->
 
-        <section class="contact-area ">
+        <section class="contact-area pt-115 pb-80 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <div class="tp-contact-main mb-40">
-                            <!-- <div class="tp-section tp-section-two mb-25">
-                                      <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                                      <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
-                                      <div class="tp-section-title-wrapper">
-                                         <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                      </div>
-                                   </div> -->
-                            <div class="tp-contact-main-thumb mb-40 w-img">
-                                <img src="assets/img/thumbs/contact-main-bg-1.jpg" alt="">
-                            </div>
-                            <div class="tp-contact-location-wrap d-flex align-items-center">
-                                <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">India</span>
-                                    <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
-                                        Dhanlaxmi Complex,<br> Vadodara </a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
-                                <div class="tp-contact-location ml-40">
-                                    <span class="tp-contact-location-title">Canada</span>
-                                    <a class="text-black" href="#"><i
-                                            class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
+                        <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+                    </div>
+
+                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                        <div class="tp-section tp-section-two mb-25">
+                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
+                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                            <div class="tp-section-title-wrapper">
+                                <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
+                                  -->
                             </div>
                         </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-contact-details-form mb-40">
+                            {{-- @if (session('error'))
+                                <div class="alert alert-danger">
+                                    {{ session('error') }}
+                                </div>
+                            @endif
+                            @if (session('succus'))
+                                <div class="alert alert-succuss">
+                                    {{ session('succuss') }}
+                                </div>
+                            @endif --}}
+
                             @if (session('error'))
                             <div class="alert alert-danger">
                                 {{ session('error') }}
@@ -297,6 +298,14 @@
                                         @enderror
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                        </div>
+                                        @error('description')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
                                     <!-- <div class="col-lg-12">
                                           <div class="tp-contact-details-form-input mb-20">
                                              <input type="text" placeholder="Company Name">
@@ -328,7 +337,5 @@
                 </div>
             </div>
         </section>
-
-
     </main>
 @endsection
