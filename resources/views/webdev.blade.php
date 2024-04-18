@@ -146,7 +146,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>E-commerce website</a></h4>
-                                <p>In an e-commerce website, businesses create an online presence to showcase their products
+                                <p class="text-white">In an e-commerce website, businesses create an online presence to showcase their products
                                     or services, enabling customers to <br> browse.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -179,7 +179,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Multipage Website</a></h4>
-                                <p>A multipage website consists of multiple interconnected web pages, providing a structured
+                                <p class="text-white">A multipage website consists of multiple interconnected web pages, providing a structured
                                     and organized platform for content delivery.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -198,7 +198,7 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Dynamic Website</a></h4>
-                                <p>A dynamic website utilizes server-side technologies to generate content, dynamic sites
+                                <p class="text-white">A dynamic website utilizes server-side technologies to generate content, dynamic sites
                                     can dynamically alter content based on user interactions.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
