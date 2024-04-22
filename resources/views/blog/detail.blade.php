@@ -5,7 +5,7 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-            <div class="breadcrumb-bg" data-background=""></div>
+            <div class="breadcrumb-bg" data-background="{{ $post->hero }}"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
