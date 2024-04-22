@@ -1,86 +1,157 @@
 @extends('layout.app')
 @section('content')
     <!-- ========== MAIN CONTENT ========== -->
+    <main>
 
-    <div class="position-relative bg-img-start" style="background-image: url(assets/svg/components/card-11.svg);">
-        <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-md-2 position-relative zi-2">
-            <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-9">
-                <!-- Heading -->
-                <div class="mb-5">
-                    <p class="text-secondary ">Work with us</p>
-
-                    <h2 class="display-7 text-center " style="color: rgba(0, 31, 63, 0.7) !important;">Work hard with a
-                        motivated team to launch perfectly crafted products you'll love.</h2>
-
-                </div>
-                <!-- End Heading -->
-
-                {{-- <a href="#job" id="#job">
-                    <button class=" btn   btn-outline-primary  btn-transition">See job openings</button>
-                </a> --}}
-
+        <!-- breadcrumb-area-start -->
+        <section class="breadcrumb-area breadcrumb-wrap">
+            <div class="breadcrumb-bg" data-background="{{ asset('assets/img/devcareer.JPG')}}"></div>
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-12">
+                     <div class="tpbreadcrumb">
+                        {{-- <div class="breadcrumb-link mb-15">
+                           <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
+                           <span> / Terms And Condition</span>
+                        </div> --}}
+                        <h2 class="breadcrumb-title"> Career</h2>
+                     </div>
+                  </div>
+               </div>
             </div>
 
+         </section>
+        <!-- breadcrumb-area-end -->
 
-        </div>
+        <!-- team-details-area-start -->
+        <section class="team-detals-area pt-120 pb-5">
+           <div class="container">
+              <div class="tp-team-details-head">
+                 <div class="row">
+                    <div class="col-lg-12">
 
-        <!-- Shape -->
-        <div class="shape shape-bottom zi-1">
-            <svg width="100%" height="100" viewBox="0 0 3000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 500H3000V0L0 500Z" fill="#fff" />
-            </svg>
-        </div>
-        <!-- End Shape -->
-          <!-- Heading -->
-          <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-            <p class="text-secondary ">Current opportunities</p>
-            <h2 class="text-primary lead p2">We’re a truly global team with 17 offices around the world.</h2>
-        </div>
-        <!-- End Heading -->
-    </div>
-<section class="project-details-section pb-20">
-    <div class="container">
-        <div class="project-details">
-            <div class="row">
-                <div class="col-12">
-                    <div class="project-title">
-                        <h2 style="color: #ff4081;">Career at<span> Devloops International</span></h2>
-                    </div>
-                    <p class="mb-25 text-black">Join our dynamic team at Devloops International and embark on a rewarding career journey. We are committed to excellence and innovation, providing opportunities for growth and development in the tech industry.</p>
-                </div>
-                <div class="col-12">
-                    <div class="project-title">
-                        <h2 style="color: #ff4081;">Why<span> Devloops International?</span></h2>
-                    </div>
-                    <p class="mb-25 text-black">At Devloops International, we're all about innovation and teamwork. We believe in creating a workplace where everyone can thrive and grow together. Our focus is on developing cutting-edge software solutions that empower businesses and drive success. Join us in shaping the future of technology!</p>
-                </div>
-            </div>
-            <div class="row mb-50">
-                @foreach ($careers as $careers)
-                <div class="col-6">
-                    <div class="position-box">
-                        <div class="project-title">
-                            <h3 style="color: #ff4081;">{{ $careers->title }}</h3>
+                       <div class="tp-team-details-info mb-45">
+                          <h2 class="tp-team-details-info-title mb-25" style="color: #ff4081;">Career at Devloops International</h2>
+                          <p class="text-black">Join our dynamic team at Devloops International and embark on a rewarding career journey. We are committed to excellence and innovation, providing opportunities for growth and development in the tech industry.
+                          </p>
                         </div>
-                        <p class="mb-10 text-black">Location: <span class="location">{{ $careers->location }}</span></p>
-                        <p class="mb-25 text-black">{{ $careers->content }}</p>
-                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #ff4081;">Apply</a>
-                    </div>
-                </div>
-                @endforeach
-                {{-- <div class="col-6">
-                    <div class="position-box">
-                        <div class="project-title">
-                            <h3 style="color: #ff4081;">Job Title 2</h3>
+                       <div class="tp-team-details-info mb-45">
+                        <h2 class="tp-team-details-info-title mb-25"  style="color: #ff4081;">Why Devloops International?</h2>
+                        <p class="text-black">At Devloops International, we're all about innovation and teamwork. We believe in creating a workplace where everyone can thrive and grow together. Our focus is on developing cutting-edge software solutions that empower businesses and drive success. Join us in shaping the future of technology!
+                        </p>
+
                         </div>
-                        <p class="mb-10 text-black">Location: <span class="location">Pune</span></p>
-                        <p class="mb-25 text-black">Job description goes here.</p>
-                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #ff4081;">Apply</a>
+
                     </div>
-                </div> --}}
-                <!-- Add more job listings as needed -->
+                 </div>
+              </div>
+           </div>
+        </section>
+        <!-- team-details-area-end -->
+
+        <section class="team-detals-area pb-5">
+            <div class="container">
+               <div class="tp-team-details-head">
+                  <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="tp-team-details-avatar-wrap d-flex align-items-center mb-75">
+                                    <div class="tp-team-details-avatar">
+                                        <h6 class="tp-team-details-avatar-title1">Frontend Developer Intern </h6>
+                                        <span>Location: Vadodara</span>
+                                        <p class="text-black">Developing responsive and user-friendly web interfaces. Collaborating with designers. Writing clean and efficient code using HTML, CSS, and JavaScript.</p>
+                                        {{-- <div class="tp-team-details-avatar-list mb-35">
+                                            <ul>
+                                                <li><span>Responsibility:</span>Development</li>
+                                                <li><span>Email Address:</span><a href="mailto:teczonfo@gmail.com">teczonfo@gmail.com</a></li>
+                                                <li><span>Phone Number:</span><a href="tel:01234567">+1 888 098-90987</a></li>
+                                                <li><span>Web Address: </span><a href="#">www.yourdomain.com</a></li>
+                                            </ul>
+                                        </div> --}}
+                                        <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                            <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="tp-team-details-avatar-wrap d-flex align-items-center mb-75">
+                                    <div class="tp-team-details-avatar">
+                                        <h6 class="tp-team-details-avatar-title1">Backend Developer Intern </h6>
+                                        <span>Location: Vadodara</span>
+                                        <p class="text-black">Designing and developing server-side logic and APIs. Integrating data storage solutions and databases. Implementing security and data protection measures.</p>
+                                        {{-- <div class="tp-team-details-avatar-list mb-35">
+                                            <ul>
+                                                <li><span>Responsibility:</span>Development</li>
+                                                <li><span>Email Address:</span><a href="mailto:teczonfo@gmail.com">teczonfo@gmail.com</a></li>
+                                                <li><span>Phone Number:</span><a href="tel:01234567">+1 888 098-90987</a></li>
+                                                <li><span>Web Address: </span><a href="#">www.yourdomain.com</a></li>
+                                            </ul>
+                                        </div> --}}
+                                        <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                            <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+               </div>
+
+               <div class="tp-team-details-head">
+                <div class="row">
+                  <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="tp-team-details-avatar-wrap d-flex align-items-center mb-75">
+                                <div class="tp-team-details-avatar">
+                                    <h6 class="tp-team-details-avatar-title1">Software Development Intern</h6>
+                                    <span>Location: Vadodara</span>
+                                    <p class="text-black">Assisting in the development and testing of software solutions. Collaborating with team members on projects. Learning and applying coding best practices. Supporting the team with research and documentation tasks.</p>
+                                    {{-- <div class="tp-team-details-avatar-list mb-35">
+                                        <ul>
+                                            <li><span>Responsibility:</span>Development</li>
+                                            <li><span>Email Address:</span><a href="mailto:teczonfo@gmail.com">teczonfo@gmail.com</a></li>
+                                            <li><span>Phone Number:</span><a href="tel:01234567">+1 888 098-90987</a></li>
+                                            <li><span>Web Address: </span><a href="#">www.yourdomain.com</a></li>
+                                        </ul>
+                                    </div> --}}
+                                    <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                        <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="tp-team-details-avatar-wrap d-flex align-items-center mb-75">
+                                <div class="tp-team-details-avatar">
+                                    <h6 class="tp-team-details-avatar-title1">Digital Marketing Intern</h6>
+                                    <span>Location: Vadodara</span>
+                                    <p class="text-black">Assisting in the implementation of digital marketing strategies. Creating and optimizing content for various online channels. Analyzing data and performance metrics to identify opportunities for improvement.</p>
+                                    {{-- <div class="tp-team-details-avatar-list mb-35">
+                                        <ul>
+                                            <li><span>Responsibility:</span>Development</li>
+                                            <li><span>Email Address:</span><a href="mailto:teczonfo@gmail.com">teczonfo@gmail.com</a></li>
+                                            <li><span>Phone Number:</span><a href="tel:01234567">+1 888 098-90987</a></li>
+                                            <li><span>Web Address: </span><a href="#">www.yourdomain.com</a></li>
+                                        </ul>
+                                    </div> --}}
+                                    <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
+                                        <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+
+                </div>
+             </div>
             </div>
-        </div>
-    </div>
-</section>
+         </section>
+
+     </main>
 @endsection

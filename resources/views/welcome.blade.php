@@ -115,7 +115,7 @@
                                 </h4>
                                 <div class="tp-section-title-wrapper">
 
-                                    <p class="text-black"><span class="text-pink">At DevLoops International</span> we're
+                                    <p class="text-black"><span class="text-pink">At Devloops International</span> we're
                                         more than just a company; we're a passionate community of tech enthusiasts,
                                         creators, and problem solvers dedicated to pushing the boundaries of what's
                                         possible. With a relentless drive for innovation, we're on a mission to
@@ -137,7 +137,7 @@
                                 </div>
                                 <div class="tp-about-3-item-content">
                                     <h4 class="tp-about-3-item-title">Who We Are</h4>
-                                    <p class="text-black">DevLoops International is a dynamic technology solutions provider
+                                    <p class="text-black">Devloops International is a dynamic technology solutions provider
                                         specializing in cutting-edge software development, AI solutions, and digital
                                         transformation services. </p>
                                 </div>
@@ -184,12 +184,16 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/proddev1flaticon.png') }}" alt="prod">
+                                {{-- <img src="{{ asset('assets/img/proddev1flaticon.png') }}" alt="prod"> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                                    <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+                                    <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
-                                        href="{{ route('product') }}">ProductDevelopment</a></h4>
-                                <p> Engineering innovative software solutions tailored to your specific needs.</p>
+                                        href="{{ route('product') }}">Product Development</a></h4>
+                                <p class="text-white"> Engineering innovative software solutions tailored to your specific needs.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('product') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -200,12 +204,16 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/webdevflaticonnew1.png') }}" alt="prod">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-browser-edge" viewBox="0 0 16 16">
+                                    <path d="M9.482 9.341c-.069.062-.17.153-.17.309 0 .162.107.325.3.456.877.613 2.521.54 2.592.538h.002c.667 0 1.32-.18 1.894-.519A3.84 3.84 0 0 0 16 6.819c.018-1.316-.44-2.218-.666-2.664l-.04-.08C13.963 1.487 11.106 0 8 0A8 8 0 0 0 .473 5.29C1.488 4.048 3.183 3.262 5 3.262c2.83 0 5.01 1.885 5.01 4.797h-.004v.002c0 .338-.168.832-.487 1.244l.006-.006z"/>
+                                    <path d="M.01 7.753a8.14 8.14 0 0 0 .753 3.641 8 8 0 0 0 6.495 4.564 5 5 0 0 1-.785-.377h-.01l-.12-.075a5.5 5.5 0 0 1-1.56-1.463A5.543 5.543 0 0 1 6.81 5.8l.01-.004.025-.012c.208-.098.62-.292 1.167-.285q.194.001.384.033a4 4 0 0 0-.993-.698l-.01-.005C6.348 4.282 5.199 4.263 5 4.263c-2.44 0-4.824 1.634-4.99 3.49m10.263 7.912q.133-.04.265-.084-.153.047-.307.086z"/>
+                                    <path d="M10.228 15.667a5 5 0 0 0 .303-.086l.082-.025a8.02 8.02 0 0 0 4.162-3.3.25.25 0 0 0-.331-.35q-.322.168-.663.294a6.4 6.4 0 0 1-2.243.4c-2.957 0-5.532-2.031-5.532-4.644q.003-.203.046-.399a4.54 4.54 0 0 0-.46 5.898l.003.005c.315.441.707.821 1.158 1.121h.003l.144.09c.877.55 1.721 1.078 3.328.996"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
                                         Development</a></h4>
-                                <p>Designing captivating websites with intuitive interfaces and robust functionality.</p>
+                                <p class="text-white">Designing captivating websites with intuitive interfaces and robust functionality.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('webdev') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -216,12 +224,15 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/iotdevflaticon1.png') }}" alt="prod">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-ethernet" viewBox="0 0 16 16">
+                                    <path d="M14 13.5v-7a.5.5 0 0 0-.5-.5H12V4.5a.5.5 0 0 0-.5-.5h-1v-.5A.5.5 0 0 0 10 3H6a.5.5 0 0 0-.5.5V4h-1a.5.5 0 0 0-.5.5V6H2.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5M3.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m2 0h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zM9.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
+                                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
                                         Of Things</a></h4>
-                                <p>Building interconnected solutions that leverage the power of the Internet of Things.</p>
+                                <p class="text-white">Building interconnected solutions that leverage the power of the Internet of Things.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('iot') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
@@ -232,12 +243,14 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/healthcaredevflaticon1.png') }}" alt="prod">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                    <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
                                         href="{{ route('healthcare') }}">Healthcare</a></h4>
-                                <p> Developing secure and scalable software solutions tailored to the unique demands.</p>
+                                <p class="text-white"> Developing secure and scalable software solutions tailored to the unique demands.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('healthcare') }}">Read More <i
@@ -360,7 +373,7 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Working at DevLoops has been an enriching experience. The company
+                                                    <p>Working at Devloops has been an enriching experience. The company
                                                         fosters a culture of innovation and collaboration, allowing us to
                                                         push boundaries in software development.</p>
                                                 </div>
@@ -373,7 +386,7 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>DevLoops sets the bar high when it comes to project management. As a
+                                                    <p>Devloops sets the bar high when it comes to project management. As a
                                                         PM, I appreciate the seamless communication channels and support
                                                         provided, ensuring timely deliveries and client satisfaction.</p>
                                                 </div>
@@ -386,7 +399,7 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Being a part of DevLoops' team has elevated my technical skills
+                                                    <p>Being a part of Devloops' team has elevated my technical skills
                                                         significantly. The challenging projects and access to cutting-edge
                                                         technologies have honed my abilities and broadened my horizon in the
                                                         software domain.</p>
@@ -400,7 +413,7 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>At DevLoops, quality is not just a checkbox; it's a commitment. As a
+                                                    <p>At Devloops, quality is not just a checkbox; it's a commitment. As a
                                                         QA analyst, I've witnessed the dedication to delivering flawless
                                                         software solutions, backed by robust testing methodologies and
                                                         attention to detail.</p>
@@ -414,7 +427,7 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>DevLoops understands the pulse of the market like no other. As a
+                                                    <p>Devloops understands the pulse of the market like no other. As a
                                                         business analyst, I've had the opportunity to analyze market trends
                                                         and translate them into actionable insights, contributing to the
                                                         company's strategic growth trajectory. </p>
@@ -556,7 +569,7 @@
                                 <h4 class="tp-section-title">For Your Specific Industry We Have Smart Idea</h4>
                                 <div class="tp-section-title-wrapper">
                                     <p class="text-black"> By staying abreast of the latest advancements in the tech
-                                        landscape, DevLoops ensures that their offerings are always at the forefront of
+                                        landscape, Devloops ensures that their offerings are always at the forefront of
                                         industry standards, empowering businesses to thrive in the digital age.</p>
                                 </div>
                             </div>
@@ -586,10 +599,10 @@
                             </div>
                             <div class="tp-solution-list">
                                 <ul>
-                                    <li class="text-pink"> <b>DevLoops prioritizes client satisfaction above all else</b>.
+                                    <li class="text-pink"> <b>Devloops prioritizes client satisfaction above all else</b>.
                                     </li>
                                     <!-- <li>
-                                                        DevLoops fosters innovation, turning ideas into practical solutions.</li> -->
+                                                        Devloops fosters innovation, turning ideas into practical solutions.</li> -->
                                 </ul>
                             </div>
                         </div>
@@ -660,19 +673,15 @@
                                                     </div>
                                                     <div class="tp-team-3-thumb-social">
                                                         <a href="#"><span><i
-                                                                    class="fa-brands fa-facebook-f"></i></span></a>
-                                                        <a href="#"><span><i
                                                                     class="fa-brands fa-instagram"></i></span></a>
-                                                        <a href="#"><span><i
-                                                                    class="fa-brands fa-twitter"></i></span></a>
                                                         <a href="#"><span><i
                                                                     class="fa-brands fa-linkedin-in"></i></span></a>
                                                     </div>
                                                 </div>
                                                 <div class="tp-team-3-content">
-                                                    <h5 class="tp-team-3-title"><a
+                                                    <h3 class="tp-team-3-title"><a
                                                             href="team-details.html">{{ $team->name }}</a>
-                                                    </h5>
+                                                    </h3>
                                                     <span>{{ $team->position }}</span>
                                                 </div>
                                             </div>
@@ -733,132 +742,129 @@
             </div>
         </section>
         <!-- blog-area-end -->
+ <!-- contact-area-start -->
 
-        {{-- contact start --}}
-        <section class="contact-area ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="tp-contact-main mb-40">
-                            <!-- <div class="tp-section tp-section-two mb-25">
-                                                  <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                                                  <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
-                                                  <div class="tp-section-title-wrapper">
-                                                     <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                                  </div>
-                                               </div> -->
-                            <div class="tp-contact-main-thumb mb-40 w-img">
-                                <img src="assets/img/thumbs/contact-main-bg-1.jpg" alt="">
-                            </div>
-                            <div class="tp-contact-location-wrap d-flex align-items-center">
-                                <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">India</span>
-                                    <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
-                                        Dhanlaxmi Complex,<br> Vadodara </a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
-                                <div class="tp-contact-location ml-40">
-                                    <span class="tp-contact-location-title">Canada</span>
-                                    <a class="text-black" href="#"><i
-                                            class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
-                        <div class="tp-contact-details-form mb-40">
-                            @if (session('error'))
-                            <div class="alert alert-danger">
-                                {{ session('error') }}
-                            </div>
-                        @endif
-                        @if (session('success'))
-                            <div class="alert alert-success">
-                                {{ session('success') }}
-                            </div>
-                        @endif
-                            <form method="POST" action="{{ route('contact.store') }}">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="firstname" placeholder="First Name">
-                                            <span><i class="fa-light fa-user"></i></span>
+ <section class="contact-area pt-115 pb-80 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6">
+                <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+            </div>
 
-                                        </div>
-                                        @error('firstname')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="lastname" placeholder="Last Name">
-                                            <span><i class="fa-light fa-user"></i></span>
-                                        </div>
-                                        @error('lastname')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="email" placeholder="Email Address">
-                                            <span><i class="fa-light fa-envelope"></i></span>
-                                        </div>
-                                        @error('email')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="phone" placeholder="Phone Number">
-                                            <span><i class="fa-light fa-phone"></i></span>
-                                        </div>
-                                        @error('phone')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-
-                                    <!-- <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <input type="text" placeholder="Company Name">
-                                             <span><i class="fa-light fa-user"></i></span>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-
-                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                             <input type="text" placeholder="Your Subject">
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                             <span><i class="fa-light fa-pen"></i></span>
-                                          </div>
-                                       </div> -->
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-btn">
-                                            <button class="tp-btn">Send a Message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+            <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                <div class="tp-section tp-section-two mb-25">
+                    <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
+                    {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                    <div class="tp-section-title-wrapper">
+                        <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
+                          -->
                     </div>
                 </div>
+                <div class="tp-contact-details-form mb-40">
+                    {{-- @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+                    @if (session('succus'))
+                        <div class="alert alert-succuss">
+                            {{ session('succuss') }}
+                        </div>
+                    @endif --}}
+
+                    @if (session('error'))
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                @endif
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                    <form method="POST" action="{{ route('contact.store') }}">
+                        @csrf
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-input mb-20">
+                                    <input type="text" name="firstname" placeholder="First Name">
+                                    <span><i class="fa-light fa-user"></i></span>
+
+                                </div>
+                                @error('firstname')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-input mb-20">
+                                    <input type="text" name="lastname" placeholder="Last Name">
+                                    <span><i class="fa-light fa-user"></i></span>
+                                </div>
+                                @error('lastname')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-input mb-20">
+                                    <input type="text" name="email" placeholder="Email Address">
+                                    <span><i class="fa-light fa-envelope"></i></span>
+                                </div>
+                                @error('email')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-input mb-20">
+                                    <input type="text" name="phone" placeholder="Phone Number">
+                                    <span><i class="fa-light fa-phone"></i></span>
+                                </div>
+                                @error('phone')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-input mb-20">
+                                    <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                </div>
+                                @error('description')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+                            <!-- <div class="col-lg-12">
+                                  <div class="tp-contact-details-form-input mb-20">
+                                     <input type="text" placeholder="Company Name">
+                                     <span><i class="fa-light fa-user"></i></span>
+                                  </div>
+                               </div>
+                               <div class="col-lg-12">
+                                  <div class="tp-contact-details-form-input mb-20">
+
+                                     <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                     <input type="text" placeholder="Your Subject">
+                                  </div>
+                               </div>
+                               <div class="col-lg-12">
+                                  <div class="tp-contact-details-form-input mb-20">
+                                     <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                     <span><i class="fa-light fa-pen"></i></span>
+                                  </div>
+                               </div> -->
+                            <div class="col-lg-12">
+                                <div class="tp-contact-details-form-btn">
+                                    <button class="tp-btn">Send a Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </section>
-{{-- contact end --}}
+        </div>
+    </div>
+</section>
+<!-- contact-area-end -->
     </main>
 @endsection

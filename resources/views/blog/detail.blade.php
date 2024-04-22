@@ -5,7 +5,9 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-            <div class="breadcrumb-bg" data-background="{{ asset($post->hero)}}"></div>
+
+            <div class="breadcrumb-bg" data-background="{{ $post->hero }}"></div>
+
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -20,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="breadcrumb-shape">
+            {{-- <div class="breadcrumb-shape">
                 <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
                     <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-1.png') }}" alt="">
                 </div>
@@ -30,7 +32,7 @@
                 <div class="breadcrumb-shape-5 wow slideInRight" data-wow-duration="1.4s" data-wow-delay=".3s">
                     <img src="{{ asset('assets/img/breadcrumb/breadcrumb-shape-2.png') }}" alt="">
                 </div>
-            </div>
+            </div> --}}
         </section>
         <!-- breadcrumb-area-end -->
 

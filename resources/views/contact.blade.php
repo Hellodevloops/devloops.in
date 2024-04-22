@@ -39,7 +39,7 @@
         <section class="contact-area pt-115 pb-80 ">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-xl-5 col-lg-6 mt-10">
                         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
                             marginwidth="0"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
@@ -50,7 +50,7 @@
                     <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-section tp-section-two mb-25">
                             <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                            <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
+                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
                             <div class="tp-section-title-wrapper">
                                 <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
                                   -->
@@ -122,6 +122,15 @@
                                         @enderror
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                        </div>
+                                        @error('description')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
                                     <!-- <div class="col-lg-12">
                                           <div class="tp-contact-details-form-input mb-20">
                                              <input type="text" placeholder="Company Name">
@@ -153,9 +162,7 @@
                 </div>
             </div>
         </section>
-
-
-        <!-- contact-area-end -->
+  <!-- contact-area-end -->
 
     </main>
 @endsection
