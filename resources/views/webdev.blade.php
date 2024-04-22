@@ -139,11 +139,14 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/webecomflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/webecomflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>E-commerce website</a></h4>
-                                <p>In an e-commerce website, businesses create an online presence to showcase their products
+                                <p class="text-white">In an e-commerce website, businesses create an online presence to showcase their products
                                     or services, enabling customers to <br> browse.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -169,11 +172,14 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/webmultipageflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/webmultipageflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-subtract" viewBox="0 0 16 16">
+                                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Multipage Website</a></h4>
-                                <p>A multipage website consists of multiple interconnected web pages, providing a structured
+                                <p class="text-white">A multipage website consists of multiple interconnected web pages, providing a structured
                                     and organized platform for content delivery.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -185,11 +191,14 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="{{ asset('assets/img/dynamicflaticon.png') }}" alt="">
+                                {{-- <img src="{{ asset('assets/img/dynamicflaticon.png') }}" alt=""> --}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-arrow-down-right-square-fill" viewBox="0 0 16 16">
+                                    <path d="M14 16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2zM5.904 5.197 10 9.293V6.525a.5.5 0 0 1 1 0V10.5a.5.5 0 0 1-.5.5H6.525a.5.5 0 0 1 0-1h2.768L5.197 5.904a.5.5 0 0 1 .707-.707"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a>Dynamic Website</a></h4>
-                                <p>A dynamic website utilizes server-side technologies to generate content, dynamic sites
+                                <p class="text-white">A dynamic website utilizes server-side technologies to generate content, dynamic sites
                                     can dynamically alter content based on user interactions.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
@@ -203,45 +212,34 @@
 
         <!-- contact -->
 
-        <section class="contact-area ">
+        <section class="contact-area pt-115 pb-80 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <div class="tp-contact-main mb-40">
-                            <!-- <div class="tp-section tp-section-two mb-25">
-                                      <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                                      <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4>
-                                      <div class="tp-section-title-wrapper">
-                                         <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                      </div>
-                                   </div> -->
-                            <div class="tp-contact-main-thumb mb-40 w-img">
-                                <img src="assets/img/thumbs/contact-main-bg-1.jpg" alt="">
-                            </div>
-                            <div class="tp-contact-location-wrap d-flex align-items-center">
-                                <div class="tp-contact-location">
-                                    <span class="tp-contact-location-title">India</span>
-                                    <a class="text-black" href="#"><i class="fa-light fa-location-dot"></i>GF-2
-                                        Dhanlaxmi Complex,<br> Vadodara </a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
-                                <div class="tp-contact-location ml-40">
-                                    <span class="tp-contact-location-title">Canada</span>
-                                    <a class="text-black" href="#"><i
-                                            class="fa-light fa-location-dot"></i>Kitchener, Ontario,<br> Canada</a>
-                                    <a class="text-black" href="tel:0123456"><i class="fa-light fa-phone"></i>
-                                        +919106077817</a>
-                                    <a class="text-black" href="mailto:hello@devloops.in"><i
-                                            class="fa-light fa-envelope"></i>hello@devloops.in</a>
-                                </div>
+                        <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+                    </div>
+
+                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                        <div class="tp-section tp-section-two mb-25">
+                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
+                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                            <div class="tp-section-title-wrapper">
+                                <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
+                                  -->
                             </div>
                         </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
                         <div class="tp-contact-details-form mb-40">
+                            {{-- @if (session('error'))
+                                <div class="alert alert-danger">
+                                    {{ session('error') }}
+                                </div>
+                            @endif
+                            @if (session('succus'))
+                                <div class="alert alert-succuss">
+                                    {{ session('succuss') }}
+                                </div>
+                            @endif --}}
+
                             @if (session('error'))
                             <div class="alert alert-danger">
                                 {{ session('error') }}
@@ -296,6 +294,14 @@
                                         @enderror
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                        </div>
+                                        @error('description')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
                                     <!-- <div class="col-lg-12">
                                           <div class="tp-contact-details-form-input mb-20">
                                              <input type="text" placeholder="Company Name">
@@ -327,6 +333,5 @@
                 </div>
             </div>
         </section>
-
     </main>
 @endsection

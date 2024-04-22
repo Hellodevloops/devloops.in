@@ -732,7 +732,12 @@ div.demo img {
 .pt-280 {
   padding-top: 280px;
 }
-
+.pt-10{
+    padding-top: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
 /*----------------------------------------*/
 /*  2.1 Back to top
 /*----------------------------------------*/
@@ -11615,7 +11620,7 @@ blockquote cite::before {
   content: "";
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 85%;
   height: 0%;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -11625,8 +11630,8 @@ blockquote cite::before {
   background-image: var(--tp-gradient-4);
 }
 .tp-team-3-thumb-wrap img {
-  width: 400px;
-  height: 440px;
+  width: 300px;
+  height: 320px;
 
 }
 .tp-team-3-thumb-social {
@@ -11657,8 +11662,9 @@ blockquote cite::before {
   font-size: 15px;
 }
 .tp-team-3-title {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 3px;
+  margin-left: -20px;
 }
 .tp-team-3-title a:hover {
   color: var(--tp-theme-primary);
@@ -11667,8 +11673,9 @@ blockquote cite::before {
   padding: 19px 30px 15px 28px;
 }
 .tp-team-3-content span {
-  font-size: 14px;
+  font-size: 18px;
   color: var(--tp-text-1);
+  margin-left: -20px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -11843,6 +11850,15 @@ blockquote cite::before {
     font-size: 32px;
   }
 }
+.tp-team-details-avatar-title1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 767px) {
+    .tp-team-details-avatar-title1 {
+      font-size: 12px;
+    }
+  }
 .tp-team-details-avatar > span {
   color: var(--tp-theme-primary);
   font-size: 18px;
@@ -13276,7 +13292,7 @@ blockquote cite::before {
 }
 .col-custom.active .tp-project-thumb::before {
   position: absolute;
-  background-color: rgba(15, 13, 29, 0.75);
+  background-color: rgba(113, 113, 114, 0.75);
 }
 .col-custom.active .tp-project-thumb::after {
   /* background: linear-gradient(
