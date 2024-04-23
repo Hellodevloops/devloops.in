@@ -2259,7 +2259,7 @@ div.demo img {
   left: 0%;
   width: 0%;
   height: 100%;
-  /* color:rgb(255, 0, 128) 0%; */
+  color:rgb(255, 0, 128) 0%;
   background-color: rgba(255, 0, 128, 0.508);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -13457,6 +13457,10 @@ blockquote cite::before {
 .tp-project-2 {
   position: relative;
   z-index: 1;
+  width: 700px !important;
+  height: 370px !important ;
+padding-left: 40px !important;
+padding-right: 40px !important;
 }
 .tp-project-2:hover .tp-project-2-info {
   bottom: 0;
@@ -13501,7 +13505,7 @@ blockquote cite::before {
   bottom: 0px;
   left: 0;
   right: 0;
-  padding: 38px;
+  padding: 8px;
   z-index: 5;
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
@@ -13514,8 +13518,8 @@ blockquote cite::before {
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-project-2-info {
-    padding: 20px;
-    padding-bottom: 25px;
+    padding: 2px;
+    padding-bottom: 5px;
   }
 }
 .tp-project-2-content {
@@ -13699,17 +13703,17 @@ blockquote cite::before {
 .tp-project-4-item:hover .tp-project-4-item-thumb::after {
   height: 100%;
 }
-.tp-project-4-item:hover .tp-project-4-item-thumb img {
+/* .tp-project-4-item:hover .tp-project-4-item-thumb img {
   mix-blend-mode: luminosity;
-}
-.tp-project-4-item:hover .tp-project-4-arrow a {
+} */
+/* .tp-project-4-item:hover .tp-project-4-arrow a {
   transform: translateY(0);
   visibility: visible;
   opacity: 1;
-}
+} */
 .tp-project-4-item-thumb {
   position: relative;
-  background-color: #1a1617;
+  /* background-color: #1a1617; */
   z-index: 1;
   -webkit-transition: 3s;
   -moz-transition: 3s;
@@ -13720,7 +13724,7 @@ blockquote cite::before {
 .tp-project-4-item-thumb img {
   width: 100%;
   transition: transform 500ms ease, mix-blend-mode 500ms ease;
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 .tp-project-4-item-thumb::before {
   position: absolute;
@@ -13890,11 +13894,11 @@ blockquote cite::before {
   transition: 0.3s;
   display: inline-block;
 }
-.tp-project-4-prv i:hover,
+/* .tp-project-4-prv i:hover,
 .tp-project-4-nxt i:hover {
   background-color: #d90a2c;
   color: var(--tp-common-white);
-}
+} */
 
 .tp-project-5-wrap {
   padding: 0 158px;
@@ -16847,11 +16851,20 @@ blockquote cite::before {
 }
 .tp-product-thumb {
   margin-bottom: 13px;
+  overflow: hidden;
   position: relative;
 }
 .tp-product-thumb img {
   width: 100%;
+  height: 340px;
+  width: 100%;
+  transition: transform 0.3s ease;
 }
+
+.tp-product-thumb:hover img {
+    transform: scale(1.1); /* Increase size on hover */
+    z-index: 1; /* Bring the hovered image to the front */
+ }
 .tp-product-thumb-cart {
   position: absolute;
   top: 55%;
@@ -18329,4 +18342,17 @@ blockquote cite::before {
 }
 .text-pink{
   color: #ff0080;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.mb-20{
+   margin-bottom: 20px;
+}
+.service-img1{
+    width: 200px;
+    height: 230px;
 }

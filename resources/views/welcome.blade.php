@@ -193,7 +193,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
                                         href="{{ route('product') }}">Product Development</a></h4>
-                                <p class="text-white"> Engineering innovative software solutions tailored to your specific needs.</p>
+                                <p class="text-white"> Engineering innovative software solutions tailored to your needs.</p>
                             </div>
                             <div class="tp-offer-item-btn">
                                 <a href="{{ route('product') }}">Read More <i class="fa-regular fa-arrow-right"></i></a>
