@@ -747,8 +747,13 @@
  <section class="contact-area pt-115 pb-80 ">
     <div class="container">
         <div class="row">
-            <div class="col-xl-5 col-lg-6">
-                <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+            <div class="col-xl-5 col-lg-6 mt-10">
+                <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
             <div class="offset-xl-1 col-xl-6 col-lg-6 ">
