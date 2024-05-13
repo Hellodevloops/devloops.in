@@ -11,7 +11,7 @@
 
       <!-- Place favicon.ico in the root directory -->
       <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo/favicon.png') }}">
-
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <!-- CSS here -->
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
       <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
@@ -395,7 +395,7 @@
                                     <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara, Gujarat, India</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>Kitchener, Ontario, Canada</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>KN173ST, NYARUGENGE, KIGALI, RWANDA</a>
                                 </div>
                              </div>
                           </div>
