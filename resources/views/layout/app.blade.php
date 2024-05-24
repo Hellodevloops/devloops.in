@@ -103,11 +103,11 @@
                   <div class="tp-header-3-top-left d-flex align-items-center">
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-location-dot"></i></span>
-                        <a href="{{ route('contact') }}">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara</a>
+                        <a href="{{ route('contact') }}" class="text-white">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara</a>
                      </div>
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-envelope"></i></span>
-                        <a href="mailto:hello@devloops.in"><span>hello@devloops.in</span></a>
+                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
                     </div>
 
                   </div>
@@ -119,8 +119,8 @@
                      </div> -->
                      <div class="tp-header-3-top-social">
 
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
                                          </div>
                   </div>
                </div>
@@ -141,7 +141,7 @@
                            <li class="has-dropdown">
                               <a href="#">Service</a>
                               <div class="tp-submenu ">
-                                 <div class="row gx-6 row-cols-1 ml-4">
+                                 <div class="row gx-6 row-cols-1 ml-2">
 
                                        <div class="demo-name">
                                           <span><a href="{{ route('product') }}">Product Development</a></span>
@@ -369,7 +369,7 @@
 
      <!-- footer-area-start -->
      <footer>
-        <div class="footer-area">
+        <div class="footer-area mt-50">
            <div class="tp-footer-top pt-25 theme-bg" data-background="{{ asset('assets/img/footer/one/footer-bg-1.jpg') }}">
               <div class="container">
                  <div class="row">
@@ -387,15 +387,16 @@
                                    <i class="fa-solid fa-square-phone "></i><a href="tel:+919106077817"> +919106077817</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                   <a href="mailto:hello@devloops.in"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0080" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0080" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                                  </svg> hello@devloops.in</a>
+                                  </svg> <a href="mailto:hello@devloops.in" style="padding-left: 8px;"> hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
                                     <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara, Gujarat, India</a>
                                 </div>
+
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>KN173ST, NYARUGENGE, KIGALI, RWANDA</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>KN173ST, Nyarugenge, Kigali, Rwanda</a>
                                 </div>
                              </div>
                           </div>
@@ -423,7 +424,7 @@
                              <div class="tp-footer-widget-gallery-all">
                                 @php
                                 use App\Models\Post;
-                                $blog_postss = Post::orderBy('created_at', 'desc')->take(2)->get();
+                                $blog_postss = Post::orderBy('created_at', 'desc')->take(6)->get();
                             @endphp
                                 @foreach ($blog_postss as $post)
                                 <div class="tp-footer-widget-gallery-single-item">
@@ -469,8 +470,8 @@
                                 <p>Our expertise, as well as our passion for web design, sets us agenciese</p>
                                 <div class="tp-footer-widget-newsletter-social">
 
-                                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                   <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"><i class="fa-brands fa-instagram"></i></a>
+                                   <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
 
                                 </div>
                              </div>

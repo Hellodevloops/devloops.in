@@ -33,7 +33,6 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- contact -->
         <section class="project-details-area pt-120 pb-120">
             <div class="container">
                <div class="row">
@@ -53,7 +52,7 @@
                      </div>
                   </div>
                </div>
-               <div class="row">
+               <div class="row mt-4">
                   <div class="col-lg-12">
                      <div class="tp-project-details-catagory">
                         <span class="tp-section-sub-title">What We’re Offering</span>
@@ -70,36 +69,40 @@
                            <div class="tp-project-details-list-icon">
                               <i class="fa-thin fa-check"></i>
                            </div>
+                           <div class="tagcloud1">
 
-                           <div class="tp-project-details-list-content">
-                              <p class="text-black">Integrates core business processes like finance, HR, inventory, and supply chain. </p>
-                           </div>
+                            <a href="">Integrates core business processes like finance, HR, inventory, and supply chain.</a>
+
+                         </div>
+
                         </div>
                         <div class="tp-project-details-list-item d-flex">
                            <div class="tp-project-details-list-icon">
                               <i class="fa-thin fa-check"></i>
                            </div>
-                           <div class="tp-project-details-list-content">
-                              <p class="text-black">Provides real-time data visibility across departments for informed decision-making.</p>
-                           </div>
+                           <div class="tagcloud1">
+                            <a href=""> Provides real-time data visibility across departments for informed decision-making. </a>
+                              </div>
+
                         </div>
                         <div class="tp-project-details-list-item d-flex">
                            <div class="tp-project-details-list-icon">
                               <i class="fa-thin fa-check"></i>
                            </div>
-                           <div class="tp-project-details-list-content">
-                              <p class="text-black">Streamlines operations, reduces manual tasks, and enhances overall productivity. </p>
-                           </div>
+                           <div class="tagcloud1">
+                            <a href="">Streamlines operations, reduces manual tasks, and enhances overall productivity. </a>
+                              </div>
+
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-5 order-lg-2 order-sm-2">
+                  <div class="col-lg-5 order-lg-2 order-sm-2 mt-4">
                      <div class="tp-project-details-list-thumb w-img">
                         <img src="assets/img/service/proderp.jpg" alt="" class="service-img1">
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente mb-20">
+            <div class="row align-items-cente mt-4">
                   <div class="col-lg-5 order-lg-1 order-sm-2">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/service/prodcrm.jpg" alt=""  class="service-img1">
@@ -112,31 +115,32 @@
                           <div class="tp-project-details-list-icon">
                              <i class="fa-thin fa-check"></i>
                           </div>
+                          <div class="tagcloud1">
+                            <a href="">Manages customer interactions and relationships throughout the customer lifecycle.</a>
+                              </div>
 
-                          <div class="tp-project-details-list-content">
-                             <p class="text-black">Manages customer interactions and relationships throughout the customer lifecycle.</p>
-                          </div>
                        </div>
                        <div class="tp-project-details-list-item d-flex">
                           <div class="tp-project-details-list-icon">
                              <i class="fa-thin fa-check"></i>
                           </div>
-                          <div class="tp-project-details-list-content">
-                             <p class="text-black">Centralizes customer data, including communication history and preferences.</p>
-                          </div>
+                          <div class="tagcloud1">
+                            <a href="">Centralizes customer data, including communication history and preferences.</a>
+                              </div>
                        </div>
                        <div class="tp-project-details-list-item d-flex">
                           <div class="tp-project-details-list-icon">
                              <i class="fa-thin fa-check"></i>
                           </div>
-                          <div class="tp-project-details-list-content">
-                             <p class="text-black">Improves customer service, sales processes, and marketing strategies through data-driven insights.</p>
-                          </div>
+                          <div class="tagcloud1">
+                            <a href="">Improves customer service, sales processes, and marketing strategies through data-driven insights.</a>
+                              </div>
+
                        </div>
                     </div>
                  </div>
              </div>
-                  <div class="row align-items-center mb-20">
+                  <div class="row align-items-center mb-20 mt-4">
                     <div class="col-lg-7">
                        <div class="tp-project-details-list">
                           <h4 class="Text-black pb-10"> CMS</h4>
@@ -144,30 +148,31 @@
                              <div class="tp-project-details-list-icon">
                                 <i class="fa-thin fa-check"></i>
                              </div>
+                             <div class="tagcloud1">
+                                <a href="">Enables easy creation, editing, and publishing of digital content on websites.</a>
+                                  </div>
+                          </div>
+                          <div class="tp-project-details-list-item d-flex">
+                             <div class="tp-project-details-list-icon">
+                                <i class="fa-thin fa-check"></i>
+                             </div>
+                             <div class="tagcloud1">
+                                <a href="">Supports collaborative content authoring and version control for multiple users.</a>
+                                  </div>
 
-                             <div class="tp-project-details-list-content">
-                                <p class="text-black">Enables easy creation, editing, and publishing of digital content on websites.</p>
-                             </div>
                           </div>
                           <div class="tp-project-details-list-item d-flex">
                              <div class="tp-project-details-list-icon">
                                 <i class="fa-thin fa-check"></i>
                              </div>
-                             <div class="tp-project-details-list-content">
-                                <p class="text-black">Supports collaborative content authoring and version control for multiple users.</p>
-                             </div>
-                          </div>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tp-project-details-list-content">
-                                <p class="text-black">Enhances SEO, site maintenance, and content personalization capabilities.</p>
-                             </div>
+                             <div class="tagcloud1">
+                                <a href="">Enhances SEO, site maintenance, and content personalization capabilities.</a>
+                                  </div>
+
                           </div>
                        </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 mt-4">
                        <div class="tp-project-details-list-thumb w-img">
                           <img src="assets/img/service/prodcms.jpg" alt=""class="service-img1">
                        </div>
@@ -181,7 +186,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <img src="https://devloops.in/assets/img/devcontact.jpg" alt="Description of the image" width="100%" height="auto">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                     </div>
 
                     <div class="offset-xl-1 col-xl-6 col-lg-6 ">
@@ -194,69 +204,108 @@
                             </div>
                         </div>
                         <div class="tp-contact-details-form mb-40">
-                             <form method="POST" action="https://devloops.in/contact">
-                                <input type="hidden" name="_token" value="0onRNtJVOv9D8cw598ssBk5G2frnHpxrro5NgzYr" autocomplete="off">                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="firstname" placeholder="First Name" fdprocessedid="sipzh">
-                                            <span><i class="fa-light fa-user"></i></span>
-
-                                        </div>
-                                          </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="lastname" placeholder="Last Name" fdprocessedid="taxdmr">
-                                            <span><i class="fa-light fa-user"></i></span>
-                                        </div>
-                                      </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="email" placeholder="Email Address" fdprocessedid="9qgctj">
-                                            <span><i class="fa-light fa-envelope"></i></span>
-                                        </div>
-                                         </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="phone" placeholder="Phone Number" fdprocessedid="4gfa1">
-                                            <span><i class="fa-light fa-phone"></i></span>
-                                        </div>
-                                   </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
-                                        </div>
-                                          </div>
-                                    <!-- <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <input type="text" placeholder="Company Name">
-                                             <span><i class="fa-light fa-user"></i></span>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-
-                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                             <input type="text" placeholder="Your Subject">
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                             <span><i class="fa-light fa-pen"></i></span>
-                                          </div>
-                                       </div> -->
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-btn">
-                                            <button class="tp-btn" fdprocessedid="ydpv3j">Send a Message</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+                    {{-- @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
                         </div>
+                    @endif
+                    @if (session('succus'))
+                        <div class="alert alert-succuss">
+                            {{ session('succuss') }}
+                        </div>
+                    @endif --}}
+
+                    @if (session('error'))
+                    <div class="alert alert-danger">
+                        {{ session('error') }}
+                    </div>
+                @endif
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                <form method="POST" action="{{ route('contact.store') }}">
+                    @csrf
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-input mb-20">
+                                <input type="text" name="firstname" placeholder="First Name">
+                                <span><i class="fa-light fa-user"></i></span>
+
+                            </div>
+                            @error('firstname')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-input mb-20">
+                                <input type="text" name="lastname" placeholder="Last Name">
+                                <span><i class="fa-light fa-user"></i></span>
+                            </div>
+                            @error('lastname')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-input mb-20">
+                                <input type="text" name="email" placeholder="Email Address" required>
+                                <span><i class="fa-light fa-envelope"></i></span>
+                            </div>
+                            @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-input mb-20">
+                                <input type="tel" name="phone" placeholder="Phone Number" maxlength="13">
+                                <span><i class="fa-light fa-phone"></i></span>
+                            </div>
+                            @error('phone')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+
+
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-input mb-20">
+                                <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                            </div>
+                            @error('description')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                        <!-- <div class="col-lg-12">
+                              <div class="tp-contact-details-form-input mb-20">
+                                 <input type="text" placeholder="Company Name">
+                                 <span><i class="fa-light fa-user"></i></span>
+                              </div>
+                           </div>
+                           <div class="col-lg-12">
+                              <div class="tp-contact-details-form-input mb-20">
+
+                                 <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                 <input type="text" placeholder="Your Subject">
+                              </div>
+                           </div>
+                           <div class="col-lg-12">
+                              <div class="tp-contact-details-form-input mb-20">
+                                 <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                 <span><i class="fa-light fa-pen"></i></span>
+                              </div>
+                           </div> -->
+                        <div class="col-lg-12">
+                            <div class="tp-contact-details-form-btn">
+                                <button class="tp-btn">Send a Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
                     </div>
                 </div>
             </div>

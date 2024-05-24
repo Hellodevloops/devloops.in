@@ -738,6 +738,9 @@ div.demo img {
 .mt-10{
     margin-top: 10px;
 }
+.mt-50{
+    margin-top: 50px;
+}
 /*----------------------------------------*/
 /*  2.1 Back to top
 /*----------------------------------------*/
@@ -9042,6 +9045,39 @@ a.ui-button:active {
 .tagcloud-sm a:hover {
   border-color: var(--tp-theme-primary);
 }
+
+/* tagcloud1 */
+.tagcloud1 a {
+    background: var(--tp-common-white);
+    color: var(--tp-text-body);
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    border: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  .tagcloud1 a:hover {
+    background: var(--tp-theme-primary);
+    color: var(--tp-common-white);
+  }
+  .tagcloud1-sm span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: #0c0a1f;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .tagcloud1-sm a {
+    border: 1px solid #eaebeb;
+  }
+  .tagcloud1-sm a:hover {
+    border-color: var(--tp-theme-primary);
+  }
 
 blockquote {
   padding: 0px 0 0 30px;
@@ -18331,6 +18367,7 @@ padding-right: 40px !important;
 .ml-4{
   margin-left: 4px;
 }
+
 .mt-n2{
   margin-top: -4px;
 }
@@ -18353,6 +18390,6 @@ padding-right: 40px !important;
    margin-bottom: 20px;
 }
 .service-img1{
-    width: 200px;
-    height: 230px;
+    width: 240px;
+    height: 280px;
 }
