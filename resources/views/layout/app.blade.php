@@ -76,7 +76,12 @@
                            <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle>
                         </svg>
                      </div> -->
-                     <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
+                     
+                    {{-- previous preloader --}}
+                     {{-- <div class="custom-image-wrapper custom-dark-overlay">
+                        <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
+                    </div> --}}
+                    <img src="assets/img/logo/favicon.png" alt="">
                   </div>
                 <!-- <p class="tp-preloader-subtitle">Loading...</p> -->
                </div>

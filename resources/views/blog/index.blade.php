@@ -104,6 +104,28 @@
 
                 </div>
                  <!-- Pagination start -->
+                 <style>
+                    .page-item:not(:first-child) .page-link {
+    margin-left: calc(var(--bs-border-width)* -1);
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #ff0080;
+    border-color: #ff0080;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #ff0080;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+                 </style>
     <div class="row gy-3 align-items-center" style="margin-left:45%;">
         <div class="col col-md-4 col-6 order-md-3 order-2">
             <nav aria-label="Page navigation">
@@ -138,7 +160,7 @@
                             </a>
                         </li>
                     @else
-                        <li class="page-item disabled" aria-disabled="true"  style="width: 40px; height:35px; padding-top:10px;" aria-label="@lang('pagination.next')">
+                        <li class="page-item disabled" aria-disabled="true"  style="width: 40px; height:35px; " aria-label="@lang('pagination.next')">
                             <span class="page-link" aria-hidden="true">
                                 <i class="bi-chevron-double-right small"></i>
                             </span>

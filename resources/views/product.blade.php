@@ -33,7 +33,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-120 pb-120">
+        <section class="project-details-area pt-120 pb-120 mb-20">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
@@ -102,7 +102,7 @@
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente mt-4">
+            <div class="row align-items-cente mt-4 mb-20">
                   <div class="col-lg-5 order-lg-1 order-sm-2">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/service/prodcrm.jpg" alt=""  class="service-img1">
