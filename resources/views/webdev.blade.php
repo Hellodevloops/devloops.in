@@ -62,7 +62,7 @@
                   </div>
                </div>
                <div class="row align-items-center mb-20">
-                  <div class="col-lg-7 order-lg-1 order-sm -1">
+                  <div class="col-lg-7 order-lg-1 order-sm -1 mb-20">
                      <div class="tp-project-details-list">
                         <h4 class="Text-black pb-10"> E-Commerce Website</h4>
                         <div class="tp-project-details-list-item d-flex">
@@ -88,7 +88,7 @@
                            </div> --}}
                            <div class="tagcloud1">
 
-                            <a href="">They have a shopping cart system that allows users to add products to their cart, review their cart, and proceed to checkout. </a>
+                            <a href="">They have a shopping cart system that allows users to add products to their cart etc and proceed to checkout. </a>
 
                          </div>
                         </div>
@@ -98,26 +98,25 @@
                            </div>
                            <div class="tagcloud1">
 
-                            <a href="">E-commerce sites have order management systems to track orders, process payments, generate invoices, and handle refunds or returns. </a>
-
+                            <a href="">E-commerce platforms employ order management systems for order tracking,invoicing and handling refunds/returns</a>
                          </div>
 
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-5 order-lg-2 order-sm-2 ">
+                  <div class="col-lg-5 order-lg-2 order-sm-2 mb-20 ">
                      <div class="tp-project-details-list-thumb w-img">
                         <img src="assets/img/service/webecom.jpg" alt="" class="service-img1">
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente ">
-                  <div class="col-lg-5 order-lg-1 order-sm-2 mt-4">
+            <div class="row align-items-cente mb-20">
+                  <div class="col-lg-5 order-lg-1 order-sm-2 mt-4 mb-20">
                     <div class="tp-project-details-list-thumb w-img">
-                       <img src="assets/img/service/webmultipage.jpg" alt=""  class="service-img1">
+                       <img src="assets/img/webmultipageblog1.jpg" alt=""  class="service-img1">
                     </div>
                  </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1 mt-4">
+                 <div class="col-lg-7 order-lg-2 order-sm-1 mt-4 mb-20">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> Multi-page Website</h4>
                        <div class="tp-project-details-list-item d-flex">
@@ -147,14 +146,14 @@
                              <i class="fa-thin fa-check"></i>
                           </div>
                           <div class="tagcloud1">
-                            <a href=""> Multi-page sites are optimized for search engines (SEO) by structuring content hierarchically, using relevant keywords, meta tags, and optimizing page load speed. </a>
+                            <a href=""> Sites are optimized for (SEO) by structuring content hierarchically, using meta tags, and optimizing page load speed. </a>
                               </div>
 
                        </div>
                     </div>
                  </div>
              </div>
-                  <div class="row align-items-center mb-20">
+                  <div class="row align-items-center mb-20 mt-4">
                     <div class="col-lg-7">
                        <div class="tp-project-details-list">
                           <h4 class="Text-black pb-10"> Dynamic Website</h4>
@@ -163,8 +162,8 @@
                                 <i class="fa-thin fa-check"></i>
                              </div>
                              <div class="tagcloud1">
-                                <a href="">Dynamic websites fetch content from databases in real-time, allowing for dynamic generation of web pages based on user input or system data.</a>
-                                  </div>
+                                <a href="">Dynamic websites use real-time database content to generate web pages based on user input or system data.</a>
+                            </div>
 
                           </div>
                           <div class="tp-project-details-list-item d-flex">
@@ -180,8 +179,8 @@
                                 <i class="fa-thin fa-check"></i>
                              </div>
                              <div class="tagcloud1">
-                                <a href="">This integration enables content updates, database management, user management, and content caching for improved performance. </a>
-                                  </div>
+                                <a href="">This integration supports content updates, database management, user management for better performance.</a>
+                            </div>
 
                           </div>
                        </div>

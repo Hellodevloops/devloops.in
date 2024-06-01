@@ -32,7 +32,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-120 pb-120">
+        <section class="project-details-area pt-120 pb-120 mb-20">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
@@ -61,7 +61,7 @@
                   </div>
                </div>
                <div class="row align-items-center mb-20">
-                  <div class="col-lg-7 order-lg-1 order-sm -1">
+                  <div class="col-lg-7 order-lg-1 order-sm -1 mb-20">
                      <div class="tp-project-details-list">
                         <h4 class="Text-black pb-10"> Iot Analytics</h4>
                         <div class="tp-project-details-list-item d-flex">
@@ -69,7 +69,7 @@
                               <i class="fa-thin fa-check"></i>
                            </div>
                            <div class="tagcloud1">
-                            <a href="">Leverage data analytics to gain deep insights into IoT-generated data, enabling informed decision-making and predictive analysis.</a>
+                            <a href="">Use data analytics to gain insights from IoT data, enabling informed decisions and predictive analysis.</a>
                               </div>
 
                         </div>
@@ -78,7 +78,7 @@
                               <i class="fa-thin fa-check"></i>
                            </div>
                            <div class="tagcloud1">
-                            <a href="">Monitor IoT devices and systems in real time to detect anomalies, optimize performance, and ensure operational efficiency.</a>
+                            <a href="">Monitor IoT devices in real time to detect anomalies, optimize performance, and ensure efficiency.</a>
                               </div>
                         </div>
                         <div class="tp-project-details-list-item d-flex">
@@ -86,24 +86,26 @@
                               <i class="fa-thin fa-check"></i>
                            </div>
                            <div class="tagcloud1">
-                            <a href="">Utilize machine learning algorithms to predict trends, detect patterns, and optimize processes based on historical and real-time IoT data.</a>
-                              </div>
+                            <a href="">
+                                Use machine learning to predict trends, detect patterns, and optimize processes using IoT data.</a>
+
+                        </div>
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-5 order-lg-2 order-sm-2 mt-4">
+                  <div class="col-lg-5 order-lg-2 order-sm-2 mt-4 mb-20">
                      <div class="tp-project-details-list-thumb w-img">
                         <img src="assets/img/service/iotanalytics.jpg" alt="" class="service-img1">
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente mt-4">
-                  <div class="col-lg-5 order-lg-1 order-sm-2">
+            <div class="row align-items-cente mt-4 mb-20">
+                  <div class="col-lg-5 order-lg-1 order-sm-2 mb-20">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/service/iotconnectivity.jpg" alt=""  class="service-img1">
                     </div>
                  </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1">
+                 <div class="col-lg-7 order-lg-2 order-sm-1 mb-20">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> IoT Connectivity</h4>
                        <div class="tp-project-details-list-item d-flex">
@@ -111,7 +113,7 @@
                              <i class="fa-thin fa-check"></i>
                           </div>
                           <div class="tagcloud1">
-                            <a href="">Ensure seamless integration of IoT devices into existing infrastructure and networks, facilitating smooth communication and data exchange.</a>
+                            <a href="">Ensure seamless IoT integration into existing infrastructure for smooth communication and data exchange.</a>
                               </div>
 
                        </div>
@@ -120,7 +122,7 @@
                              <i class="fa-thin fa-check"></i>
                           </div>
                           <div class="tagcloud1">
-                            <a href=""> Design scalable and resilient network architectures that can handle the increasing volume of IoT devices and data traffic effectively.</a>
+                            <a href="">Design scalable and resilient network architectures to manage the increasing volume of IoT devices effectively.</a>
                               </div>
                        </div>
                        <div class="tp-project-details-list-item d-flex">
@@ -143,7 +145,7 @@
                                 <i class="fa-thin fa-check"></i>
                              </div>
                              <div class="tagcloud1">
-                                <a href="">Implement robust encryption mechanisms to secure data transmission and protect IoT devices, preventing unauthorized access and data breaches.</a>
+                                <a href="">Implement robust encryption to secure data transmission and protecting IoT devices from unauthorized access .</a>
                                   </div>
                           </div>
                           <div class="tp-project-details-list-item d-flex">
@@ -151,7 +153,7 @@
                                 <i class="fa-thin fa-check"></i>
                              </div>
                              <div class="tagcloud1">
-                                <a href="">Employ strong authentication methods such as biometrics or multi-factor authentication to verify device identities and ensure secure access.</a>
+                                <a href="">Use biometrics or multi-factor authentication to verify device identities, ensuring secure access.</a>
                                   </div>
                           </div>
                           <div class="tp-project-details-list-item d-flex">
@@ -159,7 +161,7 @@
                                 <i class="fa-thin fa-check"></i>
                              </div>
                              <div class="tagcloud1">
-                                <a href="">Adhere to stringent data privacy regulations and standards, implement privacy-by-design principles, and secure data storage.</a>
+                                <a href="">Adhere to stringent data privacy regulations and standards, implement secure data storage.</a>
                                   </div>
                           </div>
                        </div>

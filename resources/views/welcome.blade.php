@@ -742,7 +742,7 @@
         <!-- blog-area-end -->
  <!-- contact-area-start -->
 
- <section class="contact-area pt-115 pb-80 ">
+ <section class="contact-area  pb-80 ">
     <div class="container">
         <div class="row">
             <div class="col-xl-5 col-lg-6 mt-10">
@@ -819,7 +819,7 @@
                                     <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
                             </div>
-                            
+
                             <div class="col-lg-12">
                                 <div class="tp-contact-details-form-input mb-20">
                                     <input type="tel" name="phone" placeholder="Phone Number" maxlength="13">
