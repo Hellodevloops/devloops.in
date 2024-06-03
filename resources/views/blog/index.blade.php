@@ -66,17 +66,27 @@
                                     <div class="tp-blog-two-content">
                                         <span>{{ $post->created_at->format('F d, Y') }}</span>
                                         <h4 class="tp-blog-two-title">
-                                            <a
-                                                href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+                                            <a href="{{ route('post.show', ['slug' => $post->slug]) }}" class="truncate-title">{{ $post->title }}</a>
                                         </h4>
                                         <div class="tp-blog-two-btn">
                                             <a href="{{ route('post.show', ['slug' => $post->slug]) }}">Read More</a>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     @endforeach
+                    <style>
+                        .truncate-title {
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+
+                    </style>
                     {{-- <div class="col-lg-4 col-md-6">
                         <div class="tp-blog-two mb-30">
                             <div class="tp-blog-two-item">

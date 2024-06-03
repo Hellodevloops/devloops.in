@@ -98,7 +98,7 @@
                            </div>
                            <div class="tagcloud1">
 
-                            <a href="">E-commerce platforms employ order management systems for order tracking,invoicing and handling refunds/returns</a>
+                            <a href="">E-commerce platforms employ order management systems for order tracking,invoicing and handling refunds/returns.</a>
                          </div>
 
                         </div>
