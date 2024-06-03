@@ -86,7 +86,7 @@
                            <circle stroke="red" cx="190" cy="190" r="180" stroke-width="6" stroke-linecap="round"></circle>
                         </svg>
                      </div> -->
-                     
+
                     {{-- previous preloader --}}
                      {{-- <div class="custom-image-wrapper custom-dark-overlay">
                         <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
@@ -263,10 +263,10 @@
                   <p>1489 Langley Ave <br> Grand Forks Afb, North.</p>
                </div> --}}
                <div class="side-info-social">
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                  <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
+                  {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fa-solid fa-paper-plane"></i></a> --}}
                </div>
             </div>
          </div>

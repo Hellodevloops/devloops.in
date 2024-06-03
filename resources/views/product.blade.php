@@ -103,12 +103,12 @@
                   </div>
                 </div>
             <div class="row align-items-cente mt-4 mb-20">
-                  <div class="col-lg-5 order-lg-1 order-sm-2">
+                  <div class="col-lg-5 order-lg-1 order-sm-2 mt-4">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/service/prodcrm.jpg" alt=""  class="service-img1">
                     </div>
                  </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1">
+                 <div class="col-lg-7 order-lg-2 order-sm-1 mt-4">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> CRM</h4>
                        <div class="tp-project-details-list-item d-flex">
@@ -141,7 +141,7 @@
                  </div>
              </div>
                   <div class="row align-items-center mb-20 mt-4">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 mt-4">
                        <div class="tp-project-details-list">
                           <h4 class="Text-black pb-10"> CMS</h4>
                           <div class="tp-project-details-list-item d-flex">
