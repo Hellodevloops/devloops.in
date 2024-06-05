@@ -125,15 +125,11 @@
                             </div>
                             <div class="tp-about-3-item mb-35">
                                 <div class="tp-about-3-item-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080"
-                                        class="bi bi-person-fill-up" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
-                                        </path>
-                                        <path
-                                            d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4">
-                                        </path>
-                                    </svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080" class="bi bi-person-add" viewBox="0 0 16 16">
+                                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                                        <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
+                                      </svg>
                                 </div>
                                 <div class="tp-about-3-item-content">
                                     <h4 class="tp-about-3-item-title">Who We Are</h4>
@@ -184,11 +180,11 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/proddev1flaticon.png') }}" alt="prod"> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                                <img src="{{ asset('assets/img/prodflat.png') }}" alt="prod">
+                                {{-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-cpu-fill" viewBox="0 0 16 16">
                                     <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
                                     <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5"/>
-                                  </svg>
+                                  </svg> --}}
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
@@ -204,9 +200,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-terminal-fill" viewBox="0 0 16 16">
-                                    <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1m-6.354-.354a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708L4.793 6.5z"/>
-                                  </svg>
+                                <img src="{{ asset('assets/img/webflat.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
@@ -222,10 +216,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-ethernet" viewBox="0 0 16 16">
-                                    <path d="M14 13.5v-7a.5.5 0 0 0-.5-.5H12V4.5a.5.5 0 0 0-.5-.5h-1v-.5A.5.5 0 0 0 10 3H6a.5.5 0 0 0-.5.5V4h-1a.5.5 0 0 0-.5.5V6H2.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5M3.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m2 0h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zM9.75 11h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25m1.75.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v1.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
-                                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z"/>
-                                  </svg>
+                                <img src="{{ asset('assets/img/iotflat.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
@@ -241,9 +232,7 @@
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-pip-fill" viewBox="0 0 16 16">
-                                    <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5"/>
-                                  </svg>
+                                <img src="{{ asset('assets/img/healthflat.png') }}" alt="prod">
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
@@ -615,7 +604,7 @@
         <!-- solution-area-end -->
 
         <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pt-115 pb-60">
+        <section class="team-area tp-team-3-border fix pb-20 pt-70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -695,7 +684,7 @@
         <!-- team-area-end -->
 
         <!-- blog-area-start -->
-        <section id="blog-one-page" class="blog-area pb-40 pt-60">
+        <section id="blog-one-page" class="blog-area pb-40 pt-40">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -716,7 +705,7 @@
                                     <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
                                         <div class="tp-thumb-common-overlay wow"></div>
                                         <a href="{{ route('post.show', ['slug' => $post->slug]) }}">
-                                            <img src="{{ $post->hero }}" alt="{{ $post->title }}">
+                                            <img src="{{ $post->hero }} " alt="{{ $post->title }}">
                                             <div class="tp-blog-two-thumb-plus">
                                                 <i class="fa-regular fa-plus"></i>
                                             </div>
@@ -726,7 +715,7 @@
                                         <span>{{ $post->created_at->format('F d, Y') }} _ IT Service</span>
                                         <h4 class="tp-blog-two-title">
                                             <a
-                                                href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+                                                href="{{ route('post.show', ['slug' => $post->slug]) }}"  class="truncate-title">{{ $post->title }}</a>
                                         </h4>
                                         <div class="tp-blog-two-btn">
                                             <a href="{{ route('post.show', ['slug' => $post->slug]) }}">Read More</a>
@@ -739,10 +728,20 @@
                 </div>
             </div>
         </section>
+        <style>
+            .truncate-title {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+        </style>
         <!-- blog-area-end -->
  <!-- contact-area-start -->
 
- <section class="contact-area  pb-80 ">
+ <section class="contact-area ">
     <div class="container">
         <div class="row">
             <div class="col-xl-5 col-lg-6 mt-10">
@@ -755,7 +754,7 @@
             </div>
 
             <div class="offset-xl-1 col-xl-6 col-lg-6 ">
-                <div class="tp-section tp-section-two mb-25">
+                <div class="tp-section tp-section-two ">
                     <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
                     {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
                     <div class="tp-section-title-wrapper">

@@ -218,7 +218,7 @@
          </div>
 
         <!-- review-area-start -->
-        <section class="review-area pt-5 pb-5 mb-55 mt-50">
+        <section class="review-area pb-5 mt-50">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mt-50">
@@ -345,7 +345,7 @@
         <!-- review-area-end -->
 
         <!-- contact form -->
-        <section class="contact-area pt-115 pb-80 ">
+        <section class="contact-area pt-50 pb-10 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">

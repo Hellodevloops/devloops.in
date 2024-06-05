@@ -32,7 +32,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-120 pb-120 mb-20">
+        <section class="project-details-area pt-40 pb-120 mb-20">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
@@ -99,13 +99,13 @@
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente mt-4 mb-20">
-                  <div class="col-lg-5 order-lg-1 order-sm-2 mb-20">
+            <div class="row align-items-cente mt-4 ">
+                  <div class="col-lg-5 order-lg-1 order-sm-2">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/service/iotconnectivity.jpg" alt=""  class="service-img1">
                     </div>
                  </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1 mb-20">
+                 <div class="col-lg-7 order-lg-2 order-sm-1x">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> IoT Connectivity</h4>
                        <div class="tp-project-details-list-item d-flex">
@@ -176,7 +176,7 @@
             </div>
          </section>
 
-         <section class="contact-area">
+         <section class="contact-area mt-n5">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
