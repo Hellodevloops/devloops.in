@@ -33,7 +33,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-120 pb-120">
+        <section class="project-details-area pt-40 pb-120">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">

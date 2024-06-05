@@ -36,7 +36,7 @@
 
         <!-- contact-area-start -->
 
-        <section class="contact-area pt-115 pb-80 ">
+        <section class="contact-area pt-50 pb-20 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6 mt-10">

@@ -65,7 +65,7 @@
                             data-wow-delay=".6s">
                             <div class="tp-section  tp-section-3 ">
                                 <span class="tp-section-sub-title">About Us</span>
-                                <h4 class="tp-section-title">Why Choose DevLoops International</h4>
+                                <h4 class="tp-section-title">Why Choose Devloops International</h4>
                                 <div class="postbox-text">
 
                                     <ul>
@@ -170,7 +170,7 @@
 
 
         <!-- management-area-start -->
-        <section class="management-area tp-management-position pb-60">
+        <section class="management-area tp-management-position pb-10">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-xl-6 col-lg-6">
@@ -225,7 +225,7 @@
         <!-- management-area-end -->
 
         <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pt-115 pb-60">
+        <section class="team-area tp-team-3-border fix pb-10">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

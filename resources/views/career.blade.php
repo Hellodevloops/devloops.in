@@ -24,7 +24,7 @@
         <!-- breadcrumb-area-end -->
 
         <!-- team-details-area-start -->
-        <section class="team-detals-area pt-120 pb-5">
+        <section class="team-detals-area pt-50 pb-5">
            <div class="container">
               <div class="tp-team-details-head">
                  <div class="row">
