@@ -604,6 +604,21 @@
         <!-- solution-area-end -->
 
         <!-- team-area-start -->
+        <style>
+              @media (max-width: 767px) {
+        .tp-team-3-thumb-wrap {
+            display: flex;
+            justify-content: center;
+        }
+        .tp-thumb-common-overlay {
+            padding-left: 60px;
+        }
+        .tp-team-3-thumb-wrap img {
+            display: block;
+            margin: auto;
+        }
+    }
+        </style>
         <section class="team-area tp-team-3-border fix pb-20 pt-70">
             <div class="container">
                 <div class="row">
@@ -703,7 +718,7 @@
                             <div class="tp-blog-two mb-30">
                                 <div class="tp-blog-two-item">
                                     <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                        <div class="tp-thumb-common-overlay wow"></div>
+                                        {{-- <div class="tp-thumb-common-overlay wow"></div> --}}
                                         <a href="{{ route('post.show', ['slug' => $post->slug]) }}">
                                             <img src="{{ $post->hero }} " alt="{{ $post->title }}">
                                             <div class="tp-blog-two-thumb-plus">
@@ -737,6 +752,29 @@
                 text-overflow: ellipsis;
             }
 
+            @media (max-width: 767px) {
+        .blog-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blog-item {
+            width: 100%;
+            max-width: 350px; /* Adjust the max-width as needed */
+            margin-bottom: 30px;
+        }
+
+        .tp-blog-two {
+            width: 100%;
+        }
+
+        .tp-blog-two-thumb > a img {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+}
+    }
         </style>
         <!-- blog-area-end -->
  <!-- contact-area-start -->
