@@ -7977,7 +7977,7 @@ a.ui-button:active {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(15, 13, 29, 0);
+  /* background-color: rgba(15, 13, 29, 0); */
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
