@@ -99,7 +99,7 @@
                      </div>
                      <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"  target="blank"> Learn More</a>
                         </div>
 
 
@@ -140,7 +140,7 @@
                     </div>
                     <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
                         </div>
 
 
@@ -171,7 +171,7 @@
                        </div>
                        <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
                         </div>
 
 

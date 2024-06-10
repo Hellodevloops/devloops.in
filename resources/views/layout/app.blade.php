@@ -124,8 +124,9 @@
                      </div> -->
                      <div class="tp-header-3-top-social">
 
-                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" ><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                                          </div>
                   </div>
                </div>
@@ -253,8 +254,9 @@
                   <p>1489 Langley Ave <br> Grand Forks Afb, North.</p>
                </div> --}}
                <div class="side-info-social">
-                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"   ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                   {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                   <a href="#"><i class="fa-solid fa-paper-plane"></i></a> --}}
                </div>
@@ -475,8 +477,9 @@
                                 <p>Our expertise, as well as our passion for web design, sets us agenciese</p>
                                 <div class="tp-footer-widget-newsletter-social">
 
-                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"><i class="fa-brands fa-instagram"></i></a>
-                                   <a href="https://www.linkedin.com/company/devloops-llp/"><i class="fa-brands fa-linkedin-in"></i></a>
+                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank" ><i class="fa-brands fa-instagram"></i></a>
+                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                                   <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
 
                                 </div>
                              </div>

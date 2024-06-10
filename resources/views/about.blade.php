@@ -225,7 +225,7 @@
         <!-- management-area-end -->
 
         <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pb-10">
+        {{-- <section class="team-area tp-team-3-border fix pb-10">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -243,33 +243,7 @@
                         <div class="tp-team-3-wrap">
                             <div class="swiper-container tp-team-3-active">
                                 <div class="swiper-wrapper">
-                                    {{-- <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <!-- <a href="#" class="team-member" data-toggle="modal" data-target="#teamModal" data-name="Riya Vaidya" data-role="BackEnd developer"></a> -->
-                                                    <img src="assets/img/riya1n-removebg-preview.png" alt=""
-                                                        style="background-color: whitesmoke;">
-                                                </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
-                                                </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Riya Vaidya</a>
-                                                </h5>
-                                                <span>BackEnd developer</span>
-                                            </div>
-                                        </div>
-                                    </div> --}}
+
                                     @php
                                     use App\Models\Team;
                                     $team = Team::all();
@@ -309,7 +283,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- team-area-end -->
 
         <!-- cta-area-star -->
