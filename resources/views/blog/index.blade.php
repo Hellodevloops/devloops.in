@@ -136,12 +136,12 @@
     border: 1px solid #dee2e6;
 }
                  </style>
-    <div class="row gy-3 align-items-center" style="margin-left:45%;">
+    <div class="row gy-3 align-items-center" style="margin-left:41%; margin-top:50px;">
         <div class="col col-md-4 col-6 order-md-3 order-2">
             <nav aria-label="Page navigation">
                 <ul class="pagination justify-content-end">
                     {{-- Previous Page Link --}}
-                    @if ($blog_posts->onFirstPage())
+                    {{-- @if ($blog_posts->onFirstPage())
                         <li class="page-item" aria-disabled="true" aria-label="@lang('pagination.previous')">
                             <span class="page-link" aria-hidden="true" style="width: 40px; height:35px; padding-top:10px;">
                                 <i class="bi-chevron-double-left small"></i>
@@ -153,7 +153,7 @@
                                 <i class="bi-chevron-double-left small"  style="width: 40px; height:35px; padding-top:10px;"></i>
                             </a>
                         </li>
-                    @endif
+                    @endif --}}
 
                     {{-- Page Numbers --}}
                     @for ($i = 1; $i <= $blog_posts->lastPage(); $i++)
@@ -163,7 +163,7 @@
                     @endfor
 
                     {{-- Next Page Link --}}
-                    @if ($blog_posts->hasMorePages())
+                    {{-- @if ($blog_posts->hasMorePages())
                         <li class="page-item">
                             <a class="page-link"  style="width: 40px; height:35px; padding-top:10px;" href="{{ $blog_posts->nextPageUrl() }}" rel="next" aria-label="@lang('pagination.next')">
                                 <i class="bi-chevron-double-right small" ></i>
@@ -175,7 +175,7 @@
                                 <i class="bi-chevron-double-right small"></i>
                             </span>
                         </li>
-                    @endif
+                    @endif --}}
                 </ul>
             </nav>
         </div>
