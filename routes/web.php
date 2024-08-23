@@ -28,9 +28,12 @@ Route::get('/about', function () {
 Route::get('/termsncondition', function () {
     return view('termsncondition');
 })->name('termsncondition');
-Route::get('/privacy', function () {
+Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');
+Route::get('/refund-policy', function () {
+    return view('refund');
+})->name('refund');
 // Route::get('/refund', function () {
 //     return view('refund');
 // });

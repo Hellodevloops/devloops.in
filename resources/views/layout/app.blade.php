@@ -429,6 +429,9 @@
                                 <li><a href="{{ route('post') }}"><i class="fa-sharp fa-solid fa-plus"></i>Blog</a></li>
                                 <li><a href="{{ route('career') }}"><i class="fa-sharp fa-solid fa-plus"></i>Career</a></li>
                                 <li><a href="{{ route('contact') }}"><i class="fa-sharp fa-solid fa-plus"></i> Contact</a></li>
+                                <li><a href="{{ route('termsncondition') }}"><i class="fa-sharp fa-solid fa-plus"></i> Terms and Condition</a></li>
+                                <li><a href="{{ route('privacy') }}"><i class="fa-sharp fa-solid fa-plus"></i> Privacy Policy</a></li>
+                                <li><a href="{{ route('refund') }}"><i class="fa-sharp fa-solid fa-plus"></i> Refund Policy</a></li>
 
                             </ul>
                           </div>
@@ -538,6 +541,26 @@
      <script src="{{ asset('assets/js/imagesloaded-pkgd.js') }}"></script>
      <script src="{{ asset('assets/js/ajax-form.js') }}"></script>
      <script src="{{ asset('assets/js/main.js') }}"></script>
+     {{-- new --}}
+
+     <script>
+        (function(d,t) {
+          var BASE_URL="https://boondock-support-chatwoot.y4nyjj.easypanel.host/";
+          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src=BASE_URL+"/packs/js/sdk.js";
+          g.defer = true;
+          g.async = true;
+          s.parentNode.insertBefore(g,s);
+          g.onload=function(){
+            window.chatwootSDK.run({
+              websiteToken: 'vVtvW1tf2tM7AR3aQuuEXCe2',
+              baseUrl: BASE_URL
+            })
+          }
+        })(document,"script");
+      </script>
+
+
      <!-- our clients codepen js -->
      <script>
         var mySwiper = new Swiper('.client .swiper-container', {
