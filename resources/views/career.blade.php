@@ -24,7 +24,7 @@
         <!-- breadcrumb-area-end -->
 
         <!-- team-details-area-start -->
-        <section class="team-detals-area pt-120 pb-5">
+        <section class="team-detals-area pt-50 pb-5">
            <div class="container">
               <div class="tp-team-details-head">
                  <div class="row">
@@ -70,7 +70,7 @@
                                             </ul>
                                         </div> --}}
                                         <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                            <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                            <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +90,7 @@
                                             </ul>
                                         </div> --}}
                                         <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                            <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                            <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                                         </ul>
                                     </div> --}}
                                     <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                        <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                        <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                                         </ul>
                                     </div> --}}
                                     <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                        <a class="tp-btn" href="http://127.0.0.1:8000/contact">Apply</a>
+                                        <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
                                     </div>
                                 </div>
                             </div>

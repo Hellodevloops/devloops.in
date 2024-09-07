@@ -738,6 +738,9 @@ div.demo img {
 .mt-10{
     margin-top: 10px;
 }
+.mt-50{
+    margin-top: 50px;
+}
 /*----------------------------------------*/
 /*  2.1 Back to top
 /*----------------------------------------*/
@@ -2259,7 +2262,7 @@ div.demo img {
   left: 0%;
   width: 0%;
   height: 100%;
-  /* color:rgb(255, 0, 128) 0%; */
+  color:rgb(255, 0, 128) 0%;
   background-color: rgba(255, 0, 128, 0.508);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -3851,7 +3854,7 @@ div.demo img {
   border-radius: 50%;
 }
 .tp-section-title {
-  font-size: 40px;
+  font-size: 35px;
   color: var(--tp-theme-secondary);
   font-weight: 700;
   line-height: 1.25;
@@ -3859,7 +3862,7 @@ div.demo img {
 }
 @media (max-width: 767px) {
   .tp-section-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media (max-width: 767px) {
@@ -7974,7 +7977,7 @@ a.ui-button:active {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(15, 13, 29, 0);
+  /* background-color: rgba(15, 13, 29, 0); */
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -9043,6 +9046,39 @@ a.ui-button:active {
   border-color: var(--tp-theme-primary);
 }
 
+/* tagcloud1 */
+.tagcloud1 a {
+    background: var(--tp-common-white);
+    color: var(--tp-text-body);
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    border: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  .tagcloud1 a:hover {
+    background: var(--tp-theme-primary);
+    color: var(--tp-common-white);
+  }
+  .tagcloud1-sm span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1;
+    color: #0c0a1f;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  .tagcloud1-sm a {
+    border: 1px solid #eaebeb;
+  }
+  .tagcloud1-sm a:hover {
+    border-color: var(--tp-theme-primary);
+  }
+
 blockquote {
   padding: 0px 0 0 30px;
   margin-bottom: 35px;
@@ -9666,11 +9702,14 @@ blockquote cite::before {
     #bcffa4 8.59%,
     #f59571 86.19%
   );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-  padding-right: 3px;
+  .element {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent; /* Use color instead of text-fill-color */
+    padding-right: 3px;
+  }
+
 }
 .tp-hero-thumb img {
   mix-blend-mode: hard-light;
@@ -9910,11 +9949,16 @@ blockquote cite::before {
     #f59571 86.19%
   );
   background-image: -o-linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%);
-  background-image: linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%);
+  background-image: -moz-linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%); /* Fallback for Firefox */
+  background-image: -webkit-linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%); /* Fallback for Safari and Chrome */
+  background-image: linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%); /* Standard */
+
   -webkit-background-clip: text;
+  background-clip: text; /* Standard fallback */
+
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  color: transparent; /* Standard fallback */
+
   mix-blend-mode: luminosity;
   opacity: 0.3;
   margin-bottom: 0;
@@ -10240,13 +10284,17 @@ blockquote cite::before {
   }
 }
 .tp-services-item-head span {
-  font-size: 220px;
-  background: -webkit-linear-gradient(45deg, #ff0080, #0f0d1d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
-  text-transform: uppercase;
-}
+    font-size: 220px;
+    background: -webkit-linear-gradient(45deg, #ff0080, #0f0d1d);
+    background: linear-gradient(45deg, #ff0080, #0f0d1d); /* Fallback for other browsers */
+    -webkit-background-clip: text;
+    background-clip: text; /* Fallback for other browsers */
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Fallback for other browsers */
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-services-item-head span {
     font-size: 160px;
@@ -11471,9 +11519,9 @@ blockquote cite::before {
   background-image: -o-linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%);
   background-image: linear-gradient(90.68deg, #bcffa4 8.59%, #f59571 86.19%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   mix-blend-mode: luminosity;
   opacity: 0.2;
   margin-bottom: 0;
@@ -13294,13 +13342,13 @@ blockquote cite::before {
   position: absolute;
   background-color: rgba(113, 113, 114, 0.75);
 }
-.col-custom.active .tp-project-thumb::after {
-  /* background: linear-gradient(
+/* .col-custom.active .tp-project-thumb::after {
+  background: linear-gradient(
     35.51deg,
     #134ee2 31.61%,
     rgba(60, 114, 252, 0) 65%
-  ); */
-}
+  );
+} */
 .col-custom.active .tp-project-thumb img {
   mix-blend-mode: luminosity;
 }
@@ -13457,6 +13505,10 @@ blockquote cite::before {
 .tp-project-2 {
   position: relative;
   z-index: 1;
+  width: 700px !important;
+  height: 370px !important ;
+padding-left: 40px !important;
+padding-right: 40px !important;
 }
 .tp-project-2:hover .tp-project-2-info {
   bottom: 0;
@@ -13501,7 +13553,7 @@ blockquote cite::before {
   bottom: 0px;
   left: 0;
   right: 0;
-  padding: 38px;
+  padding: 8px;
   z-index: 5;
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
@@ -13514,8 +13566,8 @@ blockquote cite::before {
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-project-2-info {
-    padding: 20px;
-    padding-bottom: 25px;
+    padding: 2px;
+    padding-bottom: 5px;
   }
 }
 .tp-project-2-content {
@@ -13699,17 +13751,17 @@ blockquote cite::before {
 .tp-project-4-item:hover .tp-project-4-item-thumb::after {
   height: 100%;
 }
-.tp-project-4-item:hover .tp-project-4-item-thumb img {
+/* .tp-project-4-item:hover .tp-project-4-item-thumb img {
   mix-blend-mode: luminosity;
-}
-.tp-project-4-item:hover .tp-project-4-arrow a {
+} */
+/* .tp-project-4-item:hover .tp-project-4-arrow a {
   transform: translateY(0);
   visibility: visible;
   opacity: 1;
-}
+} */
 .tp-project-4-item-thumb {
   position: relative;
-  background-color: #1a1617;
+  /* background-color: #1a1617; */
   z-index: 1;
   -webkit-transition: 3s;
   -moz-transition: 3s;
@@ -13720,7 +13772,7 @@ blockquote cite::before {
 .tp-project-4-item-thumb img {
   width: 100%;
   transition: transform 500ms ease, mix-blend-mode 500ms ease;
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 .tp-project-4-item-thumb::before {
   position: absolute;
@@ -13890,11 +13942,11 @@ blockquote cite::before {
   transition: 0.3s;
   display: inline-block;
 }
-.tp-project-4-prv i:hover,
+/* .tp-project-4-prv i:hover,
 .tp-project-4-nxt i:hover {
   background-color: #d90a2c;
   color: var(--tp-common-white);
-}
+} */
 
 .tp-project-5-wrap {
   padding: 0 158px;
@@ -16847,11 +16899,20 @@ blockquote cite::before {
 }
 .tp-product-thumb {
   margin-bottom: 13px;
+  overflow: hidden;
   position: relative;
 }
 .tp-product-thumb img {
   width: 100%;
+  height: 340px;
+  width: 100%;
+  transition: transform 0.3s ease;
 }
+
+.tp-product-thumb:hover img {
+    transform: scale(1.1); /* Increase size on hover */
+    z-index: 1; /* Bring the hovered image to the front */
+ }
 .tp-product-thumb-cart {
   position: absolute;
   top: 55%;
@@ -18318,6 +18379,7 @@ blockquote cite::before {
 .ml-4{
   margin-left: 4px;
 }
+
 .mt-n2{
   margin-top: -4px;
 }
@@ -18329,4 +18391,18 @@ blockquote cite::before {
 }
 .text-pink{
   color: #ff0080;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.mb-20{
+   margin-bottom: 20px;
+}
+.service-img1{
+    width: 250px;
+    height: 300px;
+    margin-top: 6px;
 }

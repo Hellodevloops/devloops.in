@@ -33,563 +33,195 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- sercices-area-start -->
-        <section class="services-area pt-115 ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="tp-services-details-wrap mb-40">
-                            <div class="tp-services-details-services mb-50">
-                                <h4 class="tp-services-details-services-title">Services</h4>
-                                <div class="tp-services-details-services-wrap">
-                                    <a href="{{ route('product') }}">Product Development<i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('webdev') }}">Web Development <i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('iot') }}">Internet of Things <i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('healthcare') }}">Healthcare<i class="fa-light fa-arrow-right"></i></a>
-                                    <!-- <a href="#">Data Visualization <i class="fa-light fa-arrow-right"></i></a>
-                                         <a href="#">Security System <i class="fa-light fa-arrow-right"></i></a> -->
-                                </div>
-                            </div>
-                            <div class="tp-services-details-contact">
-                                <div class="tp-services-details-contact-bg"
-                                    data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
-                                <h5 class="tp-services-details-contact-title">Have Any Problem? Please, Contact</h5>
-                                <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
-                                    <div class="tp-services-details-contact-item-icon">
-                                        <i class="fa-light fa-phone"></i>
-                                    </div>
-                                    <div class="tp-services-details-contact-item-content">
-                                        <span>Call Us</span>
-                                        <a href="tel: +919106077817"> +919106077817</a>
-                                    </div>
-                                </div>
-                                <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
-                                    <div class="tp-services-details-contact-item-icon">
-                                        <i class="fa-sharp fa-light fa-envelope"></i>
-                                    </div>
-                                    <div class="tp-services-details-contact-item-content">
-                                        <span>Write to Us</span>
-                                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
-                                    </div>
+        <div class="container mt-50 mb-55">
+            <div class="row">
+               <div class="col-lg-12">
+                 <div class="tp-project-details-catagory-content mb-40">
+                     <h4 class="tp-project-details-catagory-title mb-20">Storefront Flexibility</h4>
+                     <p class="text-black">Devloops' healthcare product offers unparalleled storefront flexibility, tailored to meet the unique needs of medical facilities and practitioners. Our solution provides a dynamic platform where healthcare providers can customize their storefronts effortlessly, ensuring seamless integration of their brand identity and services. With intuitive tools and versatile features, users can easily modify layouts, update content, and personalize the shopping experience for patients. Whether it's showcasing products, scheduling appointments, or offering informational resources, our platform empowers healthcare professionals to create engaging storefronts that foster trust, promote accessibility, and enhance patient satisfaction.</p>
+                  </div>
 
-                                </div>
-                                <div class="tp-services-details-contact-item d-flex align-items-center">
-                                    <div class="tp-services-details-contact-item-icon">
-                                        <i class="fa-sharp fa-light fa-location-dot"></i>
-                                    </div>
-                                    <div class="tp-services-details-contact-item-content">
-                                        <span>Our Address</span>
-                                        <a href="#">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara, Gujarat, India –
-                                            390023</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="tp-services-details-wrapper ml-30">
-                            <div class="tp-services-details-main-thumb mb-30 w-img">
-                                <img src="./assets/img/dashboard1.png" alt="">
-                            </div>
-                            <h4 class="tp-services-details-title mb-20">Storefront Flexibility</h4>
-                            <p class="text-black">Devloops' healthcare product offers unparalleled storefront flexibility,
-                                tailored to meet the unique needs of medical facilities and practitioners. Our solution
-                                provides a dynamic platform where healthcare providers can customize their storefronts
-                                effortlessly, ensuring seamless integration of their brand identity and services. With
-                                intuitive tools and versatile features, users can easily modify layouts, update content, and
-                                personalize the shopping experience for patients. Whether it's showcasing products,
-                                scheduling appointments, or offering informational resources, our platform empowers
-                                healthcare professionals to create engaging storefronts that foster trust, promote
-                                accessibility, and enhance patient satisfaction.
-                            </p>
-                            <div class="tp-services-details-faq">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
-                                            <div class="tp-services-details-faq-item-icon">
-                                                <i class="flaticon-medal"></i>
-                                            </div>
-                                            <div class="tp-services-details-faq-item-content">
-                                                <h4 class="tp-services-details-faq-title">Customizable Modules</h4>
-                                                <!-- <span>We always try to give best services</span> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
-                                            <div class="tp-services-details-faq-item-icon">
-                                                <i class="flaticon-medal"></i>
-                                            </div>
-                                            <div class="tp-services-details-faq-item-content">
-                                                <h4 class="tp-services-details-faq-title">Integration Capabilities</h4>
-                                                <!-- <span>We always try to give best services</span> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="tp-services-details-faq">
-                                      <div class="row">
-                                         <div class="col-lg-6">
-                                            <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
-                                               <div class="tp-services-details-faq-item-icon">
-                                                  <i class="flaticon-medal"></i>
-                                               </div>
-                                               <div class="tp-services-details-faq-item-content">
-                                                  <h4 class="tp-services-details-faq-title">Why IT Solution?</h4>
-                                                  <span>We always try to give best services</span>
-                                               </div>
-                                            </div>
-                                         </div>
-                                         <div class="col-lg-6">
-                                            <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
-                                               <div class="tp-services-details-faq-item-icon">
-                                                  <i class="flaticon-medal"></i>
-                                               </div>
-                                               <div class="tp-services-details-faq-item-content">
-                                                  <h4 class="tp-services-details-faq-title">Best Solution</h4>
-                                                  <span>We always try to give best services</span>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                   </div>
-                                   <h4 class="tp-services-details-title">Web Development</h4>
-                                   <p>
-                                      Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-                                   </p> -->
+               </div>
+            </div>
+            <style>
+                @keyframes float2 {
+                    0% {
+                        transform: translateY(0);
+                    }
+                    50% {
+                        transform: translateY(-10px);
+                    }
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+            </style>
 
-                        </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tp-project-details-thumb w-img mb-30" style="animation: float2 3s ease-in-out infinite;">
+                        <img src="assets/img/customdashhealthhero3.png" alt="">
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- sercices-area-end -->
-
-        {{-- <section class="pricing-area tp-price-blue  tp-price-wrap ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tp-blog-3-wrapper">
-                            <div class="tp-section tp-section-two text-center mb-65">
-                                <span class="tp-section-sub-title">Our pricing plans</span>
-                                <h4 class="tp-section-title">Choose Your Optimal <br> Pricing Plans </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInRight;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-1.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-airplane"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Basic Plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$49<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li class="tp-price-inactive">Security managment</li>
-                                    <li class="tp-price-inactive">Unlimited Download</li>
-                                    <li>Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price active mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-2.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-rocket"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Standard Plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$59<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li class="tp-price-inactive">Security managment</li>
-                                    <li>Unlimited Download</li>
-                                    <li class="tp-price-inactive">Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price mb-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-3.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-speed"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Premium plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$89<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li>Security managment</li>
-                                    <li>Unlimited Download</li>
-                                    <li>Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mt-4">
+               <div class="col-lg-12">
+                  <div class="tp-project-details-catagory">
+                     <span class="tp-section-sub-title">What We’re Offering</span>
+                     {{-- <h5 class="tp-project-details-catagory-title pb-10">We Provide Exclusive Service
+                         For Your Business</h5> --}}
+                   </div>
+               </div>
             </div>
-            <!-- <div class="tp-price-shape-1">
-                         <img src="assets/img/shape/line-5-shape-2.png" alt="">
-                      </div> -->
-        </section> --}}
-
-
-        <section id="project-one-page" class="project-area tp-project-width mb-80 pl-15 pr-15 fix">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="tp-section text-center mb-50">
-                            <span class="tp-section-sub-title">Recently completed work</span>
-                            <h4 class="tp-section-title">Check Our latest projects </h4>
+            <div class="row align-items-center mb-20">
+               <div class="col-lg-5 order-lg-1 order-sm -1 mt-4">
+                  <div class="tp-project-details-list">
+                     <h4 class="Text-black pb-10"> Appointment</h4>
+                     <div class="tp-project-details-list-item d-flex">
+                        <div class="tp-project-details-list-icon">
+                           <i class="fa-thin fa-check"></i>
                         </div>
-                    </div>
-                </div>
+                        <div class="tagcloud1">
+
+                         <a href="">Enable easy booking and management of appointments.</a>
+
+                      </div>
+
+                     </div>
+                     <div class="tp-project-details-list-item d-flex">
+                        <div class="tp-project-details-list-icon">
+                           <i class="fa-thin fa-check"></i>
+                        </div>
+                        <div class="tagcloud1">
+                         <a href=""> Facilitate seamless communication between patients and providers. </a>
+                           </div>
+
+                     </div>
+                     <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
+                        <div class="tp-about-btn  mb-10">
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"  target="blank"> Learn More</a>
+                        </div>
 
 
-                    <!-- blog-area-start -->
-                    <section class="blog-area tp-blog-inner ">
-                       <div class="container">
-                          <div class="row">
-                             <div class="col-lg-12">
-                                <div class="swiper-container tp-blog-carousel-active swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
-                                   <div class="swiper-wrapper" id="swiper-wrapper-38d3be10fa6cbeb79" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1600px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="1 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
-                                                  </h4>
-                                                  {{-- <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div> --}}
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="2 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-5.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-                                                  {{-- <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div> --}}
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="3 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-6.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">What is Holding Back The IT Solution</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="4 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="5 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Transformation Challenges
-                                                        Into Opurtunities</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-
-                                   <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="9 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="10 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  <span>June 23, 2023 _ IT Service</span>
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Transformation Challenges
-                                                        Into Opurtunities</a>
-                                                  </h4>
-                                                  <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="11 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  <span>March 23, 2023 _ IT Service</span>
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
-                                                  </h4>
-                                                  <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div></div>
-                                   <div class="tp-blog-carousel-dot swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                             </div>
-                          </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-7 order-lg-2 order-sm-2 mt-4">
+                  <div class="tp-project-details-list-thumb w-img zoom-effect">
+                     <img src="assets/img/Appointments.png" alt="" class="service-img1">
+                  </div>
+               </div>
+             </div>
+         <div class="row align-items-cente mt-4">
+               <div class="col-lg-7 order-lg-1 order-sm-2 mt-4">
+                 <div class="tp-project-details-list-thumb w-img  zoom-effect">
+                    <img src="assets/img/patientnew.png" alt=""  class="service-img1">
+                 </div>
+              </div>
+              <div class="col-lg-5 order-lg-2 order-sm-1 mt-4">
+                 <div class="tp-project-details-list">
+                    <h4 class="Text-black pb-10"> Patient</h4>
+                    <div class="tp-project-details-list-item d-flex">
+                       <div class="tp-project-details-list-icon">
+                          <i class="fa-thin fa-check"></i>
                        </div>
-                    </section>
-                    <!-- blog-area-end -->
+                       <div class="tagcloud1">
+                         <a href="">Provide a secure platform for accessing and managing medical records.</a>
+                           </div>
 
-            </div>
-        </section>
-
-
-        <!-- our team -->
-
-        <!-- team-area-start -->
-        <section class="team-area tp-team-3-border fix pb-60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tp-team-3-wrapper">
-                            <div class="tp-section tp-section-3 mb-50 wow fadeInUp" data-wow-duration="1s"
-                                data-wow-delay=".4s">
-                                <span class="tp-section-sub-title">Meet With Our Specialist</span>
-                                <h4 class="tp-section-title">Team that Builds Ideas Driven <br> by the Future</h4>
-                            </div>
+                    </div>
+                    <div class="tp-project-details-list-item d-flex">
+                       <div class="tp-project-details-list-icon">
+                          <i class="fa-thin fa-check"></i>
+                       </div>
+                       <div class="tagcloud1">
+                         <a href=""> Simplify the registration process and communication with healthcare professionals.</a>
+                           </div>
+                    </div>
+                    <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
+                        <div class="tp-about-btn  mb-10">
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
                         </div>
+
+
+                     </div>
+                 </div>
+              </div>
+          </div>
+               <div class="row align-items-center mb-20 mt-4">
+                 <div class="col-lg-5">
+                    <div class="tp-project-details-list">
+                       <h4 class="Text-black pb-10"> Billing</h4>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+                             <a href=""> Streamline billing with automated invoicing and payment tracking.</a>
+                               </div>
+                       </div>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+                             <a href="">Generate detailed reports to track revenue, expenses, and billing trends.  </a>
+                               </div>
+
+                       </div>
+                       <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
+                        <div class="tp-about-btn  mb-10">
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
+                        </div>
+
+
+                     </div>
+                    </div>
+                 </div>
+                 <style>
+                    /* CSS */
+.zoom-effect {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover img {
+    transform: scale(1.0);
+}
+
+.zoom-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid black;
+    z-index: 1;
+    transition: border-color 0.3s ease;
+}
+
+.zoom-effect:hover::before {
+    border-color: transparent;
+}
+
+                 </style>
+                 <div class="col-lg-7 mt-4">
+                    <div class="tp-project-details-list-thumb w-img zoom-effect">
+                        <img src="assets/img/Billingsnew.jpg" alt="" class="service-img1">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tp-team-3-wrap">
-                            <div class="swiper-container tp-team-3-active">
-                                <div class="swiper-wrapper">
-                                    {{-- <div class="swiper-slide">
-                                        <div class="tp-team-3-item mb-40">
-                                            <div class="tp-team-3-thumb">
-                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                    <div class="tp-thumb-common-overlay wow"></div>
-                                                    <!-- <a href="#" class="team-member" data-toggle="modal" data-target="#teamModal" data-name="Riya Vaidya" data-role="BackEnd developer"></a> -->
-                                                    <img src="assets/img/riya1n-removebg-preview.png" alt=""
-                                                        style="background-color: whitesmoke;">
-                                                </div>
-                                                <div class="tp-team-3-thumb-social">
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-facebook-f"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-instagram"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-twitter"></i></span></a>
-                                                    <a href="#"><span><i
-                                                                class="fa-brands fa-linkedin-in"></i></span></a>
-                                                </div>
-                                            </div>
-                                            <div class="tp-team-3-content">
-                                                <h5 class="tp-team-3-title"><a href="team-details.html">Riya Vaidya</a>
-                                                </h5>
-                                                <span>BackEnd developer</span>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                    @php
-                                    use App\Models\Team;
-                                    $team = Team::all();
-                                @endphp
-                                    @foreach ($team as $team)
-                                        <div class="swiper-slide">
-                                            <div class="tp-team-3-item mb-40">
-                                                <div class="tp-team-3-thumb">
-                                                    <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
-                                                        <div class="tp-thumb-common-overlay wow"></div>
-                                                        <img src="{{ $team->img }}" alt=""
-                                                            style="background-color: whitesmoke;">
-                                                    </div>
-                                                    <div class="tp-team-3-thumb-social">
-                                                        <a href="#"><span><i
-                                                                    class="fa-brands fa-facebook-f"></i></span></a>
-                                                        <a href="#"><span><i
-                                                                    class="fa-brands fa-instagram"></i></span></a>
-                                                        <a href="#"><span><i
-                                                                    class="fa-brands fa-twitter"></i></span></a>
-                                                        <a href="#"><span><i
-                                                                    class="fa-brands fa-linkedin-in"></i></span></a>
-                                                    </div>
-                                                </div>
-                                                <div class="tp-team-3-content">
-                                                    <h5 class="tp-team-3-title"><a
-                                                            href="{{ route('about') }}">{{ $team->name }}</a>
-                                                    </h5>
-                                                    <span>{{ $team->position }}</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    @endforeach
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- team-area-end -->
 
-        <!-- testimonial -->
+               </div>
 
+         </div>
 
         <!-- review-area-start -->
-        <section class="review-area pt-5 pb-5 mb-55">
+        <section class="review-area pb-5 mt-50">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-50">
                         <div class="tp-review-thumb pb-4">
                             <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
                         </div>
@@ -713,11 +345,16 @@
         <!-- review-area-end -->
 
         <!-- contact form -->
-        <section class="contact-area pt-115 pb-80 ">
+        <section class="contact-area pt-50 pb-10 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
-                        <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                        marginwidth="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                     </div>
 
                     <div class="offset-xl-1 col-xl-6 col-lg-6 ">
@@ -751,84 +388,86 @@
                                 {{ session('success') }}
                             </div>
                         @endif
-                            <form method="POST" action="{{ route('contact.store') }}">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="firstname" placeholder="First Name">
-                                            <span><i class="fa-light fa-user"></i></span>
+                        <form method="POST" action="{{ route('contact.store') }}">
+                            @csrf
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-input mb-20">
+                                        <input type="text" name="firstname" placeholder="First Name">
+                                        <span><i class="fa-light fa-user"></i></span>
 
-                                        </div>
-                                        @error('firstname')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
                                     </div>
+                                    @error('firstname')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
 
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="lastname" placeholder="Last Name">
-                                            <span><i class="fa-light fa-user"></i></span>
-                                        </div>
-                                        @error('lastname')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-input mb-20">
+                                        <input type="text" name="lastname" placeholder="Last Name">
+                                        <span><i class="fa-light fa-user"></i></span>
                                     </div>
+                                    @error('lastname')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
 
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="email" placeholder="Email Address">
-                                            <span><i class="fa-light fa-envelope"></i></span>
-                                        </div>
-                                        @error('email')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
+
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-input mb-20">
+                                        <input type="text" name="email" placeholder="Email Address" required>
+                                        <span><i class="fa-light fa-envelope"></i></span>
                                     </div>
+                                    @error('email')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
 
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="phone" placeholder="Phone Number">
-                                            <span><i class="fa-light fa-phone"></i></span>
-                                        </div>
-                                        @error('phone')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-input mb-20">
+                                        <input type="tel" name="phone" placeholder="Phone Number" maxlength="13">
+                                        <span><i class="fa-light fa-phone"></i></span>
                                     </div>
+                                    @error('phone')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
 
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-input mb-20">
-                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
-                                        </div>
-                                        @error('description')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
+
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-input mb-20">
+                                        <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
                                     </div>
-                                    <!-- <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <input type="text" placeholder="Company Name">
-                                             <span><i class="fa-light fa-user"></i></span>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
+                                    @error('description')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                <!-- <div class="col-lg-12">
+                                      <div class="tp-contact-details-form-input mb-20">
+                                         <input type="text" placeholder="Company Name">
+                                         <span><i class="fa-light fa-user"></i></span>
+                                      </div>
+                                   </div>
+                                   <div class="col-lg-12">
+                                      <div class="tp-contact-details-form-input mb-20">
 
-                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                             <input type="text" placeholder="Your Subject">
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                             <span><i class="fa-light fa-pen"></i></span>
-                                          </div>
-                                       </div> -->
-                                    <div class="col-lg-12">
-                                        <div class="tp-contact-details-form-btn">
-                                            <button class="tp-btn">Send a Message</button>
-                                        </div>
+                                         <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                         <input type="text" placeholder="Your Subject">
+                                      </div>
+                                   </div>
+                                   <div class="col-lg-12">
+                                      <div class="tp-contact-details-form-input mb-20">
+                                         <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                         <span><i class="fa-light fa-pen"></i></span>
+                                      </div>
+                                   </div> -->
+                                <div class="col-lg-12">
+                                    <div class="tp-contact-details-form-btn">
+                                        <button class="tp-btn">Send a Message</button>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
+                        </form>
                         </div>
                     </div>
                 </div>
