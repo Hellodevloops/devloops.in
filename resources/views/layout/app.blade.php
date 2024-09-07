@@ -61,6 +61,8 @@
      </style>
      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG51PDS4RE"></script>
+{{-- nelow script is use for analysing traffic of visiting count --}}
+<script defer src="https://cloud-umami.y4nyjj.easypanel.host/script.js" data-website-id="2536e4d4-a477-4f32-b168-07eab3aa3b12"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -118,7 +120,10 @@
                   <div class="tp-header-3-top-left d-flex align-items-center">
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-location-dot"></i></span>
-                        <a href="{{ route('contact') }}" class="text-white">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara</a>
+
+                        <a href="{{ route('contact') }}">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+
+
                      </div>
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-envelope"></i></span>
