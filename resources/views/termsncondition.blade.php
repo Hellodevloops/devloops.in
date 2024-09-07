@@ -65,4 +65,4 @@
         <!-- postbox area end -->
 
      </main>
-@endsection
+ @endsection
