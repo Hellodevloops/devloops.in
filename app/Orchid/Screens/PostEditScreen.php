@@ -93,9 +93,9 @@ class PostEditScreen extends Screen
                     ->help('Specify a short descriptive title for this post.'),
 
                     Cropper::make('post.hero')
-                    ->title('Large web banner image, generally in the front and center')
-                    ->width(1000)
-                    ->height(500),
+                    ->title('Large web banner image, generally in the front and center'),
+                    // ->width(1000)
+                    // ->height(500),
 
                 // TextArea::make('post.description')
                 //     ->title('Description')

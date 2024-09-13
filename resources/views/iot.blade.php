@@ -41,12 +41,24 @@
                             <div class="tp-services-details-services mb-50">
                                 <h4 class="tp-services-details-services-title">Services</h4>
                                 <div class="tp-services-details-services-wrap">
-                                    <a href="{{ route('product') }}">Product Development<i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('webdev') }}">Web Development <i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('iot') }}">Internet of Things <i class="fa-light fa-arrow-right"></i></a>
-                                    <a href="{{ route('healthcare') }}">Healthcare<i class="fa-light fa-arrow-right"></i></a>
-                                    <!-- <a href="#">Data Visualization <i class="fa-light fa-arrow-right"></i></a>
-                                         <a href="#">Security System <i class="fa-light fa-arrow-right"></i></a> -->
+                                    <a href="{{ route('product') }}">Product Development <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('webdev') }}">Web Development <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                            <a href="{{ route('iot') }}">IOT <i
+                                                class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('healthcare') }}">Healthcare <i
+                                                    class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('seo') }}">SEO <i class="fa-light fa-arrow-right"></i></a>
+
+                                    <a href="{{ route('digital') }}">Digital Marketing <i
+                                            class="fa-light fa-arrow-right"></i></a>
+
+                                            <a href="{{ route('socialmedia') }}">Social Media Marketing <i
+                                                class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('socialmanagement') }}">Social Media Management <i
+                                                    class="fa-light fa-arrow-right"></i></a>
+
                                 </div>
                             </div>
                             <div class="tp-services-details-contact">
@@ -78,8 +90,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Our Address</span>
-                                        <a href="#">GF-2 Dhanlaxmi Complex, Subhanpura, Vadodara, Gujarat, India –
-                                            390023</a>
+                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
                                     </div>
                                 </div>
                             </div>
@@ -216,52 +227,43 @@
 
         <!-- contact -->
 
-        <section class="contact-area pt-115 pb-80 ">
+        <section id="contact-section" class="contact-area pt-115 pb-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-6">
-                        <img src="{{ asset('assets/img/devcontact.jpg') }}" alt="Description of the image" width="100%" height="auto">
+                    <div class="col-xl-5 col-lg-6 mt-10">
+                        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
-
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                    <div class="offset-xl-1 col-xl-6 col-lg-6">
                         <div class="tp-section tp-section-two mb-25">
-                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Get in Touch</span>
+                            {{-- <h4 class="tp-section-title">We're Here to Assist You</h4> --}}
                             <div class="tp-section-title-wrapper">
-                                <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                  -->
+                                <!-- <p>We're committed to providing you with excellent support. Feel free to reach out to us through the contact form below.</p> -->
                             </div>
                         </div>
                         <div class="tp-contact-details-form mb-40">
-                            {{-- @if (session('error'))
+                            @if (session('error'))
                                 <div class="alert alert-danger">
                                     {{ session('error') }}
                                 </div>
                             @endif
-                            @if (session('succus'))
-                                <div class="alert alert-succuss">
-                                    {{ session('succuss') }}
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
                                 </div>
-                            @endif --}}
-
-                            @if (session('error'))
-                            <div class="alert alert-danger">
-                                {{ session('error') }}
-                            </div>
-                        @endif
-                        @if (session('success'))
-                            <div class="alert alert-success">
-                                {{ session('success') }}
-                            </div>
-                        @endif
+                            @endif
                             <form method="POST" action="{{ route('contact.store') }}">
                                 @csrf
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="firstname" placeholder="First Name">
+                                            <input type="text" name="firstname" placeholder="First Name" value="{{ old('firstname') }}">
                                             <span><i class="fa-light fa-user"></i></span>
-
                                         </div>
                                         @error('firstname')
                                             <div class="alert alert-danger">{{ $message }}</div>
@@ -270,7 +272,7 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="lastname" placeholder="Last Name">
+                                            <input type="text" name="lastname" placeholder="Last Name" value="{{ old('lastname') }}">
                                             <span><i class="fa-light fa-user"></i></span>
                                         </div>
                                         @error('lastname')
@@ -280,7 +282,7 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="email" placeholder="Email Address">
+                                            <input type="text" name="email" placeholder="Email Address" value="{{ old('email') }}">
                                             <span><i class="fa-light fa-envelope"></i></span>
                                         </div>
                                         @error('email')
@@ -290,7 +292,7 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="phone" placeholder="Phone Number">
+                                            <input type="text" name="phone" placeholder="Phone Number" value="{{ old('phone') }}">
                                             <span><i class="fa-light fa-phone"></i></span>
                                         </div>
                                         @error('phone')
@@ -300,31 +302,13 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                            <textarea class="form-control" name="message" placeholder="Message" maxlength="550">{{ old('message') }}</textarea>
                                         </div>
-                                        @error('description')
+                                        @error('message')
                                             <div class="alert alert-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
-                                    <!-- <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <input type="text" placeholder="Company Name">
-                                             <span><i class="fa-light fa-user"></i></span>
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
 
-                                             <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                             <input type="text" placeholder="Your Subject">
-                                          </div>
-                                       </div>
-                                       <div class="col-lg-12">
-                                          <div class="tp-contact-details-form-input mb-20">
-                                             <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                             <span><i class="fa-light fa-pen"></i></span>
-                                          </div>
-                                       </div> -->
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-btn">
                                             <button class="tp-btn">Send a Message</button>
@@ -333,9 +317,26 @@
                                 </div>
                             </form>
                         </div>
+                        <!-- Contact List Section -->
+                        <div class="tp-contact-list mt-40">
+                            @php
+                                $contacts = App\Models\Contact::all();
+                            @endphp
+                            {{-- <ul class="list-unstyled">
+                                @foreach ($contacts as $contact)
+                                    <li class="contact-item">
+                                        <h5>{{ $contact->firstname }} {{ $contact->lastname }}</h5>
+                                        <p>Email: <a href="mailto:{{ $contact->email }}">{{ $contact->email }}</a></p>
+                                        <p>Phone: <a href="tel:{{ $contact->phone }}">{{ $contact->phone }}</a></p>
+                                        <p>Message: {{ $contact->message }}</p>
+                                    </li>
+                                @endforeach
+                            </ul> --}}
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 @endsection

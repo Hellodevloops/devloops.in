@@ -1,40 +1,40 @@
 @extends('layout.app')
 @section('content')
-    <!-- ========== MAIN CONTENT ========== -->
     <main>
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-            <div class="breadcrumb-bg" data-background="/assets/img/healthcarenew1.jpg"></div>
+            <div class="breadcrumb-bg" data-background="./assets/img/deviothero.jpg"></div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
                         <div class="tpbreadcrumb">
                             <div class="breadcrumb-link mb-15">
                                 <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
-                                <span> / web</span>
+                                <span> / Social Media Management</span>
                             </div>
-                            <h2 class="breadcrumb-title">Web Development</h2>
+                            <h2 class="breadcrumb-title">Social Media Management</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                          <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                          </div>
-                       </div> -->
+                                      <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                      </div>
+                                      <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                      </div>
+                                      <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                      </div>
+                                   </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
         <!-- sercices-area-start -->
-        <section class="services-area pt-115 ">
+        <!-- services-area-start -->
+        <section class="services-area pt-115">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -63,8 +63,7 @@
                                 </div>
                             </div>
                             <div class="tp-services-details-contact">
-                                <div class="tp-services-details-contact-bg"
-                                    data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
+                                <div class="tp-services-details-contact-bg" data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
                                 <h5 class="tp-services-details-contact-title">Have Any Problem? Please, Contact</h5>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
                                     <div class="tp-services-details-contact-item-icon">
@@ -72,7 +71,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Call Us</span>
-                                        <a href="tel: +919106077817"> +919106077817</a>
+                                        <a href="tel:+919106077817">+919106077817</a>
                                     </div>
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
@@ -83,7 +82,6 @@
                                         <span>Write to Us</span>
                                         <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
                                     </div>
-
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center">
                                     <div class="tp-services-details-contact-item-icon">
@@ -100,23 +98,18 @@
                     <div class="col-lg-8">
                         <div class="tp-services-details-wrapper ml-30">
                             <div class="tp-services-details-main-thumb mb-30 w-img">
-                                <img src="assets/img/webnew1.jpg" alt="">
+                                <img src="assets/img/socialmanagement.jpg" alt="Social Media Management">
                             </div>
-                            <h4 class="tp-services-details-title mb-20">Web Development</h4>
+                            <h4 class="tp-services-details-title mb-20">Social Media Management</h4>
                             <p class="text-black">
-                                In addition to safeguarding user data, web development plays a pivotal role in establishing
-                                vital interfaces for customers and pivotal control points for businesses. Our dedicated team
-                                of web application developers is committed to crafting and delivering web solutions that not
-                                only enhance operational efficiency but also expedite decision-making processes and confer a
-                                competitive edge. By harnessing the power of web development,<span class="text-pink"> we
-                                    empower businesses to seamlessly interact with their customers, optimize workflows
-                                </span>, and stay ahead in today's dynamic market landscape.
+                                Maximize your brand's online presence with <span class="text-pink">Devloops' Social Media Management services</span>. Our team specializes in creating and managing dynamic social media profiles across platforms like Facebook, Instagram, LinkedIn, and Twitter. We offer a comprehensive suite of services including strategy development, content scheduling, and performance analysis.
+                                By focusing on audience growth, engagement, and retention, we ensure your social media channels reflect your brand's voice and values. Our data-driven approach helps in crafting strategies that resonate with your audience and drive measurable success.
+                                Partner with Devloops to streamline your social media efforts and achieve a consistent and impactful online presence.
                             </p>
                             <div class="tp-about-3-item mb-35">
-
                                 <div class="tp-about-3-item-content">
                                     <h4 class="tp-about-3-item-title">Our Vision</h4>
-                                    <p class="text-black">Crafting immersive digital experiences that captivate users, drive engagement, and elevate brand presence through intuitive design and robust functionality</p>
+                                    <p class="text-black">To deliver expert social media management that enhances brand visibility, fosters community engagement, and drives strategic growth through effective online interactions.</p>
                                 </div>
                                 <div class="tp-about-3-item-icon">
                                     <i class="flaticon-solution"></i>
@@ -127,99 +120,93 @@
                 </div>
             </div>
         </section>
+
+
+
+        <!-- services-area-end -->
+
         <!-- sercices-area-end -->
         <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
-            style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
-            <div class="container">
-                <div class="row align-items-end">
-                    <div class="col-lg-7">
-                        <div class="tp-section tp-section-white-two mb-80">
-                            <span class="tp-section-sub-title">What We’re Offering</span>
-                            <h4 class="tp-section-title">We Provide Exclusive Service <br> For Your Business</h4>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-5">
-                                <div class="tp-section-title-wrapper mb-80">
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                                      labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
-                                </div>
-                             </div> -->
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/webecomflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>E-commerce website</a></h4>
-                                <p class="text-white">In an e-commerce website, businesses create an online presence to showcase their products
-                                    or services, enabling customers to <br> browse.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
-                    </div>
-                    <!-- <div class="col-xl-4 col-lg-3 col-md-6">
-                                <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                                   <div class="tp-offer-item-icon">
-                                      <i class="flaticon-ux-design"></i>
-                                   </div>
-                                   <div class="tp-offer-item-content">
-                                      <h4 class="tp-offer-item-title under-line-white"><a href="services-details.html">Digital Marketing</a></h4>
-                                      <p>Donec suscipit ante ipsum. Donec convallis quality torto</p>
-                                   </div>
-                                   <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div>
-                                </div>
-                             </div> -->
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
-                            style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/webmultipageflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-subtract" viewBox="0 0 16 16">
-                                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>Multipage Website</a></h4>
-                                <p class="text-white">A multipage website consists of multiple interconnected web pages, providing a structured
-                                    and organized platform for content delivery.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/dynamicflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-arrow-down-right-square-fill" viewBox="0 0 16 16">
-                                    <path d="M14 16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2zM5.904 5.197 10 9.293V6.525a.5.5 0 0 1 1 0V10.5a.5.5 0 0 1-.5.5H6.525a.5.5 0 0 1 0-1h2.768L5.197 5.904a.5.5 0 0 1 .707-.707"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>Dynamic Website</a></h4>
-                                <p class="text-white">A dynamic website utilizes server-side technologies to generate content, dynamic sites
-                                    can dynamically alter content based on user interactions.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
+        style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="tp-section tp-section-white-two mb-80">
+                        <span class="tp-section-sub-title">Our Expertise</span>
+                        <h4 class="tp-section-title">Expert Social Media Management Services <br> To Enhance Your Online Presence</h4>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M6.293 9.5H4v4H2v-4H1v-2h1V7.5c0-1.5 1-2.5 2.5-2.5h1.5V7h2V9.5z" />
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Facebook Account Management</a></h4>
+                            <p class="text-white truncate">Streamline your Facebook account with our management services, which include post scheduling, audience insights, and engagement analytics to optimize your social media strategy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
+                        style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.039 0 9.33-5 9.33-9.33 0-.14-.004-.283-.01-.423A6.672 6.672 0 0 0 16 3.577a6.574 6.574 0 0 1-1.889.518A3.303 3.303 0 0 0 15.558 2a6.528 6.528 0 0 1-2.075.788A3.286 3.286 0 0 0 7.88 6.046 9.29 9.29 0 0 1 1.114 2.7a3.292 3.292 0 0 0 1.016 4.386A3.271 3.271 0 0 1 .64 6.64v.041a3.284 3.284 0 0 0 2.64 3.22 3.273 3.273 0 0 1-.865.116c-.212 0-.418-.02-.62-.058a3.282 3.282 0 0 0 3.064 2.283A6.585 6.585 0 0 1 .62 14.351a6.446 6.446 0 0 1-.77-.045A9.326 9.326 0 0 0 5.026 15z" />
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Twitter Account Management</a></h4>
+                            <p class="text-white truncate">Maximize your impact on Twitter with our comprehensive management services, including profile optimization, engagement strategies, and trend monitoring to drive growth and interactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1.5a6.5 6.5 0 1 0 0 13A6.5 6.5 0 0 0 8 1.5zM6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0
+                                <path
+                                    d="M6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6.5 7a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0z" />
+                        </svg>
+                    </div>
+                    <div class="tp-offer-item-content">
+                        <h4 class="tp-offer-item-title under-line-white truncate"><a>Instagram Account Management</a></h4>
+                        <p class="text-white truncate">Elevate your brand’s presence on Instagram with our management services, including profile enhancement, content strategy, and audience growth techniques to boost your engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <style>
+            .truncate {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .tp-offer-item-content {
+                height: 100px;
+                /* Adjust based on your design needs */
+            }
+        </style>
+
+
 
         <!-- contact -->
 

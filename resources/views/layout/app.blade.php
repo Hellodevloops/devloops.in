@@ -167,6 +167,18 @@
                                        <div class="demo-name">
                                           <span><a href="{{ route('healthcare') }}">Healthcare</a></span>
                                        </div>
+                                       <div class="demo-name">
+                                        <span><a href="{{ route('seo') }}">SEO</a></span>
+                                     </div>
+                                     <div class="demo-name">
+                                        <span><a href="{{ route('digital') }}">Digital Marketing</a></span>
+                                     </div>
+                                     <div class="demo-name">
+                                        <span><a href="{{ route('socialmedia') }}">Social Media Marketing</a></span>
+                                     </div>
+                                     <div class="demo-name">
+                                        <span><a href="{{ route('socialmanagement') }}">Social Media Management</a></span>
+                                     </div>
 
                                     <!-- <div class="col homemenu">
                                        <div class="homemenu-thumb">
