@@ -9,7 +9,7 @@ use Orchid\Attachment\Models\Attachment;
 use Orchid\Filters\Filterable;
 use Orchid\Screen\AsSource;
 use Orchid\Filters\Types\Like;
-use App\Models\Placed;
+
 use App\Models\User;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
@@ -44,7 +44,7 @@ class Placed extends Model
         'title' => Like::class,
     ];
 
-    
+
     // public function attachments()
     // {
     //     return $this->hasMany(Attachment::class, 'post_id');

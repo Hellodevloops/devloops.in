@@ -125,15 +125,11 @@
                             </div>
                             <div class="tp-about-3-item mb-35">
                                 <div class="tp-about-3-item-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080"
-                                        class="bi bi-person-fill-up" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.854 1.5 1.5a.5.5 0 0 1-.708.708L13 11.707V14.5a.5.5 0 0 1-1 0v-2.793l-.646.647a.5.5 0 0 1-.708-.708l1.5-1.5a.5.5 0 0 1 .708 0M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0">
-                                        </path>
-                                        <path
-                                            d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4">
-                                        </path>
-                                    </svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080" class="bi bi-person-add" viewBox="0 0 16 16">
+                                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+                                        <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
+                                      </svg>
                                 </div>
                                 <div class="tp-about-3-item-content">
                                     <h4 class="tp-about-3-item-title">Who We Are</h4>
@@ -512,8 +508,8 @@
                             </div>
                             <div class="tp-counter-3-item-content">
                                 <h3 class="tp-counter-3-item-count">
-                                    <span data-purecounter-duration="1" data-purecounter-end="200"
-                                        class="purecounter">200</span>
+                                    <span data-purecounter-duration="1" data-purecounter-end="70"
+                                        class="purecounter">70</span>
                                 </h3>
                                 <p>Project Completed</p>
                             </div>
@@ -528,8 +524,8 @@
                             </div>
                             <div class="tp-counter-3-item-content">
                                 <h3 class="tp-counter-3-item-count">
-                                    <span data-purecounter-duration="1" data-purecounter-end="20"
-                                        class="purecounter">20</span>
+                                    <span data-purecounter-duration="1" data-purecounter-end="10"
+                                        class="purecounter">10</span>
                                 </h3>
                                 <p>IT Specialist</p>
                             </div>
@@ -544,8 +540,8 @@
                             </div>
                             <div class="tp-counter-3-item-content">
                                 <h3 class="tp-counter-3-item-count">
-                                    <span data-purecounter-duration="1" data-purecounter-end="500"
-                                        class="purecounter">500</span>
+                                    <span data-purecounter-duration="1" data-purecounter-end="100"
+                                        class="purecounter">100</span>
                                 </h3>
                                 <p>Happy Clients </p>
                             </div>
@@ -560,8 +556,8 @@
                             </div>
                             <div class="tp-counter-3-item-content">
                                 <h3 class="tp-counter-3-item-count">
-                                    <span data-purecounter-duration="1" data-purecounter-end="256"
-                                        class="purecounter">256</span>
+                                    <span data-purecounter-duration="1" data-purecounter-end="76"
+                                        class="purecounter">76</span>
                                 </h3>
                                 <p>Smart Solution </p>
                             </div>
@@ -651,6 +647,7 @@
                             <div class="swiper-container tp-team-3-active">
                                 <div class="swiper-wrapper">
 
+
                                     @foreach ($team as $team)
                                         <div class="swiper-slide">
                                             <div class="tp-team-3-item mb-40">
@@ -683,10 +680,11 @@
                 </div>
             </div>
         </section> --}}
+        </section> --}}
         <!-- team-area-end -->
 
         <!-- blog-area-start -->
-        <section id="blog-one-page" class="blog-area pb-40 pt-60">
+        <section id="blog-one-page" class="blog-area pb-40 pt-90">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -705,9 +703,9 @@
                             <div class="tp-blog-two mb-30">
                                 <div class="tp-blog-two-item">
                                     <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                        <div class="tp-thumb-common-overlay wow"></div>
+                                        {{-- <div class="tp-thumb-common-overlay wow"></div> --}}
                                         <a href="{{ route('post.show', ['slug' => $post->slug]) }}">
-                                            <img src="{{ $post->hero }}" alt="{{ $post->title }}">
+                                            <img src="{{ $post->hero }} " alt="{{ $post->title }}">
                                             <div class="tp-blog-two-thumb-plus">
                                                 <i class="fa-regular fa-plus"></i>
                                             </div>
@@ -717,7 +715,7 @@
                                         <span>{{ $post->created_at->format('F d, Y') }} _ IT Service</span>
                                         <h4 class="tp-blog-two-title">
                                             <a
-                                                href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+                                                href="{{ route('post.show', ['slug' => $post->slug]) }}"  class="truncate-title">{{ $post->title }}</a>
                                         </h4>
                                         <div class="tp-blog-two-btn">
                                             <a href="{{ route('post.show', ['slug' => $post->slug]) }}">Read More</a>
@@ -730,6 +728,39 @@
                 </div>
             </div>
         </section>
+        <style>
+            .truncate-title {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            @media (max-width: 767px) {
+        .blog-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .blog-item {
+            width: 100%;
+            max-width: 350px; /* Adjust the max-width as needed */
+            margin-bottom: 30px;
+        }
+
+        .tp-blog-two {
+            width: 100%;
+        }
+
+        .tp-blog-two-thumb > a img {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+}
+    }
+        </style>
         <!-- blog-area-end -->
         <!-- contact-area-start -->
 

@@ -33,8 +33,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- sercices-area-start -->
-        <section class="services-area pt-115 ">
+        <section class="project-details-area pt-40 pb-120">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -96,130 +95,108 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="tp-services-details-wrapper ml-30">
-                            <div class="tp-services-details-main-thumb mb-30 w-img">
-                                <img src="assets/img/webnew1.jpg" alt="">
-                            </div>
-                            <h4 class="tp-services-details-title mb-20">Web Development</h4>
-                            <p class="text-black">
-                                In addition to safeguarding user data, web development plays a pivotal role in establishing
-                                vital interfaces for customers and pivotal control points for businesses. Our dedicated team
-                                of web application developers is committed to crafting and delivering web solutions that not
-                                only enhance operational efficiency but also expedite decision-making processes and confer a
-                                competitive edge. By harnessing the power of web development,<span class="text-pink"> we
-                                    empower businesses to seamlessly interact with their customers, optimize workflows
-                                </span>, and stay ahead in today's dynamic market landscape.
-                            </p>
-                            <div class="tp-about-3-item mb-35">
+                        <div class="tp-project-details-list-item d-flex">
+                           <div class="tp-project-details-list-icon">
+                              <i class="fa-thin fa-check"></i>
+                           </div>
+                           <div class="tagcloud1">
 
-                                <div class="tp-about-3-item-content">
-                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
-                                    <p class="text-black">Crafting immersive digital experiences that captivate users, drive engagement, and elevate brand presence through intuitive design and robust functionality</p>
-                                </div>
-                                <div class="tp-about-3-item-icon">
-                                    <i class="flaticon-solution"></i>
-                                </div>
-                            </div>
+                            <a href="">E-commerce platforms employ order management systems for order tracking,invoicing and handling refunds/returns.</a>
+                         </div>
+
                         </div>
-                    </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-5 order-lg-2 order-sm-2 mb-20 ">
+                     <div class="tp-project-details-list-thumb w-img">
+                        <img src="assets/img/service/webecom.jpg" alt="" class="service-img1">
+                     </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <!-- sercices-area-end -->
-        <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
-            style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
-            <div class="container">
-                <div class="row align-items-end">
+            <div class="row align-items-cente mb-20">
+                  <div class="col-lg-5 order-lg-1 order-sm-2 mt-4 mb-20">
+                    <div class="tp-project-details-list-thumb w-img">
+                       <img src="assets/img/webmultipageblog1.jpg" alt=""  class="service-img1">
+                    </div>
+                 </div>
+                 <div class="col-lg-7 order-lg-2 order-sm-1 mt-4 mb-20">
+                    <div class="tp-project-details-list">
+                       <h4 class="Text-black pb-10"> Multi-page Website</h4>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+
+                            <a href="">They use navigation menus, breadcrumbs, and internal links for easy navigation between pages. </a>
+
+                         </div>
+
+                       </div>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+
+                            <a href="">Each page on a multi-page website serves a specific purpose or topic.</a>
+
+                         </div>
+
+                       </div>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+                            <a href=""> Sites are optimized for (SEO) by structuring content hierarchically, using meta tags, and optimizing page load speed. </a>
+                              </div>
+
+                       </div>
+                    </div>
+                 </div>
+             </div>
+                  <div class="row align-items-center mb-20 mt-4">
                     <div class="col-lg-7">
-                        <div class="tp-section tp-section-white-two mb-80">
-                            <span class="tp-section-sub-title">What We’re Offering</span>
-                            <h4 class="tp-section-title">We Provide Exclusive Service <br> For Your Business</h4>
-                        </div>
+                       <div class="tp-project-details-list">
+                          <h4 class="Text-black pb-10"> Dynamic Website</h4>
+                          <div class="tp-project-details-list-item d-flex">
+                             <div class="tp-project-details-list-icon">
+                                <i class="fa-thin fa-check"></i>
+                             </div>
+                             <div class="tagcloud1">
+                                <a href="">Dynamic websites use real-time database content to generate web pages based on user input or system data.</a>
+                            </div>
+
+                          </div>
+                          <div class="tp-project-details-list-item d-flex">
+                             <div class="tp-project-details-list-icon">
+                                <i class="fa-thin fa-check"></i>
+                             </div>
+                             <div class="tagcloud1">
+                                <a href="">They support user input forms, comments, user registration, and login systems.</a>
+                                  </div>
+                          </div>
+                          <div class="tp-project-details-list-item d-flex">
+                             <div class="tp-project-details-list-icon">
+                                <i class="fa-thin fa-check"></i>
+                             </div>
+                             <div class="tagcloud1">
+                                <a href="">This integration supports content updates, database management, user management for better performance.</a>
+                            </div>
+
+                          </div>
+                       </div>
                     </div>
-                    <!-- <div class="col-lg-5">
-                                <div class="tp-section-title-wrapper mb-80">
-                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                                      labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
-                                </div>
-                             </div> -->
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/webecomflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>E-commerce website</a></h4>
-                                <p class="text-white">In an e-commerce website, businesses create an online presence to showcase their products
-                                    or services, enabling customers to <br> browse.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
+                    <div class="col-lg-5">
+                       <div class="tp-project-details-list-thumb w-img">
+                          <img src="assets/img/dynamic2.jpg" alt="" style="width:440px; height:300px;">
+                       </div>
                     </div>
-                    <!-- <div class="col-xl-4 col-lg-3 col-md-6">
-                                <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                                   <div class="tp-offer-item-icon">
-                                      <i class="flaticon-ux-design"></i>
-                                   </div>
-                                   <div class="tp-offer-item-content">
-                                      <h4 class="tp-offer-item-title under-line-white"><a href="services-details.html">Digital Marketing</a></h4>
-                                      <p>Donec suscipit ante ipsum. Donec convallis quality torto</p>
-                                   </div>
-                                   <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div>
-                                </div>
-                             </div> -->
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
-                            style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/webmultipageflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-subtract" viewBox="0 0 16 16">
-                                    <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>Multipage Website</a></h4>
-                                <p class="text-white">A multipage website consists of multiple interconnected web pages, providing a structured
-                                    and organized platform for content delivery.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                            <div class="tp-offer-item-icon">
-                                {{-- <img src="{{ asset('assets/img/dynamicflaticon.png') }}" alt=""> --}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-arrow-down-right-square-fill" viewBox="0 0 16 16">
-                                    <path d="M14 16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2zM5.904 5.197 10 9.293V6.525a.5.5 0 0 1 1 0V10.5a.5.5 0 0 1-.5.5H6.525a.5.5 0 0 1 0-1h2.768L5.197 5.904a.5.5 0 0 1 .707-.707"/>
-                                  </svg>
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white"><a>Dynamic Website</a></h4>
-                                <p class="text-white">A dynamic website utilizes server-side technologies to generate content, dynamic sites
-                                    can dynamically alter content based on user interactions.</p>
-                            </div>
-                            <!-- <div class="tp-offer-item-btn">
-                                      <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                   </div> -->
-                        </div>
-                    </div>
-                </div>
+                  </div>
+
             </div>
-        </section>
+         </section>
 
         <!-- contact -->
 

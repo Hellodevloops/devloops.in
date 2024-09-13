@@ -174,327 +174,110 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- sercices-area-end -->
-
-        {{-- <section class="pricing-area tp-price-blue  tp-price-wrap ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="tp-blog-3-wrapper">
-                            <div class="tp-section tp-section-two text-center mb-65">
-                                <span class="tp-section-sub-title">Our pricing plans</span>
-                                <h4 class="tp-section-title">Choose Your Optimal <br> Pricing Plans </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price mb-40 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInRight;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-1.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-airplane"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Basic Plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$49<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li class="tp-price-inactive">Security managment</li>
-                                    <li class="tp-price-inactive">Unlimited Download</li>
-                                    <li>Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price active mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-2.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-rocket"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Standard Plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$59<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li class="tp-price-inactive">Security managment</li>
-                                    <li>Unlimited Download</li>
-                                    <li class="tp-price-inactive">Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tp-price mb-40 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                            <div class="tp-price-thumb">
-                                <img src="assets/img/pricing/pricing-thumb-3.jpg" alt="">
-                            </div>
-                            <div class="tp-price-icon mb-20">
-                                <i class="flaticon-speed"></i>
-                            </div>
-                            <div class="tp-price-badge mb-20">
-                                <span>Premium plan</span>
-                            </div>
-                            <div class="tp-price-heading mb-40">
-                                <div class="tp-price-content">
-                                    <h4 class="tp-price-value">$89<span>/monthly</span></h4>
-                                </div>
-                            </div>
-                            <div class="tp-price-features mb-45">
-                                <ul>
-                                    <li>24/7 System monitoring</li>
-                                    <li>Security managment</li>
-                                    <li>Unlimited Download</li>
-                                    <li>Remote support</li>
-                                </ul>
-                            </div>
-                            <div class="tp-price-btn">
-                                <a href="{{ route('contact') }}">Start Free Trial</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mt-4">
+               <div class="col-lg-12">
+                  <div class="tp-project-details-catagory">
+                     <span class="tp-section-sub-title">What We’re Offering</span>
+                     {{-- <h5 class="tp-project-details-catagory-title pb-10">We Provide Exclusive Service
+                         For Your Business</h5> --}}
+                   </div>
+               </div>
             </div>
-            <!-- <div class="tp-price-shape-1">
-                         <img src="assets/img/shape/line-5-shape-2.png" alt="">
-                      </div> -->
-        </section> --}}
-
-
-        <section id="project-one-page" class="project-area tp-project-width mb-80 pl-15 pr-15 fix">
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="tp-section text-center mb-50">
-                            <span class="tp-section-sub-title">Recently completed work</span>
-                            <h4 class="tp-section-title">Check Our latest projects </h4>
+            <div class="row align-items-center mb-20">
+               <div class="col-lg-5 order-lg-1 order-sm -1 mt-4">
+                  <div class="tp-project-details-list">
+                     <h4 class="Text-black pb-10"> Appointment</h4>
+                     <div class="tp-project-details-list-item d-flex">
+                        <div class="tp-project-details-list-icon">
+                           <i class="fa-thin fa-check"></i>
                         </div>
+                        <div class="tagcloud1">
+
+                         <a href="">Enable easy booking and management of appointments.</a>
+
+                      </div>
+
+                     </div>
+                     <div class="tp-project-details-list-item d-flex">
+                        <div class="tp-project-details-list-icon">
+                           <i class="fa-thin fa-check"></i>
+                        </div>
+                        <div class="tagcloud1">
+                         <a href=""> Facilitate seamless communication between patients and providers. </a>
+                           </div>
+
+                     </div>
+                     <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
+                        <div class="tp-about-btn  mb-10">
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"  target="blank"> Learn More</a>
+                        </div>
+
+
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-7 order-lg-2 order-sm-2 mt-4">
+                  <div class="tp-project-details-list-thumb w-img zoom-effect">
+                     <img src="assets/img/Appointments.png" alt="" class="service-img1">
+                  </div>
+               </div>
+             </div>
+         <div class="row align-items-cente mt-4">
+               <div class="col-lg-7 order-lg-1 order-sm-2 mt-4">
+                 <div class="tp-project-details-list-thumb w-img  zoom-effect">
+                    <img src="assets/img/patientnew.png" alt=""  class="service-img1">
+                 </div>
+              </div>
+              <div class="col-lg-5 order-lg-2 order-sm-1 mt-4">
+                 <div class="tp-project-details-list">
+                    <h4 class="Text-black pb-10"> Patient</h4>
+                    <div class="tp-project-details-list-item d-flex">
+                       <div class="tp-project-details-list-icon">
+                          <i class="fa-thin fa-check"></i>
+                       </div>
+                       <div class="tagcloud1">
+                         <a href="">Provide a secure platform for accessing and managing medical records.</a>
+                           </div>
+
                     </div>
-                </div>
+                    <div class="tp-project-details-list-item d-flex">
+                       <div class="tp-project-details-list-icon">
+                          <i class="fa-thin fa-check"></i>
+                       </div>
+                       <div class="tagcloud1">
+                         <a href=""> Simplify the registration process and communication with healthcare professionals.</a>
+                           </div>
+                    </div>
+                    <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
+                        <div class="tp-about-btn  mb-10">
+                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
+                        </div>
 
 
-                    <!-- blog-area-start -->
-                    <section class="blog-area tp-blog-inner ">
-                       <div class="container">
-                          <div class="row">
-                             <div class="col-lg-12">
-                                <div class="swiper-container tp-blog-carousel-active swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
-                                   <div class="swiper-wrapper" id="swiper-wrapper-38d3be10fa6cbeb79" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1600px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="1 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
-                                                  </h4>
-                                                  {{-- <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div> --}}
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="2 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-5.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  {{-- <span>March 23, 2023 _ IT Service</span> --}}
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-                                                  {{-- <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div> --}}
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="3 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-6.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">What is Holding Back The IT Solution</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="4 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                      <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="5 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Transformation Challenges
-                                                        Into Opurtunities</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-
-                                   <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="9 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-1.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Does My Website Need Any Blog?</a>
-                                                  </h4>
-
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="10 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-3.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  <span>June 23, 2023 _ IT Service</span>
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">Transformation Challenges
-                                                        Into Opurtunities</a>
-                                                  </h4>
-                                                  <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="11 / 11" style="width: 370px; margin-right: 30px;">
-                                         <div class="tp-blog-two mb-50">
-                                            <div class="tp-blog-two-item">
-                                               <div class="tp-blog-two-thumb overlay-anim tp-thumb-common fix">
-                                                  <div class="tp-thumb-common-overlay wow" style="visibility: visible; animation-name: tpoverlay;"></div>
-                                                  <a href="blog-details.html">
-                                                     <img src="assets/img/blog/inner/inner-blog-4.jpg" alt="">
-                                                     <div class="tp-blog-two-thumb-plus">
-                                                        <i class="fa-regular fa-plus"></i>
-                                                     </div>
-                                                  </a>
-                                               </div>
-                                               <div class="tp-blog-two-content">
-                                                  <span>March 23, 2023 _ IT Service</span>
-                                                  <h4 class="tp-blog-two-title">
-                                                     <a href="blog-details.html">A Simple Social Media Marketing List</a>
-                                                  </h4>
-                                                  <div class="tp-blog-two-btn">
-                                                     <a href="blog-details.html">Read More</a>
-                                                  </div>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div></div>
-                                   <div class="tp-blog-carousel-dot swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                             </div>
+                     </div>
+                 </div>
+              </div>
+          </div>
+               <div class="row align-items-center mb-20 mt-4">
+                 <div class="col-lg-5">
+                    <div class="tp-project-details-list">
+                       <h4 class="Text-black pb-10"> Billing</h4>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
                           </div>
+                          <div class="tagcloud1">
+                             <a href=""> Streamline billing with automated invoicing and payment tracking.</a>
+                               </div>
+                       </div>
+                       <div class="tp-project-details-list-item d-flex">
+                          <div class="tp-project-details-list-icon">
+                             <i class="fa-thin fa-check"></i>
+                          </div>
+                          <div class="tagcloud1">
+                             <a href="">Generate detailed reports to track revenue, expenses, and billing trends.  </a>
+                               </div>
+
                        </div>
                     </section>
                     <!-- blog-area-end -->
@@ -595,14 +378,13 @@
         </section> --}}
         <!-- team-area-end -->
 
-        <!-- testimonial -->
-
+         </div>
 
         <!-- review-area-start -->
-        <section class="review-area pt-5 pb-5 mb-55">
+        <section class="review-area pb-5 mt-50">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-50">
                         <div class="tp-review-thumb pb-4">
                             <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
                         </div>

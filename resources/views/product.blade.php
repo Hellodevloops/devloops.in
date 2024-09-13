@@ -33,8 +33,7 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <!-- sercices-area-start -->
-        <section class="services-area pt-115 ">
+        <section class="project-details-area pt-40 pb-120 mb-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -230,9 +229,10 @@
                                        </div> -->
                         </div>
                     </div>
-                </div>
+                  </div>
+
             </div>
-        </section>
+         </section>
 
         <!-- contact -->
 

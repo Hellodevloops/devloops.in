@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Orchid\Screen\AsSource;
 use Orchid\Filters\Filterable;
 use Orchid\Filters\Types\Like;
-use App\Models\Testimonial;
+
 use Orchid\Attachment\Models\Attachment;
 use Orchid\Attachment\Attachable;
 

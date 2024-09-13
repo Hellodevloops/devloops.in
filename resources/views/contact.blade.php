@@ -86,11 +86,11 @@
                                             <input type="text" name="firstname" placeholder="First Name" value="{{ old('firstname') }}">
                                             <span><i class="fa-light fa-user"></i></span>
 
-                                        </div>
-                                        @error('firstname')
-                                            <div class="alert alert-danger">{{ $message }}</div>
-                                        @enderror
                                     </div>
+                                    @error('firstname')
+                                        <div class="alert alert-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
