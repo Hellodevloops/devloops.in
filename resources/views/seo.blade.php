@@ -174,7 +174,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-3 col-md-6">
                     <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;height:263.78px;">
                         <div class="tp-offer-item-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-shield-lock"
                                 viewBox="0 0 16 16">
@@ -184,8 +184,7 @@
                         </div>
                         <div class="tp-offer-item-content">
                             <h4 class="tp-offer-item-title under-line-white"><a>Technical SEO</a></h4>
-                            <p class="text-white">Ensure your website’s technical setup is optimized for search engines, including
-                                faster loading, mobile compatibility, and structured data.</p>
+                            <p class="text-white">Ensure your website’s technical setup is optimized for search engines, including faster loading, mobile compatibility, and structured data.</p>
                         </div>
                     </div>
                 </div>
