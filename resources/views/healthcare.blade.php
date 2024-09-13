@@ -33,34 +33,144 @@
         </section>
         <!-- breadcrumb-area-end -->
 
-        <div class="container mt-50 mb-55">
-            <div class="row">
-               <div class="col-lg-12">
-                 <div class="tp-project-details-catagory-content mb-40">
-                     <h4 class="tp-project-details-catagory-title mb-20">Storefront Flexibility</h4>
-                     <p class="text-black">Devloops' healthcare product offers unparalleled storefront flexibility, tailored to meet the unique needs of medical facilities and practitioners. Our solution provides a dynamic platform where healthcare providers can customize their storefronts effortlessly, ensuring seamless integration of their brand identity and services. With intuitive tools and versatile features, users can easily modify layouts, update content, and personalize the shopping experience for patients. Whether it's showcasing products, scheduling appointments, or offering informational resources, our platform empowers healthcare professionals to create engaging storefronts that foster trust, promote accessibility, and enhance patient satisfaction.</p>
-                  </div>
+        <!-- sercices-area-start -->
+        <section class="services-area pt-115 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="tp-services-details-wrap mb-40">
+                            <div class="tp-services-details-services mb-50">
+                                <h4 class="tp-services-details-services-title">Services</h4>
+                                <div class="tp-services-details-services-wrap">
+                                    <a href="{{ route('product') }}">Product Development <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('webdev') }}">Web Development <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                            <a href="{{ route('iot') }}">IOT <i
+                                                class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('healthcare') }}">Healthcare <i
+                                                    class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('seo') }}">SEO <i class="fa-light fa-arrow-right"></i></a>
 
-               </div>
-            </div>
-            <style>
-                @keyframes float2 {
-                    0% {
-                        transform: translateY(0);
-                    }
-                    50% {
-                        transform: translateY(-10px);
-                    }
-                    100% {
-                        transform: translateY(0);
-                    }
-                }
-            </style>
+                                    <a href="{{ route('digital') }}">Digital Marketing <i
+                                            class="fa-light fa-arrow-right"></i></a>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="tp-project-details-thumb w-img mb-30" style="animation: float2 3s ease-in-out infinite;">
-                        <img src="assets/img/customdashhealthhero3.png" alt="">
+                                            <a href="{{ route('socialmedia') }}">Social Media Marketing <i
+                                                class="fa-light fa-arrow-right"></i></a>
+                                                <a href="{{ route('socialmanagement') }}">Social Media Management <i
+                                                    class="fa-light fa-arrow-right"></i></a>
+
+                                </div>
+                            </div>
+                            <div class="tp-services-details-contact">
+                                <div class="tp-services-details-contact-bg"
+                                    data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
+                                <h5 class="tp-services-details-contact-title">Have Any Problem? Please, Contact</h5>
+                                <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
+                                    <div class="tp-services-details-contact-item-icon">
+                                        <i class="fa-light fa-phone"></i>
+                                    </div>
+                                    <div class="tp-services-details-contact-item-content">
+                                        <span>Call Us</span>
+                                        <a href="tel: +919106077817"> +919106077817</a>
+                                    </div>
+                                </div>
+                                <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
+                                    <div class="tp-services-details-contact-item-icon">
+                                        <i class="fa-sharp fa-light fa-envelope"></i>
+                                    </div>
+                                    <div class="tp-services-details-contact-item-content">
+                                        <span>Write to Us</span>
+                                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
+                                    </div>
+
+                                </div>
+                                <div class="tp-services-details-contact-item d-flex align-items-center">
+                                    <div class="tp-services-details-contact-item-icon">
+                                        <i class="fa-sharp fa-light fa-location-dot"></i>
+                                    </div>
+                                    <div class="tp-services-details-contact-item-content">
+                                        <span>Our Address</span>
+                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="tp-services-details-wrapper ml-30">
+                            <div class="tp-services-details-main-thumb mb-30 w-img">
+                                <img src="./assets/img/dashboard1.png" alt="">
+                            </div>
+                            <h4 class="tp-services-details-title mb-20">Storefront Flexibility</h4>
+                            <p class="text-black">Devloops' healthcare product offers unparalleled storefront flexibility,
+                                tailored to meet the unique needs of medical facilities and practitioners. Our solution
+                                provides a dynamic platform where healthcare providers can customize their storefronts
+                                effortlessly, ensuring seamless integration of their brand identity and services. With
+                                intuitive tools and versatile features, users can easily modify layouts, update content, and
+                                personalize the shopping experience for patients. Whether it's showcasing products,
+                                scheduling appointments, or offering informational resources, our platform empowers
+                                healthcare professionals to create engaging storefronts that foster trust, promote
+                                accessibility, and enhance patient satisfaction.
+                            </p>
+                            <div class="tp-services-details-faq">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                                            <div class="tp-services-details-faq-item-icon">
+                                                <i class="flaticon-medal"></i>
+                                            </div>
+                                            <div class="tp-services-details-faq-item-content">
+                                                <h4 class="tp-services-details-faq-title">Customizable Modules</h4>
+                                                <!-- <span>We always try to give best services</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                                            <div class="tp-services-details-faq-item-icon">
+                                                <i class="flaticon-medal"></i>
+                                            </div>
+                                            <div class="tp-services-details-faq-item-content">
+                                                <h4 class="tp-services-details-faq-title">Integration Capabilities</h4>
+                                                <!-- <span>We always try to give best services</span> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="tp-services-details-faq">
+                                      <div class="row">
+                                         <div class="col-lg-6">
+                                            <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                                               <div class="tp-services-details-faq-item-icon">
+                                                  <i class="flaticon-medal"></i>
+                                               </div>
+                                               <div class="tp-services-details-faq-item-content">
+                                                  <h4 class="tp-services-details-faq-title">Why IT Solution?</h4>
+                                                  <span>We always try to give best services</span>
+                                               </div>
+                                            </div>
+                                         </div>
+                                         <div class="col-lg-6">
+                                            <div class="tp-services-details-faq-item d-flex align-items-center mb-50">
+                                               <div class="tp-services-details-faq-item-icon">
+                                                  <i class="flaticon-medal"></i>
+                                               </div>
+                                               <div class="tp-services-details-faq-item-content">
+                                                  <h4 class="tp-services-details-faq-title">Best Solution</h4>
+                                                  <span>We always try to give best services</span>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                   <h4 class="tp-services-details-title">Web Development</h4>
+                                   <p>
+                                      Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                   </p> -->
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,51 +279,104 @@
                                </div>
 
                        </div>
-                       <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
-                        <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
+                    </section>
+                    <!-- blog-area-end -->
+
+            </div>
+        </section>
+
+
+        <!-- our team -->
+
+        {{-- sociAL for below team --}}
+           {{-- <div class="swiper-slide">
+                                        <div class="tp-team-3-item mb-40">
+                                            <div class="tp-team-3-thumb">
+                                                <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
+                                                    <div class="tp-thumb-common-overlay wow"></div>
+                                                    <!-- <a href="#" class="team-member" data-toggle="modal" data-target="#teamModal" data-name="Riya Vaidya" data-role="BackEnd developer"></a> -->
+                                                    <img src="assets/img/riya1n-removebg-preview.png" alt=""
+                                                        style="background-color: whitesmoke;">
+                                                </div>
+                                                <div class="tp-team-3-thumb-social">
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-facebook-f"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-instagram"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-twitter"></i></span></a>
+                                                    <a href="#"><span><i
+                                                                class="fa-brands fa-linkedin-in"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="tp-team-3-content">
+                                                <h5 class="tp-team-3-title"><a href="team-details.html">Riya Vaidya</a>
+                                                </h5>
+                                                <span>BackEnd developer</span>
+                                            </div>
+                                        </div>
+                                    </div> --}}
+        <!-- team-area-start -->
+        {{-- <section class="team-area tp-team-3-border fix pb-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tp-team-3-wrapper">
+                            <div class="tp-section tp-section-3 mb-50 wow fadeInUp" data-wow-duration="1s"
+                                data-wow-delay=".4s">
+                                <span class="tp-section-sub-title">Meet With Our Specialist</span>
+                                <h4 class="tp-section-title">Team that Builds Ideas Driven <br> by the Future</h4>
+                            </div>
                         </div>
-
-
-                     </div>
-                    </div>
-                 </div>
-                 <style>
-                    /* CSS */
-.zoom-effect {
-    overflow: hidden;
-    position: relative;
-    transition: transform 0.3s ease;
-}
-
-.zoom-effect:hover img {
-    transform: scale(1.0);
-}
-
-.zoom-effect::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid black;
-    z-index: 1;
-    transition: border-color 0.3s ease;
-}
-
-.zoom-effect:hover::before {
-    border-color: transparent;
-}
-
-                 </style>
-                 <div class="col-lg-7 mt-4">
-                    <div class="tp-project-details-list-thumb w-img zoom-effect">
-                        <img src="assets/img/Billingsnew.jpg" alt="" class="service-img1">
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tp-team-3-wrap">
+                            <div class="swiper-container tp-team-3-active">
+                                <div class="swiper-wrapper">
 
-               </div>
+                                    @php
+                                    use App\Models\Team;
+                                    $team = Team::all();
+                                @endphp
+                                    @foreach ($team as $team)
+                                        <div class="swiper-slide">
+                                            <div class="tp-team-3-item mb-40">
+                                                <div class="tp-team-3-thumb">
+                                                    <div class="tp-team-3-thumb-wrap tp-thumb-common fix">
+                                                        <div class="tp-thumb-common-overlay wow"></div>
+                                                        <img src="{{ $team->img }}" alt=""
+                                                            style="background-color: whitesmoke;">
+                                                    </div>
+                                                    <div class="tp-team-3-thumb-social">
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-facebook-f"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-instagram"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-twitter"></i></span></a>
+                                                        <a href="#"><span><i
+                                                                    class="fa-brands fa-linkedin-in"></i></span></a>
+                                                    </div>
+                                                </div>
+                                                <div class="tp-team-3-content">
+                                                    <h5 class="tp-team-3-title"><a
+                                                            href="{{ route('about') }}">{{ $team->name }}</a>
+                                                    </h5>
+                                                    <span>{{ $team->position }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endforeach
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
+        <!-- team-area-end -->
 
          </div>
 
@@ -345,134 +508,117 @@
         <!-- review-area-end -->
 
         <!-- contact form -->
-        <section class="contact-area pt-50 pb-10 ">
+        <section id="contact-section" class="contact-area pt-115 pb-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-6">
+                    <div class="col-xl-5 col-lg-6 mt-10">
                         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
-                        marginwidth="0"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                            marginwidth="0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.7245431381434!2d73.14561787344553!3d22.32625507966792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc8ee3e155555%3A0x1386022b1d132240!2sDevloops%20International!5e0!3m2!1sen!2sus!4v1701242127098!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
-
-                    <div class="offset-xl-1 col-xl-6 col-lg-6 ">
+                    <div class="offset-xl-1 col-xl-6 col-lg-6">
                         <div class="tp-section tp-section-two mb-25">
-                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Let’s Talk With Us</span>
-                            {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
+                            <span class="tp-section-sub-title"><i class="flaticon-edit"></i> Get in Touch</span>
+                            {{-- <h4 class="tp-section-title">We're Here to Assist You</h4> --}}
                             <div class="tp-section-title-wrapper">
-                                <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                  -->
+                                <!-- <p>We're committed to providing you with excellent support. Feel free to reach out to us through the contact form below.</p> -->
                             </div>
                         </div>
                         <div class="tp-contact-details-form mb-40">
-                            {{-- @if (session('error'))
+                            @if (session('error'))
                                 <div class="alert alert-danger">
                                     {{ session('error') }}
                                 </div>
                             @endif
-                            @if (session('succus'))
-                                <div class="alert alert-succuss">
-                                    {{ session('succuss') }}
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
                                 </div>
-                            @endif --}}
-
-                            @if (session('error'))
-                            <div class="alert alert-danger">
-                                {{ session('error') }}
-                            </div>
-                        @endif
-                        @if (session('success'))
-                            <div class="alert alert-success">
-                                {{ session('success') }}
-                            </div>
-                        @endif
-                        <form method="POST" action="{{ route('contact.store') }}">
-                            @csrf
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="firstname" placeholder="First Name">
-                                        <span><i class="fa-light fa-user"></i></span>
-
+                            @endif
+                            <form method="POST" action="{{ route('contact.store') }}">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="firstname" placeholder="First Name" value="{{ old('firstname') }}">
+                                            <span><i class="fa-light fa-user"></i></span>
+                                        </div>
+                                        @error('firstname')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('firstname')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="lastname" placeholder="Last Name">
-                                        <span><i class="fa-light fa-user"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="lastname" placeholder="Last Name" value="{{ old('lastname') }}">
+                                            <span><i class="fa-light fa-user"></i></span>
+                                        </div>
+                                        @error('lastname')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('lastname')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="email" placeholder="Email Address" required>
-                                        <span><i class="fa-light fa-envelope"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="email" placeholder="Email Address" value="{{ old('email') }}">
+                                            <span><i class="fa-light fa-envelope"></i></span>
+                                        </div>
+                                        @error('email')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('email')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="tel" name="phone" placeholder="Phone Number" maxlength="13">
-                                        <span><i class="fa-light fa-phone"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="phone" placeholder="Phone Number" value="{{ old('phone') }}">
+                                            <span><i class="fa-light fa-phone"></i></span>
+                                        </div>
+                                        @error('phone')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('phone')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="message" placeholder="Message" maxlength="550">{{ old('message') }}</textarea>
+                                        </div>
+                                        @error('message')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('description')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                                <!-- <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
-                                         <input type="text" placeholder="Company Name">
-                                         <span><i class="fa-light fa-user"></i></span>
-                                      </div>
-                                   </div>
-                                   <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
 
-                                         <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                         <input type="text" placeholder="Your Subject">
-                                      </div>
-                                   </div>
-                                   <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
-                                         <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                         <span><i class="fa-light fa-pen"></i></span>
-                                      </div>
-                                   </div> -->
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-btn">
-                                        <button class="tp-btn">Send a Message</button>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-btn">
+                                            <button class="tp-btn">Send a Message</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
+                        <!-- Contact List Section -->
+                        <div class="tp-contact-list mt-40">
+                            @php
+                                $contacts = App\Models\Contact::all();
+                            @endphp
+                            {{-- <ul class="list-unstyled">
+                                @foreach ($contacts as $contact)
+                                    <li class="contact-item">
+                                        <h5>{{ $contact->firstname }} {{ $contact->lastname }}</h5>
+                                        <p>Email: <a href="mailto:{{ $contact->email }}">{{ $contact->email }}</a></p>
+                                        <p>Phone: <a href="tel:{{ $contact->phone }}">{{ $contact->phone }}</a></p>
+                                        <p>Message: {{ $contact->message }}</p>
+                                    </li>
+                                @endforeach
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
     {{-- main end --}}
 @endsection

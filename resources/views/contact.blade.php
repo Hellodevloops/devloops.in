@@ -19,16 +19,16 @@
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                              <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                              </div>
-                              <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                              </div>
-                              <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                              </div>
-                           </div> -->
+                                  <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                  </div>
+                                  <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                  </div>
+                                  <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                  </div>
+                               </div> -->
 
         </section>
         <!-- breadcrumb-area-end -->
@@ -36,7 +36,7 @@
 
         <!-- contact-area-start -->
 
-        <section class="contact-area pt-50 pb-20 ">
+        <section id="contact-section"  class="contact-area pt-115 pb-80 ">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6 mt-10">
@@ -53,7 +53,7 @@
                             {{-- <h4 class="tp-section-title">Grow Your Business With Our Expertise</h4> --}}
                             <div class="tp-section-title-wrapper">
                                 <!-- <p>System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols.</p>
-                                  -->
+                                      -->
                             </div>
                         </div>
                         <div class="tp-contact-details-form mb-40">
@@ -69,22 +69,22 @@
                             @endif --}}
 
                             @if (session('error'))
-                            <div class="alert alert-danger">
-                                {{ session('error') }}
-                            </div>
-                        @endif
-                        @if (session('success'))
-                            <div class="alert alert-success">
-                                {{ session('success') }}
-                            </div>
-                        @endif
-                        <form method="POST" action="{{ route('contact.store') }}">
-                            @csrf
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="firstname" placeholder="First Name">
-                                        <span><i class="fa-light fa-user"></i></span>
+                                <div class="alert alert-danger">
+                                    {{ session('error') }}
+                                </div>
+                            @endif
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            <form method="POST" action="{{ route('contact.store') }}">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="firstname" placeholder="First Name" value="{{ old('firstname') }}">
+                                            <span><i class="fa-light fa-user"></i></span>
 
                                     </div>
                                     @error('firstname')
@@ -92,78 +92,77 @@
                                     @enderror
                                 </div>
 
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="lastname" placeholder="Last Name">
-                                        <span><i class="fa-light fa-user"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="lastname" placeholder="Last Name" value="{{ old('lastname') }}">
+                                            <span><i class="fa-light fa-user"></i></span>
+                                        </div>
+                                        @error('lastname')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('lastname')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="text" name="email" placeholder="Email Address" required>
-                                        <span><i class="fa-light fa-envelope"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="email" placeholder="Email Address" value="{{ old('email') }}">
+                                            <span><i class="fa-light fa-envelope"></i></span>
+                                        </div>
+                                        @error('email')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('email')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <input type="tel" name="phone" placeholder="Phone Number" maxlength="13">
-                                        <span><i class="fa-light fa-phone"></i></span>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <input type="text" name="phone" placeholder="Phone Number" value="{{ old('phone') }}">
+                                            <span><i class="fa-light fa-phone"></i></span>
+                                        </div>
+                                        @error('phone')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('phone')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
 
-
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-input mb-20">
-                                        <textarea class="form-control" name="description" placeholder="Description" maxlength="100"></textarea>
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <textarea class="form-control" name="message" placeholder="Description" maxlength="550">{{ old('message') }}</textarea>
+                                        </div>
+                                        @error('message')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
-                                    @error('description')
-                                        <div class="alert alert-danger">{{ $message }}</div>
-                                    @enderror
-                                </div>
-                                <!-- <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
-                                         <input type="text" placeholder="Company Name">
-                                         <span><i class="fa-light fa-user"></i></span>
-                                      </div>
-                                   </div>
-                                   <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
 
-                                         <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
-                                         <input type="text" placeholder="Your Subject">
-                                      </div>
-                                   </div>
-                                   <div class="col-lg-12">
-                                      <div class="tp-contact-details-form-input mb-20">
-                                         <textarea name="Message" placeholder="Write Your Message"></textarea>
-                                         <span><i class="fa-light fa-pen"></i></span>
-                                      </div>
-                                   </div> -->
-                                <div class="col-lg-12">
-                                    <div class="tp-contact-details-form-btn">
-                                        <button class="tp-btn">Send a Message</button>
+                                    <!-- <div class="col-lg-12">
+                                              <div class="tp-contact-details-form-input mb-20">
+                                                 <input type="text" placeholder="Company Name">
+                                                 <span><i class="fa-light fa-user"></i></span>
+                                              </div>
+                                           </div>
+                                           <div class="col-lg-12">
+                                              <div class="tp-contact-details-form-input mb-20">
+
+                                                 <span><i class="fa-sharp fa-light fa-circle-info"></i></span>
+                                                 <input type="text" placeholder="Your Subject">
+                                              </div>
+                                           </div>
+                                           <div class="col-lg-12">
+                                              <div class="tp-contact-details-form-input mb-20">
+                                                 <textarea name="Message" placeholder="Write Your Message"></textarea>
+                                                 <span><i class="fa-light fa-pen"></i></span>
+                                              </div>
+                                           </div> -->
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-btn">
+                                            <button class="tp-btn">Send a Message</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-  <!-- contact-area-end -->
+        <!-- contact-area-end -->
 
     </main>
 @endsection

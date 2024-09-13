@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Post;
+use App\Models\Contact;
 class PostController extends Controller
 {
 
@@ -24,10 +25,11 @@ class PostController extends Controller
     {
         //$blogposts = Post::all();
         $blog_posts = Post::latest()->paginate(6); // Order blog posts by creation date in descending order
+        $contacts = Contact::first();
         // $layout = Layout::first();
         // $categories = Category::all(); // Fetch all categories
         // Pass the blog posts to the view for listing
-        return view('blog.index', compact('blog_posts'));
+        return view('blog.index', compact('blog_posts','contacts'));
 
     }
 

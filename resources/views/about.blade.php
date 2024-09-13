@@ -225,7 +225,7 @@
         <!-- management-area-end -->
 
         <!-- team-area-start -->
-        {{-- <section class="team-area tp-team-3-border fix pb-10">
+        {{-- <section class="team-area tp-team-3-border fix pt-115 pb-60">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -243,6 +243,7 @@
                         <div class="tp-team-3-wrap">
                             <div class="swiper-container tp-team-3-active">
                                 <div class="swiper-wrapper">
+
 
                                     @php
                                     use App\Models\Team;

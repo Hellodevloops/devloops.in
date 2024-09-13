@@ -101,8 +101,8 @@ class ContactEditScreen extends Screen
                     Input::make('contact.email')
                     ->title('Email'),
 
-                    // TextArea::make('contact.message')
-                    // ->title('Message'),
+                    TextArea::make('contact.message')
+                    ->title('Message'),
             ])->title('Contact Information'),
 
 

@@ -70,7 +70,7 @@
                      </div>
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-envelope"></i></span>
-                        <a href="mailto:hr@devloops.in"><span>hr@devloops.in</span></a>
+                        <a href="mailto:hello@devloops.in"><span>hello@devloops.in</span></a>
                     </div>
 
                   </div>
@@ -119,6 +119,9 @@
                                        <div class="demo-name">
                                           <span><a href="{{ route('healthcare') }}">Healthcare</a></span>
                                        </div>
+                                       <div class="demo-name">
+                                        <span><a href="{{ route('seo') }}">SEO</a></span>
+                                     </div>
 
                                     <!-- <div class="col homemenu">
                                        <div class="homemenu-thumb">
@@ -351,7 +354,7 @@
                                    <i class="fa-solid fa-square-phone"></i><a href="tel:+919106077817"> +919106077817</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                   <a href="mailto:hr@devloops.in"><i class="fa-light fa-envelope"></i>hr@devloops.in</a>
+                                   <a href="mailto:hello@devloops.in"><i class="fa-light fa-envelope"></i>hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
                                    <i class="fa-solid fa-location-dot"></i> <a href="#">GF-2 Dhanlaxmi Complex, Vadodara</a>

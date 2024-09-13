@@ -28,6 +28,18 @@ Route::get('/about', function () {
 Route::get('/termsncondition', function () {
     return view('termsncondition');
 })->name('termsncondition');
+Route::get('/seo', function () {
+    return view('seo');
+})->name('seo');
+Route::get('/digital', function () {
+    return view('digital');
+})->name('digital');
+Route::get('/socialmedia', function () {
+    return view('socialmedia');
+})->name('socialmedia');
+Route::get('/socialmanagement', function () {
+    return view('socialmanagement');
+})->name('socialmanagement');
 Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');

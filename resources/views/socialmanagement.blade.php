@@ -11,28 +11,30 @@
                         <div class="tpbreadcrumb">
                             <div class="breadcrumb-link mb-15">
                                 <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
-                                <span> / Iot</span>
+                                <span> / Social Media Management</span>
                             </div>
-                            <h2 class="breadcrumb-title">Internet Of Things</h2>
+                            <h2 class="breadcrumb-title">Social Media Management</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                          <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                          </div>
-                       </div> -->
+                                      <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                      </div>
+                                      <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                      </div>
+                                      <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                         <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                      </div>
+                                   </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-40 pb-120 mb-20">
+        <!-- sercices-area-start -->
+        <!-- services-area-start -->
+        <section class="services-area pt-115">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -61,8 +63,7 @@
                                 </div>
                             </div>
                             <div class="tp-services-details-contact">
-                                <div class="tp-services-details-contact-bg"
-                                    data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
+                                <div class="tp-services-details-contact-bg" data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
                                 <h5 class="tp-services-details-contact-title">Have Any Problem? Please, Contact</h5>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
                                     <div class="tp-services-details-contact-item-icon">
@@ -70,7 +71,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Call Us</span>
-                                        <a href="tel: +919106077817"> +919106077817</a>
+                                        <a href="tel:+919106077817">+919106077817</a>
                                     </div>
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
@@ -81,7 +82,6 @@
                                         <span>Write to Us</span>
                                         <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
                                     </div>
-
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center">
                                     <div class="tp-services-details-contact-item-icon">
@@ -95,77 +95,118 @@
                             </div>
                         </div>
                     </div>
-                 </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1x">
-                    <div class="tp-project-details-list">
-                       <h4 class="Text-black pb-10"> IoT Connectivity</h4>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">Ensure seamless IoT integration into existing infrastructure for smooth communication and data exchange.</a>
-                              </div>
-
-                       </div>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">Design scalable and resilient network architectures to manage the increasing volume of IoT devices effectively.</a>
-                              </div>
-                       </div>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">IoT solutions compatible with diverse platforms and protocols to enable interoperability and maximize connectivity options.</a>
-                              </div>
-                       </div>
+                    <div class="col-lg-8">
+                        <div class="tp-services-details-wrapper ml-30">
+                            <div class="tp-services-details-main-thumb mb-30 w-img">
+                                <img src="assets/img/socialmanagement.jpg" alt="Social Media Management">
+                            </div>
+                            <h4 class="tp-services-details-title mb-20">Social Media Management</h4>
+                            <p class="text-black">
+                                Maximize your brand's online presence with <span class="text-pink">Devloops' Social Media Management services</span>. Our team specializes in creating and managing dynamic social media profiles across platforms like Facebook, Instagram, LinkedIn, and Twitter. We offer a comprehensive suite of services including strategy development, content scheduling, and performance analysis.
+                                By focusing on audience growth, engagement, and retention, we ensure your social media channels reflect your brand's voice and values. Our data-driven approach helps in crafting strategies that resonate with your audience and drive measurable success.
+                                Partner with Devloops to streamline your social media efforts and achieve a consistent and impactful online presence.
+                            </p>
+                            <div class="tp-about-3-item mb-35">
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
+                                    <p class="text-black">To deliver expert social media management that enhances brand visibility, fosters community engagement, and drives strategic growth through effective online interactions.</p>
+                                </div>
+                                <div class="tp-about-3-item-icon">
+                                    <i class="flaticon-solution"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-             </div>
-                  <div class="row align-items-center mb-20">
-                    <div class="col-lg-7">
-                       <div class="tp-project-details-list">
-                          <h4 class="Text-black pb-10"> IoT Security</h4>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Implement robust encryption to secure data transmission and protecting IoT devices from unauthorized access .</a>
-                                  </div>
-                          </div>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Use biometrics or multi-factor authentication to verify device identities, ensuring secure access.</a>
-                                  </div>
-                          </div>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Adhere to stringent data privacy regulations and standards, implement secure data storage.</a>
-                                  </div>
-                          </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-5 mt-4">
-                       <div class="tp-project-details-list-thumb w-img">
-                          <img src="assets/img/service/iotsecurity.jpg" alt=""class="service-img1">
-                       </div>
-                    </div>
-                  </div>
-
+                </div>
             </div>
-         </section>
+        </section>
+
+
+
+        <!-- services-area-end -->
+
+        <!-- sercices-area-end -->
+        <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
+        style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="tp-section tp-section-white-two mb-80">
+                        <span class="tp-section-sub-title">Our Expertise</span>
+                        <h4 class="tp-section-title">Expert Social Media Management Services <br> To Enhance Your Online Presence</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M6.293 9.5H4v4H2v-4H1v-2h1V7.5c0-1.5 1-2.5 2.5-2.5h1.5V7h2V9.5z" />
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Facebook Account Management</a></h4>
+                            <p class="text-white truncate">Streamline your Facebook account with our management services, which include post scheduling, audience insights, and engagement analytics to optimize your social media strategy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
+                        style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.039 0 9.33-5 9.33-9.33 0-.14-.004-.283-.01-.423A6.672 6.672 0 0 0 16 3.577a6.574 6.574 0 0 1-1.889.518A3.303 3.303 0 0 0 15.558 2a6.528 6.528 0 0 1-2.075.788A3.286 3.286 0 0 0 7.88 6.046 9.29 9.29 0 0 1 1.114 2.7a3.292 3.292 0 0 0 1.016 4.386A3.271 3.271 0 0 1 .64 6.64v.041a3.284 3.284 0 0 0 2.64 3.22 3.273 3.273 0 0 1-.865.116c-.212 0-.418-.02-.62-.058a3.282 3.282 0 0 0 3.064 2.283A6.585 6.585 0 0 1 .62 14.351a6.446 6.446 0 0 1-.77-.045A9.326 9.326 0 0 0 5.026 15z" />
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Twitter Account Management</a></h4>
+                            <p class="text-white truncate">Maximize your impact on Twitter with our comprehensive management services, including profile optimization, engagement strategies, and trend monitoring to drive growth and interactions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1.5a6.5 6.5 0 1 0 0 13A6.5 6.5 0 0 0 8 1.5zM6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0
+                                <path
+                                    d="M6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6.5 7a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0z" />
+                        </svg>
+                    </div>
+                    <div class="tp-offer-item-content">
+                        <h4 class="tp-offer-item-title under-line-white truncate"><a>Instagram Account Management</a></h4>
+                        <p class="text-white truncate">Elevate your brand’s presence on Instagram with our management services, including profile enhancement, content strategy, and audience growth techniques to boost your engagement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <style>
+            .truncate {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .tp-offer-item-content {
+                height: 100px;
+                /* Adjust based on your design needs */
+            }
+        </style>
+
+
 
         <!-- contact -->
 

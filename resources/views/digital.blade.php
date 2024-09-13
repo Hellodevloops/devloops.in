@@ -11,28 +11,30 @@
                         <div class="tpbreadcrumb">
                             <div class="breadcrumb-link mb-15">
                                 <span class="breadcrumb-item-active"><a href="{{ route('/') }}">Home</a></span>
-                                <span> / Iot</span>
+                                <span> / Digital Marketing</span>
                             </div>
-                            <h2 class="breadcrumb-title">Internet Of Things</h2>
+                            <h2 class="breadcrumb-title">Digital Marketing</h2>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                          <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                          </div>
-                          <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                             <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                          </div>
-                       </div> -->
+                              <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                 <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                              </div>
+                              <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                 <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                              </div>
+                              <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                 <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                              </div>
+                           </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-40 pb-120 mb-20">
+        <!-- sercices-area-start -->
+        <!-- services-area-start -->
+        <section class="services-area pt-115">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -81,7 +83,6 @@
                                         <span>Write to Us</span>
                                         <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
                                     </div>
-
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center">
                                     <div class="tp-services-details-contact-item-icon">
@@ -95,77 +96,114 @@
                             </div>
                         </div>
                     </div>
-                 </div>
-                 <div class="col-lg-7 order-lg-2 order-sm-1x">
-                    <div class="tp-project-details-list">
-                       <h4 class="Text-black pb-10"> IoT Connectivity</h4>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">Ensure seamless IoT integration into existing infrastructure for smooth communication and data exchange.</a>
-                              </div>
-
-                       </div>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">Design scalable and resilient network architectures to manage the increasing volume of IoT devices effectively.</a>
-                              </div>
-                       </div>
-                       <div class="tp-project-details-list-item d-flex">
-                          <div class="tp-project-details-list-icon">
-                             <i class="fa-thin fa-check"></i>
-                          </div>
-                          <div class="tagcloud1">
-                            <a href="">IoT solutions compatible with diverse platforms and protocols to enable interoperability and maximize connectivity options.</a>
-                              </div>
-                       </div>
+                    <div class="col-lg-8">
+                        <div class="tp-services-details-wrapper ml-30">
+                            <div class="tp-services-details-main-thumb mb-30 w-img">
+                                <img src="assets/img/didgital.jpg" alt="Digital Marketing">
+                            </div>
+                            <h4 class="tp-services-details-title mb-20">Digital Marketing</h4>
+                            <p class="text-black">
+                                Maximize your brand’s online presence with <span class="text-pink">Devloops' Digital Marketing
+                                    services</span>. Our team specializes in <span class="text-pink">social media marketing, pay-per-click (PPC) campaigns, email marketing, and content marketing</span> to engage your audience and drive conversions.
+                                By leveraging targeted digital strategies, we help you reach new customers, build brand awareness,
+                                and generate more leads for your business.
+                                Partner with Devloops to create a strong online presence and achieve your marketing goals through
+                                data-driven digital campaigns.
+                            </p>
+                            <div class="tp-about-3-item mb-35">
+                                <div class="tp-about-3-item-content">
+                                    <h4 class="tp-about-3-item-title">Our Vision</h4>
+                                    <p class="text-black">To help businesses thrive in the digital world by reaching the right audience
+                                        with the right message, enhancing customer engagement, and driving measurable results through
+                                        tailored digital marketing strategies.</p>
+                                </div>
+                                <div class="tp-about-3-item-icon">
+                                    <i class="flaticon-solution"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-             </div>
-                  <div class="row align-items-center mb-20">
-                    <div class="col-lg-7">
-                       <div class="tp-project-details-list">
-                          <h4 class="Text-black pb-10"> IoT Security</h4>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Implement robust encryption to secure data transmission and protecting IoT devices from unauthorized access .</a>
-                                  </div>
-                          </div>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Use biometrics or multi-factor authentication to verify device identities, ensuring secure access.</a>
-                                  </div>
-                          </div>
-                          <div class="tp-project-details-list-item d-flex">
-                             <div class="tp-project-details-list-icon">
-                                <i class="fa-thin fa-check"></i>
-                             </div>
-                             <div class="tagcloud1">
-                                <a href="">Adhere to stringent data privacy regulations and standards, implement secure data storage.</a>
-                                  </div>
-                          </div>
-                       </div>
-                    </div>
-                    <div class="col-lg-5 mt-4">
-                       <div class="tp-project-details-list-thumb w-img">
-                          <img src="assets/img/service/iotsecurity.jpg" alt=""class="service-img1">
-                       </div>
-                    </div>
-                  </div>
-
+                </div>
             </div>
-         </section>
+        </section>
+
+        <!-- services-area-end -->
+
+        <!-- sercices-area-end -->
+        <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
+        style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="tp-section tp-section-white-two mb-80">
+                        <span class="tp-section-sub-title">What We’re Offering</span>
+                        <h4 class="tp-section-title">Comprehensive Digital Marketing Solutions <br> To Elevate Your Brand</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-3 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M6.293 9.5H4v4H2v-4H1v-2h1V7.5c0-1.5 1-2.5 2.5-2.5h1.5V7h2V9.5z"/>
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Social Media Marketing</a></h4>
+                            <p class="text-white truncate">Enhance your brand’s presence on platforms like Facebook, Instagram, and Twitter through targeted campaigns, engaging content, and audience interaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-3 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
+                        style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-google" viewBox="0 0 16 16">
+                                <path d="M8 4.615a3.5 3.5 0 0 1 3.473 3.596c0 .272-.038.541-.089.804H8v-1.9h1.67A2.057 2.057 0 0 0 10.4 6.25c-.262-1.46-1.378-2.58-2.762-2.58-1.596 0-2.886 1.248-2.886 2.773 0 1.528 1.285 2.773 2.886 2.773.598 0 1.178-.174 1.655-.486l1.057 1.06A4.6 4.6 0 0 1 8 8.492c-2.08 0-3.68-1.47-3.68-3.373 0-1.889 1.577-3.373 3.68-3.373z"/>
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>PPC Advertising</a></h4>
+                            <p class="text-white truncate">Drive targeted traffic to your website with pay-per-click campaigns on platforms like Google Ads and Bing Ads. Optimize your ad spend for maximum ROI.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-3 col-md-6">
+                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                        <div class="tp-offer-item-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zM1 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H1zM0 4v11l8-5L16 15V4L8 9 0 4z"/>
+                            </svg>
+                        </div>
+                        <div class="tp-offer-item-content">
+                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Email Marketing</a></h4>
+                            <p class="text-white truncate">Engage with your audience and drive conversions through targeted email campaigns, newsletters, and personalized offers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .truncate {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .tp-offer-item-content {
+            height: 100px; /* Adjust based on your design needs */
+        }
+    </style>
+
+
 
         <!-- contact -->
 

@@ -46,8 +46,8 @@
                         <p class="text-black">1. <class="postbox-title">Contact Us</span>: To request a refund, please contact our customer support team via:</p>
                         <p class="text-black mb-5">
                             - Email:
-                            <a href="mailto:hr@devloops.in" style="color: rgb(212, 60, 194);">
-                                <i class="fa-light fa-envelope"></i> hr@devloops.in
+                            <a href="mailto:hello@devloops.in" style="color: rgb(212, 60, 194);">
+                                <i class="fa-light fa-envelope"></i> hello@devloops.in
                             </a>
                         </p>
                         <p class="text-black mb-5">
@@ -68,8 +68,8 @@
                         <p class="text-black">If you have any questions or need further assistance regarding our refund policy, please contact our support team:</p>
                         <p class="text-black mb-5">
                             - Email:
-                            <a href="mailto:hr@devloops.in" style="color: rgb(212, 60, 194);">
-                                <i class="fa-light fa-envelope"></i> hr@devloops.in
+                            <a href="mailto:hello@devloops.in" style="color: rgb(212, 60, 194);">
+                                <i class="fa-light fa-envelope"></i> hello@devloops.in
                             </a>
                         </p>
                         <p class="text-black mb-5">

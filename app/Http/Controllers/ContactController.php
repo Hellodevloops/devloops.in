@@ -92,35 +92,76 @@ class ContactController extends Controller
     //         }
     //     }
 
+    // main previous
+    // public function store(Request $request)
+    // {
+    //     $validatedData = $request->validate([
+    //         'firstname' => 'required|string|max:255',
+    //         'lastname' => 'required|string|max:255',
+    //         'phone' => 'nullable|string|max:20',
+    //         'email' => 'nullable|email|max:255',
+    //         'message' => 'nullable|string|max:255',
+    //     ]);
+
+    //     try {
+    //         // Save data to database
+    //         $contact = new Contact();
+    //         $contact->firstname = $validatedData['firstname'];
+    //         $contact->lastname = $validatedData['lastname'];
+    //         $contact->phone = $validatedData['phone'];
+    //         $contact->email = $validatedData['email'];
+    //         $contact->message = $validatedData['message'];
+    //         $contact->save();
+
+    //         // Send email
+
+    //         // Redirect to success page with success message
+    //         return redirect()->back()->with('success', 'Thank you for contacting us!');
+    //     } catch (\Exception $e) {
+    //         // Redirect back with error message
+    //         return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
+    //     }
+    // }
+
+    // main with old filled data show after even validation failed
     public function store(Request $request)
-    {
-        $validatedData = $request->validate([
-            'firstname' => 'required|string|max:255',
-            'lastname' => 'required|string|max:255',
-            'phone' => 'nullable|string|max:20',
-            'email' => 'nullable|email|max:255',
-            // 'message' => 'nullable|string',
-        ]);
+{
+    $validatedData = $request->validate([
+        'firstname' => ['required', 'string', 'max:255', 'regex:/^[a-zA-Z]+$/'], // Only alphabets allowed
+        'lastname' => ['required', 'string', 'max:255', 'regex:/^[a-zA-Z]+$/'], // Only alphabets allowed
+        'phone' => ['required', 'digits_between:10,20'], // Only digits allowed with a length between 10 and 20
+        'email' => 'required|email|max:255',
+        'message' => 'nullable|string|max:550',
+    ], [
+        // Custom error messages
+        'firstname.regex' => 'The first name should contain only alphabets.',
+        'lastname.regex' => 'The last name should contain only alphabets.',
+        'phone.digits_between' => 'The phone number must be between 10 and 20 digits and contain only digits.',
+    ]);
 
-        try {
-            // Save data to database
-            $contact = new Contact();
-            $contact->firstname = $validatedData['firstname'];
-            $contact->lastname = $validatedData['lastname'];
-            $contact->phone = $validatedData['phone'];
-            $contact->email = $validatedData['email'];
-            // $contact->message = $validatedData['message'];
-            $contact->save();
+    try {
+        // Save data to database
+        $contact = new Contact();
+        $contact->firstname = $validatedData['firstname'];
+        $contact->lastname = $validatedData['lastname'];
+        $contact->phone = $validatedData['phone'];
+        $contact->email = $validatedData['email'];
+        $contact->message = $validatedData['message'];
+        $contact->save();
 
-            // Send email
-
-            // Redirect to success page with success message
-            return redirect()->back()->with('success', 'Thank you for contacting us!');
-        } catch (\Exception $e) {
-            // Redirect back with error message
-            return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
-        }
-    }
+        // Redirect to success page with success message back to page only
+    //     return redirect()->back()->with('success', 'Thank you for contacting us!');
+    // } catch (\Exception $e) {
+    //     // Redirect back with error message
+    //     return redirect()->back()->with('error', 'Error: ' . $e->getMessage());
+    // }
+    // Redirect to success page with success message back to contact sec direct instead og page
+    return redirect()->to(url()->previous() . '#contact-section')->with('success', 'Thank you for contacting us!');
+} catch (\Exception $e) {
+    // Redirect back to the form section with error message
+    return redirect()->to(url()->previous() . '#contact-section')->with('error', 'Error: ' . $e->getMessage());
+}
+}
 
 
 
