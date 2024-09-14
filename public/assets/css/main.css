@@ -18406,3 +18406,7 @@ padding-right: 40px !important;
     height: 300px;
     margin-top: 6px;
 }
+a.active {
+    color: #ff0080 !important;
+    font-weight: bold;
+}

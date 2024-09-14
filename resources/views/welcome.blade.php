@@ -217,7 +217,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
                                         Development</a></h4>
-                                <p class="text-white">Designing captivating websites with intuitive interfaces and robust
+                                <p class="text-white pb-4">Designing captivating websites with intuitive interfaces and robust
                                     functionality.</p>
                             </div>
                             <div class="tp-offer-item-btn">
@@ -240,7 +240,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
                                         Of Things</a></h4>
-                                <p class="text-white">Building interconnected solutions that leverage the power of the
+                                <p class="text-white  pb-4">Building interconnected solutions that leverage the power of the
                                     Internet of Things.</p>
                             </div>
                             <div class="tp-offer-item-btn">
@@ -261,7 +261,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
                                         href="{{ route('healthcare') }}">Healthcare</a></h4>
-                                <p class="text-white"> Developing secure and scalable software solutions tailored to the
+                                <p class="text-white  pb-4"> Developing secure and scalable software solutions tailored to the
                                     unique demands.</p>
                             </div>
                             <div class="tp-offer-item-btn">

@@ -24,6 +24,10 @@
       <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
       <!-- our clients codepen -->
       <style>
+        body {
+  overflow: hidden;
+}
+
         img {
  max-width: 100%;
 }
@@ -157,36 +161,36 @@
                      <nav id="mobile-menu" class="tp-main-menu-content">
                         <ul class="tp-onepage-menu">
 
-                           <li><a href="{{ route('/') }}">Home</a></li>
-                           <li><a href="{{ route('about') }}">About</a></li>
+                           <li><a href="{{ route('/') }}"  class="{{ Route::currentRouteName() == '/' ? 'active' : '' }}">Home</a></li>
+                           <li><a href="{{ route('about') }}" class="{{ Route::currentRouteName() == 'about' ? 'active' : '' }}" >About</a></li>
                            <li class="has-dropdown">
-                              <a href="#">Service</a>
+                              <a href="#" class="{{ in_array(Route::currentRouteName(), ['product', 'webdev', 'iot', 'healthcare', 'seo', 'digital', 'socialmedia', 'socialmanagement']) ? 'active' : '' }}">Service</a>
                               <div class="tp-submenu ">
                                  <div class="row gx-6 row-cols-1 ml-2">
 
                                        <div class="demo-name">
-                                          <span><a href="{{ route('product') }}">Product Development</a></span>
+                                          <span><a href="{{ route('product') }}"  class="{{ Route::currentRouteName() == 'product' ? 'active' : '' }}" >Product Development</a></span>
                                        </div>
                                        <div class="demo-name">
-                                          <span><a href="{{ route('webdev') }}">Web Development</a></span>
+                                          <span><a href="{{ route('webdev') }}"  class="{{ Route::currentRouteName() == 'webdev' ? 'active' : '' }}">Web Development</a></span>
                                        </div>
                                        <div class="demo-name">
-                                          <span><a href="{{ route('iot') }}">Internet Of Things</a></span>
+                                          <span><a href="{{ route('iot') }}"  class="{{ Route::currentRouteName() == 'iot' ? 'active' : '' }}">Internet Of Things</a></span>
                                        </div>
                                        <div class="demo-name">
-                                          <span><a href="{{ route('healthcare') }}">Healthcare</a></span>
+                                          <span><a href="{{ route('healthcare') }}"  class="{{ Route::currentRouteName() == 'healthcare' ? 'active' : '' }}">Healthcare</a></span>
                                        </div>
                                        <div class="demo-name">
-                                        <span><a href="{{ route('seo') }}">SEO</a></span>
+                                        <span><a href="{{ route('seo') }}"  class="{{ Route::currentRouteName() == 'seo' ? 'active' : '' }}">SEO</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('digital') }}">Digital Marketing</a></span>
+                                        <span><a href="{{ route('digital') }}"  class="{{ Route::currentRouteName() == 'digital' ? 'active' : '' }}">Digital Marketing</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('socialmedia') }}">Social Media Marketing</a></span>
+                                        <span><a href="{{ route('socialmedia') }}"  class="{{ Route::currentRouteName() == 'socialmedia' ? 'active' : '' }}">Social Media Marketing</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('socialmanagement') }}">Social Media Management</a></span>
+                                        <span><a href="{{ route('socialmanagement') }}"  class="{{ Route::currentRouteName() == 'socialmanagement' ? 'active' : '' }}">Social Media Management</a></span>
                                      </div>
 
                                     <!-- <div class="col homemenu">
@@ -204,10 +208,10 @@
                                  </div>
                               </div>
                            </li>
-                           <li><a href="{{ route('post') }}">Blog</a></li>
+                           <li><a href="{{ route('post') }}"  class="{{ Route::currentRouteName() == 'post' ? 'active' : '' }}">Blog</a></li>
                            {{-- <li><a href="{{ route('post.show', ['slug' => 'funding-your-dream-scholarships-and-financial-aid-for-studying-abroad']) }}">Blog1</a></li> --}}
-                           <li><a href="{{ route('career') }}">Career</a></li>
-                           <li><a href="{{ route('contact') }}">Contact</a></li>
+                           <li><a href="{{ route('career') }}"  class="{{ Route::currentRouteName() == 'career' ? 'active' : '' }}">Career</a></li>
+                           <li><a href="{{ route('contact') }}"  class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -560,6 +564,12 @@
      <script src="{{ asset('assets/js/main.js') }}"></script>
      {{-- new --}}
 
+     <script>
+    window.addEventListener('load', function() {
+  document.body.style.overflow = 'auto'; // Restore scrolling
+});
+
+     </script>
      <script>
         (function(d,t) {
           var BASE_URL="https://boondock-support-chatwoot.y4nyjj.easypanel.host/";
