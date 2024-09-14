@@ -113,7 +113,7 @@
                      </div>
                   </div>
                 </div>
-            <div class="row align-items-cente mb-20">
+            <div class="row align-items-cente mb-20 m-5">
                   <div class="col-lg-5 order-lg-1 order-sm-2 mt-4 mb-20">
                     <div class="tp-project-details-list-thumb w-img">
                        <img src="assets/img/webmultipageblog1.jpg" alt=""  class="service-img1">
@@ -156,7 +156,7 @@
                     </div>
                  </div>
              </div>
-                  <div class="row align-items-center mb-20 mt-4">
+                  <div class="row align-items-center mb-20 mt-4 m-5">
                     <div class="col-lg-7">
                        <div class="tp-project-details-list">
                           <h4 class="Text-black pb-10"> Dynamic Website</h4>

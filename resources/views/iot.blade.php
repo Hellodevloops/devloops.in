@@ -127,7 +127,7 @@
                     </div>
                  </div>
              </div>
-                  <div class="row align-items-center mb-20">
+                  <div class="row align-items-center mb-20 m-3">
                     <div class="col-lg-7">
                        <div class="tp-project-details-list">
                           <h4 class="Text-black pb-10"> IoT Security</h4>

@@ -174,8 +174,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
-               <div class="col-lg-12">
+            <div class="row mt-4 m-0 p-0">
+               <div class="col-lg-12 ">
                   <div class="tp-project-details-catagory">
                      <span class="tp-section-sub-title">What We’re Offering</span>
                      {{-- <h5 class="tp-project-details-catagory-title pb-10">We Provide Exclusive Service
@@ -183,7 +183,7 @@
                    </div>
                </div>
             </div>
-            <div class="row align-items-center mb-20">
+            <div class="row align-items-center mb-20 mx-5">
                <div class="col-lg-5 order-lg-1 order-sm -1 mt-4">
                   <div class="tp-project-details-list">
                      <h4 class="Text-black pb-10"> Appointment</h4>
@@ -222,7 +222,7 @@
                   </div>
                </div>
              </div>
-         <div class="row align-items-cente mt-4">
+         <div class="row align-items-cente mt-4 mx-5">
                <div class="col-lg-7 order-lg-1 order-sm-2 mt-4">
                  <div class="tp-project-details-list-thumb w-img  zoom-effect">
                     <img src="assets/img/patientnew.png" alt=""  class="service-img1">
@@ -258,7 +258,7 @@
                  </div>
               </div>
           </div>
-               <div class="row align-items-center mb-20 mt-4">
+               <div class="row align-items-center mb-20 mt-4 mx-5">
                  <div class="col-lg-5">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> Billing</h4>
