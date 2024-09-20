@@ -209,7 +209,7 @@
                      </div>
                      <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"  target="blank"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloopx.com/"  target="blank"> Learn More</a>
                         </div>
 
 
@@ -250,7 +250,7 @@
                     </div>
                     <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloopx.com/"   target="blank"> Learn More</a>
                         </div>
 
 
@@ -386,7 +386,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 mt-50">
                         <div class="tp-review-thumb pb-4">
-                            <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
+                            <img src="{{ asset('assets/img/devtesti1.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">

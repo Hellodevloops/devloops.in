@@ -19,16 +19,16 @@
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                                      <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                                         <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                                      </div>
-                                      <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                                         <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                                      </div>
-                                      <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                                         <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                                      </div>
-                                   </div> -->
+                                              <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                                 <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                              </div>
+                                              <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                                 <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                              </div>
+                                              <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                                 <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                              </div>
+                                           </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
@@ -46,24 +46,24 @@
                                             class="fa-light fa-arrow-right"></i></a>
                                     <a href="{{ route('webdev') }}">Web Development <i
                                             class="fa-light fa-arrow-right"></i></a>
-                                            <a href="{{ route('iot') }}">IOT <i
-                                                class="fa-light fa-arrow-right"></i></a>
-                                                <a href="{{ route('healthcare') }}">Healthcare <i
-                                                    class="fa-light fa-arrow-right"></i></a>
-                                                <a href="{{ route('seo') }}">SEO <i class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('iot') }}">IOT <i class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('healthcare') }}">Healthcare <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('seo') }}">SEO <i class="fa-light fa-arrow-right"></i></a>
 
                                     <a href="{{ route('digital') }}">Digital Marketing <i
                                             class="fa-light fa-arrow-right"></i></a>
 
-                                            <a href="{{ route('socialmedia') }}">Social Media Marketing <i
-                                                class="fa-light fa-arrow-right"></i></a>
-                                                <a href="{{ route('socialmanagement') }}">Social Media Management <i
-                                                    class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('socialmedia') }}">Social Media Marketing <i
+                                            class="fa-light fa-arrow-right"></i></a>
+                                    <a href="{{ route('socialmanagement') }}">Social Media Management <i
+                                            class="fa-light fa-arrow-right"></i></a>
 
                                 </div>
                             </div>
                             <div class="tp-services-details-contact">
-                                <div class="tp-services-details-contact-bg" data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
+                                <div class="tp-services-details-contact-bg"
+                                    data-background="assets/img/services/details/services-details-bg-1.jpg"></div>
                                 <h5 class="tp-services-details-contact-title">Have Any Problem? Please, Contact</h5>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
                                     <div class="tp-services-details-contact-item-icon">
@@ -80,7 +80,8 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Write to Us</span>
-                                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
+                                        <a href="mailto:hello@devloops.in"><span
+                                                class="text-white">hello@devloops.in</span></a>
                                     </div>
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center">
@@ -89,7 +90,8 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Our Address</span>
-                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar,
+                                            Vadodara, Gujarat 390010</a>
                                     </div>
                                 </div>
                             </div>
@@ -102,14 +104,23 @@
                             </div>
                             <h4 class="tp-services-details-title mb-20">Social Media Management</h4>
                             <p class="text-black">
-                                Maximize your brand's online presence with <span class="text-pink">Devloops' Social Media Management services</span>. Our team specializes in creating and managing dynamic social media profiles across platforms like Facebook, Instagram, LinkedIn, and Twitter. We offer a comprehensive suite of services including strategy development, content scheduling, and performance analysis.
-                                By focusing on audience growth, engagement, and retention, we ensure your social media channels reflect your brand's voice and values. Our data-driven approach helps in crafting strategies that resonate with your audience and drive measurable success.
-                                Partner with Devloops to streamline your social media efforts and achieve a consistent and impactful online presence.
+                                Maximize your brand's online presence with <span class="text-pink">Devloops' Social Media
+                                    Management services</span>. Our team specializes in creating and managing dynamic social
+                                media profiles across platforms like Facebook, Instagram, LinkedIn, and Twitter. We offer a
+                                comprehensive suite of services including strategy development, content scheduling, and
+                                performance analysis.
+                                By focusing on audience growth, engagement, and retention, we ensure your social media
+                                channels reflect your brand's voice and values. Our data-driven approach helps in crafting
+                                strategies that resonate with your audience and drive measurable success.
+                                Partner with Devloops to streamline your social media efforts and achieve a consistent and
+                                impactful online presence.
                             </p>
                             <div class="tp-about-3-item mb-35">
                                 <div class="tp-about-3-item-content">
                                     <h4 class="tp-about-3-item-title">Our Vision</h4>
-                                    <p class="text-black">To deliver expert social media management that enhances brand visibility, fosters community engagement, and drives strategic growth through effective online interactions.</p>
+                                    <p class="text-black">To deliver expert social media management that enhances brand
+                                        visibility, fosters community engagement, and drives strategic growth through
+                                        effective online interactions.</p>
                                 </div>
                                 <div class="tp-about-3-item-icon">
                                     <i class="flaticon-solution"></i>
@@ -125,87 +136,312 @@
 
         <!-- services-area-end -->
 
-        <!-- sercices-area-end -->
-        <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
-        style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-7">
-                    <div class="tp-section tp-section-white-two mb-80">
-                        <span class="tp-section-sub-title">Our Expertise</span>
-                        <h4 class="tp-section-title">Expert Social Media Management Services <br> To Enhance Your Online Presence</h4>
+        <section id="services-one-page" class="offering-area tp-offer-bg pb-80 pt-120"
+            data-background="{{ asset('assets/img/bg/offer-bg-1.jpg') }}"
+            style="background-image: url('{{ asset('assets/img/bg/offer-bg-1.jpg') }}');">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="tp-section tp-section-white-two mb-80">
+                            <span class="tp-section-sub-title">What We’re Offering</span>
+                            <h4 class="tp-section-title">Our Social Media Management Services Include</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Service Item 1 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="white"
+                                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 8.5a.5.5 0 0 0-.5-.5H7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1zm-4 0a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1zm7-3a.5.5 0 0 1-.5-.5V2.5A.5.5 0 0 1 12 2h.5a.5.5 0 0 1 .5.5V5a.5.5 0 0 1-.5.5H12zM6.5 5a.5.5 0 0 1-.5-.5V2.5A.5.5 0 0 1 6 2h.5a.5.5 0 0 1 .5.5V5a.5.5 0 0 1-.5.5H6z" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Social Media Strategy</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Item 2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 0a.5.5 0 0 1 .5.5V1h9V.5A.5.5 0 0 1 13 0h1a.5.5 0 0 1 .5.5V1h1V.5A.5.5 0 0 1 16 0h.5a.5.5 0 0 1 .5.5V1h1a.5.5 0 0 1 .5.5V14a.5.5 0 0 1-.5.5h-1v1a.5.5 0 0 1-1 0v-1H1v1a.5.5 0 0 1-1 0v-1H0a.5.5 0 0 1-.5-.5V1h1A.5.5 0 0 1 0 0h1V.5A.5.5 0 0 1 .5 0H1v1H0a.5.5 0 0 1-.5.5V14a.5.5 0 0 1 .5.5h1v1a.5.5 0 0 1 1 0v-1h9v1a.5.5 0 0 1 1 0v-1h1a.5.5 0 0 1 .5-.5V14a.5.5 0 0 1-.5-.5V1h1V.5a.5.5 0 0 1 .5-.5H13z" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Content Scheduling</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Item 3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-bar-chart" viewBox="0 0 16 16">
+                                    <path d="M0 0h16v16H0V0zm1 1v14h14V1H1zm3 3h2v10H4V4zm4 0h2v10H8V4zm4 0h2v10h-2V4z" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Analytics & Reporting</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Item 4 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="white"
+                                    class="bi bi-people" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12 12v1H4v-1c0-1.104 2.736-2 4-2s4 0.896 4 2zm-4 0a3.5 3.5 0 0 0-3.5-3.5 3.5 3.5 0 0 0-3.5 3.5v1a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-1a3.5 3.5 0 0 0-3.5-3.5z" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Community Engagement</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
-                                class="bi bi-facebook" viewBox="0 0 16 16">
-                                <path d="M6.293 9.5H4v4H2v-4H1v-2h1V7.5c0-1.5 1-2.5 2.5-2.5h1.5V7h2V9.5z" />
-                            </svg>
-                        </div>
-                        <div class="tp-offer-item-content">
-                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Facebook Account Management</a></h4>
-                            <p class="text-white truncate">Streamline your Facebook account with our management services, which include post scheduling, audience insights, and engagement analytics to optimize your social media strategy.</p>
+        </section>
+        <!-- Offering-area-end -->
+
+        <section class="tp-services-details-contact">
+            <div class="container pt-50">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="tp-section tp-section-white-two">
+                            <h4 class="tp-section-title">Features Of Our Social Media Management Services</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
-                        style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
-                                class="bi bi-twitter" viewBox="0 0 16 16">
-                                <path
-                                    d="M5.026 15c6.039 0 9.33-5 9.33-9.33 0-.14-.004-.283-.01-.423A6.672 6.672 0 0 0 16 3.577a6.574 6.574 0 0 1-1.889.518A3.303 3.303 0 0 0 15.558 2a6.528 6.528 0 0 1-2.075.788A3.286 3.286 0 0 0 7.88 6.046 9.29 9.29 0 0 1 1.114 2.7a3.292 3.292 0 0 0 1.016 4.386A3.271 3.271 0 0 1 .64 6.64v.041a3.284 3.284 0 0 0 2.64 3.22 3.273 3.273 0 0 1-.865.116c-.212 0-.418-.02-.62-.058a3.282 3.282 0 0 0 3.064 2.283A6.585 6.585 0 0 1 .62 14.351a6.446 6.446 0 0 1-.77-.045A9.326 9.326 0 0 0 5.026 15z" />
-                            </svg>
-                        </div>
-                        <div class="tp-offer-item-content">
-                            <h4 class="tp-offer-item-title under-line-white truncate"><a>Twitter Account Management</a></h4>
-                            <p class="text-white truncate">Maximize your impact on Twitter with our comprehensive management services, including profile optimization, engagement strategies, and trend monitoring to drive growth and interactions.</p>
+                <div class="row p-5 gx-5">
+                    <div class="col-md-4 col-sm-6 d-flex">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                            <div class="tp-service-box-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-chat-square-text" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-.5.5H15v1.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V4H1.5A.5.5 0 0 1 1 3.5V1H.5A.5.5 0 0 1 0 .5V0h3.5zM1.5 4H14v.5H1.5V4zm12 7H3a.5.5 0 0 1-.5-.5V10H1.5a.5.5 0 0 1-.5-.5V8.5A.5.5 0 0 1 1.5 8h12a.5.5 0 0 1 .5.5V10a.5.5 0 0 1-.5.5zM14 11H3v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-1H1v-1h13v1h-1a.5.5 0 0 1-.5.5z" />
+                                </svg>
+                            </div>
+                            <div class="tp-service-box-content">
+                                <h4 class="tp-service-box-title">Customer Interaction</h4>
+                                <p>Efficiently engage with your customers by responding to inquiries and comments promptly,
+                                    enhancing customer satisfaction.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
-                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
-                        <div class="tp-offer-item-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
-                                class="bi bi-instagram" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1.5a6.5 6.5 0 1 0 0 13A6.5 6.5 0 0 0 8 1.5zM6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0
-                                <path
-                                    d="M6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm5.5-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6.5 7a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0z" />
-                        </svg>
+                    <div class="col-md-4 col-sm-6 d-flex">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                            <div class="tp-service-box-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-pie-chart" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.5 1.5a7.5 7.5 0 1 1 0 15A7.5 7.5 0 0 1 8.5 1.5zM8 2a6 6 0 0 0-3.534 10.868 5.98 5.98 0 0 0 6.768-6.768A6.002 6.002 0 0 0 8 2zm0 1.5A4.5 4.5 0 0 1 12.5 8H8V3.5z" />
+                                </svg>
+                            </div>
+                            <div class="tp-service-box-content">
+                                <h4 class="tp-service-box-title">Performance Analytics</h4>
+                                <p>Track the performance of your social media posts and campaigns with detailed analytics
+                                    and reporting.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tp-offer-item-content">
-                        <h4 class="tp-offer-item-title under-line-white truncate"><a>Instagram Account Management</a></h4>
-                        <p class="text-white truncate">Elevate your brand’s presence on Instagram with our management services, including profile enhancement, content strategy, and audience growth techniques to boost your engagement.</p>
+                    <div class="col-md-4 col-sm-6 d-flex">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                            <div class="tp-service-box-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-calendar-day" viewBox="0 0 16 16">
+                                    <path d="M1 0h14v2H1V0zm0 4h14v10H1V4zm1 1v8h12V5H2z" />
+                                </svg>
+                            </div>
+                            <div class="tp-service-box-content">
+                                <h4 class="tp-service-box-title">Content Calendar</h4>
+                                <p>Plan and schedule your social media posts in advance to ensure consistent and timely
+                                    content delivery.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center mb-20 mt-4">
+                    <div class="col-lg-12">
+                        <div class="tp-project-details-list">
+                            <h4 class="Text-black pb-5">Why Choose Our Social Media Marketing Services</h4>
+                            <p class="Text-black pb-10">
+                                In today’s digital landscape, having a robust social media presence is vital for engaging with your audience and building brand loyalty. At Devloops International, we specialize in creating impactful social media marketing strategies that drive results. Our services are designed to amplify your online presence and connect with your target audience through effective and creative social media campaigns.
 
-        <style>
-            .truncate {
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-            }
+                                Our approach combines innovative social media strategies with tailored content to ensure your brand stands out. From strategic planning and content creation to campaign management and performance tracking, we provide comprehensive solutions to enhance your social media impact. Our dedicated team offers ongoing support and insightful analytics to continuously optimize your social media presence and achieve your marketing goals.
+                            </p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Customized Social Media Strategies</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Engaging Content Creation</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Targeted Ad Campaigns</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Influencer Partnerships</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Performance Analytics and Reporting</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Community Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Strategic Campaign Planning</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">24/7 Support and Optimization</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-project-details-list-thumb w-img">
+                                        <img src="assets/img/social-media-marketing.jpg" alt=""
+                                            style="width:540px; height:400px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            .tp-offer-item-content {
-                height: 100px;
-                /* Adjust based on your design needs */
-            }
-        </style>
-
+        <!-- Recent-Work-start -->
+        <section id="services-one-page" class="offering-area tp-offer-bg pb-80 pt-120"
+            data-background="{{ asset('assets/img/bg/offer-bg-1.jpg') }}"
+            style="background-image: url('{{ asset('assets/img/bg/offer-bg-1.jpg') }}');">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="tp-section tp-section-white-two mb-80">
+                            <span class="tp-section-sub-title">Some Of Our Work</span>
+                            <h4 class="tp-section-title">Our Recent Social Media Marketing Projects</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <a href="">
+                            <div class="tp-offer-item-icon">
+                                <img src="assets/img/social-media-campaign.jpg" alt="">
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white mt-5">Social Media Campaigns</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Social Media Marketing</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Content Creation</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">Influencer Collaborations</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Recent-Work-end -->
 
 
         <!-- contact -->
@@ -245,7 +481,8 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="firstname" placeholder="First Name" value="{{ old('firstname') }}">
+                                            <input type="text" name="firstname" placeholder="First Name"
+                                                value="{{ old('firstname') }}">
                                             <span><i class="fa-light fa-user"></i></span>
                                         </div>
                                         @error('firstname')
@@ -255,7 +492,8 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="lastname" placeholder="Last Name" value="{{ old('lastname') }}">
+                                            <input type="text" name="lastname" placeholder="Last Name"
+                                                value="{{ old('lastname') }}">
                                             <span><i class="fa-light fa-user"></i></span>
                                         </div>
                                         @error('lastname')
@@ -265,7 +503,8 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="email" placeholder="Email Address" value="{{ old('email') }}">
+                                            <input type="text" name="email" placeholder="Email Address"
+                                                value="{{ old('email') }}">
                                             <span><i class="fa-light fa-envelope"></i></span>
                                         </div>
                                         @error('email')
@@ -275,7 +514,8 @@
 
                                     <div class="col-lg-12">
                                         <div class="tp-contact-details-form-input mb-20">
-                                            <input type="text" name="phone" placeholder="Phone Number" value="{{ old('phone') }}">
+                                            <input type="text" name="phone" placeholder="Phone Number"
+                                                value="{{ old('phone') }}">
                                             <span><i class="fa-light fa-phone"></i></span>
                                         </div>
                                         @error('phone')

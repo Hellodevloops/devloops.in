@@ -164,22 +164,20 @@
                            <li><a href="{{ route('/') }}"  class="{{ Route::currentRouteName() == '/' ? 'active' : '' }}">Home</a></li>
                            <li><a href="{{ route('about') }}" class="{{ Route::currentRouteName() == 'about' ? 'active' : '' }}" >About</a></li>
                            <li class="has-dropdown">
-                              <a href="#" class="{{ in_array(Route::currentRouteName(), ['product', 'webdev', 'iot', 'healthcare', 'seo', 'digital', 'socialmedia', 'socialmanagement']) ? 'active' : '' }}">Service</a>
+                              <a href="#" class="{{ in_array(Route::currentRouteName(), ['product', 'webdev', 'iot', 'seo', 'digital', 'socialmedia', 'socialmanagement']) ? 'active' : '' }}">Service</a>
                               <div class="tp-submenu ">
                                  <div class="row gx-6 row-cols-1 ml-2">
 
-                                       <div class="demo-name">
+                                       {{-- <div class="demo-name">
                                           <span><a href="{{ route('product') }}"  class="{{ Route::currentRouteName() == 'product' ? 'active' : '' }}" >Product Development</a></span>
-                                       </div>
+                                       </div> --}}
                                        <div class="demo-name">
                                           <span><a href="{{ route('webdev') }}"  class="{{ Route::currentRouteName() == 'webdev' ? 'active' : '' }}">Web Development</a></span>
                                        </div>
-                                       <div class="demo-name">
+                                       {{-- <div class="demo-name">
                                           <span><a href="{{ route('iot') }}"  class="{{ Route::currentRouteName() == 'iot' ? 'active' : '' }}">Internet Of Things</a></span>
-                                       </div>
-                                       <div class="demo-name">
-                                          <span><a href="{{ route('healthcare') }}"  class="{{ Route::currentRouteName() == 'healthcare' ? 'active' : '' }}">Healthcare</a></span>
-                                       </div>
+                                       </div> --}}
+
                                        <div class="demo-name">
                                         <span><a href="{{ route('seo') }}"  class="{{ Route::currentRouteName() == 'seo' ? 'active' : '' }}">SEO</a></span>
                                      </div>
@@ -205,6 +203,24 @@
                                           <span>Home 05</span>
                                        </div>
                                     </div> -->
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="#" class="{{ in_array(Route::currentRouteName(), [ 'healthcare','crm']) ? 'active' : '' }}">Product</a>
+                              <div class="tp-submenu ">
+                                 <div class="row gx-6 row-cols-1 ml-2">
+
+
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('healthcare') }}"  class="{{ Route::currentRouteName() == 'healthcare' ? 'active' : '' }}">Healthcare</a></span>
+                                       </div>
+
+                                       <div class="demo-name">
+                                        <span><a href="{{ route('crm') }}"  class="{{ Route::currentRouteName() == 'crm' ? 'active' : '' }}">CRM</a></span>
+                                     </div>
+
+
                                  </div>
                               </div>
                            </li>
@@ -430,7 +446,7 @@
                                   </svg> <a href="mailto:hello@devloops.in" style="padding-left: 8px;"> hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara, Gujarat, India</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
                                 </div>
 
                                 <div class="tp-footer-widget-content-list-item">

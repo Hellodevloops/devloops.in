@@ -369,7 +369,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="tp-review-thumb pb-4">
-                            <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
+                            <img src="{{ asset('assets/img/devtesti1.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">

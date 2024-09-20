@@ -40,6 +40,9 @@ Route::get('/socialmedia', function () {
 Route::get('/socialmanagement', function () {
     return view('socialmanagement');
 })->name('socialmanagement');
+Route::get('/crm', function () {
+    return view('crm');
+})->name('crm');
 Route::get('/privacy-policy', function () {
     return view('privacy');
 })->name('privacy');
