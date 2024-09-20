@@ -256,7 +256,7 @@
                             </svg>
                         </div>
                         <div class="tp-header-cta-content d-none d-lg-block">
-                           <p class="text-black">Need help? Talk to an expert </p>
+                           <p class="text-black ">Need assistance?  Reach out to our team</p>
                            <a href="tel:+919106077817">Free +919106077817</a>
                         </div>
                      </div>
