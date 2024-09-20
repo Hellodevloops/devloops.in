@@ -33,6 +33,7 @@
         <!-- breadcrumb-area-end -->
 
         <!-- sercices-area-start -->
+
         <!-- services-area-start -->
         <section class="services-area pt-115">
             <div class="container">
@@ -226,8 +227,8 @@
                     </div>
                 </div>
                 <div class="row p-5 gx-5">
-                    <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                    <div class="col-md-4 col-sm-6 d-flex ">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
                             <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-graph-up" viewBox="0 0 16 16">
@@ -243,7 +244,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
                             <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-file-earmark-text" viewBox="0 0 16 16">
@@ -258,7 +259,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
                             <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-bar-chart" viewBox="0 0 16 16">
@@ -273,7 +274,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
                             <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-people" viewBox="0 0 16 16">
@@ -372,7 +373,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="tp-project-details-list-thumb w-img">
-                                        <img src="assets/img/seo-services.jpg" alt="" style="width:540px; height:400px;">
+                                        <img src="assets/img/seoone.png" alt="" style="width:540px; height:500px;">
                                     </div>
                                 </div>
                             </div>
@@ -397,17 +398,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="">
-                            <div class="tp-offer-item-icon">
-                                <img src="assets/img/seo-keyword-research.jpg" alt="">
-                            </div>
-                            <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white mt-5">Keyword Research</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        <div class="tp-offer-item mb-40 wow bounceIn p-5" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
@@ -417,12 +408,12 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">On-Page Optimization</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Keyword Research</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        <div class="tp-offer-item mb-40 wow bounceIn p-5" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
@@ -432,12 +423,12 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Link Building</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Link <br/> Building</h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        <div class="tp-offer-item mb-40 wow bounceIn p-5" data-wow-duration=".6s" data-wow-delay=".6s"
                             style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
@@ -448,6 +439,21 @@
                             </div>
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white">Performance Tracking</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="tp-offer-item mb-40 wow bounceIn p-5" data-wow-duration=".6s" data-wow-delay=".6s"
+                            style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
+                            <div class="tp-offer-item-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                    class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </div>
+                            <div class="tp-offer-item-content">
+                                <h4 class="tp-offer-item-title under-line-white">On-Page Optimization</h4>
                             </div>
                         </div>
                     </div>
