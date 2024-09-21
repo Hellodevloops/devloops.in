@@ -20,20 +20,20 @@
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                              <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                              </div>
-                              <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                              </div>
-                              <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                                 <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                              </div>
-                           </div> -->
+                                  <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                  </div>
+                                  <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                  </div>
+                                  <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                     <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                  </div>
+                               </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
-        <section class="project-details-area pt-40 pb-120 mb-20">
+        <section class="project-details-area pt-40 pb-50 mb-00">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -90,7 +90,8 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Our Address</span>
-                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+                                        <a href="#">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar,
+                                            Vadodara, Gujarat 390010</a>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +130,7 @@
             </div>
         </section>
         <!-- sercices-area-end -->
-        <section class="offering-area tp-offer-bg pb-80 pt-120 mb-80" data-background="assets/img/bg/offer-bg-1.jpg"
+        <section class="offering-area tp-offer-bg pb-80 pt-120 " data-background="assets/img/bg/offer-bg-1.jpg"
             style="background-image: url(&quot;assets/img/bg/offer-bg-1.jpg&quot;);">
             <div class="container">
                 <div class="row align-items-end">
@@ -140,11 +141,11 @@
                         </div>
                     </div>
                     <!-- <div class="col-lg-5">
-                                    <div class="tp-section-title-wrapper mb-80">
-                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-                                          labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
-                                    </div>
-                                 </div> -->
+                                        <div class="tp-section-title-wrapper mb-80">
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                                              labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris</p>
+                                        </div>
+                                     </div> -->
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-3 col-md-6">
@@ -167,24 +168,24 @@
                                     managing core functions such as finance and human resources.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
-                                          <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                       </div> -->
+                                              <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                                           </div> -->
                         </div>
                     </div>
                     <!-- <div class="col-xl-4 col-lg-3 col-md-6">
-                                    <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
-                                       <div class="tp-offer-item-icon">
-                                          <i class="flaticon-ux-design"></i>
-                                       </div>
-                                       <div class="tp-offer-item-content">
-                                          <h4 class="tp-offer-item-title under-line-white"><a href="services-details.html">Digital Marketing</a></h4>
-                                          <p>Donec suscipit ante ipsum. Donec convallis quality torto</p>
-                                       </div>
-                                       <div class="tp-offer-item-btn">
-                                          <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                       </div>
-                                    </div>
-                                 </div> -->
+                                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
+                                           <div class="tp-offer-item-icon">
+                                              <i class="flaticon-ux-design"></i>
+                                           </div>
+                                           <div class="tp-offer-item-content">
+                                              <h4 class="tp-offer-item-title under-line-white"><a href="services-details.html">Digital Marketing</a></h4>
+                                              <p>Donec suscipit ante ipsum. Donec convallis quality torto</p>
+                                           </div>
+                                           <div class="tp-offer-item-btn">
+                                              <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                                           </div>
+                                        </div>
+                                     </div> -->
                     <div class="col-xl-4 col-lg-3 col-md-6">
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".5s" data-wow-delay=".5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s; animation-name: bounceIn;">
@@ -203,8 +204,8 @@
                                     providing tools to manage leads & automate sales processes.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
-                                          <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                       </div> -->
+                                              <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                                           </div> -->
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-3 col-md-6">
@@ -225,17 +226,219 @@
                                     creation, modification, and management of digital content for websites.</p>
                             </div>
                             <!-- <div class="tp-offer-item-btn">
-                                          <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
-                                       </div> -->
+                                              <a href="services-details.html">Read More <i class="fa-regular fa-arrow-right"></i></a>
+                                           </div> -->
                         </div>
                     </div>
-                  </div>
+                </div>
 
             </div>
-         </section>
+        </section>
+
+          {{-- features start --}}
+          <section class="tp-services-details-contact ">
+
+            <div class="container   pt-50">
+                <div class="row align-items-end">
+                    <div class="col-lg-7">
+                        <div class="tp-section tp-section-white-two ">
+                            <h4 class="tp-section-title">Features Of Our Product Devlopment</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-5 gx-5">
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-solid fa-brackets-curly"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">End-to-End Development</h4>
+                                <p class="text-white">From concept to launch, we manage every stage of the product lifecycle, ensuring a smooth transition from idea to market-ready solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-sharp fa-solid fa-users"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Customer-Centric Approach</h4>
+                                <p class="text-white">We focus on understanding customer needs and pain points, designing products that provide real value and solve specific problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-regular fa-arrows-rotate"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Agile Methodology
+                                </h4>
+                                <p class="text-white">Our agile development process allows for flexibility and continuous feedback, ensuring the product evolves to meet dynamic business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-sharp fa-solid fa-browser"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Prototyping and Testing</h4>
+                                <p class="text-white">We create prototypes early in the process to test functionality and gather user feedback, ensuring product viability before full-scale production.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-solid fa-users-gear"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Cross-Functional Collaboration</h4>
+                                <p class="text-white">Our team of designers, engineers, and marketers work together to align the product vision with technical feasibility and market demands.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-sharp fa-solid fa-expand"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Scalability and Flexibility
+                                </h4>
+                                <p class="text-white">We develop products with future growth in mind, ensuring that they can scale seamlessly as your business expands. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-solid fa-square-caret-up"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Iterative Improvement</h4>
+                                <p class="text-white">Through continuous iteration and user feedback, we refine and improve the product, ensuring it stays relevant and competitive.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex my-3 ">
+                            <div class="tp-offer-item-icon">
+                                <i class="fa-solid fa-shield-check"></i>
+                            </div>
+                            <div class="text-white ms-4">
+                                <h4 class="tp-offer-item-title text-white">Quality Assurance
+                                </h4>
+                                <p class="text-white">Rigorous testing and quality checks are integrated into every phase of development, guaranteeing a reliable and high-performance product. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{-- features end --}}
+
+        {{-- why-us start --}}
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center mb-20 mt-4">
+                    <div class="col-lg-12">
+                        <div class="tp-project-details-list">
+                            <h4 class="Text-black pb-5"> Why Choose Our Product Devlopment Services</h4>
+                            <p class="Text-black pb-10">
+                                At Devloops International, we offer a comprehensive product development process that turns innovative ideas into market-ready solutions. Our experienced team works closely with you from the initial concept to the final launch, ensuring that your product is designed to meet the needs of your customers while aligning with your business goals. We use an agile methodology that allows for flexibility and continuous improvement throughout the development cycle, ensuring that the product adapts to changes in the market and delivers long-term value.
+
+                                What sets us apart is our commitment to quality and innovation. We don’t just build products—we build scalable, future-proof solutions that grow with your business. Through rigorous testing, iterative design, and cross-functional collaboration, we ensure that every product we develop meets the highest standards of functionality, reliability, and user experience. With our customer-centric approach, we focus on understanding your unique challenges and delivering solutions that drive growth and success.
+                            </p>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">End-to-end product development from concept to launch</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Agile methodology for flexibility and adaptability</a>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Prototyping and testing to ensure product viability</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Customer-centric design to meet specific needs</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Scalable solutions built for future growth</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Rigorous quality assurance for high-performance products</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="tp-project-details-list-item d-flex">
+                                        <div class="tp-project-details-list-icon">
+                                            <i class="fa-thin fa-check"></i>
+                                        </div>
+                                        <div class="tagcloud1">
+                                            <a href="">Affordable and transparent pricing</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="tp-project-details-list-thumb w-img">
+                                        <img src="assets/img/product.jpg" alt=""
+                                            style="width:540px; height:400px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        {{-- why-us end --}}
+
 
         <!-- contact -->
-
         <section id="contact-section" class="contact-area pt-115 pb-80">
             <div class="container">
                 <div class="row">
