@@ -342,18 +342,21 @@
                         </div> --}}
                     </div>
 
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
-                            class="swiper-pagination-bullet" tabindex="0" role="button"
-                            aria-label="Go to slide 1"></span><span
-                            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                            role="button" aria-label="Go to slide 2"></span></div>
+
 
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
                         aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="false"></div>
                     <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button"
                         aria-label="Next slide" aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="true">
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets "><span
+                        class="swiper-pagination-bullet pt-2" tabindex="0" role="button"
+                        aria-label="Go to slide 1"></span><span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                        role="button" aria-label="Go to slide 2"></span>
                     </div>
 
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>

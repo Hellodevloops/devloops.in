@@ -19,16 +19,16 @@
                 </div>
             </div>
             <!-- <div class="breadcrumb-shape">
-                                                                                                  <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
-                                                                                                     <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
-                                                                                                  </div>
-                                                                                                  <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
-                                                                                                     <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
-                                                                                                  </div>
-                                                                                                  <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
-                                                                                                     <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
-                                                                                                  </div>
-                                                                                               </div> -->
+                                                                                                      <div class="breadcrumb-shape-1 wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".4s">
+                                                                                                         <img src="assets/img/breadcrumb/breadcrumb-shape-1.png" alt="">
+                                                                                                      </div>
+                                                                                                      <div class="breadcrumb-shape-4 wow slideInRight"  data-wow-duration="1.2s" data-wow-delay=".1s">
+                                                                                                         <img src="assets/img/breadcrumb/breadcrumb-shape-3.png" alt="">
+                                                                                                      </div>
+                                                                                                      <div class="breadcrumb-shape-5 wow slideInRight"  data-wow-duration="1.4s" data-wow-delay=".3s">
+                                                                                                         <img src="assets/img/breadcrumb/breadcrumb-shape-2.png" alt="">
+                                                                                                      </div>
+                                                                                                   </div> -->
         </section>
         <!-- breadcrumb-area-end -->
 
@@ -305,7 +305,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Website Architecture</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Website <br/> Architecture</h4>
                             </div>
                         </div>
                     </div>
@@ -321,7 +321,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Front-End Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Front-End <br/> Development</h4>
                             </div>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Back-End Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Back-End <br/> Development</h4>
                             </div>
                         </div>
                     </div>
@@ -353,7 +353,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Maintenance and Support</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Maintenance and <br/> Support</h4>
                             </div>
                         </div>
                     </div>
@@ -371,7 +371,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Custom Web Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Custom Web <br/> Development</h4>
                             </div>
                         </div>
                     </div>
@@ -380,14 +380,12 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
                             <div class="tp-offer-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
-                                    class="bi bi-person-workspace" viewBox="0 0 16 16">
-                                    <path
-                                        d="M6 1a2 2 0 1 1 4 0v1h1.5a1.5 1.5 0 0 1 0 3H4.5a1.5 1.5 0 0 1 0-3H6V1zm4 0v1H6V1a1 1 0 1 1 2 0zm-3 3h4a1.5 1.5 0 0 0 1.5-1.5v-1h-7v1A1.5 1.5 0 0 0 7 4z" />
-                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                  </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">eCommerce Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">eCommerce <br/> Development</h4>
                             </div>
                         </div>
                     </div>
@@ -396,14 +394,14 @@
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s">
                             <div class="tp-offer-item-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-globe" viewBox="0 0 16 16">
                                     <path
                                         d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM3.05 3.05a6.974 6.974 0 0 1 5.64-2.05v3a6.978 6.978 0 0 1-5.64 1.96A7.973 7.973 0 0 0 3.05 3.05zM7.04 4.16a7.021 7.021 0 0 0-5.96-.16c1.77 1.78 3.84 2.85 5.96 2.84V4.16zm.02 3.6a5.986 5.986 0 0 0 5.63 0A6.978 6.978 0 0 1 7.06 7.76zM9.94 10.54a6.978 6.978 0 0 1 2.62 2.67c-.15-.01-.31-.03-.47-.05a7.02 7.02 0 0 0-2.1-2.61z" />
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">SEO Optimization</h4>
+                                <h4 class="tp-offer-item-title under-line-white">SEO <br/> Optimization</h4>
                             </div>
                         </div>
                     </div>
@@ -419,14 +417,13 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Analytics and Tracking</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Analytics and <br/> Tracking</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Offering-area-end -->
 
 
@@ -442,78 +439,78 @@
                 </div>
                 <div class="row p-5 gx-5">
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
-                                <i class="fa-sharp fa-solid fa-browser"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Web Compatibility</h4>
-                                <p class="text-white">The web development we do is compatible with any web
+                        <div class="d-flex my-3 bg-light p-4">
+                            {{-- <div class="tp-offer-item-icon">
+                                <i class="fa-sharp fa-solid fa-browser text-dark"></i>
+                            </div> --}}
+                            <div class="text-black ms-4">
+                                <h4 class="tp-offer-item-title text-black">Web Compatibility</h4>
+                                <p class="text-black">The web development we do is compatible with any web
                                     browser, device, and platform. We create responsive web applications, websites, and
                                     software that are user-friendly. These features improve your rank on search engines.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
+                        <div class="d-flex my-3 bg-light p-4">
+                            {{-- <div class="tp-offer-item-icon">
                                 <i class="fa-solid fa-square-list"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Usable Forms</h4>
-                                <p class="text-white">Forms are the most appropriate way for users to interact with the
+                            </div> --}}
+                            <div class="text-black ms-4">
+                                <h4 class="tp-offer-item-title text-black">Usable Forms</h4>
+                                <p class="text-black">Forms are the most appropriate way for users to interact with the
                                     site. We add forms that are easy to fill out for customers and get useful information to
                                     build your client base. Thus, you can make further contact with interested users.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
+                        <div class="d-flex my-3 bg-light p-4">
+                            {{-- <div class="tp-offer-item-icon">
                                 <i class="fa-regular fa-loader"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Fast Loading Speed</h4>
-                                <p class="text-white">We develop websites and applications that enable the feature of fast
+                            </div> --}}
+                            <div class="text-black ms-4">
+                                <h4 class="tp-offer-item-title text-black">Fast Loading Speed</h4>
+                                <p class="text-black">We develop websites and applications that enable the feature of fast
                                     loading times that engage more users. Our codes are bug-free and light to give a fast
                                     loading speed online at any browser.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
+                        <div class="d-flex my-3 bg-light p-4 ">
+                            {{-- <div class="tp-offer-item-icon">
                                 <i class="fa-brands fa-blogger-b"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Blog Integration</h4>
-                                <p class="text-white">We integrate a blog that can help your customers learn about your
+                            </div> --}}
+                            <div class="text-dark ms-4">
+                                <h4 class="tp-offer-item-title text-dark">Blog Integration</h4>
+                                <p class="text-dark pb-4">We integrate a blog that can help your customers learn about your
                                     services and products. They also help in the search engine optimization of websites or
                                     apps.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
+                        <div class="d-flex my-3 bg-light p-4">
+                            {{-- <div class="tp-offer-item-icon">
                                 <i class="fa-sharp fa-solid fa-mobile-button"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Easy Navigation</h4>
-                                <p class="text-white">Almost 94% of users think that good navigation is a key feature of
+                            </div> --}}
+                            <div class="text-black ms-4">
+                                <h4 class="tp-offer-item-title text-black">Easy Navigation</h4>
+                                <p class="text-black">Almost 94% of users think that good navigation is a key feature of
                                     the website. We build a website with an easy-to-use navigation feature that improves the
                                     user experience and usability of the site.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="d-flex my-3 ">
-                            <div class="tp-offer-item-icon">
+                        <div class="d-flex my-3 bg-light p-4">
+                            {{-- <div class="tp-offer-item-icon">
                                 <i class="fa-sharp-duotone fa-solid fa-boxes-stacked"></i>
-                            </div>
-                            <div class="text-white ms-4">
-                                <h4 class="tp-offer-item-title text-white">Product and Content Visuality</h4>
-                                <p class="text-white">Our web developers and programmers build websites that improve the
+                            </div> --}}
+                            <div class="text-dark ms-4">
+                                <h4 class="tp-offer-item-title text-dark">Product and Content Visuality</h4>
+                                <p class="text-dark">Our web developers and programmers build websites that improve the
                                     visibility of products and their data, which boosts the sale of products or services. On
                                     the other hand, it helps to generate more revenue. </p>
                             </div>
@@ -638,14 +635,19 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="">
+                        <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
+                        style="visibility: visible; animation-duration: 0.6s; animation-delay: 0.6s; animation-name: bounceIn;">
                             <div class="tp-offer-item-icon">
-                                <img src="assets/img/TTS-RESUME-BUILDER.png" alt="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                class="bi bi-pip-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm7 6h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5" />
+                            </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white mt-5">TTS resume</h4>
+                                <h4 class="tp-offer-item-title under-line-white mt-5">TTS <br/> resume</h4>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="tp-offer-item mb-40 wow bounceIn" data-wow-duration=".6s" data-wow-delay=".6s"
@@ -658,7 +660,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Front-End Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Front-End <br/> Development</h4>
 
                             </div>
 
@@ -675,7 +677,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Back-End Development</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Back-End <br/> Development</h4>
 
                             </div>
 
@@ -692,7 +694,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Maintenance and Support</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Maintenance and <br/> Support</h4>
 
                             </div>
 
@@ -714,7 +716,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">UX and UI Design</h4>
+                                <h4 class="tp-offer-item-title under-line-white">UX and UI <br/> Design</h4>
 
                             </div>
 
@@ -735,7 +737,7 @@
                                 </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">SEO Consideration</h4>
+                                <h4 class="tp-offer-item-title under-line-white">SEO <br/> Consideration</h4>
 
                             </div>
 

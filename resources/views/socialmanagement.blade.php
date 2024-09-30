@@ -158,7 +158,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Social Media Strategy</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Social Media <br/> Strategy</h4>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Analytics & Reporting</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Analytics & <br/> Reporting</h4>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Community Engagement</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Community <br/> Engagement</h4>
                             </div>
                         </div>
                     </div>
@@ -224,13 +224,13 @@
                 <div class="row p-5 gx-5">
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-chat-square-text" viewBox="0 0 16 16">
                                     <path
                                         d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-.5.5H15v1.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V4H1.5A.5.5 0 0 1 1 3.5V1H.5A.5.5 0 0 1 0 .5V0h3.5zM1.5 4H14v.5H1.5V4zm12 7H3a.5.5 0 0 1-.5-.5V10H1.5a.5.5 0 0 1-.5-.5V8.5A.5.5 0 0 1 1.5 8h12a.5.5 0 0 1 .5.5V10a.5.5 0 0 1-.5.5zM14 11H3v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-1H1v-1h13v1h-1a.5.5 0 0 1-.5.5z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content">
                                 <h4 class="tp-service-box-title">Customer Interaction</h4>
                                 <p>Efficiently engage with your customers by responding to inquiries and comments promptly,
@@ -240,13 +240,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-pie-chart" viewBox="0 0 16 16">
                                     <path
                                         d="M8.5 1.5a7.5 7.5 0 1 1 0 15A7.5 7.5 0 0 1 8.5 1.5zM8 2a6 6 0 0 0-3.534 10.868 5.98 5.98 0 0 0 6.768-6.768A6.002 6.002 0 0 0 8 2zm0 1.5A4.5 4.5 0 0 1 12.5 8H8V3.5z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content">
                                 <h4 class="tp-service-box-title">Performance Analytics</h4>
                                 <p>Track the performance of your social media posts and campaigns with detailed analytics
@@ -256,12 +256,12 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-calendar-day" viewBox="0 0 16 16">
                                     <path d="M1 0h14v2H1V0zm0 4h14v10H1V4zm1 1v8h12V5H2z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content">
                                 <h4 class="tp-service-box-title">Content Calendar</h4>
                                 <p>Plan and schedule your social media posts in advance to ensure consistent and timely
@@ -388,7 +388,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white mt-5">Social Media Campaigns</h4>
+                                <h4 class="tp-offer-item-title under-line-white mt-5">Social Media <br/> Campaigns</h4>
                             </div>
                         </div>
                     </div>
@@ -402,7 +402,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Social Media Marketing</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Social Media <br/> Marketing</h4>
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Influencer Collaborations</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Influencer <br/> Collaborations</h4>
                             </div>
                         </div>
                     </div>
