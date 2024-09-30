@@ -66,10 +66,10 @@
                                 <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="assets/img/about/five/about-5-thumb-1.jpg" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
                             </div>
                             <div class="col-6 text-start text-bottom">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="assets/img/about/five/about-5-thumb-2.jpg" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="assets/img/office/office1.webp" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="assets/img/about/inner/about-inner-shape-1.jpg" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="assets/img/office/building.webp" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
                             </div>
                             <div class="col-6 text-end">
                                 <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="assets/img/about/inner/about-inner-thumb-1.jpg" style="visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">

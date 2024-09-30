@@ -224,13 +224,13 @@
                 <div class="row p-5 gx-5">
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-facebook" viewBox="0 0 16 16">
                                     <path
                                         d="M6.5 5h-1V4a1 1 0 0 1 1-1h1v1h1v1H6.5V5zm1.5 0V3h1v2h-1zm4 0h-1V4a1 1 0 0 1 1-1h1v1h1v1h-1v2h-1v-2zm-5 2v6h-1v-6h1zm4 0v6h-1v-6h1zm4 0v6h-1v-6h1z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Social Media Campaigns</h4>
                                 <p>Drive engagement and build your brand’s presence on social media platforms.</p>
@@ -239,13 +239,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-credit-card" viewBox="0 0 16 16">
                                     <path
                                         d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">PPC Advertising</h4>
                                 <p>Maximize your ROI with targeted pay-per-click advertising strategies.</p>
@@ -254,13 +254,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-envelope" viewBox="0 0 16 16">
                                     <path
                                         d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Email Campaigns</h4>
                                 <p>Engage your audience with personalized and effective email marketing.</p>
@@ -269,12 +269,12 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-file-earmark-text" viewBox="0 0 16 16">
                                     <path d="M9 1v4H6V1H5v5h5V1h-1zm-1 1H6v3h2V2zm-4 7.5V11h7v-2.5H4z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Content Marketing</h4>
                                 <p>Create valuable content to attract and retain your target audience.</p>
@@ -283,12 +283,12 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-graph-up" viewBox="0 0 16 16">
                                     <path d="M0 0h16v16H0V0zm1 1v14h14V1H1zm2 3h3v8H3V4zm5 0h3v8H8V4zm5 0h3v8h-3V4z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Analytics and Reporting</h4>
                                 <p>Track your performance with comprehensive analytics and detailed reports.</p>
@@ -297,13 +297,13 @@
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
                         <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
-                            <div class="tp-service-box-icon">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-people" viewBox="0 0 16 16">
                                     <path
                                         d="M12 12v1H4v-1c0-1.104 2.736-2 4-2s4 0.896 4 2zm-4 0a3.5 3.5 0 0 0-3.5-3.5 3.5 3.5 0 0 0-3.5 3.5v1a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-1a3.5 3.5 0 0 0-3.5-3.5z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Customer Relationship Management</h4>
                                 <p>Enhance customer interactions and improve satisfaction with CRM solutions.</p>
@@ -442,7 +442,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Digital Marketing Strategy</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Digital Marketing <br/> Strategy</h4>
                             </div>
                         </div>
                     </div>
@@ -455,7 +455,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Social Media Marketing</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Social Media <br/> Marketing</h4>
                             </div>
                         </div>
                     </div>

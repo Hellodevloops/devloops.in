@@ -466,8 +466,8 @@
                                 <li><a href="{{ route('post') }}"><i class="fa-sharp fa-solid fa-plus"></i>Blog</a></li>
                                 <li><a href="{{ route('career') }}"><i class="fa-sharp fa-solid fa-plus"></i>Career</a></li>
                                 <li><a href="{{ route('contact') }}"><i class="fa-sharp fa-solid fa-plus"></i> Contact</a></li>
-                                <li><a href="{{ route('termsncondition') }}"><i class="fa-sharp fa-solid fa-plus"></i> Terms and Condition</a></li>
-                                <li><a href="{{ route('privacy') }}"><i class="fa-sharp fa-solid fa-plus"></i> Privacy Policy</a></li>
+                                {{-- <li><a href="{{ route('termsncondition') }}"><i class="fa-sharp fa-solid fa-plus"></i> Terms and Condition</a></li>
+                                <li><a href="{{ route('privacy') }}"><i class="fa-sharp fa-solid fa-plus"></i> Privacy Policy</a></li> --}}
                                 <li><a href="{{ route('refund') }}"><i class="fa-sharp fa-solid fa-plus"></i> Refund Policy</a></li>
 
                             </ul>

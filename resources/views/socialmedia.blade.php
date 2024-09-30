@@ -158,7 +158,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Social Media Strategy</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Social Media <br/> Strategy</h4>
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Analytics and Reporting</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Analytics and <br/> Reporting</h4>
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Ad Campaign Management</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Ad Campaign <br/> Management</h4>
                             </div>
                         </div>
                     </div>
@@ -221,14 +221,14 @@
                 </div>
                 <div class="row p-5 gx-5">
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
-                            <div class="tp-service-box-icon">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-graph-up" viewBox="0 0 16 16">
                                     <path
                                         d="M3 14s-1 0-1-1 1-3 4-3 4 2 4 3-1 1-1 1H3zm8-1s-1 0-1-1 1-3 4-3 4 2 4 3-1 1-1 1H11zm1-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-5.5 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v.5h-9v-.5z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">In-Depth Audience Insights</h4>
                                 <p>Understand your audience better with data-driven insights to tailor your social media
@@ -237,14 +237,14 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
-                            <div class="tp-service-box-icon">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-calendar-event" viewBox="0 0 16 16">
                                     <path
                                         d="M4.5 0a.5.5 0 0 1 .5.5V1h6V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H1a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 3a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H1zm0 4a.5.5 0 0 1 .5.5V10h1V8.5a.5.5 0 0 1 1 0V10h7V8.5a.5.5 0 0 1 1 0V10h1V8.5a.5.5 0 0 1 .5-.5z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Content Scheduling</h4>
                                 <p>Manage and schedule posts to ensure consistent and timely updates across all social media
@@ -253,14 +253,14 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 d-flex">
-                        <div class="tp-service-box white-bg mb-30 d-flex flex-column">
-                            <div class="tp-service-box-icon">
+                        <div class="tp-service-box white-bg mb-30 d-flex flex-column p-4 ">
+                            {{-- <div class="tp-service-box-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
                                     class="bi bi-megaphone" viewBox="0 0 16 16">
                                     <path
                                         d="M8.5 2a1.5 1.5 0 0 0-1.5 1.5V4H5v1H4V4H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1v-1h1v1h2V5.5A1.5 1.5 0 0 0 8.5 4H9v1h1V4h1a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v1h-1V1a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v1h-1V1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h1v1h2V4h1v-.5A1.5 1.5 0 0 0 8.5 2z" />
                                 </svg>
-                            </div>
+                            </div> --}}
                             <div class="tp-service-box-content flex-grow-1">
                                 <h4 class="tp-service-box-title">Engagement Strategies</h4>
                                 <p>Implement strategies to boost engagement and interactions with your audience.</p>
@@ -421,7 +421,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Social Media Strategy</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Social Media <br/> Strategy</h4>
                             </div>
                         </div>
                     </div>
@@ -450,7 +450,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Analytics and Reporting</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Analytics and <br/> Reporting</h4>
                             </div>
                         </div>
                     </div>
@@ -464,7 +464,7 @@
                                   </svg>
                             </div>
                             <div class="tp-offer-item-content">
-                                <h4 class="tp-offer-item-title under-line-white">Ad Campaign Management</h4>
+                                <h4 class="tp-offer-item-title under-line-white">Ad Campaign <br/> Management</h4>
                             </div>
                         </div>
                     </div>
