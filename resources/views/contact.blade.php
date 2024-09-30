@@ -131,6 +131,17 @@
                                         @enderror
                                     </div>
 
+                                    <div class="col-lg-12">
+                                        <div class="tp-contact-details-form-input mb-20">
+                                            <div class="g-recaptcha" data-sitekey="6LcwJlMqAAAAAOvV1ztnMCmrPWogfPyXRE-HMYEV"></div>
+                                            <!-- Optional hidden label for form-floating requirement -->
+                                        </div>
+                                        @error('g-recaptcha-response')
+                                            <div class="alert alert-danger">{{ $message }}</div>
+                                        @enderror
+                                    </div>
+
+
                                     <!-- <div class="col-lg-12">
                                               <div class="tp-contact-details-form-input mb-20">
                                                  <input type="text" placeholder="Company Name">

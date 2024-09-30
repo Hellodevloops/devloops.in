@@ -74,7 +74,7 @@
 
   gtag('config', 'G-MG51PDS4RE');
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
    </head>
    <body>
 
@@ -144,7 +144,7 @@
                      <div class="tp-header-3-top-social">
 
                         <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                                          </div>
                   </div>
@@ -302,7 +302,7 @@
                </div> --}}
                <div class="side-info-social">
                 <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"   ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"   ><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                   {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                   <a href="#"><i class="fa-solid fa-paper-plane"></i></a> --}}
@@ -528,7 +528,7 @@
                                 <div class="tp-footer-widget-newsletter-social">
 
                                    <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank" ><i class="fa-brands fa-instagram"></i></a>
-                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                                   <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
                                    <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
 
                                 </div>

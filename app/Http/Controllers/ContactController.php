@@ -6,6 +6,7 @@ use App\Mail\ContactFormSubmitted;
 use App\Http\Controllers\MailController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\ReCaptcha;
 
 class ContactController extends Controller
 // {
@@ -132,6 +133,7 @@ class ContactController extends Controller
         'phone' => ['required', 'digits_between:10,20'], // Only digits allowed with a length between 10 and 20
         'email' => 'required|email|max:255',
         'message' => 'nullable|string|max:550',
+        'g-recaptcha-response' => ['required', new ReCaptcha]
     ], [
         // Custom error messages
         'firstname.regex' => 'The first name should contain only alphabets.',
