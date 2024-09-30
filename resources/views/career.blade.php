@@ -70,7 +70,9 @@
                                             </ul>
                                         </div> --}}
                                         <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                            <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
+                                            {{-- <a class="tp-btn" href="{{ route('contact') }}">Apply</a> --}}
+                                            <a class="tp-btn" href="mailto:hr@devloops.in">Apply</a>
+
                                         </div>
                                     </div>
                                 </div>
