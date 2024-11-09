@@ -10,7 +10,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Place favicon.ico in the root directory -->
-      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo/favicon.png') }}">
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo/devnewlogocrop.png')}}">
       <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <!-- CSS here -->
       <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
@@ -24,6 +24,10 @@
       <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
       <!-- our clients codepen -->
       <style>
+        body {
+  overflow: hidden;
+}
+
         img {
  max-width: 100%;
 }
@@ -70,7 +74,7 @@
 
   gtag('config', 'G-MG51PDS4RE');
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
    </head>
    <body>
 
@@ -93,7 +97,7 @@
                      {{-- <div class="custom-image-wrapper custom-dark-overlay">
                         <img src="assets/img/logo/preloader/preloader-icon.png" alt="">
                     </div> --}}
-                    <img src="assets/img/logo/favicon.png" alt="">
+                    <img src="{{ asset('assets/img/logo/devnewlogocrop.png')}}" alt="" style="width: 500px; height: 50px;">
                   </div>
                 <!-- <p class="tp-preloader-subtitle">Loading...</p> -->
                </div>
@@ -140,7 +144,7 @@
                      <div class="tp-header-3-top-social">
 
                         <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                                          </div>
                   </div>
@@ -150,43 +154,41 @@
                <div class="tp-header-3-main d-flex">
                   <div class="logo"  data-background="{{ asset('assets/img/shape/logo-shape-1.png')}}">
                      <a href="{{ route('/') }}">
-                        <img data-width="155" src="{{ asset('assets/img/logo/logo-black.png')}}" alt="">
+                        <img data-width="155" src="{{ asset('assets/img/logo/devnewlogo.png')}}" alt="">
                      </a>
                   </div>
                   <div class="main-menu tp-header-3-menu d-none d-xl-block">
                      <nav id="mobile-menu" class="tp-main-menu-content">
                         <ul class="tp-onepage-menu">
 
-                           <li><a href="{{ route('/') }}">Home</a></li>
-                           <li><a href="{{ route('about') }}">About</a></li>
+                           <li><a href="{{ route('/') }}"  class="{{ Route::currentRouteName() == '/' ? 'active' : '' }}">Home</a></li>
+                           <li><a href="{{ route('about') }}" class="{{ Route::currentRouteName() == 'about' ? 'active' : '' }}" >About</a></li>
                            <li class="has-dropdown">
-                              <a href="#">Service</a>
+                              <a href="#" class="{{ in_array(Route::currentRouteName(), ['product', 'webdev', 'iot', 'seo', 'digital', 'socialmedia', 'socialmanagement']) ? 'active' : '' }}">Service</a>
                               <div class="tp-submenu ">
                                  <div class="row gx-6 row-cols-1 ml-2">
 
+                                       {{-- <div class="demo-name">
+                                          <span><a href="{{ route('product') }}"  class="{{ Route::currentRouteName() == 'product' ? 'active' : '' }}" >Product Development</a></span>
+                                       </div> --}}
                                        <div class="demo-name">
-                                          <span><a href="{{ route('product') }}">Product Development</a></span>
+                                          <span><a href="{{ route('webdev') }}"  class="{{ Route::currentRouteName() == 'webdev' ? 'active' : '' }}">Web Development</a></span>
                                        </div>
+                                       {{-- <div class="demo-name">
+                                          <span><a href="{{ route('iot') }}"  class="{{ Route::currentRouteName() == 'iot' ? 'active' : '' }}">Internet Of Things</a></span>
+                                       </div> --}}
+
                                        <div class="demo-name">
-                                          <span><a href="{{ route('webdev') }}">Web Development</a></span>
-                                       </div>
-                                       <div class="demo-name">
-                                          <span><a href="{{ route('iot') }}">Internet Of Things</a></span>
-                                       </div>
-                                       <div class="demo-name">
-                                          <span><a href="{{ route('healthcare') }}">Healthcare</a></span>
-                                       </div>
-                                       <div class="demo-name">
-                                        <span><a href="{{ route('seo') }}">SEO</a></span>
+                                        <span><a href="{{ route('seo') }}"  class="{{ Route::currentRouteName() == 'seo' ? 'active' : '' }}">SEO</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('digital') }}">Digital Marketing</a></span>
+                                        <span><a href="{{ route('digital') }}"  class="{{ Route::currentRouteName() == 'digital' ? 'active' : '' }}">Digital Marketing</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('socialmedia') }}">Social Media Marketing</a></span>
+                                        <span><a href="{{ route('socialmedia') }}"  class="{{ Route::currentRouteName() == 'socialmedia' ? 'active' : '' }}">Social Media Marketing</a></span>
                                      </div>
                                      <div class="demo-name">
-                                        <span><a href="{{ route('socialmanagement') }}">Social Media Management</a></span>
+                                        <span><a href="{{ route('socialmanagement') }}"  class="{{ Route::currentRouteName() == 'socialmanagement' ? 'active' : '' }}">Social Media Management</a></span>
                                      </div>
 
                                     <!-- <div class="col homemenu">
@@ -204,10 +206,28 @@
                                  </div>
                               </div>
                            </li>
-                           <li><a href="{{ route('post') }}">Blog</a></li>
+                           <li class="has-dropdown">
+                              <a href="#" class="{{ in_array(Route::currentRouteName(), [ 'healthcare','crm']) ? 'active' : '' }}">Product</a>
+                              <div class="tp-submenu ">
+                                 <div class="row gx-6 row-cols-1 ml-2">
+
+
+                                       <div class="demo-name">
+                                          <span><a href="{{ route('healthcare') }}"  class="{{ Route::currentRouteName() == 'healthcare' ? 'active' : '' }}">Healthcare</a></span>
+                                       </div>
+
+                                       <div class="demo-name">
+                                        <span><a href="{{ route('crm') }}"  class="{{ Route::currentRouteName() == 'crm' ? 'active' : '' }}">CRM</a></span>
+                                     </div>
+
+
+                                 </div>
+                              </div>
+                           </li>
+                           <li><a href="{{ route('post') }}"  class="{{ Route::currentRouteName() == 'post' ? 'active' : '' }}">Blog</a></li>
                            {{-- <li><a href="{{ route('post.show', ['slug' => 'funding-your-dream-scholarships-and-financial-aid-for-studying-abroad']) }}">Blog1</a></li> --}}
-                           <li><a href="{{ route('career') }}">Career</a></li>
-                           <li><a href="{{ route('contact') }}">Contact</a></li>
+                           <li><a href="{{ route('career') }}"  class="{{ Route::currentRouteName() == 'career' ? 'active' : '' }}">Career</a></li>
+                           <li><a href="{{ route('contact') }}"  class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -231,12 +251,12 @@
                      <div class="tp-header-cta d-flex align-items-center">
                         <div class="tp-header-cta-icon d-none d-lg-block">
                            <!-- <img src="assets/img/icon/header-cta-icon.svg" alt=""> -->
-                           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#ff0080" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#4bb589" class="bi bi-whatsapp" viewBox="0 0 16 16">
                               <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
                             </svg>
                         </div>
                         <div class="tp-header-cta-content d-none d-lg-block">
-                           <p class="text-black">Need help? Talk to an expert </p>
+                           <p class="text-black ">Need assistance?  Reach out to our team</p>
                            <a href="tel:+919106077817">Free +919106077817</a>
                         </div>
                      </div>
@@ -267,7 +287,7 @@
                <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo logo">
                      <a href="{{ route('/') }}">
-                        <img src="{{ asset('assets/img/logo/logo-black.png')}}" alt="logo">
+                        <img src="{{ asset('assets/img/logo/devnewlogocrop.png')}}" alt="logo">
                      </a>
                   </div>
                </div>
@@ -282,7 +302,7 @@
                </div> --}}
                <div class="side-info-social">
                 <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho"  target="blank"  ><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"   ><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"   ><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
                   {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                   <a href="#"><i class="fa-solid fa-paper-plane"></i></a> --}}
@@ -411,7 +431,7 @@
                        <div class="tp-footer-widget footer-col-1 mb-40">
                           <div class="tp-footer-widget-logo mb-15">
                              <a href="{{ route('/') }}">
-                                <img src="{{ asset('assets/img/logo/logo.png') }}" alt="fw-logo" style="width: 200px; height: 50px;">
+                                <img src="{{ asset('assets/img/logo/devnewlogo.png')}}" alt="fw-logo" style="width: 200px; height: 50px;">
                              </a>
                           </div>
                           <div class="tp-footer-widget-content">
@@ -421,12 +441,12 @@
                                    <i class="fa-solid fa-square-phone "></i><a href="tel:+919106077817"> +919106077817</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0080" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4bb589" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                                   </svg> <a href="mailto:hello@devloops.in" style="padding-left: 8px;"> hello@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>GF-2 Dhanlaxmi Complex, Vadodara, Gujarat, India</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
                                 </div>
 
                                 <div class="tp-footer-widget-content-list-item">
@@ -446,8 +466,8 @@
                                 <li><a href="{{ route('post') }}"><i class="fa-sharp fa-solid fa-plus"></i>Blog</a></li>
                                 <li><a href="{{ route('career') }}"><i class="fa-sharp fa-solid fa-plus"></i>Career</a></li>
                                 <li><a href="{{ route('contact') }}"><i class="fa-sharp fa-solid fa-plus"></i> Contact</a></li>
-                                <li><a href="{{ route('termsncondition') }}"><i class="fa-sharp fa-solid fa-plus"></i> Terms and Condition</a></li>
-                                <li><a href="{{ route('privacy') }}"><i class="fa-sharp fa-solid fa-plus"></i> Privacy Policy</a></li>
+                                {{-- <li><a href="{{ route('termsncondition') }}"><i class="fa-sharp fa-solid fa-plus"></i> Terms and Condition</a></li>
+                                <li><a href="{{ route('privacy') }}"><i class="fa-sharp fa-solid fa-plus"></i> Privacy Policy</a></li> --}}
                                 <li><a href="{{ route('refund') }}"><i class="fa-sharp fa-solid fa-plus"></i> Refund Policy</a></li>
 
                             </ul>
@@ -508,7 +528,7 @@
                                 <div class="tp-footer-widget-newsletter-social">
 
                                    <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank" ><i class="fa-brands fa-instagram"></i></a>
-                                   <a href="https://www.instagram.com/devloops.in/?igsh=d28yemVxajlnemho" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
+                                   <a href="https://www.facebook.com/people/Devloops-International/61560837084689/?mibextid=qi2Omg&rdid=vdyyfnwGGsTg18gV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv3bYDWqiNmdb6Tkx%2F%3Fmibextid%3Dqi2Omg" target="blank"  ><i class="fa-brands fa-facebook"></i></a>
                                    <a href="https://www.linkedin.com/company/devloops-llp/" target="blank"  ><i class="fa-brands fa-linkedin-in"></i></a>
 
                                 </div>
@@ -560,6 +580,12 @@
      <script src="{{ asset('assets/js/main.js') }}"></script>
      {{-- new --}}
 
+     <script>
+    window.addEventListener('load', function() {
+  document.body.style.overflow = 'auto'; // Restore scrolling
+});
+
+     </script>
      <script>
         (function(d,t) {
           var BASE_URL="https://boondock-support-chatwoot.y4nyjj.easypanel.host/";

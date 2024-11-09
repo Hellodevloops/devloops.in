@@ -174,8 +174,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
-               <div class="col-lg-12">
+            <div class="row mt-4 m-0 p-0">
+               <div class="col-lg-12 ">
                   <div class="tp-project-details-catagory">
                      <span class="tp-section-sub-title">What We’re Offering</span>
                      {{-- <h5 class="tp-project-details-catagory-title pb-10">We Provide Exclusive Service
@@ -183,7 +183,7 @@
                    </div>
                </div>
             </div>
-            <div class="row align-items-center mb-20">
+            <div class="row align-items-center mb-20 mx-5">
                <div class="col-lg-5 order-lg-1 order-sm -1 mt-4">
                   <div class="tp-project-details-list">
                      <h4 class="Text-black pb-10"> Appointment</h4>
@@ -209,7 +209,7 @@
                      </div>
                      <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"  target="blank"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloopx.com/"  target="blank"> Learn More</a>
                         </div>
 
 
@@ -222,7 +222,7 @@
                   </div>
                </div>
              </div>
-         <div class="row align-items-cente mt-4">
+         <div class="row align-items-cente mt-4 mx-5">
                <div class="col-lg-7 order-lg-1 order-sm-2 mt-4">
                  <div class="tp-project-details-list-thumb w-img  zoom-effect">
                     <img src="assets/img/patientnew.png" alt=""  class="service-img1">
@@ -250,7 +250,7 @@
                     </div>
                     <div class="tp-project-details-list-item d-flex  mt-4" style="padding-left: 80px;">
                         <div class="tp-about-btn  mb-10">
-                            <a class="tp-btn" href="https://healthcare-landing.devloops.host/"   target="blank"> Learn More</a>
+                            <a class="tp-btn" href="https://healthcare-landing.devloopx.com/"   target="blank"> Learn More</a>
                         </div>
 
 
@@ -258,7 +258,7 @@
                  </div>
               </div>
           </div>
-               <div class="row align-items-center mb-20 mt-4">
+               <div class="row align-items-center mb-20 mt-4 mx-5">
                  <div class="col-lg-5">
                     <div class="tp-project-details-list">
                        <h4 class="Text-black pb-10"> Billing</h4>
@@ -386,7 +386,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 mt-50">
                         <div class="tp-review-thumb pb-4">
-                            <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
+                            <img src="{{ asset('assets/img/devtesti1.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">

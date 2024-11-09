@@ -89,14 +89,14 @@
                                 style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInRight;">
                                 <div class="tp-thumb-common-overlay wow"
                                     style="visibility: visible; animation-name: tpoverlay;"></div>
-                                <img src="{{ asset('assets/img/about/three/about-3-thumb-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/office/jwalant.jpeg') }}" alt="">
                             </div>
                             <div class="tp-about-3-thumb-2 wow fadeInLeft tp-thumb-common fix" data-wow-duration="1s"
                                 data-wow-delay=".5s"
                                 style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">
                                 <div class="tp-thumb-common-overlay wow"
                                     style="visibility: visible; animation-name: tpoverlay;"></div>
-                                <img src="{{ asset('assets/img/about/three/about-3-thumb-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/img/office/office5.webp') }}" alt="">
                             </div>
 
                             <div class="tp-about-3-project">
@@ -126,7 +126,7 @@
                             <div class="tp-about-3-item mb-35">
                                 <div class="tp-about-3-item-icon">
 
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff0080" class="bi bi-person-add" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#4bb589" class="bi bi-person-add" viewBox="0 0 16 16">
                                         <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
                                         <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
                                       </svg>
@@ -217,7 +217,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('webdev') }}">Web
                                         Development</a></h4>
-                                <p class="text-white">Designing captivating websites with intuitive interfaces and robust
+                                <p class="text-white pb-4">Designing captivating websites with intuitive interfaces and robust
                                     functionality.</p>
                             </div>
                             <div class="tp-offer-item-btn">
@@ -240,7 +240,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a href="{{ route('iot') }}">Internet
                                         Of Things</a></h4>
-                                <p class="text-white">Building interconnected solutions that leverage the power of the
+                                <p class="text-white  pb-4">Building interconnected solutions that leverage the power of the
                                     Internet of Things.</p>
                             </div>
                             <div class="tp-offer-item-btn">
@@ -261,7 +261,7 @@
                             <div class="tp-offer-item-content">
                                 <h4 class="tp-offer-item-title under-line-white"><a
                                         href="{{ route('healthcare') }}">Healthcare</a></h4>
-                                <p class="text-white"> Developing secure and scalable software solutions tailored to the
+                                <p class="text-white  pb-4"> Developing secure and scalable software solutions tailored to the
                                     unique demands.</p>
                             </div>
                             <div class="tp-offer-item-btn">
@@ -342,18 +342,21 @@
                         </div> --}}
                     </div>
 
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
-                            class="swiper-pagination-bullet" tabindex="0" role="button"
-                            aria-label="Go to slide 1"></span><span
-                            class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                            role="button" aria-label="Go to slide 2"></span></div>
+
 
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
                         aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="false"></div>
                     <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button"
                         aria-label="Next slide" aria-controls="swiper-wrapper-af9a2b0a26fb64d5" aria-disabled="true">
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets "><span
+                        class="swiper-pagination-bullet pt-2" tabindex="0" role="button"
+                        aria-label="Go to slide 1"></span><span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                        role="button" aria-label="Go to slide 2"></span>
                     </div>
 
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -369,7 +372,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="tp-review-thumb pb-4">
-                            <img src="assets/img/thumbs/review-thumb-1.jpg" alt="">
+                            <img src="{{ asset('assets/img/devtesti1.jpg') }}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -384,68 +387,121 @@
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Working at Devloops has been an enriching experience. The company
-                                                        fosters a culture of innovation and collaboration, allowing us to
-                                                        push boundaries in software development.</p>
+                                                    <p>DevLoops transformed our online presence with a dynamic website that truly represents our brand. Their attention to detail and commitment to excellence made the entire process seamless. Highly recommended!</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Rajesh Sharma</h4>
-                                                    <span>Senior Developer</span>
+                                                    <h4 class="tp-review-avatar-title">Sterling</h4>
+                                                    {{-- <span>Senior Developer</span> --}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Devloops sets the bar high when it comes to project management. As a
-                                                        PM, I appreciate the seamless communication channels and support
-                                                        provided, ensuring timely deliveries and client satisfaction.</p>
+                                                    <p>Working with DevLoops was a game-changer for us. Their expertise in creating dynamic modules and user-friendly admin panels exceeded our expectations. Our team can now manage content effortlessly. Thank you, DevLoops!</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Neha Patel</h4>
-                                                    <span> Project Manager</span>
+                                                    <h4 class="tp-review-avatar-title">Vriaum</h4>
+                                                    {{-- <span> Project Manager</span> --}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Being a part of Devloops' team has elevated my technical skills
-                                                        significantly. The challenging projects and access to cutting-edge
-                                                        technologies have honed my abilities and broadened my horizon in the
-                                                        software domain.</p>
+                                                    <p>DevLoops delivered a high-quality dynamic website that has elevated our business. The team was professional, responsive, and attentive to our needs every step of the way. We're thrilled with the results!</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Amit Kumar</h4>
-                                                    <span>Software Engineer</span>
+                                                    <h4 class="tp-review-avatar-title">NES</h4>
+                                                    {{-- <span>Software Engineer</span> --}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>At Devloops, quality is not just a checkbox; it's a commitment. As a
-                                                        QA analyst, I've witnessed the dedication to delivering flawless
-                                                        software solutions, backed by robust testing methodologies and
-                                                        attention to detail.</p>
+                                                    <p>The dynamic website and admin panel created by DevLoops have streamlined our operations significantly. Their innovative solutions have helped us grow and engage with our clients more effectively.</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Priya Singh</h4>
-                                                    <span>Quality Assurance Analyst</span>
+                                                    <h4 class="tp-review-avatar-title">TTS</h4>
+                                                    {{-- <span>Quality Assurance Analyst</span> --}}
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="tp-review-item">
                                                 <div class="tp-review-content">
-                                                    <p>Devloops understands the pulse of the market like no other. As a
-                                                        business analyst, I've had the opportunity to analyze market trends
-                                                        and translate them into actionable insights, contributing to the
-                                                        company's strategic growth trajectory. </p>
+                                                    <p>DevLoops has been an incredible partner in developing our website. Their team's creativity and technical skills brought our vision to life, resulting in a platform that is both beautiful and functional.</p>
                                                 </div>
                                                 <div class="tp-review-avatar">
-                                                    <h4 class="tp-review-avatar-title">Sanjay Mehta</h4>
-                                                    <span>Business Analyst</span>
+                                                    <h4 class="tp-review-avatar-title">Social Ages</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>Our collaboration with DevLoops has been outstanding! They provided us with a robust dynamic website that is easy to navigate and manage. The team’s dedication and support have been invaluable.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">WoodCorp</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>DevLoops turned our ideas into a dynamic website with all the functionalities we needed. Their team was very responsive, and they provided excellent support throughout the process. </p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Urja</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>We partnered with DevLoops to enhance our online platform, and the results have been phenomenal. Their expertise in dynamic web solutions helped us achieve our goals efficiently.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Global</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>DevLoops delivered a stunning website for us, packed with dynamic features that allow us to manage content easily. The project management was top-notch, and we appreciated their proactive communication.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">Silent Rhino</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>The team at DevLoops has made a significant impact on our business with their dynamic website solutions. Their commitment to our project was evident from day one, and the final product surpassed our expectations.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">PinkDuck</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tp-review-item">
+                                                <div class="tp-review-content">
+                                                    <p>DevLoops has been an incredible partner in developing our website. Their team's creativity and technical skills brought our vision to life, resulting in a platform that is both beautiful and functional.Working with DevLoops has been a pleasure! They crafted a dynamic website that not only looks great but also provides us with the tools to manage it effectively.</p>
+                                                </div>
+                                                <div class="tp-review-avatar">
+                                                    <h4 class="tp-review-avatar-title">BuddyBuzz</h4>
+                                                    {{-- <span>Business Analyst</span> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -456,34 +512,70 @@
                                 <div class="swiper-container swiper tp-review-avatar-active">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="tp-review-avatar-thumb">
+                                            {{-- <div class="tp-review-avatar-thumb">
                                                 <img src="{{ asset('assets/img/team/avatar/rating-avatar-1.png') }}"
                                                     alt="testi-avata">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="tp-review-avatar-thumb">
+                                            {{-- <div class="tp-review-avatar-thumb">
                                                 <img src="{{ asset('assets/img/team/avatar/rating-avatar-2.png') }}"
                                                     alt="testi-avata">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="tp-review-avatar-thumb">
+                                            {{-- <div class="tp-review-avatar-thumb">
                                                 <img src="{{ asset('assets/img/team/avatar/rating-avatar-3.png') }}"
                                                     alt="testi-avata">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="tp-review-avatar-thumb">
+                                            {{-- <div class="tp-review-avatar-thumb">
                                                 <img src="{{ asset('assets/img/team/avatar/rating-avatar-4.png') }}"
                                                     alt="testi-avata">
-                                            </div>
+                                            </div> --}}
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="tp-review-avatar-thumb">
+                                            {{-- <div class="tp-review-avatar-thumb">
                                                 <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
                                                     alt="testi-avata">
-                                            </div>
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
+                                        </div>
+                                        <div class="swiper-slide">
+                                            {{-- <div class="tp-review-avatar-thumb">
+                                                <img src="{{ asset('assets/img/team/avatar/rating-avatar-5.png') }}"
+                                                    alt="testi-avata">
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -570,7 +662,7 @@
 
 
         <!-- solution-area-start -->
-        <section class="solution-area tp-solution-wrapper">
+        {{-- <section class="solution-area tp-solution-wrapper">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="offset-lg-6 col-lg-6">
@@ -624,7 +716,7 @@
             <div class="tp-solution-shape-1">
                 <img src="assets/img/shape/solution-shape-1.png" alt="">
             </div>
-        </section>
+        </section> --}}
         <!-- solution-area-end -->
 
         <!-- team-area-start -->

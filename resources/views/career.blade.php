@@ -5,7 +5,7 @@
 
         <!-- breadcrumb-area-start -->
         <section class="breadcrumb-area breadcrumb-wrap">
-            <div class="breadcrumb-bg" data-background="{{ asset('assets/img/devcareer.JPG')}}"></div>
+            <div class="breadcrumb-bg" data-background="{{ asset('assets/img/deviothero.jpg')}}"></div>
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-12">
@@ -31,12 +31,12 @@
                     <div class="col-lg-12">
 
                        <div class="tp-team-details-info mb-45">
-                          <h2 class="tp-team-details-info-title mb-25" style="color: #ff4081;">Career at Devloops International</h2>
+                          <h2 class="tp-team-details-info-title mb-25" style="color: #4bb589;">Career at Devloops International</h2>
                           <p class="text-black">Join our dynamic team at Devloops International and embark on a rewarding career journey. We are committed to excellence and innovation, providing opportunities for growth and development in the tech industry.
                           </p>
                         </div>
                        <div class="tp-team-details-info mb-45">
-                        <h2 class="tp-team-details-info-title mb-25"  style="color: #ff4081;">Why Devloops International?</h2>
+                        <h2 class="tp-team-details-info-title mb-25"  style="color: #4bb589;">Why Devloops International?</h2>
                         <p class="text-black">At Devloops International, we're all about innovation and teamwork. We believe in creating a workplace where everyone can thrive and grow together. Our focus is on developing cutting-edge software solutions that empower businesses and drive success. Join us in shaping the future of technology!
                         </p>
 
@@ -70,7 +70,9 @@
                                             </ul>
                                         </div> --}}
                                         <div class="tp-cta-two-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: fadeInUp;">
-                                            <a class="tp-btn" href="{{ route('contact') }}">Apply</a>
+                                            {{-- <a class="tp-btn" href="{{ route('contact') }}">Apply</a> --}}
+                                            <a class="tp-btn" href="mailto:hr@devloops.in">Apply</a>
+
                                         </div>
                                     </div>
                                 </div>
