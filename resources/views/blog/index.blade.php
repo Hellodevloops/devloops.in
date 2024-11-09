@@ -5,8 +5,8 @@
     .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color:#ff0080 !important;
-    border-color:#ff0080 !important;
+    background-color:#4bb589 !important;
+    border-color:#4bb589 !important;
     height: 35px;
     width: 40px;
     text-align: center !important;
@@ -122,8 +122,8 @@
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #ff0080;
-    border-color: #ff0080;
+    background-color: #4bb589;
+    border-color: #4bb589;
 }
 .page-link {
     position: relative;
@@ -131,7 +131,7 @@
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #ff0080;
+    color: #4bb589;
     background-color: #fff;
     border: 1px solid #dee2e6;
 }

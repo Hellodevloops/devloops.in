@@ -44,13 +44,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="project-title">
-                        <h2 style="color: #ff4081;">Career at<span> Devloops International</span></h2>
+                        <h2 style="color: #4bb589;">Career at<span> Devloops International</span></h2>
                     </div>
                     <p class="mb-25 text-black">Join our dynamic team at Devloops International and embark on a rewarding career journey. We are committed to excellence and innovation, providing opportunities for growth and development in the tech industry.</p>
                 </div>
                 <div class="col-12">
                     <div class="project-title">
-                        <h2 style="color: #ff4081;">Why<span> Devloops International?</span></h2>
+                        <h2 style="color: #4bb589;">Why<span> Devloops International?</span></h2>
                     </div>
                     <p class="mb-25 text-black">At Devloops International, we're all about innovation and teamwork. We believe in creating a workplace where everyone can thrive and grow together. Our focus is on developing cutting-edge software solutions that empower businesses and drive success. Join us in shaping the future of technology!</p>
                 </div>
@@ -60,22 +60,22 @@
                 <div class="col-6">
                     <div class="position-box">
                         <div class="project-title">
-                            <h3 style="color: #ff4081;">{{ $careers->title }}</h3>
+                            <h3 style="color: #4bb589;">{{ $careers->title }}</h3>
                         </div>
                         <p class="mb-10 text-black">Location: <span class="location">{{ $careers->location }}</span></p>
                         <p class="mb-25 text-black">{{ $careers->content }}</p>
-                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #ff4081;">Apply</a>
+                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #4bb589;">Apply</a>
                     </div>
                 </div>
                 @endforeach
                 {{-- <div class="col-6">
                     <div class="position-box">
                         <div class="project-title">
-                            <h3 style="color: #ff4081;">Job Title 2</h3>
+                            <h3 style="color: #4bb589;">Job Title 2</h3>
                         </div>
                         <p class="mb-10 text-black">Location: <span class="location">Pune</span></p>
                         <p class="mb-25 text-black">Job description goes here.</p>
-                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #ff4081;">Apply</a>
+                        <a href="{{ route('contact') }}" class="apply-button btn btn-theme mt-4" style="background-color: #d9d5d6; border-color: #4bb589;">Apply</a>
                     </div>
                 </div> --}}
                 <!-- Add more job listings as needed -->

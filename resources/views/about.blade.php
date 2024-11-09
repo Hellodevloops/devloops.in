@@ -63,17 +63,23 @@
                     <div class="col-xxl-7 col-xl-6 col-lg-6 order-2 order-lg-1">
                         <div class="row g-3 " >
                             <div class="col-6 text-start ">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="assets/img/about/five/about-5-thumb-1.jpg" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="{{ asset('assets/img/office/hallway.webp')}}" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
                             </div>
                             <div class="col-6 text-start text-bottom">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="assets/img/office/office1.webp" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="{{ asset('assets/img/office/office1.webp')}}" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                             </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="assets/img/office/building.webp" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+                            <div class="col-6 text-start ">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="{{ asset('assets/img/office/building.webp')}}" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
                             </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="assets/img/about/inner/about-inner-thumb-1.jpg" style="visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">
+                            <div class="col-6 text-start text-bottom">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="{{ asset('assets/img/office/office4.webp')}}" style="margin-top: 25%; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
                             </div>
+                            {{-- <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.5s" src="{{ asset('assets/img/office/building.webp')}}" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+                            </div>
+                            <div class="col-6 text-end text-bottom">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="{{ asset('assets/img/office/office4.webp')}}" style="visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">
+                            </div> --}}
                         </div>
                     </div>
                     <div class="col-xxl-5 col-xl-6 col-lg-6 order-1 order-lg-2 ">
@@ -86,18 +92,18 @@
 
                                     <ul>
                                         <li class="text-black">
-                                            <span style="color: #ff0080;"> Expertise</span>: Our team brings years of
+                                            <span style="color: #4bb589;"> Expertise</span>: Our team brings years of
                                             experience and expertise to the table, ensuring top-notch solutions tailored to
                                             your unique needs.
                                         </li>
                                         <li class="text-black">
-                                            <span style="color: #ff0080;"> Cutting-Edge Solutions</span>: We stay at the
+                                            <span style="color: #4bb589;"> Cutting-Edge Solutions</span>: We stay at the
                                             forefront of technological advancements, offering innovative solutions that
                                             drive real results.
                                         </li>
 
                                         <li class="text-black">
-                                            <span style="color: #ff0080;"> Global Reach</span>: With a diverse team and a
+                                            <span style="color: #4bb589;"> Global Reach</span>: With a diverse team and a
                                             global network of partners, we have the reach and resources to tackle projects
                                             of any size or scope.
                                         </li>
@@ -379,7 +385,7 @@
         <!-- team-area-end -->
 
         <!-- cta-area-star -->
-        <section class="cta-area tp-cta-three-bg " style="background-color: #ff0080;">
+        <section class="cta-area tp-cta-three-bg " style="background-color: #4bb589;">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-1 col-lg-2">
