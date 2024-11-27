@@ -152,7 +152,7 @@
             </div>
             <div id="header-sticky" class="tp-header-3-wrap  white-bg d-flex justify-content-between">
                <div class="tp-header-3-main d-flex">
-                  <div class="logo"  data-background="{{ asset('assets/img/shape/logo-shape-1.png')}}">
+                  <div class="logo"  >
                      <a href="{{ route('/') }}">
                         <img data-width="155" src="{{ asset('assets/img/logo/devnewlogo.png')}}" alt="">
                      </a>
