@@ -91,9 +91,9 @@
             </div>
             <div id="header-sticky" class="tp-header-3-wrap  white-bg d-flex justify-content-between">
                <div class="tp-header-3-main d-flex">
-                  <div class="logo"  data-background="assets/img/shape/logo-shape-1.png">
+                  <div class="logo"  data-background="/public/assets/img/logo/logo-03.png">
                      <a href="index.html">
-                        <img data-width="155" src="assets/img/logo/logo-black.png" alt="">
+                        <img data-width="155" src="/public/assets/img/logo/logo-03.png" alt="">
                      </a>
                   </div>
                   <div class="main-menu tp-header-3-menu d-none d-xl-block">
@@ -201,7 +201,7 @@
                <div class="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
                   <div class="offcanvas__logo logo">
                      <a href="index-2.html">
-                        <img src="assets/img/logo/logo-black.png" alt="logo">
+                        <img src="assets/img/logo/logo-03.png" alt="logo">
                      </a>
                   </div>
                </div>
