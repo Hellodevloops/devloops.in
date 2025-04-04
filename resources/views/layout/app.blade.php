@@ -154,7 +154,7 @@
                <div class="tp-header-3-main d-flex">
                   <div class="logo"  >
                      <a href="{{ route('/') }}">
-                        <img data-width="155" src="{{ asset('assets/img/logo/devnewlogo.png')}}" alt="">
+                        <img data-width="175" src="{{ asset('assets/img/logo/logo-03.png')}}" alt="">
                      </a>
                   </div>
                   <div class="main-menu tp-header-3-menu d-none d-xl-block">
@@ -431,7 +431,7 @@
                        <div class="tp-footer-widget footer-col-1 mb-40">
                           <div class="tp-footer-widget-logo mb-15">
                              <a href="{{ route('/') }}">
-                                <img src="{{ asset('assets/img/logo/devnewlogo.png')}}" alt="fw-logo" style="width: 200px; height: 50px;">
+                                <img src="{{ asset('assets/img/logo/logo-03.png')}}" alt="fw-logo" style="width: 220px; height: 70px;">
                              </a>
                           </div>
                           <div class="tp-footer-widget-content">
