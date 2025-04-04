@@ -216,14 +216,14 @@ li,
   );
   --tp-gradient-secondary: linear-gradient(
     20deg,
-    #ff0080 0%,
+    #4bb589 0%,
     rgba(60, 114, 252, 0.0509803922) 65%,
     rgba(60, 114, 252, 0) 100%
   );
-  --tp-gradient-3: linear-gradient(0deg, #ff0080 0%, #c82682 81%, #0f0d1d 100%);
+  --tp-gradient-3: linear-gradient(0deg, #4bb589 0%, #4bb589 81%, #0f0d1d 100%);
   --tp-gradient-4: linear-gradient(
     0deg,
-    #ff0080 0%,
+    #4bb589 0%,
     rgba(60, 114, 252, 0.0509803922) 95%,
     rgba(60, 114, 252, 0) 100%
   );
@@ -236,7 +236,7 @@ li,
   --tp-grey-2: #f2f4f8;
   --tp-text-body: #55585b;
   --tp-text-1: #777181;
-  --tp-theme-primary: #ff0080;
+  --tp-theme-primary: #4bb589;
   --tp-theme-secondary: #0f0d1d;
   --tp-theme-3: #d90a2c;
   --tp-theme-4: #111013;
@@ -1082,11 +1082,11 @@ div.demo img {
   background-color: #ab6c56;
   color: black;
 }
-.tp-theme-color-btn.tp-color-settings-btn[data-color="#ff0080"] {
-  background-color: #ff0080;
+.tp-theme-color-btn.tp-color-settings-btn[data-color="#4bb589"] {
+  background-color: #4bb589;
 }
-.tp-theme-color-btn.tp-color-settings-btn[data-color="#ff0080"] {
-  background-color: #ff0080;
+.tp-theme-color-btn.tp-color-settings-btn[data-color="#4bb589"] {
+  background-color: #4bb589;
 }
 .tp-theme-color-btn.tp-color-settings-btn[data-color="#2CAE76"] {
   background-color: #2cae76;
@@ -2262,8 +2262,8 @@ div.demo img {
   left: 0%;
   width: 0%;
   height: 100%;
-  color:rgb(255, 0, 128) 0%;
-  background-color: rgba(255, 0, 128, 0.508);
+  color:rgb(120, 243, 118) 0%;
+  background-color: #4eab847c;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-name: tpoverlay;
@@ -6086,7 +6086,7 @@ a.ui-button:active {
   padding: 0px 110px 0 110px;
   height: 100%;
 
-  border-right: 5px solid var(--tp-theme-primary);
+  border-right: 5px solid #4bb589;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7372,7 +7372,7 @@ a.ui-button:active {
 .tp-banner-bg::before {
   position: absolute;
   content: "";
-  background-color: #ff0080;
+  background-color: #4bb589;
   right: 0;
   top: 100px;
   height: 89.7%;
@@ -10285,8 +10285,8 @@ blockquote cite::before {
 }
 .tp-services-item-head span {
     font-size: 220px;
-    background: -webkit-linear-gradient(45deg, #ff0080, #0f0d1d);
-    background: linear-gradient(45deg, #ff0080, #0f0d1d); /* Fallback for other browsers */
+    background: -webkit-linear-gradient(45deg, #4bb589, #0f0d1d);
+    background: linear-gradient(45deg, #4bb589, #0f0d1d); /* Fallback for other browsers */
     -webkit-background-clip: text;
     background-clip: text; /* Fallback for other browsers */
     -webkit-text-fill-color: transparent;
@@ -10715,7 +10715,7 @@ blockquote cite::before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color:#ff0080;
+  background-color:#4bb589;
   z-index: -1;
 }
 .tp-services-details-contact-bg {
@@ -10808,20 +10808,20 @@ blockquote cite::before {
   background-image: -moz-linear-gradient(
     0deg,
     rgb(15, 13, 29) 0%,
-    rgb(212, 2, 107) 21%,
-    rgb(212, 2, 107) 100%
+    #4bb589 21%,
+    #4bb589 100%
   );
   background-image: -webkit-linear-gradient(
     0deg,
     rgb(15, 13, 29) 0%,
-    rgb(212, 2, 107) 21%,
-    rgb(212, 2, 107) 100%
+    #4bb589 21%,
+    #4bb589 100%
   );
   background-image: -ms-linear-gradient(
     0deg,
     rgb(15, 13, 29) 0%,
-    rgb(212, 2, 107) 21%,
-    rgb(212, 2, 107) 100%
+    #4bb589 21%,
+    #4bb589 100%
   );
   height: 80px;
   width: 80px;
@@ -12633,32 +12633,32 @@ blockquote cite::before {
   border-radius: 50%;
   background-image: -webkit-linear-gradient(
     0deg,
-    rgb(255, 0, 128) 0%,
-    rgb(212, 2, 107) 57%,
+    #4bb589 0%,
+    #4bb589 57%,
     rgb(230, 230, 230) 100%
   );
   background-image: -moz-linear-gradient(
     0deg,
-    rgb(255, 0, 128) 0%,
-    rgb(212, 2, 107) 57%,
+    #4bb589 0%,
+    #4bb589 57%,
     rgb(230, 230, 230) 100%
   );
   background-image: -ms-linear-gradient(
     0deg,
-    rgb(255, 0, 128) 0%,
-    rgb(212, 2, 107) 57%,
+    #4bb589 0%,
+    #4bb589 57%,
     rgb(230, 230, 230) 100%
   );
   background-image: -o-linear-gradient(
     0deg,
-    rgb(255, 0, 128) 0%,
-    rgb(212, 2, 107) 57%,
+    #4bb589 0%,
+    #4bb589 57%,
     rgb(230, 230, 230) 100%
   );
   background-image: linear-gradient(
     0deg,
-    rgb(255, 0, 128) 0%,
-    rgb(212, 2, 107) 57%,
+    #4bb589 0%,
+    #4bb589 57%,
     rgb(230, 230, 230) 100%
   );
   opacity: 0.06;
@@ -17027,7 +17027,7 @@ padding-right: 40px !important;
   margin-bottom: 26px;
 }
 .tp-product-details-stock span {
-  color: #ff0080;
+  color: #4bb589;
   font-size: 14px;
   font-weight: 500;
   background-color: var(--tp-grey-2);
@@ -18390,7 +18390,7 @@ padding-right: 40px !important;
   margin-top: -12px;
 }
 .text-pink{
-  color: #ff0080;
+  color: #4bb589;
 }
 
 .pb-10{
@@ -18407,6 +18407,6 @@ padding-right: 40px !important;
     margin-top: 6px;
 }
 a.active {
-    color: #ff0080 !important;
+    color: #4bb589 !important;
     font-weight: bold;
 }
