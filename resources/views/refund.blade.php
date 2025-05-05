@@ -46,14 +46,14 @@
                         <p class="text-black">1. <class="postbox-title">Contact Us</span>: To request a refund, please contact our customer support team via:</p>
                         <p class="text-black mb-5">
                             - Email:
-                            <a href="mailto:hello@devloops.in" style="color: rgb(212, 60, 194);">
-                                <i class="fa-light fa-envelope"></i> hello@devloops.in
+                            <a href="mailto:support@devloops.in" style="color: rgb(212, 60, 194);">
+                                <i class="fa-light fa-envelope"></i> support@devloops.in
                             </a>
                         </p>
                         <p class="text-black mb-5">
                             - Phone:
-                            <a href="tel:+919106077817" style="color: rgb(212, 60, 194);">
-                                <i class="fa-solid fa-square-phone"></i> +919106077817
+                            <a href="tel:+6358150818" style="color: rgb(212, 60, 194);">
+                                <i class="fa-solid fa-square-phone"></i> +6358150818
                             </a>
                         </p>
                         <p class="text-black">2. <class="postbox-title">Provide Details</span>: When requesting a refund, please include your account information, subscription plan details, and the reason for your request. This will help us process your request more efficiently.</p>
@@ -68,14 +68,14 @@
                         <p class="text-black">If you have any questions or need further assistance regarding our refund policy, please contact our support team:</p>
                         <p class="text-black mb-5">
                             - Email:
-                            <a href="mailto:hello@devloops.in" style="color: rgb(212, 60, 194);">
-                                <i class="fa-light fa-envelope"></i> hello@devloops.in
+                            <a href="mailto:support@devloops.in" style="color: rgb(212, 60, 194);">
+                                <i class="fa-light fa-envelope"></i> support@devloops.in
                             </a>
                         </p>
                         <p class="text-black mb-5">
                             - Phone:
-                            <a href="tel:+919106077817" style="color: rgb(212, 60, 194);">
-                                <i class="fa-solid fa-square-phone"></i> +919106077817
+                            <a href="tel:+6358150818" style="color: rgb(212, 60, 194);">
+                                <i class="fa-solid fa-square-phone"></i> +6358150818
                             </a>
                         </p>
                         <p class="text-black">- Address: GF-2 Dhanlaxmi Complex, Vadodara</p>

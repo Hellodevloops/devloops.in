@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Call Us</span>
-                                        <a href="tel: +919106077817"> +919106077817</a>
+                                        <a href="tel: +6358150818"> +6358150818</a>
                                     </div>
                                 </div>
                                 <div class="tp-services-details-contact-item d-flex align-items-center mb-25">
@@ -81,7 +81,7 @@
                                     </div>
                                     <div class="tp-services-details-contact-item-content">
                                         <span>Write to Us</span>
-                                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
+                                        <a href="mailto:support@devloops.in"><span class="text-white">support@devloops.in</span></a>
                                     </div>
 
                                 </div>
