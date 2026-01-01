@@ -87,7 +87,7 @@
                             data-wow-delay=".6s">
                             <div class="tp-section  tp-section-3 ">
                                 <span class="tp-section-sub-title">About Us</span>
-                                <h4 class="tp-section-title">Why Choose Devloops International</h4>
+                                <h4 class="tp-section-title">Why Choose Devloops International>>></h4>
                                 <div class="postbox-text">
 
                                     <ul>
