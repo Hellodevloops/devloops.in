@@ -125,13 +125,13 @@
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-location-dot"></i></span>
 
-                        <a href="{{ route('contact') }}">L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+                        <a href="{{ route('contact') }}">410, Nilamber Primero, Bhayli Vasna Road, Vadodara, Gujarat 391410</a>
 
 
                      </div>
                      <div class="tp-header-3-top-left-item">
                         <span><i class="fa-solid fa-envelope"></i></span>
-                        <a href="mailto:hello@devloops.in"><span class="text-white">hello@devloops.in</span></a>
+                        <a href="mailto:hello@devloops.in"><span class="text-white">support@devloops.in</span></a>
                     </div>
 
                   </div>
@@ -257,7 +257,7 @@
                         </div>
                         <div class="tp-header-cta-content d-none d-lg-block">
                            <p class="text-black ">Need assistance?  Reach out to our team</p>
-                           <a href="tel:+919106077817">Free +919106077817</a>
+                           <a href="tel:+916358217264">Free +91 6358217264</a>
                         </div>
                      </div>
                   </div>
@@ -438,15 +438,15 @@
                              {{-- <p>Innovating Tomorrow's Technology Today.</p> --}}
                              <div class="tp-footer-widget-content-list">
                                 <div class="tp-footer-widget-content-list-item">
-                                   <i class="fa-solid fa-square-phone "></i><a href="tel:+919106077817"> +919106077817</a>
+                                   <i class="fa-solid fa-square-phone "></i><a href="tel:+91 6358217264"> +91 6358217264 , +91 6358217265</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#4bb589" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                                  </svg> <a href="mailto:hello@devloops.in" style="padding-left: 8px;"> hello@devloops.in</a>
+                                  </svg> <a href="mailto:support@devloops.in" style="padding-left: 8px;"> support@devloops.in</a>
                                 </div>
                                 <div class="tp-footer-widget-content-list-item">
-                                    <a href="#"><i class="fa-solid fa-location-dot"></i>L/414, 4th Floor, Park Paradise, beside Billabong School, Vadsar, Vadodara, Gujarat 390010</a>
+                                    <a href="#"><i class="fa-solid fa-location-dot"></i>410, Nilamber Primero, Bhayli Vasna Road, Vadodara, Gujarat 391410</a>
                                 </div>
 
                                 <div class="tp-footer-widget-content-list-item">
@@ -544,7 +544,7 @@
                  <div class="row">
                     <div class="col-lg-6 col-md-7">
                        <div class="tp-footer-copyright">
-                          <span>Copyright © 2024 .All Rights Reserved <a target="_blank" href="">Devloops</a> </span>
+                          <span>Copyright © 2026 .All Rights Reserved <a target="_blank" href="">Devloops</a> </span>
                        </div>
                     </div>
                     <div class="col-lg-6 col-md-5">
